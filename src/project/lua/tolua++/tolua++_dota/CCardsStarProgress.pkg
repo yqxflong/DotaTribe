@@ -1,0 +1,26 @@
+class CCardsStarProgress:public CCNode{
+	CCardsStarProgress(){
+		m_nMaxCount=0;
+		m_nCurCount=0;
+		m_advanceCount=0;
+		m_fSpace=0.0f;
+		m_strFileNoraml="";
+		m_strFileAdvance=""; 
+	};
+	 ~CCardsStarProgress(){
+	   this->removeAllChildrenWithCleanup(true);
+	   m_starArray.clear();
+	};
+	/*
+		can not change max count after create
+	*/
+	static CCardsStarProgress* create(std::string  normalName,std::string advanceName,int maxcount,float space);
+	bool init(std::string normalName,std::string advanceName,int maxcount,float space);
+	/*
+		can change current count after create
+	*/
+	void SetCurcount(int curcount,int advanceCount=0);
+
+ 
+	 
+};

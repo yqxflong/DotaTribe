@@ -1,0 +1,110 @@
+
+yuanguyeren02.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+L-JB
+  rotate: false
+  xy: 305, 436
+  size: 2, 2
+  orig: 126, 143
+  offset: 14, 70
+  index: -1
+yaodai
+  rotate: false
+  xy: 305, 436
+  size: 2, 2
+  orig: 126, 143
+  offset: 14, 70
+  index: -1
+R-JB
+  rotate: false
+  xy: 305, 436
+  size: 2, 2
+  orig: 126, 143
+  offset: 14, 70
+  index: -1
+L-datui
+  rotate: false
+  xy: 426, 446
+  size: 44, 64
+  orig: 90, 130
+  offset: 20, 30
+  index: -1
+L-shbi
+  rotate: false
+  xy: 106, 100
+  size: 83, 106
+  orig: 120, 140
+  offset: 5, 34
+  index: -1
+L-xiaobi
+  rotate: true
+  xy: 192, 229
+  size: 60, 101
+  orig: 125, 160
+  offset: 33, 19
+  index: -1
+L-xiaotui
+  rotate: false
+  xy: 0, 0
+  size: 86, 99
+  orig: 125, 110
+  offset: 19, 11
+  index: -1
+R-datui
+  rotate: false
+  xy: 471, 447
+  size: 40, 63
+  orig: 90, 130
+  offset: 23, 33
+  index: -1
+R-shbi
+  rotate: false
+  xy: 192, 290
+  size: 86, 106
+  orig: 120, 140
+  offset: 27, 34
+  index: -1
+R-xiaobi
+  rotate: true
+  xy: 305, 439
+  size: 71, 120
+  orig: 125, 160
+  offset: 28, 6
+  index: -1
+R-xiaotui
+  rotate: false
+  xy: 0, 100
+  size: 105, 106
+  orig: 140, 125
+  offset: 33, 19
+  index: -1
+pigu
+  rotate: false
+  xy: 87, 21
+  size: 89, 78
+  orig: 125, 145
+  offset: 13, 27
+  index: -1
+tou
+  rotate: false
+  xy: 0, 359
+  size: 191, 151
+  orig: 215, 195
+  offset: 9, 4
+  index: -1
+tou1
+  rotate: false
+  xy: 0, 207
+  size: 191, 151
+  orig: 215, 195
+  offset: 9, 4
+  index: -1
+xiong
+  rotate: false
+  xy: 192, 397
+  size: 112, 113
+  orig: 190, 175
+  offset: 39, 28
+  index: -1

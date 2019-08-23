@@ -1,0 +1,25 @@
+class  ErrorTipsData;
+class  AutoDelayProtocol
+{
+	 void  autoDelayEventHandler(int eventType,void * pSender)=0;
+};
+class  AutoDelayAnimation :public CCDelayTime
+{
+	static AutoDelayAnimation* create(float d,AutoDelayProtocol * pDelegate=NULL,PCallBackVec pCallBackVec);
+	 bool  initDuration(float d,AutoDelayProtocol * pDelegate=NULL,PCallBackVec pCallBackVec);
+	 void  setSpeedScale(float speedScale);
+	 ~AutoDelayAnimation();
+};
+class  AutoFadeOutLabelManager:public AutoDelayProtocol
+{
+	AutoFadeOutLabelManager();
+	~AutoFadeOutLabelManager();
+	static AutoFadeOutLabelManager * CreateAutoFadeOutLabelManager(CCNode * pParent,int lableIndex,std::string message);
+	void  autoDelayEventHandler(int eventType,void * pSender);
+	void  SetPosition(CCPoint position);
+	void  AddParent(CCNode * pParent);
+	void  Destroy();
+	bool  GetIsValid();
+	void  SetIndex(int layoutIndex);
+	int   GetIndex();
+};

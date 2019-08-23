@@ -1,0 +1,823 @@
+iD	Type(0:plist 1:image)	name	path	note	是否完成
+0	1	icon_equip_4_01.png	icon_equip_4_01.png		
+1	1	icon_equip_4_02.png	icon_equip_4_02.png		
+2	1	icon_equip_4_03.png	icon_equip_4_03.png		
+3	1	icon_equip_4_04.png	icon_equip_4_04.png		
+4	1	icon_equip_4_05.png	icon_equip_4_05.png		
+5	1	icon_equip_4_06.png	icon_equip_4_06.png		
+6	1	icon_equip_4_07.png	icon_equip_4_07.png		
+7	1	icon_equip_4_08.png	icon_equip_4_08.png		
+8	1	icon_equip_4_09.png	icon_equip_4_09.png		
+9	1	icon_equip_4_10.png	icon_equip_4_10.png		
+10	1	icon_equip_4_11.png	icon_equip_4_11.png		
+11	1	icon_equip_4_12.png	icon_equip_4_12.png		
+12	1	icon_equip_4_13.png	icon_equip_4_13.png		
+13	1	icon_equip_4_14.png	icon_equip_4_14.png		
+14	1	icon_equip_4_15.png	icon_equip_4_15.png		
+15	1	icon_equip_4_16.png	icon_equip_4_16.png		
+16	1	icon_hero_1_01.png	icon_hero_1_01.png		
+17	1	icon_hero_2_01.png	icon_hero_2_01.png		
+18	1	icon_hero_3_01.png	icon_hero_3_01.png		
+19	1	skillicon1.png	skillicon1.png		
+20	1	skillicon2.png	skillicon2.png		
+21	1	skillicon3.png	skillicon3.png		
+22	1	skillicon4.png	skillicon4.png		
+23	1	skillicon5.png	skillicon5.png		
+24	1	skillicon6.png	skillicon6.png		
+25	1	skillicon7.png	skillicon7.png		
+26	1	skillicon8.png	skillicon8.png		
+27	1	skillicon9.png	skillicon9.png		
+28	1	skillicon10.png	skillicon10.png		
+29	1	skillicon11.png	skillicon11.png		
+30	1	skillicon12.png	skillicon12.png		
+31	1	skillicon13.png	skillicon13.png		
+32	1	skillicon14.png	skillicon14.png		
+33	1	skillicon15.png	skillicon15.png		
+34	1	skillicon16.png	skillicon16.png		
+35	1	skillicon17.png	skillicon17.png		
+36	1	skillicon18.png	skillicon18.png		
+37	1	skillicon19.png	skillicon19.png		
+38	1	skillicon20.png	skillicon20.png		
+39	1	skillicon21.png	skillicon21.png		
+40	1	skillicon22.png	skillicon22.png		
+41	1	skillicon23.png	skillicon23.png		
+42	1	skillicon24.png	skillicon24.png		
+43	1	skillicon25.png	skillicon25.png		
+44	1	skillicon26.png	skillicon26.png		
+45	1	skillicon27.png	skillicon27.png		
+46	1	skillicon28.png	skillicon28.png		
+47	1	skillicon29.png	skillicon29.png		
+48	1	skillicon30.png	skillicon30.png		
+49	1	skillicon31.png	skillicon31.png		
+50	1	skillicon32.png	skillicon32.png		
+51	1	skillicon33.png	skillicon33.png		
+52	1	skillicon34.png	skillicon34.png		
+53	1	skillicon35.png	skillicon35.png		
+54	1	skillicon36.png	skillicon36.png		
+55	1	skillicon37.png	skillicon37.png		
+56	1	skillicon38.png	skillicon38.png		
+57	1	skillicon39.png	skillicon39.png		
+58	1	skillicon40.png	skillicon40.png		
+59	1	anyemowang_touyxiang.png	anyemowang_touyxiang.png		
+60	1	anyingemo_touxiang.png	anyingemo_touxiang.png		
+61	1	chuanzhang_touxiang.png	chuanzhang_touxiang.png		
+62	1	dijingsiliezhe_touxiang.png	dijingsiliezhe_touxiang.png		
+63	1	fuwang_touxiang.png	fuwang_touxiang.png		
+64	1	fuwang01_touxiang.png	fuwang01_touxiang.png		
+65	1	kulouwang_touxiang.png	kulouwang_touxiang.png		
+66	1	langren_touxiang.png	langren_touxiang.png		
+67	1	longqishi_touxiang.png	longqishi_touxiang.png		
+68	1	quannengqishi_touxiang.png	quannengqishi_touxiang.png		
+69	1	xukongjiamian_touxiang.png	xukongjiamian_touxiang.png		
+70	1	difa_touxiang.png	difa_touxiang.png		
+71	1	bingnv_touxiang.png	bingnv_touxiang.png		
+72	1	bingnv_touxiang.png	bingnv_touxiang.png		
+73	1	pic_error.png	pic_error.png	【废弃】	
+74	1	item_suo.png	item_suo.png	锁	
+75	0	red_00.png	resource/image/artfont/art_numberival.plist	红色0	
+76	0	red_01.png	resource/image/artfont/art_numberival.plist	红色1	
+77	0	red_02.png	resource/image/artfont/art_numberival.plist	红色2	
+78	0	red_03.png	resource/image/artfont/art_numberival.plist	红色3	
+79	0	red_04.png	resource/image/artfont/art_numberival.plist	红色4	
+80	0	red_05.png	resource/image/artfont/art_numberival.plist	红色5	
+81	0	red_06.png	resource/image/artfont/art_numberival.plist	红色6	
+82	0	red_07.png	resource/image/artfont/art_numberival.plist	红色7	
+83	0	red_08.png	resource/image/artfont/art_numberival.plist	红色8	
+84	0	red_09.png	resource/image/artfont/art_numberival.plist	红色9	
+85	0	red_10.png	resource/image/artfont/art_numberival.plist	红色-	
+86	0	red_11.png	resource/image/artfont/art_numberival.plist	红色+	
+87	0	yellow_00.png	resource/image/artfont/art_numberival.plist	黄色0	
+88	0	yellow_01.png	resource/image/artfont/art_numberival.plist	黄色1	
+89	0	yellow_02.png	resource/image/artfont/art_numberival.plist	黄色2	
+90	0	yellow_03.png	resource/image/artfont/art_numberival.plist	黄色3	
+91	0	yellow_04.png	resource/image/artfont/art_numberival.plist	黄色4	
+92	0	yellow_05.png	resource/image/artfont/art_numberival.plist	黄色5	
+93	0	yellow_06.png	resource/image/artfont/art_numberival.plist	黄色6	
+94	0	yellow_07.png	resource/image/artfont/art_numberival.plist	黄色7	
+95	0	yellow_08.png	resource/image/artfont/art_numberival.plist	黄色8	
+96	0	yellow_09.png	resource/image/artfont/art_numberival.plist	黄色9	
+97	0	yellow_10.png	resource/image/artfont/art_numberival.plist	黄色-	
+98	0	yellow_11.png	resource/image/artfont/art_numberival.plist	黄色+	
+99	0	blue_00.png	resource/image/artfont/art_numberival.plist	蓝色0	
+100	0	blue_01.png	resource/image/artfont/art_numberival.plist	蓝色1	
+101	0	blue_02.png	resource/image/artfont/art_numberival.plist	蓝色2	
+102	0	blue_03.png	resource/image/artfont/art_numberival.plist	蓝色3	
+103	0	blue_04.png	resource/image/artfont/art_numberival.plist	蓝色4	
+104	0	blue_05.png	resource/image/artfont/art_numberival.plist	蓝色5	
+105	0	blue_06.png	resource/image/artfont/art_numberival.plist	蓝色6	
+106	0	blue_07.png	resource/image/artfont/art_numberival.plist	蓝色7	
+107	0	blue_08.png	resource/image/artfont/art_numberival.plist	蓝色8	
+108	0	blue_09.png	resource/image/artfont/art_numberival.plist	蓝色9	
+109	0	blue_10.png	resource/image/artfont/art_numberival.plist	蓝色-	
+110	0	blue_11.png	resource/image/artfont/art_numberival.plist	蓝色+	
+111	0	green_00.png	resource/image/artfont/art_numberival.plist	绿色0	
+112	0	green_01.png	resource/image/artfont/art_numberival.plist	绿色1	
+113	0	green_02.png	resource/image/artfont/art_numberival.plist	绿色2	
+114	0	green_03.png	resource/image/artfont/art_numberival.plist	绿色3	
+115	0	green_04.png	resource/image/artfont/art_numberival.plist	绿色4	
+116	0	green_05.png	resource/image/artfont/art_numberival.plist	绿色5	
+117	0	green_06.png	resource/image/artfont/art_numberival.plist	绿色6	
+118	0	green_07.png	resource/image/artfont/art_numberival.plist	绿色7	
+119	0	green_08.png	resource/image/artfont/art_numberival.plist	绿色8	
+120	0	green_09.png	resource/image/artfont/art_numberival.plist	绿色9	
+121	0	green_10.png	resource/image/artfont/art_numberival.plist	绿色-	
+122	0	green_11.png	resource/image/artfont/art_numberival.plist	绿色+	
+123	0	itemuse_00.png	resource/image/artfont/art_itemuse.plist	正常使用物品字库：0	
+124	0	itemuse_01.png	resource/image/artfont/art_itemuse.plist	正常使用物品字库：1	
+125	0	itemuse_02.png	resource/image/artfont/art_itemuse.plist	正常使用物品字库：2	
+126	0	itemuse_03.png	resource/image/artfont/art_itemuse.plist	正常使用物品字库：3	
+127	0	itemuse_04.png	resource/image/artfont/art_itemuse.plist	正常使用物品字库：4	
+128	0	itemuse_05.png	resource/image/artfont/art_itemuse.plist	正常使用物品字库：5	
+129	0	itemuse_06.png	resource/image/artfont/art_itemuse.plist	正常使用物品字库：6	
+130	0	itemuse_07.png	resource/image/artfont/art_itemuse.plist	正常使用物品字库：7	
+131	0	itemuse_08.png	resource/image/artfont/art_itemuse.plist	正常使用物品字库：8	
+132	0	itemuse_09.png	resource/image/artfont/art_itemuse.plist	正常使用物品字库：9	
+133	0	itemuse_10.png	resource/image/artfont/art_itemuse.plist	正常使用物品字库：+	
+134	0	itemuse_cri_00.png	resource/image/artfont/art_itemuse.plist	物品暴击字库：0	
+135	0	itemuse_cri_01.png	resource/image/artfont/art_itemuse.plist	物品暴击字库：1	
+136	0	itemuse_cri_02.png	resource/image/artfont/art_itemuse.plist	物品暴击字库：2	
+137	0	itemuse_cri_03.png	resource/image/artfont/art_itemuse.plist	物品暴击字库：3	
+138	0	itemuse_cri_04.png	resource/image/artfont/art_itemuse.plist	物品暴击字库：4	
+139	0	itemuse_cri_05.png	resource/image/artfont/art_itemuse.plist	物品暴击字库：5	
+140	0	itemuse_cri_06.png	resource/image/artfont/art_itemuse.plist	物品暴击字库：6	
+141	0	itemuse_cri_07.png	resource/image/artfont/art_itemuse.plist	物品暴击字库：7	
+142	0	itemuse_cri_08.png	resource/image/artfont/art_itemuse.plist	物品暴击字库：8	
+143	0	itemuse_cri_09.png	resource/image/artfont/art_itemuse.plist	物品暴击字库：9	
+144	0	itemuse_cri_10.png	resource/image/artfont/art_itemuse.plist	物品暴击字库：+	
+145	0	itemuse_cri_11.png	resource/image/artfont/art_itemuse.plist	物品暴击字库：二	
+146	0	itemuse_cri_12.png	resource/image/artfont/art_itemuse.plist	物品暴击字库：四	
+147	0	itemuse_cri_13.png	resource/image/artfont/art_itemuse.plist	物品暴击字库：十	
+148	0	itemuse_cri_14.png	resource/image/artfont/art_itemuse.plist	物品暴击字库：倍暴击！	
+149	1	zs_icon_b.png	resource/image/newpublic/zs_icon_b.png	钻石图标	
+150	1	jinbi_icon_b.png	resource/image/newpublic/jinbi_icon_b.png	金币图标	
+151	1	tili_b.png	resource/image/newpublic/tili_b.png	体力图标	
+152	1	jingyan_icon	resource/image/newresult/jingyan_icon.png	经验图标	
+153	1	pic_error.png	pic_error.png	【废弃】	
+154	1	pic_error.png	pic_error.png	【废弃】	
+155	1	pic_error.png	pic_error.png	【废弃】	
+156	1	roleshadow.png	resource/image/newathleticsui/roleshadow.png	战斗人物脚下阴影图片	
+157	1	touxiang01.png	touxiang01.png	牛头人酋长	1
+158	1	touxiang02.png	touxiang02.png	地精撕裂者	1
+159	1	touxiang03.png	touxiang03.png	暗夜魔王	1
+160	1	touxiang04.png	touxiang04.png	神灵	1
+161	1	touxiang05.png	touxiang05.png	刚背	1
+162	1	touxiang06.png	touxiang06.png	刚背1	1
+163	1	touxiang07.png	touxiang07.png	全能骑士	1
+164	1	touxiang08.png	touxiang08.png	全能骑士1	1
+165	1	touxiang09.png	touxiang09.png	斧王	1
+166	1	touxiang10.png	touxiang10.png	斧王1	1
+167	1	touxiang11.png	touxiang11.png	白牛	1
+168	1	touxiang12.png	touxiang12.png	白牛1	1
+169	1	touxiang13.png	touxiang13.png	白牛2	1
+170	1	touxiang14.png	touxiang14.png	撼地神牛	1
+171	1	touxiang15.png	touxiang15.png	撼地神牛1	1
+172	1	touxiang16.png	touxiang16.png	撼地神牛2	1
+173	1	touxiang17.png	touxiang17.png	流浪剑客	1
+174	1	touxiang18.png	touxiang18.png	流浪剑客1	1
+175	1	touxiang19.png	touxiang19.png	流浪剑客2	1
+176	1	touxiang20.png	touxiang20.png	骷髅王	1
+177	1	touxiang21.png	touxiang21.png	骷髅王1	1
+178	1	touxiang22.png	touxiang22.png	骷髅王2	1
+179	1	touxiang23.png	touxiang23.png	狼人	1
+180	1	touxiang24.png	touxiang24.png	狼人1	1
+181	1	touxiang25.png	touxiang25.png	狼人2	1
+182	1	touxiang26.png	touxiang26.png	船长	1
+183	1	touxiang27.png	touxiang27.png	船长1	1
+184	1	touxiang28.png	touxiang28.png	船长2	1
+185	1	touxiang29.png	touxiang29.png	龙骑士	1
+186	1	touxiang30.png	touxiang30.png	龙骑士1	1
+187	1	touxiang31.png	touxiang31.png	龙骑士2	1
+188	1	touxiang32.png	touxiang32.png	赏金	1
+189	1	touxiang33.png	touxiang33.png	血魔	1
+190	1	touxiang34.png	touxiang34.png	电魂	1
+191	1	touxiang35.png	touxiang35.png	巨魔战将	1
+192	1	touxiang36.png	touxiang36.png	虚空假面	1
+193	1	touxiang37.png	touxiang37.png	虚空1	1
+194	1	touxiang38.png	touxiang38.png	圣堂	1
+195	1	touxiang39.png	touxiang39.png	圣堂1	1
+196	1	touxiang40.png	touxiang40.png	德鲁伊	1
+197	1	touxiang41.png	touxiang41.png	德鲁伊1	1
+198	1	touxiang42.png	touxiang42.png	幻刺	1
+199	1	touxiang43.png	touxiang43.png	幻刺1	1
+200	1	touxiang44.png	touxiang44.png	熊战士	1
+201	1	touxiang45.png	touxiang45.png	熊战士1	1
+202	1	touxiang46.png	touxiang46.png	复仇之魂	1
+203	1	touxiang47.png	touxiang47.png	复仇之魂1	1
+204	1	touxiang48.png	touxiang48.png	复仇之魂2	1
+205	1	touxiang49.png	touxiang49.png	猴子	1
+206	1	touxiang50.png	touxiang50.png	猴子1	1
+207	1	touxiang51.png	touxiang51.png	猴子2	1
+208	1	touxiang52.png	touxiang52.png	黑暗游侠1	1
+209	1	touxiang53.png	touxiang53.png	黑暗游侠2	1
+210	1	touxiang54.png	touxiang54.png	黑暗游侠3	1
+211	1	touxiang55.png	touxiang55.png	幽鬼	1
+212	1	touxiang56.png	touxiang56.png	幽鬼1	1
+213	1	touxiang57.png	touxiang57.png	幽鬼2	1
+214	1	touxiang58.png	touxiang58.png	灵魂守卫	1
+215	1	touxiang59.png	touxiang59.png	灵魂守卫1	1
+216	1	touxiang60.png	touxiang60.png	灵魂守卫2	1
+217	1	touxiang61.png	touxiang61.png	敌法	1
+218	1	touxiang62.png	touxiang62.png	敌法1	1
+219	1	touxiang63.png	touxiang63.png	敌法2	1
+220	1	touxiang64.png	touxiang64.png	剑圣	1
+221	1	touxiang65.png	touxiang65.png	剑圣1	1
+222	1	touxiang66.png	touxiang66.png	剑圣2	1
+223	1	touxiang67.png	touxiang67.png	影魔	1
+224	1	touxiang68.png	touxiang68.png	影魔1	1
+225	1	touxiang69.png	touxiang69.png	影魔2	1
+226	1	touxiang70.png	touxiang70.png	暗影恶魔	1
+227	1	touxiang71.png	touxiang71.png	黑暗贤者	1
+228	1	touxiang72.png	touxiang72.png	巫医	1
+229	1	touxiang73.png	touxiang73.png	痛苦之源	1
+230	1	touxiang74.png	touxiang74.png	谜团	1
+231	1	touxiang75.png	touxiang75.png	暗牧	1
+232	1	touxiang76.png	touxiang76.png	遗忘法师	1
+233	1	touxiang77.png	touxiang77.png	遗忘法师1	1
+234	1	touxiang78.png	touxiang78.png	巫妖	1
+235	1	touxiang79.png	touxiang79.png	巫妖1	1
+236	1	touxiang80.png	touxiang80.png	先知	1
+237	1	touxiang81.png	touxiang81.png	先知1	1
+238	1	touxiang82.png	touxiang82.png	大魔导师	1
+239	1	touxiang83.png	touxiang83.png	大魔导师1	1
+240	1	touxiang84.png	touxiang84.png	恶魔巫师	1
+241	1	touxiang85.png	touxiang85.png	恶魔巫师1	1
+242	1	touxiang86.png	touxiang86.png	冰魂	1
+243	1	touxiang87.png	touxiang87.png	冰魂1	1
+244	1	touxiang88.png	touxiang88.png	小Y	1
+245	1	touxiang89.png	touxiang89.png	小Y1	1
+246	1	touxiang90.png	touxiang90.png	小Y2	1
+247	1	touxiang91.png	touxiang91.png	冰女1	1
+248	1	touxiang92.png	touxiang92.png	冰女2	1
+249	1	touxiang93.png	touxiang93.png	冰女3	1
+250	1	touxiang94.png	touxiang94.png	火女	1
+251	1	touxiang95.png	touxiang95.png	火女1	1
+252	1	touxiang96.png	touxiang96.png	火女2	1
+253	1	touxiang97.png	touxiang97.png	风行	1
+254	1	touxiang98.png	touxiang98.png	风行1	1
+255	1	touxiang99.png	touxiang99.png	风行2	1
+256	1	touxiang100.png	touxiang100.png	沉默术士	1
+257	1	touxiang101.png	touxiang101.png	沉默术士1	1
+258	1	touxiang102.png	touxiang102.png	沉默术士2	1
+259	1	touxiang103.png	touxiang103.png	卡尔	1
+260	1	touxiang104.png	touxiang104.png	卡尔1	1
+261	1	touxiang105.png	touxiang105.png	卡尔2	1
+262	1	touxiang106.png	touxiang106.png	女王	1
+263	1	touxiang107.png	touxiang107.png	女王1	1
+264	1	touxiang108.png	touxiang108.png	女王2	1
+265	1	touxiang109.png	touxiang109.png	森林巨魔	1
+266	1	touxiang110.png	touxiang110.png	树魔狂战士	1
+267	1	touxiang111.png	touxiang111.png	冰之巨魔	1
+268	1	touxiang112.png	touxiang112.png	黑魔首领	1
+269	1	touxiang113.png	touxiang113.png	树魔高级牧师	1
+270	1	touxiang114.png	touxiang114.png	黑魔影子牧师	1
+271	1	touxiang115.png	touxiang115.png	冰魔牧师	1
+272	1	touxiang116.png	touxiang116.png	冰魔首领	1
+273	1	touxiang117.png	touxiang117.png	萨特地狱使者	1
+274	1	touxiang118.png	touxiang118.png	萨特黑暗舞者	1
+275	1	touxiang119.png	touxiang119.png	萨特灵魂盗贼	1
+276	1	touxiang120.png	touxiang120.png	强制者	1
+277	1	touxiang121.png	touxiang121.png	强盗	1
+278	1	touxiang122.png	touxiang122.png	土匪	1
+279	1	touxiang123.png	touxiang123.png	刺客	1
+280	1	touxiang124.png	touxiang124.png	黑暗之奴	1
+281	1	touxiang125.png	touxiang125.png	骷髅护卫	1
+282	1	touxiang126.png	touxiang126.png	骷髅战士	1
+283	1	touxiang127.png	touxiang127.png	霜之兽人骷髅	1
+284	1	touxiang128.png	touxiang128.png	兽人骷髅	1
+285	1	touxiang129.png	touxiang129.png	精灵巫师	1
+286	1	touxiang130.png	touxiang130.png	血精灵巫师	1
+287	1	touxiang131.png	touxiang131.png	黑暗巫师	1
+288	1	touxiang132.png	touxiang132.png	亡灵巫师	1
+289	1	touxiang133.png	touxiang133.png	兽人战士	1
+290	1	touxiang134.png	touxiang134.png	狂暴兽人战士	1
+291	1	touxiang135.png	touxiang135.png	兽人苦工	1
+292	1	touxiang136.png	touxiang136.png	暴怒枭兽	1
+293	1	touxiang137.png	touxiang137.png	迅猛枭兽	1
+294	1	touxiang138.png	touxiang138.png	野人长者	1
+295	1	touxiang139.png	touxiang139.png	雪怪长者	1
+296	1	touxiang140.png	touxiang140.png	丛林漫步者	1
+297	1	touxiang141.png	touxiang141.png	远古野人	1
+298	1	touxiang142.png	touxiang142.png	花岗岩傀儡	1
+299	1	touxiang143.png	touxiang143.png	岩石傀儡	1
+300	1	touxiang144.png	touxiang144.png	泥潭傀儡	1
+301	1	touxiang145.png	touxiang145.png	傀儡战士	1
+302	1	touxiang146.png	touxiang146.png	战争傀儡	1
+303	1	touxiang147.png	touxiang147.png	攻城傀儡	1
+304	1	touxiang148.png	touxiang148.png	极地熊怪战士	1
+305	1	touxiang149.png	touxiang149.png	熊怪萨满	1
+306	1	touxiang150.png	touxiang150.png	极地熊怪护卫	1
+307	1	touxiang151.png	touxiang151.png	熊怪追踪者	1
+308	1	touxiang152.png	touxiang152.png	熊怪护卫	1
+309	1	touxiang153.png	touxiang153.png	熊怪战士	1
+310	1	touxiang154.png	touxiang154.png	豪猪	1
+311	1	touxiang155.png	touxiang155.png	尖毛兽侦察兵	1
+312	1	touxiang156.png	touxiang156.png	尖毛兽野蛮人	1
+313	1	touxiang157.png	touxiang157.png	豺狼野兽	1
+314	1	touxiang158.png	touxiang158.png	豺狼偷猎者	1
+315	1	touxiang159.png	touxiang159.png	豺狼守望者	1
+316	1	touxiang160.png	touxiang160.png	豺狼刺客	1
+317	1	touxiang161.png	touxiang161.png	豺狼首领	1
+318	1	pic_error.png	pic_error.png	【废弃】	1
+319	1	pic_error.png	pic_error.png	【废弃】	1
+320	1	pic_error.png	pic_error.png	【废弃】	1
+321	1	pic_error.png	pic_error.png	【废弃】	1
+322	1	pic_error.png	pic_error.png	【废弃】	1
+323	1	touxiang167.png	touxiang167.png	牛头人酋长2	
+324	1	touxiang168.png	touxiang168.png	地精撕裂者2	
+325	1	touxiang169.png	touxiang169.png	地精撕裂者3	
+326	1	touxiang170.png	touxiang170.png	夜魔2	
+327	1	touxiang171.png	touxiang171.png	神灵2	
+328	1	touxiang172.png	touxiang172.png	赏金2	
+329	1	touxiang173.png	touxiang173.png	血魔2	
+330	1	touxiang174.png	touxiang174.png	巨魔2	
+331	1	touxiang175.png	touxiang175.png	暗影恶魔2	
+332	1	touxiang176.png	touxiang176.png	黑暗贤者2	
+333	1	touxiang177.png	touxiang177.png	巫医2	
+334	1	touxiang178.png	touxiang178.png	痛苦之源2	
+335	1	touxiang179.png	touxiang179.png	谜团2	
+336	1	touxiang180.png	touxiang180.png	暗牧2	
+337	1	touxiang181.png	touxiang181.png	冰魂3	
+338	1	touxiang182.png	touxiang182.png	预留	
+339	1	touxiang183.png	touxiang183.png	预留	
+340	1	touxiang184.png	touxiang184.png	预留	
+341	1	touxiang185.png	touxiang185.png	预留	
+342	1	touxiang186.png	touxiang186.png	预留	
+343	1	touxiang187.png	touxiang187.png	预留	
+344	1	touxiang188.png	touxiang188.png	预留	
+345	1	touxiang189.png	touxiang189.png	预留	
+346	1	touxiang190.png	touxiang190.png	预留	
+350	1	equip01.png	equip01.png	攻击之爪	
+351	1	equip02.png	equip02.png	大剑	
+352	1	equip03.png	equip03.png	水晶剑	
+353	1	equip04.png	equip04.png	天堂之戟	
+354	1	equip05.png	equip05.png	深渊之刃	
+355	1	equip06.png	equip06.png	智力斗篷	
+356	1	equip07.png	equip07.png	流浪法师斗篷	
+357	1	equip08.png	equip08.png	板甲	
+358	1	equip09.png	equip09.png	刃甲	
+359	1	equip10.png	equip10.png	希瓦的守护	
+360	1	equip11.png	equip11.png	守护指环	
+361	1	equip12.png	equip12.png	圣殿指环	
+362	1	equip13.png	equip13.png	灵魂之戒	
+363	1	equip14.png	equip14.png	天鹰之戒	
+364	1	equip15.png	equip15.png	怒风徽记之戒	
+365	1	equip16.png	equip16.png	狂战斧	
+366	1	equip17.png	equip17.png	虚灵刀	
+367	1	equip18.png	equip18.png	燃烧斗篷	
+368	1	equip19.png	equip19.png	强袭装甲	
+369	1	equip20.png	equip20.png	支配指环	
+370	1	equip21.png	equip21.png	神圣指环	
+371	1	equip22.png	equip22.png	精灵皮靴	
+372	1	equip23.png	equip23.png	速度之靴	
+373	1	equip24.png	equip24.png	远行鞋	
+374	1	equip25.png	equip25.png	主宰之履	
+375	1	equip26.png	equip26.png	静谧之鞋	
+376	1	equip27.png	equip27.png	相位鞋	
+377	1	equip28.png	equip28.png	暗影裹足	
+378	1	equip29.png	equip29.png	达贡之神力	
+379	1	equip30.png	equip30.png	紫苑	
+380	1	equip31.png	equip31.png	魔杖	
+381	1	equip32.png	equip32.png	幽魂权杖	
+382	1	equip33.png	equip33.png	死灵书	
+383	1	equip34.png	equip34.png	阿托斯之棍	
+384	1	equip35.png	equip35.png	阿哈利姆神杖	
+385	1	equip36.png	equip36.png	淬毒之珠	
+386	1	equip37.png	equip37.png	漩涡	
+387	1	equip38.png	equip38.png	黯灭	
+388	1	equip39.png	equip39.png	雷神之锤	
+389	1	equip40.png	equip40.png	斯嘉蒂之眼	
+390	1	equip41.png	equip41.png	贵族头环	
+391	1	equip42.png	equip42.png	回复头巾	
+392	1	equip43.png	equip43.png	疯狂面具	
+393	1	equip44.png	equip44.png	纷争面纱	
+394	1	equip45.png	equip45.png	撒旦之邪力	
+395	1	equip46.png	equip46.png	圆盾	
+396	1	equip47.png	equip47.png	暗影护符	
+397	1	equip48.png	equip48.png	古之忍耐姜歌	
+398	1	equip49.png	equip49.png	梅肯斯姆	
+399	1	equip50.png	equip50.png	勇气勋章	
+400	1	pic_error.png	pic_error.png	【废弃】	
+401	1	pic_error.png	pic_error.png	【废弃】	
+402	1	pic_error.png	pic_error.png	【废弃】	
+403	1	pic_error.png	pic_error.png	【废弃】	
+404	1	pic_error.png	pic_error.png	【废弃】	
+405	1	pic_error.png	pic_error.png	【废弃】	
+406	1	pic_error.png	pic_error.png	【废弃】	
+407	1	pic_error.png	pic_error.png	【废弃】	
+408	1	pic_error.png	pic_error.png	【废弃】	
+409	1	pic_error.png	pic_error.png	【废弃】	
+410	1	pic_error.png	pic_error.png	【废弃】	
+411	1	pic_error.png	pic_error.png	【废弃】	
+412	1	pic_error.png	pic_error.png	【废弃】	
+413	1	pic_error.png	pic_error.png	【废弃】	
+414	1	pic_error.png	pic_error.png	【废弃】	
+415	1	pic_error.png	pic_error.png	【废弃】	
+416	1	pic_error.png	pic_error.png	【废弃】	
+417	1	pic_error.png	pic_error.png	【废弃】	
+418	1	pic_error.png	pic_error.png	【废弃】	
+419	1	pic_error.png	pic_error.png	【废弃】	
+420	1	pic_error.png	pic_error.png	【废弃】	
+421	1	pic_error.png	pic_error.png	【废弃】	
+422	1	pic_error.png	pic_error.png	【废弃】	
+423	1	pic_error.png	pic_error.png	【废弃】	
+424	1	pic_error.png	pic_error.png	【废弃】	
+425	1	pic_error.png	pic_error.png	【废弃】	
+426	1	pic_error.png	pic_error.png	【废弃】	
+427	1	pic_error.png	pic_error.png	【废弃】	
+428	1	pic_error.png	pic_error.png	【废弃】	
+429	1	pic_error.png	pic_error.png	【废弃】	
+430	1	pic_error.png	pic_error.png	【废弃】	
+431	1	pic_error.png	pic_error.png	【废弃】	
+432	1	equip51.png	equip51.png	散夜对剑	
+433	1	equip52.png	equip52.png	散失之刃	
+434	1	equip53.png	equip53.png	支配头盔	
+435	1	equip54.png	equip54.png	魔龙头盔	
+436	1	equip55.png	equip55.png	血精石	
+437	1	equip56.png	equip56.png	魔龙之心	
+438	1	item_zhanhun_01.png	item_zhanhun_01.png	利爪	
+439	1	item_zhanhun_02.png	item_zhanhun_02.png	酒吧凶器	
+440	1	item_zhanhun_03.png	item_zhanhun_03.png	凤凰羽翼	
+441	1	item_zhanhun_04.png	item_zhanhun_04.png	兽人战鼓	
+442	1	item_zhanhun_05.png	item_zhanhun_05.png	树人的藤甲	
+443	1	item_zhanhun_06.png	item_zhanhun_06.png	精灵项链	
+444	1	item_zhanhun_07.png	item_zhanhun_07.png	月亮石	
+445	1	item_zhanhun_08.png	item_zhanhun_08.png	科勒的匕首	
+446	1	item_zhanhun_09.png	item_zhanhun_09.png	闪避护符	
+447	1	item_zhanhun_10.png	item_zhanhun_10.png	怀特之腿	
+448	1	item_zhanhun_11.png	item_zhanhun_11.png	狡诈的飞艇	
+449	1	item_zhanhun_12.png	item_zhanhun_12.png	死亡玫瑰	
+450	1	item_zhanhun_13.png	item_zhanhun_13.png	鹰眼	
+451	1	item_zhanhun_14.png	item_zhanhun_14.png	龙血	
+452	1	item_zhanhun_15.png	item_zhanhun_15.png	地精的药瓶	
+453	1	item_zhanhun_16.png	item_zhanhun_16.png	力量纹石	
+454	1	item_zhanhun_17.png	item_zhanhun_17.png	敏捷纹石	
+455	1	item_zhanhun_18.png	item_zhanhun_18.png	智力纹石	
+456	1	item_jinjie_01.png	item_jinjie_01.png	铁树枝干	
+457	1	item_jinjie_02.png	item_jinjie_02.png	雷纹枝干	
+458	1	item_jinjie_03.png	item_jinjie_03.png	珊瑚枝干	
+459	1	item_jinjie_04.png	item_jinjie_04.png	铁树腰带	
+460	1	item_jinjie_05.png	item_jinjie_05.png	雷纹腰带	
+461	1	item_jinjie_06.png	item_jinjie_06.png	珊瑚腰带	
+462	1	item_jinjie_07.png	item_jinjie_07.png	铁树指环	
+463	1	item_jinjie_08.png	item_jinjie_08.png	雷纹指环	
+464	1	item_jinjie_09.png	item_jinjie_09.png	珊瑚指环	
+465	1	item_jinjie_10.png	item_jinjie_10.png	腥红匕首	
+466	1	item_jinjie_11.png	item_jinjie_11.png	流金匕首	
+467	1	item_jinjie_12.png	item_jinjie_12.png	湛蓝匕首	
+468	1	item_jinjie_13.png	item_jinjie_13.png	腥红饰带	
+469	1	item_jinjie_14.png	item_jinjie_14.png	流金饰带	
+470	1	item_jinjie_15.png	item_jinjie_15.png	湛蓝饰带	
+471	1	item_jinjie_16.png	item_jinjie_16.png	腥红之钻	
+472	1	item_jinjie_17.png	item_jinjie_17.png	流金之钻	
+473	1	item_jinjie_18.png	item_jinjie_18.png	湛蓝之钻	
+474	1	item_jinjie_19.png	item_jinjie_19.png	火焰之剑	
+475	1	item_jinjie_20.png	item_jinjie_20.png	风暴之剑	
+476	1	item_jinjie_21.png	item_jinjie_21.png	冰霜之剑	
+477	1	item_jinjie_22.png	item_jinjie_22.png	火焰铠甲	
+478	1	item_jinjie_23.png	item_jinjie_23.png	风暴铠甲	
+479	1	item_jinjie_24.png	item_jinjie_24.png	冰霜铠甲	
+480	1	item_jinjie_25.png	item_jinjie_25.png	火焰之轮	
+481	1	item_jinjie_26.png	item_jinjie_26.png	风暴之轮	
+482	1	item_jinjie_27.png	item_jinjie_27.png	冰霜之轮	
+483	1	item_shuaxinqiu.png	item_shuaxinqiu.png	刷新球	
+484	1	item_taofaling.png	item_taofaling.png	讨伐令	
+485	1	pic_error.png	pic_error.png	【废弃】	
+486	1	pic_error.png	pic_error.png	【废弃】	
+487	1	pic_error.png	pic_error.png	【废弃】	
+488	1	pic_error.png	pic_error.png	【废弃】	
+489	1	pic_error.png	pic_error.png	【废弃】	
+490	1	item_baoxiang_a_01.png	item_baoxiang_a_01.png	宝箱	
+491	1	item_baoxiang_a_02.png	item_baoxiang_a_02.png	宝箱	
+492	1	item_baoxiang_a_03.png	item_baoxiang_a_03.png	宝箱	
+493	1	pic_error.png	pic_error.png	【废弃】	
+494	1	pic_error.png	pic_error.png	【废弃】	
+495	1	pic_error.png	pic_error.png	【废弃】	
+496	1	pic_error.png	pic_error.png	【废弃】	
+497	1	pic_error.png	pic_error.png	【废弃】	
+498	1	item_libao_a_01.png	item_libao_a_01.png	礼包	
+499	1	item_libao_a_02.png	item_libao_a_02.png	礼包	
+500	1	item_libao_a_03.png	item_libao_a_03.png	礼包	
+501	1	item_linghunshi.png	item_linghunshi.png	灵魂石	
+502	1	pic_error.png	pic_error.png	【废弃】	
+503	1	pic_error.png	pic_error.png	【废弃】	
+504	1	pic_error.png	pic_error.png	【废弃】	
+505	1	pic_error.png	pic_error.png	【废弃】	
+506	1	pic_error.png	pic_error.png	【废弃】	
+507	1	pic_error.png	pic_error.png	【废弃】	
+508	1	pic_error.png	pic_error.png	【废弃】	
+509	1	pic_error.png	pic_error.png	【废弃】	
+510	1	pic_error.png	pic_error.png	【废弃】	
+511	1	pic_error.png	pic_error.png	【废弃】	
+512	1	item_tuzhi_a_01.png	item_tuzhi_a_01.png	图纸	
+513	1	item_tuzhi_a_02.png	item_tuzhi_a_02.png	图纸	
+514	1	item_tuzhi_a_03.png	item_tuzhi_a_03.png	图纸	
+515	1	item_yaoji_a_01.png	item_yaoji_a_01.png	药剂	
+516	1	item_yaoji_a_02.png	item_yaoji_a_02.png	药剂	
+517	1	item_yaoji_a_03.png	item_yaoji_a_03.png	药剂	
+518	1	teambattle_waita.png	resource/image/newancient/teambattle_waita.png		
+519	1	teambattle_yequ_1.png	resource/image/newancient/teambattle_yequ_1.png		
+520	1	teambattle_yequ_2.png	resource/image/newancient/teambattle_yequ_2.png		
+521	1	teambattle_yequ_3.png	resource/image/newancient/teambattle_yequ_3.png		
+522	1	teambattle_yequ_4.png	resource/image/newancient/teambattle_yequ_4.png		
+523	1	teambattle_hedao.png	resource/image/newancient/teambattle_hedao.png		
+524	1	teambattle_bingying.png	resource/image/newancient/teambattle_bingying.png		
+525	1	teambattle_roushan.png	resource/image/newancient/teambattle_roushan.png		
+526	1	teambattle_gaodi.png	resource/image/newancient/teambattle_gaodi.png		
+527	1	teambattle_jidi.png	resource/image/newancient/teambattle_jidi.png		
+528	1	item_mianbao.png	item_mianbao.png	面包	
+529	1	item_nailao.png	item_nailao.png	奶酪	
+530	1	item_xinyang.png	item_xinyang.png	信仰水晶	
+531	1	item_shengwangshu.png	item_shengwangshu.png	声望书	
+532	1	item_dianjin.png	item_dianjin.png	点金经验书	
+533	1	item_tiaozhanshu.png	item_tiaozhanshu.png	挑战书	
+534	1	item_xunbaotu.png	item_xunbaotu.png	寻宝图	
+535	1	pic_error.png	pic_error.png	【废弃】	
+536	1	pic_error.png	pic_error.png	【废弃】	
+537	1	pic_error.png	pic_error.png	【废弃】	
+538	1	pic_error.png	pic_error.png	【废弃】	
+539	1	item_longxuejingshi.png	item_longxuejingshi.png	龙血精石	
+540	1	item_shu_a_01.png	item_shu_a_01.png	书	
+541	1	item_shu_a_02.png	item_shu_a_02.png	书	
+542	1	item_shu_a_03.png	item_shu_a_03.png	书	
+543	1	equip_jingyanzhu_01.png	equip_jingyanzhu_01.png		
+544	1	equip_jingyanzhu_02.png	equip_jingyanzhu_02.png		
+545	1	equip_jingyanzhu_03.png	equip_jingyanzhu_03.png		
+546	1	equip_jingyanzhu_04.png	equip_jingyanzhu_04.png		
+547	1	equip_jingyanzhu_05.png	equip_jingyanzhu_05.png		
+548	1	1.png	resource/image/newrank/1.png	排行榜第一名	
+549	1	2.png	resource/image/newrank/2.png	排行榜第二名	
+550	1	3.png	resource/image/newrank/3.png	排行榜第三名	
+551	1	shuzidiban.png	resource/image/newrank/shuzidiban.png	排行榜普通数字底板	
+552	1	pic_error.png	pic_error.png	【废弃】	
+553	1	pic_error.png	pic_error.png	【废弃】	
+554	1	pic_error.png	pic_error.png	【废弃】	
+555	1	pic_error.png	pic_error.png	【废弃】	
+556	1	pic_error.png	pic_error.png	【废弃】	
+557	1	pic_error.png	pic_error.png	【废弃】	
+558	1	win.png	resource/image/newarena/win.png	胜利	
+559	1	lost.png	resource/image/newarena/lost.png	失败	
+560	1	sw_icon_b.png	resource/image/newpublic/sw_icon_b.png	声望	
+561	1	icon_tech.png	icon_tech.png		
+562	1	pic_error.png	pic_error.png	【废弃】	
+563	1	pic_error.png	pic_error.png	【废弃】	
+564	1	pic_error.png	pic_error.png	【废弃】	
+565	1	pic_error.png	pic_error.png	【废弃】	
+566	1	pic_error.png	pic_error.png	【废弃】	
+567	1	pic_error.png	pic_error.png	【废弃】	
+568	1	pic_error.png	pic_error.png	【废弃】	
+569	1	pic_error.png	pic_error.png	【废弃】	
+570	1	pic_error.png	pic_error.png	【废弃】	
+571	1	pic_error.png	pic_error.png	【废弃】	
+572	1	pic_error.png	pic_error.png	【废弃】	
+573	1	pic_error.png	pic_error.png	【废弃】	
+574	1	pic_error.png	pic_error.png	【废弃】	
+575	1	pic_error.png	pic_error.png	【废弃】	
+576	1	pic_error.png	pic_error.png	【废弃】	
+577	1	pic_error.png	pic_error.png	【废弃】	
+578	1	pic_error.png	pic_error.png	【废弃】	
+579	1	pic_error.png	pic_error.png	【废弃】	
+580	1	pic_error.png	pic_error.png	【废弃】	
+581	1	pic_error.png	pic_error.png	【废弃】	
+582	1	pic_error.png	pic_error.png	【废弃】	
+583	1	pic_error.png	pic_error.png	【废弃】	
+584	1	item_baoxiang_b_01.png	item_baoxiang_b_01.png	新宝箱	
+585	1	item_baoxiang_b_02.png	item_baoxiang_b_02.png	新宝箱	
+586	1	item_baoxiang_b_03.png	item_baoxiang_b_03.png	新宝箱	
+587	1	pic_error.png	pic_error.png	【废弃】	
+588	1	pic_error.png	pic_error.png	【废弃】	
+589	1	pic_error.png	pic_error.png	【废弃】	
+590	1	item_suipian_01.png	item_suipian_01.png	白银之钥	
+591	1	item_zhengshu_01.png	item_zhengshu_01.png	证书	
+592	1	xiangxi_diban.png	resource/image/newathleticsui/xiangxi_diban.png		
+593	1	dianjin_01.png	resource/image/newpublic/dianjin_01.png	点金小图标	
+594	1	jitan_01.png	resource/image/newpublic/jitan_01.png	祭坛小图标	
+595	1	jkcaiji_01.png	resource/image/newpublic/jkcaiji_01.png	金矿采集	
+596	1	zbkugong_01.png	resource/image/newpublic/zbkugong_01.png	抓捕苦工	
+597	1	shenmiao_01.png	resource/image/newpublic/shenmiao_01.png	神庙	
+598	1	tfmw_01.png	resource/image/newpublic/tfmw_01.png	讨伐魔王	
+599	1	yxzhun_01.png	resource/image/newpublic/yxzhun_01.png	英雄战魂	
+600	1	pic_error.png	pic_error.png	【废弃】	
+601	1	pic_error.png	pic_error.png	【废弃】	
+602	1	pic_error.png	pic_error.png	【废弃】	
+603	1	pic_error.png	pic_error.png	【废弃】	
+604	1	pic_error.png	pic_error.png	【废弃】	
+605	1	pic_error.png	pic_error.png	【废弃】	
+606	1	pic_error.png	pic_error.png	【废弃】	
+607	1	pic_error.png	pic_error.png	【废弃】	
+608	1	pic_error.png	pic_error.png	【废弃】	
+609	1	pic_error.png	pic_error.png	【废弃】	
+610	1	pic_error.png	pic_error.png	【废弃】	
+611	1	pic_error.png	pic_error.png	【废弃】	
+612	1	pic_error.png	pic_error.png	【废弃】	
+613	1	pic_error.png	pic_error.png	【废弃】	
+614	1	pic_error.png	pic_error.png	【废弃】	
+615	1	pic_error.png	pic_error.png	【废弃】	
+616	1	pic_error.png	pic_error.png	【废弃】	
+617	1	pic_error.png	pic_error.png	【废弃】	
+618	1	broadcast_bg.png	resource/image/newpublic/broadcast_bg.png		
+619	1	zuoce_zhengchang.png	resource/image/newtask/zuoce_zhengchang.png	任务背景默认	
+620	1	zuoce_xuanze.png	resource/image/newtask/zuoce_xuanze.png	任务背景选中	
+621	0	tech_01.png	resource/image/techitem/tech_01.png	幻影	
+622	0	tech_02.png	resource/image/techitem/tech_02.png	坚韧	
+623	0	tech_03.png	resource/image/techitem/tech_03.png	尖锐	
+624	0	tech_04.png	resource/image/techitem/tech_04.png	集中	
+625	0	tech_05.png	resource/image/techitem/tech_05.png	狂热	
+626	0	tech_06.png	resource/image/techitem/tech_06.png	魔法	
+627	0	tech_07.png	resource/image/techitem/tech_07.png	破坏	
+628	0	tech_08.png	resource/image/techitem/tech_08.png	生命	
+629	0	tech_09.png	resource/image/techitem/tech_09.png	守护	
+630	0	tech_10.png	resource/image/techitem/tech_10.png	致命	
+631	0	tech_11.png	resource/image/techitem/tech_11.png	灼热	
+632	1	item_tuzhi_a_04.png	item_tuzhi_a_04.png	图纸	
+633	1	item_lihe_a_01.png	item_lihe_a_01.png	礼盒	
+634	1	item_lihe_a_02.png	item_lihe_a_02.png	礼盒	
+635	1	item_lihe_a_03.png	item_lihe_a_03.png	礼盒	
+636	1	li.png	resource/image/newpublic/li.png		
+637	1	min.png	resource/image/newpublic/min.png		
+638	1	zhi.png	resource/image/newpublic/zhi.png		
+639	0	art_levelup_00.png	resource/image/artfont/art_levelup.plist		
+640	0	art_levelup_01.png	resource/image/artfont/art_levelup.plist		
+641	0	art_levelup_02.png	resource/image/artfont/art_levelup.plist		
+642	0	art_levelup_03.png	resource/image/artfont/art_levelup.plist		
+643	0	art_levelup_04.png	resource/image/artfont/art_levelup.plist		
+644	0	art_levelup_05.png	resource/image/artfont/art_levelup.plist		
+645	0	art_levelup_06.png	resource/image/artfont/art_levelup.plist		
+646	0	art_levelup_07.png	resource/image/artfont/art_levelup.plist		
+647	0	art_levelup_08.png	resource/image/artfont/art_levelup.plist		
+648	0	art_levelup_09.png	resource/image/artfont/art_levelup.plist		
+659	0	kuaijin01_up.png	resource/image/newathleticsui/kuaijin01_up.png		
+660	0	kuaijin01_down.png	resource/image/newathleticsui/kuaijin01_down.png		
+661	0	kuaijin02_up.png	resource/image/newathleticsui/kuaijin02_up.png		
+662	0	kuaijin02_down.png	resource/image/newathleticsui/kuaijin02_down.png		
+663	0	xq_up.png	resource/image/newathleticsui/xq_up.png		
+664	0	xq_down.png	resource/image/newathleticsui/xq_down.png		
+665	0	xiangxi_diban.png	resource/image/newathleticsui/xiangxi_diban.png		
+666	0	xiaoren.png	resource/image/newathleticsui/xiaoren.png		
+667	0	xiaoren_hui.png	resource/image/newathleticsui/xiaoren_hui.png		
+668	0	item_linghunjinghua_01.png	item_linghunjinghua_01.png	灵魂精华	
+669	0	item_linghunjinghua_02.png	item_linghunjinghua_02.png	灵魂精华	
+670	0	item_linghunjinghua_03.png	item_linghunjinghua_03.png	灵魂精华	
+671	0	item_linghunshuijing_01.png	item_linghunshuijing_01.png	灵魂水晶	
+672	0	item_linghunshuijing_02.png	item_linghunshuijing_02.png	灵魂水晶	
+673	0	item_linghunshuijing_03.png	item_linghunshuijing_03.png	灵魂水晶	
+674	0	item_linghunshisuipian_01.png	item_linghunshisuipian_01.png	灵魂碎片	
+675	0	item_vipbao_01.png	item_vipbao_01.png	vip礼包	
+676	0	item_hunsuipian_a_01.png	item_hunsuipian_a_01.png	魂碎片	
+677	0	item_hunsuipian_a_02.png	item_hunsuipian_a_02.png	魂碎片	
+678	0	item_hunsuipian_a_03.png	item_hunsuipian_a_03.png	魂碎片	
+679	0	item_hunsuipian_a_04.png	item_hunsuipian_a_04.png	魂碎片	
+680	0	item_hunsuipian_a_05.png	item_hunsuipian_a_05.png	魂碎片	
+681	0	item_hunsuipian_a_06.png	item_hunsuipian_a_06.png	魂碎片	
+682	0	maoxiantuitu_01.png	resource/image/newzybuzu/maoxiantuitu_01.png		
+683	0	maoxiantuitu_02.png	resource/image/newzybuzu/maoxiantuitu_02.png		
+684	0	maoxiantuitu_03.png	resource/image/newzybuzu/maoxiantuitu_03.png		
+685	0	shilianzhita_01.png	resource/image/newzybuzu/shilianzhita_01.png		
+686	0	shilianzhita_02.png	resource/image/newzybuzu/shilianzhita_02.png		
+687	0	shilianzhita_03.png	resource/image/newzybuzu/shilianzhita_03.png		
+688	0	jingjichang_01.png	resource/image/newzybuzu/jingjichang_01.png		
+689	0	jingjichang_02.png	resource/image/newzybuzu/jingjichang_02.png		
+690	0	jingjichang_03.png	resource/image/newzybuzu/jingjichang_03.png		
+691	0	kuangdong_01.png	resource/image/newzybuzu/kuangdong_01.png		
+692	0	kuangdong_02.png	resource/image/newzybuzu/kuangdong_02.png		
+693	0	kuangdong_03.png	resource/image/newzybuzu/kuangdong_03.png		
+694	0	yuanguyiji_01.png	resource/image/newzybuzu/yuanguyiji_01.png		
+695	0	yuanguyiji_02.png	resource/image/newzybuzu/yuanguyiji_02.png		
+696	0	yuanguyiji_03.png	resource/image/newzybuzu/yuanguyiji_03.png		
+697	0	block.png	resource/image/artfont/art_hittype.plist	战斗格挡	
+698	0	miss.png	resource/image/artfont/art_hittype.plist	战斗闪避	
+699	1	piece_equip_03.png	piece_equip_03.png	水晶剑碎片	
+700	1	piece_equip_04.png	piece_equip_04.png	天堂之戟碎片	
+701	1	piece_equip_05.png	piece_equip_05.png	深渊之刃碎片	
+702	1	piece_equip_08.png	piece_equip_08.png	板甲碎片	
+703	1	piece_equip_09.png	piece_equip_09.png	刃甲碎片	
+704	1	piece_equip_10.png	piece_equip_10.png	希瓦的守护碎片	
+705	1	piece_equip_13.png	piece_equip_13.png	灵魂之戒碎片	
+706	1	piece_equip_14.png	piece_equip_14.png	天鹰之戒碎片	
+707	1	piece_equip_15.png	piece_equip_15.png	怒风之戒碎片	
+708	1	piece_equip_24.png	piece_equip_24.png	远行鞋碎片	
+709	1	piece_equip_26.png	piece_equip_26.png	静谧之鞋碎片	
+710	1	piece_equip_27.png	piece_equip_27.png	相位鞋碎片	
+711	1	piece_equip_33.png	piece_equip_33.png	死灵书碎片	
+712	1	piece_equip_34.png	piece_equip_34.png	阿托斯之棍碎片	
+713	1	piece_equip_35.png	piece_equip_35.png	阿哈利姆神杖碎片	
+714	1	piece_equip_38.png	piece_equip_38.png	黯灭碎片	
+715	1	piece_equip_39.png	piece_equip_39.png	雷神之锤碎片	
+716	1	piece_equip_40.png	piece_equip_40.png	斯嘉蒂之眼碎片	
+717	1	piece_equip_43.png	piece_equip_43.png	疯狂面具碎片	
+718	1	piece_equip_44.png	piece_equip_44.png	纷争面纱碎片	
+719	1	piece_equip_45.png	piece_equip_45.png	撒旦之邪力碎片	
+720	1	piece_equip_48.png	piece_equip_48.png	古之忍耐姜歌碎片	
+721	1	piece_equip_49.png	piece_equip_49.png	梅肯斯姆碎片	
+722	1	piece_equip_50.png	piece_equip_50.png	勇气勋章碎片	
+723	1	smzq_anniu.png	resource/image/newhuifu/smzq_anniu.png	温泉活动图标	
+724	1	shchlb.png	resource/image/newhuifu/shchlb.png	首充活动	
+725	1	sjjl.png	resource/image/newhuifu/sjjl.png	升级活动	
+726	1	denglujl.png	resource/image/newhuifu/denglujl.png	每日登陆奖励活动	
+727	1	viplibao.png	resource/image/newhuifu/viplibao.png	VIP包裹领取奖励活动	
+728	1	duihuan.png	resource/image/newhuifu/duihuan.png	兑换奖励活动	
+729	1	czjh.png	resource/image/newhuifu/czjh.png	成长计划奖励活动	
+730	1	piece_equip_16.png	piece_equip_16.png	狂战斧碎片	
+731	1	piece_equip_17.png	piece_equip_17.png	虚灵刀碎片	
+732	1	piece_equip_18.png	piece_equip_18.png	燃烧斗篷碎片	
+733	1	piece_equip_19.png	piece_equip_19.png	强袭装甲碎片	
+734	1	piece_equip_20.png	piece_equip_20.png	支配指环碎片	
+735	1	piece_equip_21.png	piece_equip_21.png	神圣指环碎片	
+736	1	piece_equip_25.png	piece_equip_25.png	主宰之履碎片	
+737	1	piece_equip_28.png	piece_equip_28.png	暗影裹足碎片	
+738	1	piece_equip_29.png	piece_equip_29.png	达贡之神力碎片	
+739	1	piece_equip_30.png	piece_equip_30.png	紫苑碎片	
+740	1	piece_equip_51.png	piece_equip_51.png	散夜对剑碎片	
+741	1	piece_equip_52.png	piece_equip_52.png	散失之刃碎片	
+742	1	piece_equip_53.png	piece_equip_53.png	支配头盔碎片	
+743	1	piece_equip_54.png	piece_equip_54.png	魔龙头盔碎片	
+744	1	piece_equip_55.png	piece_equip_55.png	血精石碎片	
+745	1	piece_equip_56.png	piece_equip_56.png	魔龙之心碎片	
+746	1	item_nengliangshi.png	item_nengliangshi.png	能量石	
+747	1	piece_hero_01.png	piece_hero_01.png	船长碎片	
+748	1	piece_hero_02.png	piece_hero_02.png	幽鬼碎片	
+749	1	piece_hero_03.png	piece_hero_03.png	风行碎片	
+750	1	item_hero_02.png	item_hero_02.png	地精撕裂者	
+751	1	item_hero_100.png	item_hero_100.png	沉默术士	
+752	1	item_hero_103.png	item_hero_103.png	召唤师	
+753	1	item_hero_106.png	item_hero_106.png	痛苦女王	
+754	1	item_hero_11.png	item_hero_11.png	裂魂人	
+755	1	item_hero_17.png	item_hero_17.png	流浪剑客 	
+756	1	item_hero_20.png	item_hero_20.png	骷髅王	
+757	1	item_hero_23.png	item_hero_23.png	狼人	
+758	1	item_hero_26.png	item_hero_26.png	海军上将	
+759	1	item_hero_29.png	item_hero_29.png	龙骑士	
+760	1	item_hero_46.png	item_hero_46.png	复仇之魂	
+761	1	item_hero_49.png	item_hero_49.png	幻影长矛手	
+762	1	item_hero_52.png	item_hero_52.png	黑暗游侠	
+763	1	item_hero_55.png	item_hero_55.png	幽鬼	
+764	1	item_hero_58.png	item_hero_58.png	灵魂守卫	
+765	1	item_hero_64.png	item_hero_64.png	剑圣	
+766	1	item_hero_67.png	item_hero_67.png	影魔	
+767	1	item_hero_86.png	item_hero_86.png	极寒幽魂	
+768	1	item_hero_88.png	item_hero_88.png	暗影萨满	
+769	1	item_hero_94.png	item_hero_94.png	秀逗魔导师	
+770	1	item_hero_97.png	item_hero_97.png	风行者	
+771	1	item_hero_14.png	item_hero_14.png	撼地神牛	
+772	1	item_hero_38.png	item_hero_38.png	圣堂刺客	
+773	1	item_hero_44.png	item_hero_44.png	熊战士	
+774	1	item_hero_61.png	item_hero_61.png	敌法师	
+775	1	item_hero_74.png	item_hero_74.png	谜团	
+776	1	item_hero_80.png	item_hero_80.png	先知	
+777	1	item_hero_91.png	item_hero_91.png	水晶室女	
+778	1	skillicon1_s.png	skillicon1_s.png		
+779	1	skillicon2_s.png	skillicon2_s.png		
+780	1	skillicon3_s.png	skillicon3_s.png		
+781	1	skillicon4_s.png	skillicon4_s.png		
+782	1	skillicon5_s.png	skillicon5_s.png		
+783	1	skillicon6_s.png	skillicon6_s.png		
+784	1	skillicon7_s.png	skillicon7_s.png		
+785	1	skillicon8_s.png	skillicon8_s.png		
+786	1	skillicon9_s.png	skillicon9_s.png		
+787	1	skillicon10_s.png	skillicon10_s.png		
+788	1	skillicon11_s.png	skillicon11_s.png		
+789	1	skillicon12_s.png	skillicon12_s.png		
+790	1	skillicon13_s.png	skillicon13_s.png		
+791	1	skillicon14_s.png	skillicon14_s.png		
+792	1	skillicon15_s.png	skillicon15_s.png		
+793	1	skillicon16_s.png	skillicon16_s.png		
+794	1	skillicon17_s.png	skillicon17_s.png		
+795	1	skillicon18_s.png	skillicon18_s.png		
+796	1	skillicon19_s.png	skillicon19_s.png		
+797	1	skillicon20_s.png	skillicon20_s.png		
+798	1	skillicon21_s.png	skillicon21_s.png		
+799	1	skillicon22_s.png	skillicon22_s.png		
+800	1	skillicon23_s.png	skillicon23_s.png		
+801	1	skillicon24_s.png	skillicon24_s.png		
+802	1	skillicon25_s.png	skillicon25_s.png		
+803	1	skillicon26_s.png	skillicon26_s.png		
+804	1	skillicon27_s.png	skillicon27_s.png		
+805	1	skillicon28_s.png	skillicon28_s.png		
+806	1	skillicon29_s.png	skillicon29_s.png		
+807	1	skillicon30_s.png	skillicon30_s.png		
+808	1	skillicon31_s.png	skillicon31_s.png		
+809	1	skillicon32_s.png	skillicon32_s.png		
+810	1	skillicon33_s.png	skillicon33_s.png		
+811	1	skillicon34_s.png	skillicon34_s.png		
+812	1	skillicon35_s.png	skillicon35_s.png		
+813	1	skillicon36_s.png	skillicon36_s.png		
+814	1	skillicon37_s.png	skillicon37_s.png		
+815	1	skillicon38_s.png	skillicon38_s.png		
+816	1	skillicon39_s.png	skillicon39_s.png		
+817	1	skillicon40_s.png	skillicon40_s.png		
+818	1	item_hero_45.png	item_hero_45.png	5星熊战士	
+819	1	piece_hero_04.png	piece_hero_04.png	4星熊战士碎片	
+820	1	piece_hero_05.png	piece_hero_05.png	5星熊战士碎片	
+821	1	piece_hero_06.png	piece_hero_06.png	圣堂刺客碎片	
+822	1	piece_hero_07.png	piece_hero_07.png	迷团碎片	
+823	1	piece_hero_08.png	piece_hero_08.png	先知碎片	
+824	1	item_suipian_01_sp.png	item_suipian_01_sp.png	白银之钥碎片	
+825	1	bxdh.png	resource/image/newhuifu/bxdh.png	宝箱兑换	
+826	1	djdh.png	resource/image/newhuifu/djdh.png	道具兑换	
+827	1	lbdh.png	resource/image/newhuifu/lbdh.png	礼包兑换	
+828	1	equip_jingyanzhu_06.png	equip_jingyanzhu_06.png	超级经验珠	
+829	0	kuaijin03_up.png	resource/image/newathleticsui/kuaijin03_up.png		
+830	0	kuaijin03_down.png	resource/image/newathleticsui/kuaijin03_down.png		
+831	1	yx.png	resource/image/homescene/yx.png	英雄队伍	
+832	1	yx_index1.png	resource/image/newpublic/yx_index1.png	英雄角标1	
+833	1	yx_index2.png	resource/image/newpublic/yx_index2.png	英雄角标2	
+834	1	yx_index3.png	resource/image/newpublic/yx_index3.png	英雄角标3	

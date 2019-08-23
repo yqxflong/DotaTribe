@@ -1,0 +1,34 @@
+class TimeSystem : public cobra_win::Singleton2<TimeSystem>
+{
+
+public:
+	/*
+		得到上一桢耗时
+	*/
+	float GetLastTickTime();
+
+public:
+	//@得到当前时间(精确到微秒)
+	static long long GetCurrentMicroSecond();
+	//@得到当前时间(精确到秒)
+	static long long GetCurrentSecond();
+
+public:
+	//@得到两个时间相隔的天数
+	static int GetIntervalDay(long long start, long long end);
+
+public:
+	//@获得当前秒数对应的具体时间 UTC时间
+	static struct tm GetNowDateBySecond(long long sec);
+
+	//@根据输入秒数获得标准北京时间 BJTime
+	static struct tm GetStandBJDateBySecond(long long sec);
+	 
+	//@获得当前具体时间对应的秒数
+	static long long GetNowSecondByDate(tm time);
+	//@得到指定时间对应凌晨时的时间
+	static long long GetDateZeroTime(long long sec);
+
+public:
+	TimeSystem* GetLuaInstance();
+};

@@ -1,0 +1,8 @@
+INDEX	HIDE	ZORDER	SCALE	ROTATION	CLASS	TPRIORITY	SWALLOW	SYSLANGID	FSYLEID	FSIZE	COLOR-R	COLOR-G	COLOR-B	COLOR-ALPHA	FILE1	FILE2	FILE3	WIDTH	HEIGHT	ANCHOR-X	ANCHOR-Y	POS-X	POS-Y	IP5-POS-X	IP5-POS-Y	IPAD-POS-X	IPAD-POS-Y	ANDROID-POS-X	ANDROID-POS-Y	ANDROID16_10-POS-X	ANDROID16_10-POS-Y	SOUNDID	OTHERS
+0	0	0	1	0	CCScale9Sprite	0	1	0	0	0	0	0	0	0	resource/image/newchat/xuanfukuang.png	0	0	120	120	0	0	0	15	0	15	0	15	0	15	0	15	-1	点击名字后列表背景
+1	0	1	1	0	CCScale9Sprite	0	1	0	0	0	0	0	0	0	resource/image/newchat/decoration.png	0	0	118	3	0	0	0	57	0	57	0	57	0	57	0	57	-1	分割线1
+2	0	1	1	0	CCScale9Sprite	0	1	0	0	0	0	0	0	0	resource/image/newchat/decoration.png	0	0	118	3	0	0	0	90	0	90	0	90	0	90	0	90	-1	分割线2
+3	0	2	1	0	CLabelButton	-120	1	156	43	0	0	0	0	0	resource/image/newchat/select_line_short.png	resource/image/newpublic/null.png	0	78	78	0	0	10	25	10	25	10	25	10	25	10	25	-1	私聊(文件与宽高在index 6设置)
+4	0	2	1	0	CLabelButton	-120	1	157	43	0	0	0	0	0	resource/image/newchat/select_line_short.png	resource/image/newpublic/null.png	0	78	78	0	0	10	58	10	58	10	58	10	58	10	58	-1	查看信息(文件与宽高在index 6设置)
+5	0	2	1	0	CLabelButton	-120	1	158	43	0	0	0	0	0	resource/image/newchat/select_line_short.png	resource/image/newpublic/null.png	0	78	78	0	0	10	91	10	91	10	91	10	91	10	91	-1	加好友(文件与宽高在index 6设置)
+6	1	0	1	0	MaskNode	0	0	0	0	0	0	0	0	0	resource/image/newpublic/null.png	resource/image/newchat/select_line_short.png	0	99	31	0	0	0	0	0	0	0	0	0	0	0	0	0	按钮实际宽高

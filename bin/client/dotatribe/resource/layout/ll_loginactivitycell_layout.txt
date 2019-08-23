@@ -1,0 +1,14 @@
+INDEX	HIDE	ZORDER	SCALE	ROTATION	CLASS	TPRIORITY	SWALLOW	SYSLANGID	FSYLEID	FSIZE	COLOR-R	COLOR-G	COLOR-B	COLOR-ALPHA	FILE1	FILE2	FILE3	WIDTH	HEIGHT	ANCHOR-X	ANCHOR-Y	POS-X	POS-Y	IP5-POS-X	IP5-POS-Y	IPAD-POS-X	IPAD-POS-Y	ANDROID-POS-X	ANDROID-POS-Y	ANDROID16_10-POS-X	ANDROID16_10-POS-Y	SOUNDID	OTHERS
+0	0	1	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newhuifu/kuang.png	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	背景
+1	0	1	1	0	MaskNode	0	1	0	0	60	40	0	0	0	resource/image/newhuifu/biaoqian.png	0	0	0	0	0.5	0.5	309	128	309	128	309	128	309	128	309	128	-1	今日领取标题节点
+2	0	2	1	0	CCLabelTTF	0	1	6064	104	0	0	0	0	0	0	0	0	0	0	0.5	0.5	309	128	309	128	309	128	309	128	309	128	-1	标题文字节点
+3	0	1	1	0	MaskNode	0	1	0	0	0	0	0	0	0	resource/image/newpublic/dahongseanniu_down.png	resource/image/newpublic/dahongseanniu_up.png	resource/image/newpublic/dahongseanniu_downhui.png	0	0	0.5	0.5	500	68	500	68	500	68	500	68	500	68	-1	按钮节点
+4	0	2	1	0	CCLabelTTF	0	1	0	89	0	0	0	0	0	0	0	0	0	0	0.5	0.5	500	68	500	68	500	68	500	68	500	68	-1	按钮文字节点
+5	0	3	1	0	MaskNode	0	1	0	0	0	2042	0	0	0	0	0	0	0	0	0.5	0.5	496	77	496	77	496	77	496	77	496	77	-1	按钮特效
+6	0	1	1	0	CCLabelTTF	0	1	0	89	0	0	0	0	0	0	0	0	0	0	0.5	0.5	95	86	95	86	95	86	95	86	95	86	-1	明日文字
+7	0	1	1	0	CCLabelTTF	0	1	6063	107	0	0	0	0	0	0	0	0	0	0	0.5	0.5	95	45	95	45	95	45	95	45	95	45	-1	登录奖励文字
+8	0	1	1	0	DTAwardBoard	0	1	0	91	0	0	0	0	0	resource/image/newpublic/subscript_s.png	0	0	0	0	0.5	0.5	100	68	100	68	100	68	100	68	100	68	-1	奖励1
+9	0	1	1	0	DTAwardBoard	0	1	0	91	0	0	0	0	0	resource/image/newpublic/subscript_s.png	0	0	0	0	0.5	0.5	190	68	190	68	190	68	190	68	190	68	-1	奖励2
+10	0	1	1	0	DTAwardBoard	0	1	0	91	0	0	0	0	0	resource/image/newpublic/subscript_s.png	0	0	0	0	0.5	0.5	280	68	280	68	280	68	280	68	280	68	-1	奖励3
+11	0	1	1	0	DTAwardBoard	0	1	0	91	0	0	0	0	0	resource/image/newpublic/subscript_s.png	0	0	0	0	0.5	0.5	370	68	370	68	370	68	370	68	370	68	-1	奖励4
+12	0	1	1	0	DTAwardBoard	0	1	0	91	0	0	0	0	0	resource/image/newpublic/subscript_s.png	0	0	0	0	0.5	0.5	460	68	460	68	460	68	460	68	460	68	-1	奖励5

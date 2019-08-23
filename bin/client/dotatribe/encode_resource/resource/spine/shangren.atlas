@@ -1,0 +1,68 @@
+
+shangren.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bs
+  rotate: false
+  xy: 1, 24
+  size: 77, 76
+  orig: 77, 76
+  offset: 0, 0
+  index: -1
+swt
+  rotate: false
+  xy: 1, 102
+  size: 107, 152
+  orig: 107, 152
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 110, 167
+  size: 60, 87
+  orig: 60, 87
+  offset: 0, 0
+  index: -1
+yjb
+  rotate: false
+  xy: 172, 84
+  size: 54, 46
+  orig: 54, 46
+  offset: 0, 0
+  index: -1
+ys
+  rotate: false
+  xy: 172, 201
+  size: 72, 53
+  orig: 72, 53
+  offset: 0, 0
+  index: -1
+ysb
+  rotate: false
+  xy: 80, 51
+  size: 43, 49
+  orig: 43, 49
+  offset: 0, 0
+  index: -1
+zjb
+  rotate: false
+  xy: 110, 103
+  size: 60, 62
+  orig: 60, 62
+  offset: 0, 0
+  index: -1
+zs
+  rotate: false
+  xy: 80, 1
+  size: 50, 48
+  orig: 50, 48
+  offset: 0, 0
+  index: -1
+zsb
+  rotate: false
+  xy: 172, 132
+  size: 57, 67
+  orig: 57, 67
+  offset: 0, 0
+  index: -1

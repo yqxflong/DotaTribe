@@ -1,0 +1,12 @@
+
+ui_jinengtianjia_a.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+jia-z
+  rotate: false
+  xy: 2, 2
+  size: 49, 54
+  orig: 50, 54
+  offset: 1, 0
+  index: -1

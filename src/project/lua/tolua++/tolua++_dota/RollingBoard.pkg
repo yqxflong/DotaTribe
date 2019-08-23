@@ -1,0 +1,26 @@
+class RollingBoard : public CCNode
+{
+public:
+	static RollingBoard * create(std::string numPathTemplate, int picNum, std::string boardPath, int resultNumber, float duringTime, AnimationEffectCallBackProtocol * pDelegate, float distance, float w, float h, float rpx, float rpy);
+
+	bool init(std::vector<std::string> filePath, std::string boardPath, int resultNumber, float duringTime, AnimationEffectCallBackProtocol * pDelegate, float distance, float w, float h, float rpx, float rpy);
+	
+	void RegisterCallBackScript(LUA_FUNCTION nScript);
+
+	void SetResultNum(int number);
+
+	/*
+		匀加速启动
+	*/
+	void Run();
+
+	/*
+		匀减速停止
+	*/
+	void Stop();
+
+	/*
+		
+	*/
+	void ResetZero();
+};

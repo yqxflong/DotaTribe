@@ -1,0 +1,18 @@
+--Name : PacketManager.lua
+--Function : 提供Lua中网络包类型
+--Author : fangjun
+
+PacketTyper = {
+	_TYPED_PACKET_UNKNOW_ = 5000,
+	_TYPED_PACKET_DEMO_BEGIN_ = 5001,--demo的发送
+	_TYPED_PACKET_DEMO_END_ = 5002,--demo的接收
+
+	_TYPED_PACKET_LIANJIN_ENTER_ = 5003,
+	_TYPED_PACKET_LIANJIN_ENTERRESULT_ = 5004,
+
+	_TYPED_PACKET_LIANJIN_START_ = 5005,
+	_TYPED_PACKET_LIANJIN_STARTRESULT_ = 5006,
+
+}
+
+

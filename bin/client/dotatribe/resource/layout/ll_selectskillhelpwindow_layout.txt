@@ -1,0 +1,15 @@
+INDEX	HIDE	ZORDER	SCALE	ROTATION	CLASS	TPRIORITY	SWALLOW	SYSLANGID	FSYLEID	FSIZE	COLOR-R	COLOR-G	COLOR-B	COLOR-ALPHA	FILE1	FILE2	FILE3	WIDTH	HEIGHT	ANCHOR-X	ANCHOR-Y	POS-X	POS-Y	IP5-POS-X	IP5-POS-Y	IPAD-POS-X	IPAD-POS-Y	ANDROID-POS-X	ANDROID-POS-Y	ANDROID16_10-POS-X	ANDROID16_10-POS-Y	SOUNDID	OTHERS
+1	0	2	1	0	CPriorityLayerColor	-190	1	0	0	0	0	0	0	125	0	0	0	1136	768	0.5	0.5	0	0	0	0	0	0	0	0	0	0	-1	»Ò²ã
+2	0	3	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newguide/huangse_quan.png	0	0	0	0	0.5	0.5	95	520	126	510	70	530	91.33	510	65.73	510	-1	È¦1
+3	0	3	1	0	CCScale9Sprite	0	1	0	0	0	0	0	0	0	resource/image/newguide/yindaokuang.png	0	0	270	170	0.5	0.5	293	485	326	485	270	515	291.33	485	265.73	485	-1	±³¾°1
+4	0	3	1	270	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newguide/jiantou_shang.png	0	0	0	0	0.5	0.5	163	500	196	500	140	530	161.33	500	135.73	500	-1	¼ýÍ·1
+5	0	5	1	0	CCLabelTTFMultiline	0	1	665	68	0	0	0	0	0	0	0	0	230	180	0.5	0.5	293	452	326	452	270	482	291.33	452	265.73	452	-1	ÎÄ×Ö1
+6	0	3	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newguide/huangse_quan.png	0	0	0	0	0.5	0.5	153	125	186	120	130	130	151.33	120	125.73	120	-1	È¦2
+7	0	3	1	0	CCScale9Sprite	0	1	0	0	0	0	0	0	0	resource/image/newguide/yindaokuang.png	0	0	270	180	0.5	0.5	353	120	386	115	330	135	351.33	115	325.73	115	-1	±³¾°2
+8	0	3	1	270	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newguide/jiantou_shang.png	0	0	0	0	0.5	0.5	223	135	256	130	200	150	221.33	130	195.73	130	-1	¼ýÍ·2
+9	0	5	1	0	CCLabelTTFMultiline	0	1	667	68	0	0	0	0	0	0	0	0	230	180	0.5	0.5	353	87	386	82	330	102	351.33	82	325.73	82	-1	ÎÄ×Ö2
+10	0	3	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newguide/huangse_quan.png	0	0	0	0	0.5	0.5	682	600	711	580	655	610	676.33	585	650.73	585	-1	È¦3
+11	0	3	1	0	CCScale9Sprite	0	1	0	0	0	0	0	0	0	resource/image/newguide/yindaokuang.png	0	0	270	170	0.5	0.5	678	440	711	435	655	450	676.33	435	650.73	435	-1	±³¾°3
+12	0	3	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newguide/jiantou_shang.png	0	0	0	0	0.5	0.5	678	520	711	515	655	530	676.33	515	650.73	515	-1	¼ýÍ·3
+13	0	5	1	0	CCLabelTTFMultiline	0	1	666	68	0	0	0	0	0	0	0	0	230	180	0.5	0.5	681	398	714	393	658	408	679.33	393	653.73	393	-1	ÎÄ×Ö3
+14	0	3	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newguide/npc.png	0	0	0	0	0.5	0.5	903	185	936	200	880	200	901.33	200	875.73	200	-1	ÈË

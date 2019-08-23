@@ -1,0 +1,194 @@
+
+tongkuzhiyuan01.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+L-JB
+  rotate: false
+  xy: 828, 259
+  size: 58, 94
+  orig: 126, 143
+  offset: 30, 22
+  index: -1
+L-shbi
+  rotate: true
+  xy: 574, 145
+  size: 43, 57
+  orig: 120, 140
+  offset: 36, 33
+  index: -1
+L-xiaobi
+  rotate: true
+  xy: 658, 206
+  size: 66, 128
+  orig: 150, 186
+  offset: 43, 37
+  index: -1
+R-JB
+  rotate: false
+  xy: 478, 215
+  size: 100, 108
+  orig: 126, 152
+  offset: 14, 18
+  index: -1
+R-shbi
+  rotate: true
+  xy: 824, 211
+  size: 47, 61
+  orig: 120, 140
+  offset: 40, 28
+  index: -1
+R-xiaobi
+  rotate: false
+  xy: 152, 21
+  size: 60, 123
+  orig: 126, 200
+  offset: 29, 41
+  index: -1
+TX-LJB/TX-LJB-01
+  rotate: true
+  xy: 689, 273
+  size: 80, 138
+  orig: 256, 320
+  offset: 165, 112
+  index: -1
+TX-LJB/TX-LJB-02
+  rotate: true
+  xy: 331, 163
+  size: 80, 135
+  orig: 256, 320
+  offset: 165, 112
+  index: -1
+TX-LJB/TX-LJB-03
+  rotate: false
+  xy: 579, 189
+  size: 78, 135
+  orig: 256, 320
+  offset: 166, 114
+  index: -1
+TX-LJB/TX-LJB-04
+  rotate: true
+  xy: 341, 244
+  size: 79, 136
+  orig: 256, 320
+  offset: 166, 114
+  index: -1
+TX-PG/TX-PG-01
+  rotate: false
+  xy: 115, 145
+  size: 115, 154
+  orig: 256, 320
+  offset: 64, 11
+  index: -1
+TX-PG/TX-PG-02
+  rotate: false
+  xy: 573, 325
+  size: 115, 153
+  orig: 256, 320
+  offset: 64, 11
+  index: -1
+TX-PG/TX-PG-03
+  rotate: false
+  xy: 341, 324
+  size: 115, 154
+  orig: 256, 320
+  offset: 64, 11
+  index: -1
+TX-PG/TX-PG-04
+  rotate: false
+  xy: 457, 324
+  size: 115, 154
+  orig: 256, 320
+  offset: 64, 11
+  index: -1
+TX-RJB/TX-RJB-01
+  rotate: false
+  xy: 231, 176
+  size: 99, 123
+  orig: 256, 320
+  offset: 13, 120
+  index: -1
+TX-RJB/TX-RJB-02
+  rotate: false
+  xy: 0, 0
+  size: 99, 124
+  orig: 256, 320
+  offset: 13, 120
+  index: -1
+TX-RJB/TX-RJB-03
+  rotate: false
+  xy: 788, 354
+  size: 97, 124
+  orig: 256, 320
+  offset: 15, 120
+  index: -1
+TX-RJB/TX-RJB-04
+  rotate: false
+  xy: 689, 354
+  size: 98, 124
+  orig: 256, 320
+  offset: 14, 120
+  index: -1
+TX-T/TX-T-01
+  rotate: false
+  xy: 0, 302
+  size: 114, 176
+  orig: 256, 320
+  offset: 88, 133
+  index: -1
+TX-T/TX-T-02
+  rotate: false
+  xy: 0, 125
+  size: 114, 176
+  orig: 256, 320
+  offset: 88, 133
+  index: -1
+TX-T/TX-T-03
+  rotate: false
+  xy: 115, 300
+  size: 112, 178
+  orig: 256, 320
+  offset: 89, 133
+  index: -1
+TX-T/TX-T-04
+  rotate: false
+  xy: 228, 300
+  size: 112, 178
+  orig: 256, 320
+  offset: 90, 133
+  index: -1
+pigu
+  rotate: true
+  xy: 467, 147
+  size: 67, 106
+  orig: 125, 160
+  offset: 20, 31
+  index: -1
+tou
+  rotate: true
+  xy: 658, 157
+  size: 48, 124
+  orig: 215, 195
+  offset: 87, 13
+  index: -1
+tou1
+  rotate: false
+  xy: 100, 0
+  size: 51, 124
+  orig: 215, 195
+  offset: 87, 13
+  index: -1
+xiong
+  rotate: false
+  xy: 886, 370
+  size: 111, 108
+  orig: 190, 200
+  offset: 38, 32
+  index: -1
+yaodai
+  rotate: true
+  xy: 787, 210
+  size: 62, 36
+  orig: 125, 145
+  offset: 32, 38
+  index: -1

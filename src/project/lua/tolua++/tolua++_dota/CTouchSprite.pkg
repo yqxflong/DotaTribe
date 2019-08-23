@@ -1,0 +1,30 @@
+class CTouchSpriteDelegate{
+	 void rangeTouched(CCObject* pSender)=0;
+};
+class CTouchSprite:public CCSprite,public CCTargetedTouchDelegate{
+	CTouchSprite(){
+		m_pDelegate=0;
+		m_nPriority=0;
+		m_bSwallow=false;
+		m_nIDX=0;
+		m_nSoundID=-1;
+	};
+	~CTouchSprite(){};
+	static CTouchSprite* create(const char* filename,CTouchSpriteDelegate* delegate,int priority=0,bool swallow=true);
+	bool initWithFile(const char* filename,CTouchSpriteDelegate* delegate,int priority,bool swallow);
+	//setter
+	void setDelegate(CTouchSpriteDelegate* del){
+		m_pDelegate=del;
+	}
+	void setIDX(int idx){
+		m_nIDX=idx;
+	}
+	//getter
+	int getIDX()const{
+		return m_nIDX;
+	}
+	//
+	void setSoundID(int soundid){
+		m_nSoundID=soundid;
+	}
+};

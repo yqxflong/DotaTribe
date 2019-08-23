@@ -1,0 +1,17 @@
+class luaUIHelper
+{
+	static BaseHelper * LuaGetInstance();
+
+	static std::string LuaGetInstanceName();
+	
+	CCLayer * LuaGetUILayer();
+	
+	//此接口在使用第一次时就会销毁内部存储数据。
+	CCNode * LuaGetProvideNode();
+
+	void LuaAutoCreateNodeByTable(int key, CCNode* parentNode);
+
+	void LuaRegisterViewFile(int idx,std::string filename,std::string Encyfilename);
+
+	void LuaForceClearAnimationCache();
+};

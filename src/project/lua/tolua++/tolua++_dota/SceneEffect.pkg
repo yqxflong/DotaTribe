@@ -1,0 +1,8 @@
+class SceneEffect:public CCSprite{
+	SceneEffect();
+	 ~SceneEffect(){};
+	static SceneEffect* createWithEffectID(int effectID,float delay=0);
+	bool initWithEffectID(int effectID,float delay);
+	SceneEffect* clone();
+	void ReplayAction();
+};

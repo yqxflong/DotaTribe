@@ -1,0 +1,6 @@
+class IDebuger
+{
+//@Lua
+public:
+	int GetDebugerType();
+};

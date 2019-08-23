@@ -1,0 +1,6 @@
+INDEX	HIDE	ZORDER	SCALE	ROTATION	CLASS	TPRIORITY	SWALLOW	SYSLANGID	FSYLEID	FSIZE	COLOR-R	COLOR-G	COLOR-B	COLOR-ALPHA	FILE1	FILE2	FILE3	WIDTH	HEIGHT	ANCHOR-X	ANCHOR-Y	POS-X	POS-Y	IP5-POS-X	IP5-POS-Y	IPAD-POS-X	IPAD-POS-Y	ANDROID-POS-X	ANDROID-POS-Y	ANDROID16_10-POS-X	ANDROID16_10-POS-Y	SOUNDID	OTHERS
+0	0	0	1	0	CPriorityLayerColor	0	1	0	0	0	255	255	255	255	0	0	0	1136	768	0	0	0	0	0	0	0	0	0	0	0	0	-1	°×É«µ×°å
+1	0	1	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/background.png	0	0	0	0	0.5	0.5	480	320	568	320	512	384	490	320	464.4	320	-1	logoÍ¼±ê
+2	0	2	1	0	CMenuItemSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/anniu2_1.png	resource/image/newpublic/button_g.png	resource/image/newpublic/button_l.png	0	0	0.5	0.5	380	320	468	320	412	384	390	320	364.4	320	-1	²âÊÔ°´Å¥
+3	0	2	1	0	CMenuItemSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/anniu2_1.png	resource/image/newpublic/button_g.png	resource/image/newpublic/button_l.png	0	0	0.5	0.5	580	320	668	320	612	384	590	320	564.4	320	-1	²âÊÔ°´Å¥
+4	0	3	1	0	CCLabelTTF	0	1	619	16	0	0	0	0	0	0	0	0	0	0	0.5	0.5	480	120	568	120	512	120	490	120	464.4	120	-1	±êÇ©

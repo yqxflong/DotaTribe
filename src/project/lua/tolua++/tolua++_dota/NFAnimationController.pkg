@@ -1,0 +1,107 @@
+//////////////////////////////////////////////////////////////////////////
+// Frame Animation Manager Begin  (特效接口集合)
+
+//获得循环帧动画Sprite
+//////////////////////////////////////////////////////////////////////////
+static  CCSprite *  NFC_getLoopFrameEffect(int animationID);
+
+
+//////////////////////////////////////////////////////////////////////////
+//播放无需关心的UnLoop动画
+//param1: 动画ID
+//////////////////////////////////////////////////////////////////////////
+static CCSprite * NFC_getUnLoopFrameEffect(int animationID);
+
+
+//////////////////////////////////////////////////////////////////////////
+//获取非循环动画Sprite
+//param1: 动画ID   
+//param2: 回调代理  用于通知特效关闭 回调返回 精灵对象指针  pDelegate 必须非空
+static CCSprite * NFC_getUnLoopFrameEffect(int animationID, AnimationEffectCallBackProtocol * pDelegate);
+
+//////////////////////////////////////////////////////////////////////////
+//获取非循环动作Sprite
+//param1:动画ID
+//param2:回调代理 用于事件通知 回调返回 精灵对象指针
+//param3:定时回调时间  单位s       
+//////////////////////////////////////////////////////////////////////////
+static CCSprite * NFC_getUnLoopFrameEffect(int animationID, AnimationEffectCallBackProtocol * pDelegate, float callTime);
+//////////////////////////////////////////////////////////////////////////
+
+
+
+//////////////////////////////////////////////////////////////////////////
+//获取非循环动作Sprite
+//param1:动画ID
+//param2:回调代理 用于事件通知 回调返回 精灵对象指针
+//param3:定时回调时间  单位s
+//param4:定时回调时间2 单位s
+//////////////////////////////////////////////////////////////////////////
+static CCSprite * NFC_getUnLoopFrameEffect(int animationID, AnimationEffectCallBackProtocol * pDelegate, float callTime1, float callTime2);
+
+
+//////////////////////////////////////////////////////////////////////////
+// CAnimationSprite 相关接口
+//////////////////////////////////////////////////////////////////////////
+static   CAnimationSprite * NFC_getAnimationSprite(int animationID,bool isLoopEffect,bool isPlayEffectAddParent ,AnimationEffectCallBackProtocol * pDelegate);
+ 
+static  void   NFC_PlayEffet(int uiIndex,CCNode * pParent,bool isPlayEffect);
+/*
+骨骼动画  从原色到透明  
+*/
+static   void   NFC_skeletonTransparentAction(CCSkeletonAnimation * pSkeletonAnimation,float actionTime);
+
+
+// Frame Animation Manager End
+//////////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////////////
+// Particel Effect
+static CCParticleSystemQuad *  NFC_getParticelEffect(int paticelEffectID,bool isLoop);
+//////////////////////////////////////////////////////////////////////////
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//变速组合动画 用于战斗变速动画中使用
+
+static VariableSpeedSequenceAction *   NFC_getVariableSpeedAction(CCFiniteTimeAction * pAction1,CCFiniteTimeAction * pAction2,float initSpeedScale);
+
+//变速延迟回调动画
+static VariableSpeedSequenceAction *   NFC_getTransimissionDelayComAction(float delayTime,float initSpeedScale,CallFunctionProtocol * pDelegate,int eventType);
+
+//变速移动回调动画
+static VariableSpeedSequenceAction *  NFC_getTransimissionMoveComAction(float delayTime,float initSpeedScale,CCPoint & endPoint,CallFunctionProtocol * pDelegate,int eventType);
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+static CSimpleActionSprite *  NFC_getSimpleActionSprite(int actionType,std::vector<float> attachParam);
+ 
+
+static CSimpleActionSprite *  NFC_getSimpleActionSprite(const char * fileName,int actionType,std::vector<float> attachParam);
+
+
+
+//--------------------------------Action Management--------------------------------------//
+//测试期间，慎用！！！
+/****
+	Scale In
+**/
+static void NFC_Action_scaleIn(CCNode* actionNode);
+
+static void NFC_Action_scaleIn(CCNode* actionNode,std::string param1,std::string param2,std::string param3);
+
+/****
+	Fall Down
+**/
+static void NFC_Action_fallDown(CCNode* actionNode);
+
+/****
+	Move and Reverse
+**/
+static void NFC_Action_MoveAndReverse(CCNode* actionNode,float during,const CCPoint& deltaPosition,bool forever);
+
+/*
+	FadeIn and Reverse
+*/
+static void NFC_Action_FadeInAndReverse(CCNode * actionNode, float during, bool forever);

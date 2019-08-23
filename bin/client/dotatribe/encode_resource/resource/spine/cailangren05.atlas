@@ -1,0 +1,138 @@
+
+cailangren05.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+B-BS
+  rotate: false
+  xy: 139, 106
+  size: 129, 149
+  orig: 205, 230
+  offset: 20, 31
+  index: -1
+L-JB
+  rotate: false
+  xy: 0, 15
+  size: 2, 2
+  orig: 126, 143
+  offset: 25, 46
+  index: -1
+L-wuqi
+  rotate: false
+  xy: 0, 15
+  size: 2, 2
+  orig: 126, 143
+  offset: 25, 46
+  index: -1
+R-JB
+  rotate: false
+  xy: 0, 15
+  size: 2, 2
+  orig: 126, 143
+  offset: 25, 46
+  index: -1
+bozi
+  rotate: false
+  xy: 0, 15
+  size: 2, 2
+  orig: 126, 143
+  offset: 25, 46
+  index: -1
+L-datui
+  rotate: false
+  xy: 431, 58
+  size: 47, 37
+  orig: 90, 130
+  offset: 22, 39
+  index: -1
+L-shbi
+  rotate: true
+  xy: 269, 85
+  size: 42, 71
+  orig: 120, 140
+  offset: 37, 33
+  index: -1
+L-xiaobi
+  rotate: false
+  xy: 341, 67
+  size: 48, 60
+  orig: 125, 160
+  offset: 39, 58
+  index: -1
+L-xiaotui
+  rotate: false
+  xy: 309, 0
+  size: 46, 66
+  orig: 125, 110
+  offset: 40, 16
+  index: -1
+R-datui
+  rotate: true
+  xy: 390, 96
+  size: 55, 92
+  orig: 90, 130
+  offset: 17, 13
+  index: -1
+R-shbi
+  rotate: false
+  xy: 253, 15
+  size: 55, 69
+  orig: 120, 140
+  offset: 37, 41
+  index: -1
+R-wuqi
+  rotate: false
+  xy: 0, 18
+  size: 148, 77
+  orig: 360, 200
+  offset: 85, 44
+  index: -1
+R-xiaobi
+  rotate: false
+  xy: 392, 27
+  size: 38, 68
+  orig: 125, 160
+  offset: 44, 52
+  index: -1
+R-xiaotui
+  rotate: false
+  xy: 356, 2
+  size: 35, 64
+  orig: 140, 125
+  offset: 61, 22
+  index: -1
+pigu
+  rotate: false
+  xy: 269, 128
+  size: 120, 127
+  orig: 125, 145
+  offset: 0, 18
+  index: -1
+tou
+  rotate: false
+  xy: 390, 152
+  size: 98, 103
+  orig: 215, 195
+  offset: 68, 32
+  index: -1
+tou1
+  rotate: true
+  xy: 149, 7
+  size: 98, 103
+  orig: 215, 195
+  offset: 68, 32
+  index: -1
+xiong
+  rotate: false
+  xy: 0, 96
+  size: 138, 159
+  orig: 190, 200
+  offset: 29, 31
+  index: -1
+yaodai
+  rotate: true
+  xy: 483, 83
+  size: 68, 28
+  orig: 125, 145
+  offset: 25, 51
+  index: -1

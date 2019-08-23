@@ -1,0 +1,19 @@
+class  CCGrapSprite: public CCSprite
+{
+	CCGrapSprite();
+	 ~CCGrapSprite();
+	static CCGrapSprite* createGrapSpriteWithFileName(std::string pszFileName,bool isGrapSprite);
+	static CCGrapSprite* createGrapSpriteWithFrameName(std::string frameNames,bool isGrapSprite);
+	bool initWithTexture(CCTexture2D* texture, const CCRect&  rect);
+	void draw();
+	void initProgram();
+	void listenBackToForeground(CCObject *obj);
+	/*
+	置灰 还原 开关
+	*/
+	void setGrapTexture(bool isGrapEnable);
+	/*
+	设置纹理 请使用此方法更新纹理 
+	*/
+	void setProperty(std::string nameType,std::string textureName,bool isGrapTexture=false);
+};

@@ -1,0 +1,11 @@
+class MaskNode : public CCNode{
+	bool init(){
+		return CCNode::init();
+	}
+	//
+	void setViewData(UIViewData * data);
+	//
+	const UIViewData & GetViewData();
+
+	UIViewData *    GetViewPData();
+};

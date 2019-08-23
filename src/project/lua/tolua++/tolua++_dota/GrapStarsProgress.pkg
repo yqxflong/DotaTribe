@@ -1,0 +1,9 @@
+class  GrapStarsProgress : public CCNode
+{ 
+	GrapStarsProgress();
+	 ~GrapStarsProgress();
+	static GrapStarsProgress  *  createGrapStarsProgress(int maxStarsCount,int activeCount,float fSpace);
+	bool  initGrapStarsProgress(int maxStarsCount,int activeCount,float fSpace);
+	void  setStars(int maxStarsCount,int activeCount);
+	void  setStars(int activeCount); 
+};

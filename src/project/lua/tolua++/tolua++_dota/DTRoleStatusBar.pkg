@@ -1,0 +1,17 @@
+class DTRoleStatusBarDelegate{
+	 void AvatarClickEvent()=0;
+	 void SkillClickEvent()=0;
+	 void AddTLClickEvent()=0;
+};
+class DTRoleStatusBar:public CCNode{
+	DTRoleStatusBar();
+	 ~DTRoleStatusBar();
+	static DTRoleStatusBar* create();
+	bool init();
+	void setDelegate(DTRoleStatusBarDelegate* pDel);
+	//
+	void Tick();
+	void Tick_Battle();
+	void Refresh();
+	void ResetPropertyByNode(CCNode* node);
+};

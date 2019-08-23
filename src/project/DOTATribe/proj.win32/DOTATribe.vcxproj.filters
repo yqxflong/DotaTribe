@@ -1,0 +1,3265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\DBSystem">
+      <UniqueIdentifier>{80a32ff0-20e8-4ecc-8bc5-ed5616d85367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DBSystem\UpdateServerData">
+      <UniqueIdentifier>{074aaf59-455b-44f6-91a7-eae656a83a0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DBSystem\DataHandler">
+      <UniqueIdentifier>{13593e4f-4eed-46be-934a-c170b6615887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DBSystem\LoadingData">
+      <UniqueIdentifier>{f51efdd2-71ec-4719-aeaa-ff6d72233c23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\App">
+      <UniqueIdentifier>{02a92ba7-cd69-41d7-b6b7-97c150b597f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EngineSystem">
+      <UniqueIdentifier>{6c73af22-636f-4450-adce-6fbcea4f6033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EventSystem">
+      <UniqueIdentifier>{1b018650-61b9-4213-8c31-8717078a6449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TimeSystem">
+      <UniqueIdentifier>{1ba6ed66-7021-44fd-a6e6-2f2f1ece2a2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SoundSystem">
+      <UniqueIdentifier>{1400cf77-4b56-4b4a-a820-35d735d37519}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VariableSystem">
+      <UniqueIdentifier>{d9df1e9d-1efb-43ee-8712-fd15b5d020c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Procedure">
+      <UniqueIdentifier>{ec315589-7f0a-4c3d-ad05-31103806b3f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUISystem">
+      <UniqueIdentifier>{f63c139c-717c-48cf-9d88-fff82cdaaac3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUISystem\UIWindow">
+      <UniqueIdentifier>{c068eec7-0546-4b30-b2f5-b53953cc8dff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUISystem\UIWindow\AthleticsUI">
+      <UniqueIdentifier>{19e48f77-5333-4fb9-b7c1-71f53e4fc98b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUISystem\UIWindow\SelectSkillUI">
+      <UniqueIdentifier>{96e5d63d-3f69-4234-93e4-8aba6445c1ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUISystem\UIWindow\ArenaUI">
+      <UniqueIdentifier>{4bb1cfa7-70bb-4367-8027-cb7aba09ad75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GuideSystem">
+      <UniqueIdentifier>{b1176793-7b14-4387-9a22-4496deaa3465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DebugerSystem">
+      <UniqueIdentifier>{a2b76168-484c-497b-8dd5-9b004e89c25a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IAPSystem">
+      <UniqueIdentifier>{6608a70f-d882-4248-818d-10e4bf234d92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NotifySystem">
+      <UniqueIdentifier>{ab17b7b9-47fd-4e64-84d8-a61c9102ebf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NetSystem">
+      <UniqueIdentifier>{514f128e-e8be-48fc-af04-e29b6c886c32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NetSystem\Packet">
+      <UniqueIdentifier>{4358b3b8-633f-4bbd-8cbb-733e67b8412f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AutoCocos">
+      <UniqueIdentifier>{a7d9d02d-946a-4e1c-96bc-3d75c6acd138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\DBSystem">
+      <UniqueIdentifier>{e411a267-9157-444a-83de-d7eb01b3b1f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DBSystem\UpdateServerData">
+      <UniqueIdentifier>{e04652f3-3c89-43e0-94cd-cf3231a9b1e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DBSystem\DataHandler">
+      <UniqueIdentifier>{184ca4c1-0304-4bb5-8534-adc5b761c562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DBSystem\LoadingData">
+      <UniqueIdentifier>{a0a44e41-2838-4911-aa43-f811a6918739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\App">
+      <UniqueIdentifier>{0d567e97-d44b-4b1f-bca1-f447cfaa608e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NetSystem">
+      <UniqueIdentifier>{086917de-ec75-4a9a-ba97-b2e13f1d3faa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NetSystem\Packet">
+      <UniqueIdentifier>{f5674b04-8bd5-4bf3-8572-05dd326e9a2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TimeSystem">
+      <UniqueIdentifier>{f6325d1f-ee83-4a31-8878-cdade6086ce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SoundSystem">
+      <UniqueIdentifier>{05649abd-48e9-4cff-848e-a361c86ecc42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\VariableSystem">
+      <UniqueIdentifier>{1fdd17c5-08d9-4783-8df5-f3974e07efb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Procedure">
+      <UniqueIdentifier>{1846a6d3-0686-47cc-bcb9-2832aabb6713}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUISystem">
+      <UniqueIdentifier>{1de8eb66-5988-472c-a9c6-72eda2f6b3a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUISystem\UIWindow">
+      <UniqueIdentifier>{04560665-ffb1-43c0-947e-d72098d2ea71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUISystem\UIWindow\AthleticsUI">
+      <UniqueIdentifier>{d9fe376e-fb0e-4eb2-9dc2-0f91b4fd2f56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUISystem\UIWindow\SelectSkillUI">
+      <UniqueIdentifier>{7771d59c-d0ea-4fe7-a6a3-716e62396187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUISystem\UIWindow\Arena">
+      <UniqueIdentifier>{f844a781-e6f1-434b-b5d8-909d3fa761cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DebugerSystem">
+      <UniqueIdentifier>{e2aea5f3-2ef5-464f-94cf-0ce20bfcb43c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IAPSystem">
+      <UniqueIdentifier>{e2bfb5eb-e7ee-4987-8f25-7646ce78b28e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NotifySystem">
+      <UniqueIdentifier>{1a1e25e3-e4ce-4bab-9a48-a4f867476752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EngineSystem">
+      <UniqueIdentifier>{628db483-cee0-49af-bfb5-a888bdc5d851}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AutoCocos">
+      <UniqueIdentifier>{1a738004-2ebc-4571-816b-a151e5793b55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EventSystem">
+      <UniqueIdentifier>{32e99d7a-2cc7-4ad1-8cd5-88954566fdf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUISystem\UIWindow\QAUI">
+      <UniqueIdentifier>{5f42b51a-061d-4bab-9056-6eb26a3f4550}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUISystem\UIWindow\QAUI">
+      <UniqueIdentifier>{98259d8e-289d-4764-ad12-a47fbee75418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UpdateSystem">
+      <UniqueIdentifier>{4a01f3d3-2b88-4c31-8e48-f9c24dc6dc74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UpdateSystem">
+      <UniqueIdentifier>{644a6e34-8218-4bf3-ba82-df77c3e73365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CrashReportSystem">
+      <UniqueIdentifier>{5911e836-ad7b-4c52-b4f3-1d6401027e69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CrashReportSystem">
+      <UniqueIdentifier>{de327d1a-8ea2-4cf2-91a5-d817da0680d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUISystem\UIWindow\TipsView">
+      <UniqueIdentifier>{4db1c35c-5832-41b7-8e35-7229505db4c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUISystem\UIWindow\TipsView\EquipTips">
+      <UniqueIdentifier>{eebf0039-b556-484e-b38b-c1c8ea244691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUISystem\UIWindow\TipsView\PlayerTips">
+      <UniqueIdentifier>{dd0febe6-9c6b-4903-8e5e-eb1f69732b8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUISystem\UIWindow\HomeWindowRelative">
+      <UniqueIdentifier>{a3311b25-9156-4194-a6cc-8e22f45b45f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUISystem\UIWindow\MarketView">
+      <UniqueIdentifier>{68882b5a-193c-42ec-a4c6-944968d5f867}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUISystem\UIWindow\Pucong">
+      <UniqueIdentifier>{f7621a5c-3def-4107-9b1e-345f6e769f21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUISystem\UIWindow\ShopView">
+      <UniqueIdentifier>{8c6da48f-73be-478c-a750-7d9d23b882b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUISystem\UIWindow\TipsView">
+      <UniqueIdentifier>{a16c9d7f-4a91-447f-b5aa-377c08b361d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUISystem\UIWindow\TipsView\EquipTips">
+      <UniqueIdentifier>{ac858879-e601-42e6-921a-58291336ff63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUISystem\UIWindow\TipsView\HeroTips">
+      <UniqueIdentifier>{ac572280-53ee-412b-8cc9-9c1679ceee6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUISystem\UIWindow\TipsView\PlayerTips">
+      <UniqueIdentifier>{cbb0dca9-2782-4d9e-aca0-498398581cce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUISystem\UIWindow\TipsView\ShopTips">
+      <UniqueIdentifier>{fbf79a05-f5e7-4e19-a5cc-a9055c27a9b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUISystem\UIWindow\HomeWindowRelative">
+      <UniqueIdentifier>{a65fcfd4-b719-41be-823a-3382df251224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUISystem\UIWindow\MarketView">
+      <UniqueIdentifier>{a38177d6-409d-45f3-afc0-739a534ebbb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUISystem\UIWindow\Pucong">
+      <UniqueIdentifier>{8338af99-f25e-4817-a40e-97db731fd14e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUISystem\UIWindow\ShopView">
+      <UniqueIdentifier>{d1405e4f-48ac-4cce-b015-fb84a62d665c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUISystem\UIWindow\Activity">
+      <UniqueIdentifier>{4d4a177c-bde3-4f66-8be3-5841143b3051}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUISystem\UIWindow\Activity">
+      <UniqueIdentifier>{1dd5dd87-7af4-491e-8f49-e7db99790629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUISystem\UIWindow\HeroWindow">
+      <UniqueIdentifier>{c649f371-1cea-49bb-91c1-bfc1d9c6beb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUISystem\UIWindow\HeroWindow">
+      <UniqueIdentifier>{c2e10104-e940-44ca-b5ff-6a2794ffca9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUISystem\UIWindow\HeroWindow\HeroEquipSubView">
+      <UniqueIdentifier>{e3fdbf9b-1cf8-452e-9f0e-6a813181f105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUISystem\UIWindow\HeroWindow\HeroEquipSubView">
+      <UniqueIdentifier>{32300ab3-b3e5-4572-b3a1-2033e1691b20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUISystem\UIWindow\Strengthen">
+      <UniqueIdentifier>{fbdf07f1-7a8e-4c8e-a4d3-f2feb1c7d80f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUISystem\UIWindow\Strengthen\EquipLvUp">
+      <UniqueIdentifier>{a43afd37-5468-4acc-8056-bb3010f6a382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUISystem\UIWindow\Strengthen\EquipTrain">
+      <UniqueIdentifier>{02e07ffd-f854-490f-8683-80647ace751c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUISystem\UIWindow\Strengthen">
+      <UniqueIdentifier>{039c8548-8373-4dc2-b8a5-a5380eae0808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUISystem\UIWindow\Strengthen\EquipLvUp">
+      <UniqueIdentifier>{10f56745-b08c-422b-8257-db683070b0f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUISystem\UIWindow\Strengthen\EquipTrain">
+      <UniqueIdentifier>{b444ab96-752a-44f8-88d6-6e24ae910fcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUISystem\UIWindow\Strengthen\EquipPromote">
+      <UniqueIdentifier>{1f753964-4851-4fa6-9559-cd8fa859c85d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUISystem\UIWindow\Strengthen\EquipPromote">
+      <UniqueIdentifier>{e1bf83dd-180b-4751-b568-3e689da6751d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GuideSystem">
+      <UniqueIdentifier>{b624c68e-639d-40cd-9d1c-f8aca4834782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUISystem\PopWindowManager">
+      <UniqueIdentifier>{a435348f-71f0-4dbb-9c80-af8c92772a86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUISystem\PopWindowManager">
+      <UniqueIdentifier>{17484c4d-767a-4b1d-97c5-4e5f3ff16018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUISystem\DTControls">
+      <UniqueIdentifier>{8d64c9fc-41ce-40de-b4c9-de07a582870d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUISystem\DTControls">
+      <UniqueIdentifier>{8bdcdeee-24b2-4969-8e66-0ba527d65208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUISystem\BaseControls">
+      <UniqueIdentifier>{6298403e-0b34-4f84-a4c4-169cd6782396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUISystem\BaseControls">
+      <UniqueIdentifier>{c69f2ac3-00f2-4d53-90f8-2da05790e5da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AutoCocos\DTControlFactorys">
+      <UniqueIdentifier>{06aaaa15-3d0f-496b-9223-2554c657164c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AutoCocos\DTControlFactorys">
+      <UniqueIdentifier>{8c14a2b2-a680-49ed-b367-af9806210486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AutoCocos\CCControlFactorys">
+      <UniqueIdentifier>{94cc454f-ac90-456a-9b01-31240ecbce9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AutoCocos\CCControlFactorys">
+      <UniqueIdentifier>{4c1c7d5e-a6b8-4c10-b432-ba7a7828f5e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUISystem\UIWindow\TipsView\SoulTips">
+      <UniqueIdentifier>{6d85b787-44bf-4b85-804b-13e578ef8a4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUISystem\UIWindow\TipsView\SoulTips">
+      <UniqueIdentifier>{ef62ebe8-927e-4353-82fc-4e71ca108959}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LuaSystem">
+      <UniqueIdentifier>{7b4c046c-0d64-4cde-a7db-30d95eb21dc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LuaSystem">
+      <UniqueIdentifier>{5ee2823b-e5df-455b-87d1-65c703fce6b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUISystem\UIWindow\Strengthen\EquipRecast">
+      <UniqueIdentifier>{fb182d5a-4665-44e4-b829-1fa0000332da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUISystem\UIWindow\Strengthen\EquipRecast">
+      <UniqueIdentifier>{c8c5aa44-7af3-406c-8d93-1a3c2a45da48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AthleticsSystem">
+      <UniqueIdentifier>{9759920b-2537-49c7-90aa-e609dd3e0ca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AthleticsSystem">
+      <UniqueIdentifier>{0073c433-0548-469b-ac13-689c4ec8a0d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LogicSystem">
+      <UniqueIdentifier>{19b1acd5-cb51-4a48-ba1f-ee4d756a2709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LogicSystem">
+      <UniqueIdentifier>{50766e4e-73f2-472f-8dfc-d59a5e4777ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LuaSystem\CCContainer">
+      <UniqueIdentifier>{9a465840-8511-453c-8af3-44f2d6fd9009}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\ActionSetDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AnimationFileDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ArtFontDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CameraShakeDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ClientConstDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CommonButtonDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CreateRoleDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DBSystem.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DBSystem_Android_Handler.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DBSystem_IOS_Handler.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DBSystem_Win_Handler.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IDStringDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LocalNotificationDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LocalPlayerDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NumberBufferDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PreLoadResourceDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ResourceIDDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RoleBaseDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RoleEffectDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RoleShapeDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RoleShapePropertyDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SceneInfoDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ScreenEffectDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SkillActionDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SkillEffectDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SkillTableDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SoundDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SysLangDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UIViewDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UIWindowDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MessagePacket.cpp">
+      <Filter>Source Files\DBSystem\UpdateServerData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MessagePacketManager.cpp">
+      <Filter>Source Files\DBSystem\UpdateServerData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PlayerDataMessage.cpp">
+      <Filter>Source Files\DBSystem\UpdateServerData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ArenaInfoDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AthleticProcedureDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AthleticProcedureDataType.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BagEquipDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BagOtherObjectHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BagTemplateBase.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ChatDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ClimbTowerDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CreateRoleRandomNameDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DataHandlerSystem.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EffectDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EquipmentLvUpDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EquipTrainDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FontStyleDataManager.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HeartBeatDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HeroTechnologyDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LevelUpDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MassacreDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RoleEquipDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RoleInfoDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RoleSkillsDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ServerInfoDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ShopGoodsBase.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ShopInfoDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LoadingAnimationDataManager.cpp">
+      <Filter>Source Files\DBSystem\LoadingData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DOTATribeApp.cpp">
+      <Filter>Source Files\App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EngineSystem.cpp">
+      <Filter>Source Files\EngineSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EngineSystem_Android_Handler.cpp">
+      <Filter>Source Files\EngineSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EngineSystem_Win_Handler.cpp">
+      <Filter>Source Files\EngineSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EventSystem.cpp">
+      <Filter>Source Files\EventSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TimeSystem.cpp">
+      <Filter>Source Files\TimeSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SoundSystem.cpp">
+      <Filter>Source Files\SoundSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\VariableSystem.cpp">
+      <Filter>Source Files\VariableSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AthleticsProcedure.cpp">
+      <Filter>Source Files\Procedure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CreateRoleProcedure.cpp">
+      <Filter>Source Files\Procedure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HomeProcedure.cpp">
+      <Filter>Source Files\Procedure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IProcedure.cpp">
+      <Filter>Source Files\Procedure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LoadingProcedure.cpp">
+      <Filter>Source Files\Procedure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LoginProcedure.cpp">
+      <Filter>Source Files\Procedure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LogoProcedure.cpp">
+      <Filter>Source Files\Procedure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SelectMissionProcedrue.cpp">
+      <Filter>Source Files\Procedure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IWindow.cpp">
+      <Filter>Source Files\GUISystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UILayer.cpp">
+      <Filter>Source Files\GUISystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UISystem.cpp">
+      <Filter>Source Files\GUISystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\WindowManager.cpp">
+      <Filter>Source Files\GUISystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ChatWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ClimbTowerWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EffectWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EquipmentSelectCardWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HerobarWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HomeWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\InputNumWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LevelupNormalWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LoadingWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LogoWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MassacreWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MessageBoxWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NoticeBoxWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PESWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SelectMissionWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SelectRoleWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SelectServerWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SelectSonMissionWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ShopWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SystemsetWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AthleticResultWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\AthleticsUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AthleticsSkillPanel.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\AthleticsUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AthleticsWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\AthleticsUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SelectSkillController.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\SelectSkillUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SelectSkillMode.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\SelectSkillUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SelectSkillWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\SelectSkillUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SkillTipsDialog.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\SelectSkillUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UIDragNode.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\SelectSkillUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EquipLvUpView.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\Strengthen\EquipLvUp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EquipTrainView.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\Strengthen\EquipTrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ArenaWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\ArenaUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ArtFontLabelBatchNode.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CDragSprite.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CMenuItemSprite.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CPageScroll.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CPriorityLayerColor.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CProgressInnerBar.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CSelectedSprite.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CSprite.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CTableView.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CTouchSprite.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MaskNode.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MoveAnimation.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UIBaseDialog.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UIScrollNodeLayer.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UITwoSideStretchNodeLayer.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HWBottomBar.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\HomeWindowRelative</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HWMoreItems.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\HomeWindowRelative</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ShopView.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\ShopView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GuideSystem.cpp">
+      <Filter>Source Files\GuideSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DebugerSystem.cpp">
+      <Filter>Source Files\DebugerSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IDebuger.cpp">
+      <Filter>Source Files\DebugerSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LogicDebuger.cpp">
+      <Filter>Source Files\DebugerSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NetDebuger.cpp">
+      <Filter>Source Files\DebugerSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ProfSystem.cpp">
+      <Filter>Source Files\DebugerSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RenderDebuger.cpp">
+      <Filter>Source Files\DebugerSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IAPSystem.cpp">
+      <Filter>Source Files\IAPSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IAPSystem_Android_Handler.cpp">
+      <Filter>Source Files\IAPSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IAPSystem_Win_Handler.cpp">
+      <Filter>Source Files\IAPSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NotifySystem.cpp">
+      <Filter>Source Files\NotifySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NotifySystem_Android_Handler.cpp">
+      <Filter>Source Files\NotifySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NotifySystem_Win_Handler.cpp">
+      <Filter>Source Files\NotifySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NetSystem.cpp">
+      <Filter>Source Files\NetSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PacketFactoryManager.cpp">
+      <Filter>Source Files\NetSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TCPConnectorThread.cpp">
+      <Filter>Source Files\NetSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TCPConnectorThread_Android_Handler.cpp">
+      <Filter>Source Files\NetSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TCPConnectorThread_IOS_Handler.cpp">
+      <Filter>Source Files\NetSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TCPConnectorThread_Win_Handler.cpp">
+      <Filter>Source Files\NetSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AskForRoleInfoPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AttributeLockPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C2SArenaInfoPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ChatPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ClimbTowerPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CreateRoleRandomNamePacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CSBagSaleObjectPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CSBagUseObjectPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CSChangeEquipPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CSChangeSkillsPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CSChangeSkinPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CSCreateRolePacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CSEnterGamePacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CSEnterTranscriptRequestPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CSOffEquipPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CSQuickAccountRegisterPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CSRegisterAccountPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CSRolelistPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CSShopInfoPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EquipmentLvUpPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EquipmentLvUpSelectCardPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EquipTrainPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GetItemPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HeartBeatPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HeroTechnologyLevelUpPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HeroTechnologyPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LevelUpPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MassacrePacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PersonalChatPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RegisterAccountPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\S2CArenaInfoPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SCAthleticsDataPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SCBagSaleObjectResultPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SCBagUseObjectResultPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SCChangeEquipPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SCChangeSkillsResultPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SCChangeSkinPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SCOffEquipPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SCQuickAccountRegisterPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SCRefreshInfoDataPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SCRegisterAccountPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SCRoleInfoPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SCRolelistPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SCServerMessagePacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SCShopInfoPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UpdateMissionPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NodeFactoryManager.cpp">
+      <Filter>Source Files\AutoCocos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\WinMain.mm">
+      <Filter>Source Files\App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EngineSystem_IOS_Handler.mm">
+      <Filter>Source Files\EngineSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IAPSystem_IOS_Handler.mm">
+      <Filter>Source Files\IAPSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FullStarRewardPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BagWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BagWindowDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PreCCMoveTo.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ShopinputNumWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RevenueWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RevenuePacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BagDataDecoder.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CControlButton.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CostRevenuePacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RevenueDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AddChallengeDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\S2CAddChallengeCountPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ScaleSprite.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BagWindowPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C2SBattleRecordPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NpcTalkView.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\AthleticsUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NpcTalkDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MarketWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BoutiqueView.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\MarketView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SpecialOfferView.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\MarketView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SecretView.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\ShopView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GuidePacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CommunicationWaittingWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C2SResetSkillsPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\S2CRestSkillsPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TeamBattleProcedure.cpp">
+      <Filter>Source Files\Procedure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TeamBattleWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TeamSelectWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FriendWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TeamBattleDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SCHeroAltarBuyItemPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TeamSelectPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FriendAddPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FriendRefurbishPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FriendAgreeAllPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FriendAgreeSinglePacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FriendCheckPlayerInfoPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FriendDeletePacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FriendFightPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FriendIgnoreAllPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FriendIgnoreSinglePacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FriendPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FriendDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PlayerTipsWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\TipsView\PlayerTips</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TeamBattlePacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GuideDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GuideWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CSDisConnectPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CompositeEffectDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FrameAnimateDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PESEquipDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ArenaProcedure.cpp">
+      <Filter>Source Files\Procedure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RankWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\S2CArenaRankPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C2SArenaRankPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ArenaRankDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C2SArenaGifPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\S2CArenaGifPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EmailWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EmailPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EmailDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AskForAddEnergyPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UpdateSystem.cpp">
+      <Filter>Source Files\UpdateSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NetObjectTipsWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NetObjectTipsDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NetObjectTipsPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CCornerNumIcon.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ServantPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ServantDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EquipTipsWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\TipsView\EquipTips</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CCardsStarProgress.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CrashReportSystem_Win_Handler.cpp">
+      <Filter>Source Files\CrashReportSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CrashReportSystem.cpp">
+      <Filter>Source Files\CrashReportSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CrashReportSystem_Android_Handler.cpp">
+      <Filter>Source Files\CrashReportSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CrashReportSystem_IOS_Handler.cpp">
+      <Filter>Source Files\CrashReportSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\WriteEmailWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ErrorTipsDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ErrorTipsWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SCErrorTipsPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoFadeOutLable.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FriendFindFriendPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\StartWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\VersionCheckPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ServantView.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\Pucong</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PuCongWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HelpWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MainTaskDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MainTaskPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MainTaskWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C2SChallengePacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C2SAddChallengeCountPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C2SCollDowmTimePacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ClearCoolTimeDataHandler.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LoginPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SceneEffect.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ResettingTechnologyPointPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AnnouncementWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AnnouncementDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IAPProductDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RoleStatusWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AnnouncementDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CCRectClipNode.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LimitedActivityWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LimitedActivityHandler.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\VipWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\VipFontDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TempleWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ConvictionWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MiningDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MiningPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MiningView.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\Pucong</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RechargeWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RechargeWarnWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PayGoodsControlDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ForcePushTaskRewardWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MineAreaWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\Pucong</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HeroAltarWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ActivityDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ActivityDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SpringView.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\Activity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ActivityPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SpringView.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\Activity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PESEquipSubView.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\HeroWindow\HeroEquipSubView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HEHeroPropertyNode.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\HeroWindow\HeroEquipSubView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HELinkNode.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\HeroWindow\HeroEquipSubView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HERoleInfoNode.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\HeroWindow\HeroEquipSubView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RoleHeroSkinsDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HeroIllustratedDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HeroIllustratedWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LessResourceWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HeroAltarControlDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HeroAltarPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HeroSummonControlDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HeroSummonPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HuntView.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\Pucong</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HuntView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LessResourcePacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LessResourceDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HELeadershipLvUpWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\HeroWindow\HeroEquipSubView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LeadershipPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GainHeroWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CSHeroExpandInfoPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ActivityWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\Activity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FAnimationButton.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CSHeroAdvancedPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HeroAdvancedDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\StrengthenWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HeroAdvancedWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GainSoulDebriWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CCGrapSprite.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EquipPromoteDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EquipPromotePacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EquipStrengthenDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EquipPromoteView.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\Strengthen\EquipPromote</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CCDragNodeLayer.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CCSignSprite.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SingleTouchProtocol.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\VipInfoPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\VipControlDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CProgressTimer.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CAnimationSprite.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SCAnnoucementPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TipsWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\QAUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\S2CQAPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QADataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C2SQAReceiptPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CheckLeadershipWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CheckRoleBaseInfoPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PayGoodsPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MultiReWardWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MultiRewardDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MultiRewardPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AthleticsInstructionSystem.cpp">
+      <Filter>Source Files\AthleticsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AthleticsInstructionUnit.cpp">
+      <Filter>Source Files\AthleticsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AthleticsSceneManager.cpp">
+      <Filter>Source Files\AthleticsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AthleticsUIManager.cpp">
+      <Filter>Source Files\AthleticsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoScrollLabelManager.cpp">
+      <Filter>Source Files\AthleticsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BaseObject.cpp">
+      <Filter>Source Files\AthleticsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BaseObjectManager.cpp">
+      <Filter>Source Files\AthleticsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CallFuncAction.cpp">
+      <Filter>Source Files\AthleticsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CommonEffect.cpp">
+      <Filter>Source Files\AthleticsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CommonEffectManager.cpp">
+      <Filter>Source Files\AthleticsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CommonNumberEffect.cpp">
+      <Filter>Source Files\AthleticsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CommonNumberEffectManager.cpp">
+      <Filter>Source Files\AthleticsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CommonSkillActionProcedure.cpp">
+      <Filter>Source Files\AthleticsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CommonSkillItemProcedure.cpp">
+      <Filter>Source Files\AthleticsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CommonUnSkillItemProcedure.cpp">
+      <Filter>Source Files\AthleticsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HeroicRole.cpp">
+      <Filter>Source Files\AthleticsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HeroicRoleSkeletonNode.cpp">
+      <Filter>Source Files\AthleticsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IntellectDelayRemoveManager.cpp">
+      <Filter>Source Files\AthleticsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ListenProxyObject.cpp">
+      <Filter>Source Files\AthleticsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SkillAttachLogicManager.cpp">
+      <Filter>Source Files\AthleticsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SkillAttachLogicProcedure.cpp">
+      <Filter>Source Files\AthleticsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UnSkillNumbericalProcedure.cpp">
+      <Filter>Source Files\AthleticsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UnSkillRemoveBufferProcedure.cpp">
+      <Filter>Source Files\AthleticsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CSimpleActionSprite.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PopWindowManager.cpp">
+      <Filter>Source Files\GUISystem\PopWindowManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IPopWindow.cpp">
+      <Filter>Source Files\GUISystem\PopWindowManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NewEquipremindWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NewEquipremindDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FirstRechGiftPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FirstRechGiftWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\Activity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LimitActivityPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ArenaRewardWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CTimeLabel.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LoginActivityWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\Activity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ShopTipsWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ShopTipsDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LevelUpRewardActivityWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\Activity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RandomShopPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DTAwardBoard.cpp">
+      <Filter>Source Files\GUISystem\DTControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BossScorePacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BossScoreDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DTEquipBoard.cpp">
+      <Filter>Source Files\GUISystem\DTControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BossScoreWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NFCCEditBoxFactory.cpp">
+      <Filter>Source Files\AutoCocos\CCControlFactorys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NFCCLabelFactory.cpp">
+      <Filter>Source Files\AutoCocos\CCControlFactorys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NFCCLayerFactory.cpp">
+      <Filter>Source Files\AutoCocos\CCControlFactorys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NFCCMenuFactory.cpp">
+      <Filter>Source Files\AutoCocos\CCControlFactorys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NFCCNodeFactory.cpp">
+      <Filter>Source Files\AutoCocos\CCControlFactorys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NFCCParicelEffectFactory.cpp">
+      <Filter>Source Files\AutoCocos\CCControlFactorys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NFCCSpriteFactory.cpp">
+      <Filter>Source Files\AutoCocos\CCControlFactorys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NFCCTableViewFactory.cpp">
+      <Filter>Source Files\AutoCocos\CCControlFactorys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NFCProgressInnerBarFactory.cpp">
+      <Filter>Source Files\AutoCocos\CCControlFactorys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NFDTBoardFactory.cpp">
+      <Filter>Source Files\AutoCocos\DTControlFactorys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LoginActivityPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DTHeroIcon.cpp">
+      <Filter>Source Files\GUISystem\DTControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DTTimedGrayWindow.cpp">
+      <Filter>Source Files\GUISystem\DTControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GrapStarsProgress.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SoulEquipPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HeroSoulPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RoleSoulsDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HeroSoulDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PESoulEquipSubView.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HeroSoulWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GrowupPlanPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GrowupPlanWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\Activity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SoulTipsWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\TipsView\SoulTips</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ExchangeActivityWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DTRoleStatusBar.cpp">
+      <Filter>Source Files\GUISystem\DTControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UIHelper.cpp">
+      <Filter>Source Files\LuaSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DBHelper.cpp">
+      <Filter>Source Files\LuaSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PacketHelper.cpp">
+      <Filter>Source Files\LuaSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EventHelper.cpp">
+      <Filter>Source Files\LuaSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LuaSystem.cpp">
+      <Filter>Source Files\LuaSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BaseHelper.cpp">
+      <Filter>Source Files\LuaSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LoggerSystem.cpp">
+      <Filter>Source Files\DebugerSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ServerListPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NetDebugPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NoticeGatewayPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BlurSprite.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RollingBoard.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EquipsRecastSubView.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\Strengthen\EquipRecast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EquipRecastDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EquipCastPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AppstoreWaitWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\VipGiftWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow\Activity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\VipGiftPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HomeWindow_Map.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ShareDataHandler.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ChatPushDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CheckPlayerInfoPacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LocalAthleticsDataManager.cpp">
+      <Filter>Source Files\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CheckOpenFun.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ChatPushLogic.cpp">
+      <Filter>Source Files\TimeSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CCNode+Dota.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Common.cpp">
+      <Filter>Source Files\LogicSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\InputCommand.cpp">
+      <Filter>Source Files\LogicSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AnimationEffect.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleEffect.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\VariableSpeedSequenceAction.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ShakeEffect.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ScreenEffect.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RoleEffect.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FrameAnimateEffect.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GradualColorAction.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ScreenShakeEffect.cpp">
+      <Filter>Source Files\GUISystem\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TenCallWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GainCallItemWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NFUIPageViewFactory.cpp">
+      <Filter>Source Files\AutoCocos\CCControlFactorys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CTeamIconProgress.cpp">
+      <Filter>Source Files\GUISystem\DTControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TeamInfoWindow.cpp">
+      <Filter>Source Files\GUISystem\UIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HeroteamChangePacket.cpp">
+      <Filter>Source Files\NetSystem\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CSMapTable.cpp">
+      <Filter>Source Files\DBSystem\DataHandler</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\NotifySystem_IOS_Handler.mm">
+      <Filter>Source Files\NotifySystem</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\ActionSetDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\AnimationFileDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ArtFontDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CameraShakeDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ClientConstDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CommonButtonDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CreateRoleDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DBSystem.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FontStyleDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\IDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\IDStringDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\LocalNotificationDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\LocalPlayerDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NumberBufferDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PreLoadResourceDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ResourceIDDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\RoleBaseDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\RoleEffectDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\RoleShapeDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\RoleShapePropertyDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SceneInfoDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ScreenEffectDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SkillActionDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SkillEffectDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SkillTableDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SoundDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SysLangDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\UIViewDataManger.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\UIWindowDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MessagePacket.h">
+      <Filter>Header Files\DBSystem\UpdateServerData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MessagePacketManager.h">
+      <Filter>Header Files\DBSystem\UpdateServerData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PlayerDataMessage.h">
+      <Filter>Header Files\DBSystem\UpdateServerData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ArenaInfoDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\AthleticProcedureDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\AthleticProcedureDataType.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BagEquipDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BagOtherObjectHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BagTemplateBase.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BagTemplateBaseHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ChatDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ClimbTowerDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CreateRoleRandomNameDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CSMapTable.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DataHandlerSystem.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EffectDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EquipmentLvUpDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EquipTrainDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HeartBeatDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HeroTechnologyDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\IBagData.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\IDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\LevelUpDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MassacreDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MissionDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\RoleEquipDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\RoleInfoDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\RoleSkillsDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ServerInfoDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ShopGoodsBase.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ShopInfoDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\LoadingAnimationDataManager.h">
+      <Filter>Header Files\DBSystem\LoadingData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DOTATribeApp.h">
+      <Filter>Header Files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\WinMain.h">
+      <Filter>Header Files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HTTPTyper.h">
+      <Filter>Header Files\NetSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\IPacket.h">
+      <Filter>Header Files\NetSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NetSystem.h">
+      <Filter>Header Files\NetSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PacketFactory.h">
+      <Filter>Header Files\NetSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PacketFactoryManager.h">
+      <Filter>Header Files\NetSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PacketTyper.h">
+      <Filter>Header Files\NetSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\TCPConnectorThread.h">
+      <Filter>Header Files\NetSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\AskForRoleInfoPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\AttributeLockPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\C2SArenaInfoPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\C2SChallengePacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ChatPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ClimbTowerPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CreateRoleRandomNamePacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CSBagSaleObjectPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CSBagUseObjectPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CSChangEquipPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CSChangeSkillsPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CSChangeSkinPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CSCreateRolePacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CSEnterGamePacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CSEnterTranscriptRequestPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CSOffEquipPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CSQuickAccountRegisterPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CSRegisterAccountPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CSRolelistPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CSShopInfoPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EquipmentLvUpPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EquipmentLvUpSelectCardPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EquipTrainPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GetItemPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HeartBeatPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HeroTechnologyLevelUpPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HeroTechnologyPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\LevelUpPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MassacrePacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MissionPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PersonalChatPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\RegisterAccountPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\S2CArenaInfoPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SCAthleticsDataPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SCAttestaAccountPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SCBagSaleObjectResultPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SCBagUseObjectResultPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SCChangeEquipPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SCChangeSkillsResultPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SCChangeSkinPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SCOffEquipPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SCQuickAccountRegisterPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SCRefreshInfoDataPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SCRegisterAccountPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SCRoleInfoPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SCRolelistPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SCServerMessagePacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SCShopInfoPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\UpdateMissionPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\TimeSystem.h">
+      <Filter>Header Files\TimeSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SoundSystem.h">
+      <Filter>Header Files\SoundSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\VariableSystem.h">
+      <Filter>Header Files\VariableSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\AthleticsProcedure.h">
+      <Filter>Header Files\Procedure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CreateRoleProcedure.h">
+      <Filter>Header Files\Procedure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HomeProcedure.h">
+      <Filter>Header Files\Procedure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\IProcedure.h">
+      <Filter>Header Files\Procedure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\LoadingProcedure.h">
+      <Filter>Header Files\Procedure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\LoginProcedure.h">
+      <Filter>Header Files\Procedure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\LogoProcedure.h">
+      <Filter>Header Files\Procedure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SelectMissionProcedure.h">
+      <Filter>Header Files\Procedure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\IWindow.h">
+      <Filter>Header Files\GUISystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\UILayer.h">
+      <Filter>Header Files\GUISystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\UISystem.h">
+      <Filter>Header Files\GUISystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\WindowManager.h">
+      <Filter>Header Files\GUISystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ChatWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ClimbTowerWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EffectWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EquipmentSelectCardWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HerobarWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HomeWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\InputNumWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\LevelupNormalWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\LoadingWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\LogoWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MassacreWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MessageBoxWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NoticeBoxWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PESWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SelectMissionWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SelectRoleWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SelectServerWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SelectSonMissionWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ShopWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SystemsetWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\AthleticResultWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow\AthleticsUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\AthleticsSkillPanel.h">
+      <Filter>Header Files\GUISystem\UIWindow\AthleticsUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\AthleticsWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow\AthleticsUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SelectSkillController.h">
+      <Filter>Header Files\GUISystem\UIWindow\SelectSkillUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SelectSkillDataType.h">
+      <Filter>Header Files\GUISystem\UIWindow\SelectSkillUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SelectSkillMode.h">
+      <Filter>Header Files\GUISystem\UIWindow\SelectSkillUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SelectSkillWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow\SelectSkillUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SkillTipsDialog.h">
+      <Filter>Header Files\GUISystem\UIWindow\SelectSkillUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\UIDragNode.h">
+      <Filter>Header Files\GUISystem\UIWindow\SelectSkillUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EquipLvUpView.h">
+      <Filter>Header Files\GUISystem\UIWindow\Strengthen\EquipLvUp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EquipTrainView.h">
+      <Filter>Header Files\GUISystem\UIWindow\Strengthen\EquipTrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ArenaWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow\Arena</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ArtFontLabelBatchNode.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CDragSprite.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CMenuItemSprite.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CPageScroll.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CPriorityLayerColor.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CProgressInnerBar.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CSelectedSprite.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CSprite.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CTableView.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CTouchSprite.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MaskNode.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MoveAnimation.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\UIBaseDialog.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\UIScrollNodeLayer.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\UITwoSideStretchNodeLayer.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HWBottomBar.h">
+      <Filter>Header Files\GUISystem\UIWindow\HomeWindowRelative</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HWMoreItems.h">
+      <Filter>Header Files\GUISystem\UIWindow\HomeWindowRelative</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CTipsViewDelegate.h">
+      <Filter>Header Files\GUISystem\UIWindow\TipsView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EventDef.h">
+      <Filter>Header Files\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EventSystem.h">
+      <Filter>Header Files\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EventTyper.h">
+      <Filter>Header Files\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ShopView.h">
+      <Filter>Header Files\GUISystem\UIWindow\ShopView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SHSubView.h">
+      <Filter>Header Files\GUISystem\UIWindow\ShopView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DebugerSystem.h">
+      <Filter>Header Files\DebugerSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\IDebuger.h">
+      <Filter>Header Files\DebugerSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\LogicDebuger.h">
+      <Filter>Header Files\DebugerSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NetDebuger.h">
+      <Filter>Header Files\DebugerSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ProfSystem.h">
+      <Filter>Header Files\DebugerSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\RenderDebuger.h">
+      <Filter>Header Files\DebugerSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\IAPSystem.h">
+      <Filter>Header Files\IAPSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\AthleticsInstructionSystem.h">
+      <Filter>Header Files\AthleticsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\AthleticsInstructionUnit.h">
+      <Filter>Header Files\AthleticsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\AthleticsSceneManager.h">
+      <Filter>Header Files\AthleticsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\AthleticsUIManager.h">
+      <Filter>Header Files\AthleticsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BaseObject.h">
+      <Filter>Header Files\AthleticsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BaseObjectManager.h">
+      <Filter>Header Files\AthleticsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CommonEffect.h">
+      <Filter>Header Files\AthleticsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CommonEffectManager.h">
+      <Filter>Header Files\AthleticsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CommonNumberEffect.h">
+      <Filter>Header Files\AthleticsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CommonNumberEffectManager.h">
+      <Filter>Header Files\AthleticsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CommonSkillActionProcedure.h">
+      <Filter>Header Files\AthleticsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CommonSkillItemProcedure.h">
+      <Filter>Header Files\AthleticsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CommonUnSkillItemProcedure.h">
+      <Filter>Header Files\AthleticsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HeroicRole.h">
+      <Filter>Header Files\AthleticsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HeroicRoleSkeletonNode.h">
+      <Filter>Header Files\AthleticsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SkillAttachLogicManager.h">
+      <Filter>Header Files\AthleticsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SkillAttachLogicProcedure.h">
+      <Filter>Header Files\AthleticsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\UnSkillNumbericalProcedure.h">
+      <Filter>Header Files\AthleticsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NotifySystem.h">
+      <Filter>Header Files\NotifySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EngineSystem.h">
+      <Filter>Header Files\EngineSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NodeFactoryManager.h">
+      <Filter>Header Files\AutoCocos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FullStarRewardPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BagWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BagWindowDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PreCCMoveTo.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ShopinputNumWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\RevenueWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\RevenuePacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CostRevenuePacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\RevenueDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\C2SAddChallengeCountPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\C2SCollDowmTimePacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\S2CAddChallengeCountPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\AddChallengeDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ClearCoolTimeDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ScaleSprite.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BagWindowPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\C2SBattleRecordPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NpcTalkView.h">
+      <Filter>Header Files\GUISystem\UIWindow\AthleticsUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NpcTalkDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MarketWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SpecialOfferView.h">
+      <Filter>Header Files\GUISystem\UIWindow\MarketView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BoutiqueView.h">
+      <Filter>Header Files\GUISystem\UIWindow\MarketView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SecretView.h">
+      <Filter>Header Files\GUISystem\UIWindow\ShopView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GuidePacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CommunicationWaittingWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\C2SResetSkillsPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\S2CRestSkillsPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\TeamBattleProcedure.h">
+      <Filter>Header Files\Procedure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\TeamBattleWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\TeamSelectWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FriendWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\TeamBattleDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SCHeroAltarBuyItemPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\TeamSelectPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FriendAddPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FriendRefurbishPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FriendAgreeAllPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FriendAgreeSinglePacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FriendCheckPlayerInfoPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FriendDeletePacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FriendFightPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FriendIgnoreAllPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FriendIgnoreSinglePacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FriendPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FriendDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PlayerTipsWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow\TipsView\PlayerTips</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\TeamBattlePacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GuideDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GuideWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CSDisConnectPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CompositeEffectDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FrameAnimateDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CallFuncAction.h">
+      <Filter>Header Files\AthleticsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PESEquipDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ArenaProcedure.h">
+      <Filter>Header Files\Procedure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\RankWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\S2CArenaRankPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\C2SArenaRankPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ArenaRankDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\S2CArenaGifPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\C2SArenaGifPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EmailPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EmailDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\AskForAddEnergyPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FriendFindFriendPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\UpdateSystem.h">
+      <Filter>Header Files\UpdateSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NetObjectTipsWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NetObjectTipsDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NetObjectTipsPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCornerNumIcon.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ServantPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ServantDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EquipTipsWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow\TipsView\EquipTips</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCardsStarProgress.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CrashReportSystem.h">
+      <Filter>Header Files\CrashReportSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\WriteEmailWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\config_HomeWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow\HomeWindowRelative</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\config_SoundSystem.h">
+      <Filter>Header Files\SoundSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ErrorTipsDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ErrorTipsWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SCErrorTipsPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\AutoFadeOutLable.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\StartWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\VersionCheckPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ServantView.h">
+      <Filter>Header Files\GUISystem\UIWindow\Pucong</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PuCongWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\UnSkillRemoveBufferProcedure.h">
+      <Filter>Header Files\AthleticsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\IntellectDelayRemoveManager.h">
+      <Filter>Header Files\AthleticsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HelpWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DotaGameConfig.h">
+      <Filter>Header Files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MainTaskDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MainTaskPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MainTaskWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\LoginPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SceneEffect.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\RestingTechnologyPointPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\AnnouncementWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\AnnouncementDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\IAPProductDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\RoleStatusWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\AnnouncementDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCRectClipNode.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\LimitedActivityWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\LimitedActivityHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ListenProxyObject.h">
+      <Filter>Header Files\AthleticsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\VipWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\VipFontDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\TempleWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ConvictionWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MiningDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MiningView.h">
+      <Filter>Header Files\GUISystem\UIWindow\Pucong</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MiningPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\RechargeWarnWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\RechargeWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PayGoodsControlDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ForcePushTaskRewardWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MineAreaWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow\Pucong</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HeroAltarWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ActivityDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ActivityDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ActivityWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow\Activity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SpringView.h">
+      <Filter>Header Files\GUISystem\UIWindow\Activity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HeroWindowSubView.h">
+      <Filter>Header Files\GUISystem\UIWindow\HeroWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ActivityPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SpringView.h">
+      <Filter>Header Files\GUISystem\UIWindow\Activity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PESEquipSubView.h">
+      <Filter>Header Files\GUISystem\UIWindow\HeroWindow\HeroEquipSubView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HEHeroPropertyNode.h">
+      <Filter>Header Files\GUISystem\UIWindow\HeroWindow\HeroEquipSubView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HELinkNode.h">
+      <Filter>Header Files\GUISystem\UIWindow\HeroWindow\HeroEquipSubView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HERoleInfoNode.h">
+      <Filter>Header Files\GUISystem\UIWindow\HeroWindow\HeroEquipSubView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\RoleHeroSkinsDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HeroIllustratedDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HeroIllustratedWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\LessResourceWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HeroAltarControlDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HeroAltarPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HeroSummonControlDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HeroSummonPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HuntView.h">
+      <Filter>Header Files\GUISystem\UIWindow\Pucong</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HuntView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\LessResourcePacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\LessResourceDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HELeadershipLvUpWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow\HeroWindow\HeroEquipSubView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\LeadershipPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GainHeroWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CSHeroExpandInfoPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FAnimationButton.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CSHeroAdvancedPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HeroAdvancedDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\StrengthenWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HeroAdvancedWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GainSoulDebriWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCGrapSprite.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EquipPromoteDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EquipPromotePacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EquipStrengthenDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EquipPromoteView.h">
+      <Filter>Header Files\GUISystem\UIWindow\Strengthen\EquipPromote</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SubView.h">
+      <Filter>Header Files\GUISystem\UIWindow\Strengthen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DotaPacket.h">
+      <Filter>Header Files\NetSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCSignSprite.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SingleTouchProtocol.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\VipInfoPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\VipControlDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCDragNodeLayer.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CProgressTimer.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CAnimationSprite.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SCAnnoucementPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\TipsWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow\QAUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\QADataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\S2CQAPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\C2SQAReceiptPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CheckLeadershipWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CheckRoleBaseInfoPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PayGoodsPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MultiReWardWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MultiRewardDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MultiRewardPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CSimpleActionSprite.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GuideSystem.h">
+      <Filter>Header Files\GuideSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PopWindowManager.h">
+      <Filter>Header Files\GUISystem\PopWindowManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\IPopWindow.h">
+      <Filter>Header Files\GUISystem\PopWindowManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NewEquipremindWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NewEquipremindDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FirstRechGiftPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FirstRechGiftWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow\Activity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\LimitActivityPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ArenaRewardWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CTimeLabel.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\LoginActivityWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow\Activity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ShopTipsWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ShopTipsDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\LevelUpRewardActivityWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow\Activity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CommonDataDef.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\RandomShopPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DTAwardBoard.h">
+      <Filter>Header Files\GUISystem\DTControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BossScorePacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BossScoreDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DTEquipBoard.h">
+      <Filter>Header Files\GUISystem\DTControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BossScoreWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NFCCEditBoxFactory.h">
+      <Filter>Header Files\AutoCocos\CCControlFactorys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NFCCLabelFactory.h">
+      <Filter>Header Files\AutoCocos\CCControlFactorys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NFCCLayerFactory.h">
+      <Filter>Header Files\AutoCocos\CCControlFactorys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NFCCMenuFactory.h">
+      <Filter>Header Files\AutoCocos\CCControlFactorys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NFCCNodeFactory.h">
+      <Filter>Header Files\AutoCocos\CCControlFactorys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NFCCParicelEffectFactory.h">
+      <Filter>Header Files\AutoCocos\CCControlFactorys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NFCCSpriteFactory.h">
+      <Filter>Header Files\AutoCocos\CCControlFactorys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NFCCTableViewFactory.h">
+      <Filter>Header Files\AutoCocos\CCControlFactorys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NFCProgressInnerBarFactory.h">
+      <Filter>Header Files\AutoCocos\CCControlFactorys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NFAnimationController.h">
+      <Filter>Header Files\AutoCocos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NFControlsManager.h">
+      <Filter>Header Files\AutoCocos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NFToolController.h">
+      <Filter>Header Files\AutoCocos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NFDTBoardFactory.h">
+      <Filter>Header Files\AutoCocos\DTControlFactorys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\LoginActivityPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DTHeroIcon.h">
+      <Filter>Header Files\GUISystem\DTControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DTTimedGrayWindow.h">
+      <Filter>Header Files\GUISystem\DTControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EmailWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GrapStarsProgress.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SoulEquipPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HeroSoulPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\RoleSoulsDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HeroSoulDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PESoulEquipSubView.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HeroSoulWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GrowupPlanPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GrowupPlanWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow\Activity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SoulTipsWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow\TipsView\SoulTips</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ExchangeActivityWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow\Activity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DTRoleStatusBar.h">
+      <Filter>Header Files\GUISystem\DTControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\UIHelper.h">
+      <Filter>Header Files\LuaSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DBHelper.h">
+      <Filter>Header Files\LuaSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PacketHelper.h">
+      <Filter>Header Files\LuaSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EventHelper.h">
+      <Filter>Header Files\LuaSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\LuaSystem.h">
+      <Filter>Header Files\LuaSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BaseHelper.h">
+      <Filter>Header Files\LuaSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\LoggerSystem.h">
+      <Filter>Header Files\DebugerSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ServerListPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NetDebugPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CPublicVarReader.h">
+      <Filter>Header Files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\IPopDef.h">
+      <Filter>Header Files\GUISystem\PopWindowManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NoticeGatewayPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BlurSprite.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\RollingBoard.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EquipsRecastSubView.h">
+      <Filter>Header Files\GUISystem\UIWindow\Strengthen\EquipRecast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EquipRecastDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EquipCastPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\AppstoreWaitWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\VipGiftWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow\Activity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\VipGiftPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ShareDataHandler.h">
+      <Filter>Header Files\DBSystem\DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ChatPushDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CheckPlayerInfoPacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\LocalAthleticsDataManager.h">
+      <Filter>Header Files\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CheckOpenFun.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ChatPushLogic.h">
+      <Filter>Header Files\TimeSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Common.h">
+      <Filter>Header Files\LogicSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\AnimationEffect.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEffect.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\RoleEffect.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ScreenEffect.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ScreenShakeEffect.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ShakeEffect.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\InputCommand.h">
+      <Filter>Header Files\LogicSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\VariableSpeedSequenceAction.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GradualColorAction.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FrameAnimateEffect.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\AutoScrollLabelManager.h">
+      <Filter>Header Files\GUISystem\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\TenCallWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GainCallItemWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NFUIPageViewFactory.h">
+      <Filter>Header Files\AutoCocos\CCControlFactorys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCVector_Lua.h">
+      <Filter>Header Files\LuaSystem\CCContainer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCMap_Lua.h">
+      <Filter>Header Files\LuaSystem\CCContainer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCContainer_Lua.h">
+      <Filter>Header Files\LuaSystem\CCContainer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\AthleticConfig.h">
+      <Filter>Header Files\AthleticsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CTeamIconProgress.h">
+      <Filter>Header Files\GUISystem\DTControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\TeamInfoWindow.h">
+      <Filter>Header Files\GUISystem\UIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HeroteamChangePacket.h">
+      <Filter>Header Files\NetSystem\Packet</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

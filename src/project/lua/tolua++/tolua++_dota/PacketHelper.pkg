@@ -1,0 +1,31 @@
+class PacketHelper
+{
+	static BaseHelper * LuaGetInstance();
+
+	static std::string LuaGetInstanceName();
+
+	void LuaRegisterPacket(int packetType);
+
+	void LuaBuildPacket(int packetType);
+
+	void LuaPutByte(char param);
+
+	void LuaPutShort(short param);
+
+	void LuaPutInt(int param);
+
+	void LuaPutString(std::string param);
+
+	void LuaSendPacket();
+
+	int LuaReadPn();
+
+	short LuaReadShort();
+
+	char LuaReadByte();
+
+	int LuaReadInt();
+
+	std::string LuaReadString();
+
+};

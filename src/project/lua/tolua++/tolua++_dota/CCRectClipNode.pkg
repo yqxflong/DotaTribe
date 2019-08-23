@@ -1,0 +1,8 @@
+class   CCRectClipNode: public CCNode
+{
+	CCRectClipNode();
+	 ~CCRectClipNode();
+	  bool init(CCRect drawRect);
+	static  CCRectClipNode * create(CCRect drawRect);
+     void visit(void);
+};

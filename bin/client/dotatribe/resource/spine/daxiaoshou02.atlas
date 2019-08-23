@@ -1,0 +1,110 @@
+
+daxiaoshou02.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+L-JB
+  rotate: false
+  xy: 130, 10
+  size: 2, 2
+  orig: 126, 143
+  offset: 14, 70
+  index: -1
+yaodai
+  rotate: false
+  xy: 130, 10
+  size: 2, 2
+  orig: 126, 143
+  offset: 14, 70
+  index: -1
+R-JB
+  rotate: false
+  xy: 130, 10
+  size: 2, 2
+  orig: 126, 143
+  offset: 14, 70
+  index: -1
+L-datui
+  rotate: true
+  xy: 449, 124
+  size: 58, 62
+  orig: 90, 130
+  offset: 9, 34
+  index: -1
+L-shbi
+  rotate: true
+  xy: 353, 101
+  size: 81, 95
+  orig: 120, 140
+  offset: 26, 25
+  index: -1
+L-xiaobi
+  rotate: false
+  xy: 229, 9
+  size: 67, 100
+  orig: 125, 160
+  offset: 29, 20
+  index: -1
+L-xiaotui
+  rotate: false
+  xy: 353, 183
+  size: 115, 72
+  orig: 125, 110
+  offset: 8, 10
+  index: -1
+R-datui
+  rotate: true
+  xy: 348, 42
+  size: 58, 71
+  orig: 90, 130
+  offset: 18, 35
+  index: -1
+R-shbi
+  rotate: false
+  xy: 130, 13
+  size: 98, 96
+  orig: 120, 140
+  offset: 5, 25
+  index: -1
+R-xiaobi
+  rotate: false
+  xy: 270, 147
+  size: 82, 108
+  orig: 125, 160
+  offset: 21, 15
+  index: -1
+R-xiaotui
+  rotate: false
+  xy: 420, 31
+  size: 67, 69
+  orig: 140, 125
+  offset: 42, 18
+  index: -1
+pigu
+  rotate: true
+  xy: 297, 58
+  size: 88, 50
+  orig: 125, 145
+  offset: 11, 36
+  index: -1
+tou
+  rotate: false
+  xy: 0, 110
+  size: 134, 145
+  orig: 215, 195
+  offset: 44, 19
+  index: -1
+tou1
+  rotate: false
+  xy: 135, 110
+  size: 134, 145
+  orig: 215, 195
+  offset: 44, 19
+  index: -1
+xiong
+  rotate: true
+  xy: 0, 0
+  size: 109, 129
+  orig: 190, 175
+  offset: 44, 23
+  index: -1

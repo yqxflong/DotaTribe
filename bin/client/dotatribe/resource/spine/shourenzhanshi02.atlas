@@ -1,0 +1,166 @@
+
+shourenzhanshi02.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+B-PF
+  rotate: false
+  xy: 122, 65
+  size: 1, 1
+  orig: 170, 150
+  offset: 84, 123
+  index: -1
+L-daoju
+  rotate: false
+  xy: 122, 65
+  size: 1, 1
+  orig: 170, 150
+  offset: 84, 123
+  index: -1
+B-TF
+  rotate: false
+  xy: 122, 65
+  size: 1, 1
+  orig: 170, 150
+  offset: 84, 123
+  index: -1
+R-CB
+  rotate: false
+  xy: 122, 65
+  size: 1, 1
+  orig: 170, 150
+  offset: 84, 123
+  index: -1
+B-TS
+  rotate: false
+  xy: 122, 65
+  size: 1, 1
+  orig: 170, 150
+  offset: 84, 123
+  index: -1
+L-CB
+  rotate: false
+  xy: 122, 65
+  size: 1, 1
+  orig: 170, 150
+  offset: 84, 123
+  index: -1
+R-JB
+  rotate: false
+  xy: 122, 65
+  size: 1, 1
+  orig: 170, 150
+  offset: 84, 123
+  index: -1
+B-WB
+  rotate: false
+  xy: 122, 65
+  size: 1, 1
+  orig: 170, 150
+  offset: 84, 123
+  index: -1
+L-JB
+  rotate: false
+  xy: 0, 10
+  size: 63, 56
+  orig: 110, 120
+  offset: 22, 27
+  index: -1
+L-datui
+  rotate: true
+  xy: 422, 223
+  size: 32, 53
+  orig: 51, 63
+  offset: 12, 5
+  index: -1
+L-shbi
+  rotate: false
+  xy: 133, 109
+  size: 44, 46
+  orig: 56, 53
+  offset: 10, 3
+  index: -1
+L-xiaobi
+  rotate: false
+  xy: 178, 112
+  size: 43, 43
+  orig: 61, 86
+  offset: 3, 31
+  index: -1
+L-xiaotui
+  rotate: true
+  xy: 286, 140
+  size: 40, 49
+  orig: 50, 70
+  offset: 7, 17
+  index: -1
+R-datui
+  rotate: true
+  xy: 64, 0
+  size: 28, 44
+  orig: 51, 63
+  offset: 13, 13
+  index: -1
+R-shbi
+  rotate: true
+  xy: 133, 69
+  size: 39, 45
+  orig: 56, 53
+  offset: 12, 8
+  index: -1
+R-wuqi
+  rotate: false
+  xy: 0, 167
+  size: 152, 88
+  orig: 273, 150
+  offset: 37, 11
+  index: -1
+R-xiaobi
+  rotate: true
+  xy: 64, 29
+  size: 37, 57
+  orig: 61, 86
+  offset: 14, 23
+  index: -1
+R-xiaotui
+  rotate: true
+  xy: 360, 184
+  size: 34, 55
+  orig: 50, 70
+  offset: 11, 12
+  index: -1
+pigu
+  rotate: false
+  xy: 222, 118
+  size: 49, 37
+  orig: 77, 45
+  offset: 13, 8
+  index: -1
+tou
+  rotate: false
+  xy: 0, 67
+  size: 132, 99
+  orig: 140, 150
+  offset: 6, 36
+  index: -1
+tou1
+  rotate: false
+  xy: 153, 156
+  size: 132, 99
+  orig: 140, 150
+  offset: 6, 36
+  index: -1
+xiong
+  rotate: false
+  xy: 286, 181
+  size: 73, 74
+  orig: 90, 82
+  offset: 8, 6
+  index: -1
+yaodai
+  rotate: false
+  xy: 360, 219
+  size: 61, 36
+  orig: 90, 90
+  offset: 15, 41
+  index: -1

@@ -1,0 +1,61 @@
+
+bord.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+win bord/caidai
+  rotate: false
+  xy: 0, 425
+  size: 416, 86
+  orig: 416, 86
+  offset: 0, 0
+  index: -1
+win bord/guang
+  rotate: false
+  xy: 0, 133
+  size: 306, 118
+  orig: 306, 118
+  offset: 0, 0
+  index: -1
+win bord/huangguan
+  rotate: false
+  xy: 307, 129
+  size: 138, 106
+  orig: 138, 106
+  offset: 0, 0
+  index: -1
+win bord/qizi
+  rotate: false
+  xy: 0, 252
+  size: 311, 172
+  orig: 312, 172
+  offset: 1, 0
+  index: -1
+win bord/shengli
+  rotate: false
+  xy: 0, 40
+  size: 206, 92
+  orig: 206, 92
+  offset: 0, 0
+  index: -1
+win bord/shibai
+  rotate: true
+  xy: 312, 236
+  size: 188, 96
+  orig: 188, 96
+  offset: 0, 0
+  index: -1
+win bord/xxs
+  rotate: false
+  xy: 314, 26
+  size: 75, 102
+  orig: 76, 102
+  offset: 1, 0
+  index: -1
+win bord/xxx
+  rotate: true
+  xy: 207, 0
+  size: 128, 106
+  orig: 128, 106
+  offset: 0, 0
+  index: -1

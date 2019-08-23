@@ -1,0 +1,15 @@
+INDEX	HIDE	ZORDER	SCALE	ROTATION	CLASS	TPRIORITY	SWALLOW	SYSLANGID	FSYLEID	FSIZE	COLOR-R	COLOR-G	COLOR-B	COLOR-ALPHA	FILE1	FILE2	FILE3	WIDTH	HEIGHT	ANCHOR-X	ANCHOR-Y	POS-X	POS-Y	IP5-POS-X	IP5-POS-Y	IPAD-POS-X	IPAD-POS-Y	ANDROID-POS-X	ANDROID-POS-Y	ANDROID16_10-POS-X	ANDROID16_10-POS-Y	SOUNDID	OTHERS
+0	0	0	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/name_box2.png	0	0	230	33	0.5	0.5	175	580	175	580	175	580	175	580	175	580	-1	名字背景
+1	0	1	1	0	CCLabelTTF	0	1	405	43	0	0	0	0	0	0	0	0	0	0	0.5	0.5	178	580	178	580	178	580	178	580	178	580	-1	名字
+2	0	0	1	0	CCardsStarProgress	0	1	0	0	0	6	0	0	0	resource/image/newpublic/cards_star.png	0	0	1	0	0	0.5	120	533	120	533	120	533	120	533	120	533	-1	星级
+3	0	1	1	0	CCLabelTTF	0	1	189	43	0	0	0	0	0	0	0	0	0	0	0	0.5	41	513	41	513	41	513	41	513	41	513	-1	使用等级
+4	0	2	1	0	CCLabelTTF	0	1	0	43	0	0	0	0	0	0	0	0	0	0	0	0.5	139	513	139	513	139	513	139	513	139	513	-1	使用等级值
+5	0	1	1	0	CCLabelTTF	0	1	190	43	0	0	0	0	0	0	0	0	0	0	0	0.5	41	485	41	485	41	485	41	485	41	485	-1	出售价格
+6	0	2	1	0	CCLabelTTF	0	1	0	43	0	0	0	0	0	0	0	0	0	0	0	0.5	139	485	139	485	139	485	139	485	139	485	-1	价格数
+7	0	2	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/jinbi_icon_b.png	0	0	0	0	0.5	0.5	234	485	234	485	234	485	234	485	234	485	-1	金币
+8	0	1	1	0	CCLabelTTFMultiline	0	1	405	81	0	0	0	0	0	0	0	0	250	0	0	1	41	430	41	430	41	430	41	430	41	430	-1	信息界面的描述
+9	0	1	1	0	CMenuItemSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/button.png	resource/image/newpublic/button_l.png	resource/image/newpublic/button_g.png	0	0	0.5	0.5	90	148	90	148	90	148	90	148	90	148	-1	按钮出售
+10	0	2	1	0	CCLabelTTF	0	1	191	49	0	0	0	0	0	0	0	0	0	0	0.5	0.5	90	148	90	148	90	148	90	148	90	148	-1	出售字
+11	0	1	1	0	CMenuItemSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/button.png	resource/image/newpublic/button_l.png	resource/image/newpublic/button_g.png	0	0	0.5	0.5	260	148	260	148	260	148	260	148	260	148	-1	使用按钮
+12	0	2	1	0	CCLabelTTF	0	1	192	49	0	0	0	0	0	0	0	0	0	0	0.5	0.5	260	148	260	148	260	148	260	148	260	148	-1	使用字
+13	0	3	1	0	MaskNode	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0.5	0	260	200	260	200	260	200	260	200	260	200	-1	可使用物品指示箭头

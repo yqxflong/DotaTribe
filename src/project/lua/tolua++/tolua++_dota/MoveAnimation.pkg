@@ -1,0 +1,16 @@
+class MoveAnimationCallBackProtocol
+{
+	  void   CallBackEventProtocol(int eventType,void * ptrParam)=0;
+};
+class   MoveAnimation :public CCMoveTo
+{ 
+	bool initWithDuration(float duration, const CCPoint& position,PCallBackVec pCallBackVec);
+	 ~MoveAnimation();
+	  void  destroy();																     	/*注意销毁时*/
+	 CCObject* copyWithZone(CCZone* pZone);
+	 void startWithTarget(CCNode *pTarget);
+	 void update(float time);
+	 void updateAnimatioSpeedScale();
+	 void setSpeedScale(float speedScale); 
+	static MoveAnimation* create(float duration, const CCPoint& position,PCallBackVec pCallBackVec);
+}; 

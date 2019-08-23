@@ -1,0 +1,16 @@
+INDEX	HIDE	ZORDER	SCALE	ROTATION	CLASS	TPRIORITY	SWALLOW	SYSLANGID	FSYLEID	FSIZE	COLOR-R	COLOR-G	COLOR-B	COLOR-ALPHA	FILE1	FILE2	FILE3	WIDTH	HEIGHT	ANCHOR-X	ANCHOR-Y	POS-X	POS-Y	IP5-POS-X	IP5-POS-Y	IPAD-POS-X	IPAD-POS-Y	ANDROID-POS-X	ANDROID-POS-Y	ANDROID16_10-POS-X	ANDROID16_10-POS-Y	SOUNDID	OTHERS
+0	0	0	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/vip_wzdiban.png	0	0	0	0	0.5	0.5	120	130	120	130	120	130	120	130	120	130	-1	VIP底框
+1	0	4	1	0	CCLabelTTF	0	1	0	48	0	0	0	0	0	0	0	0	0	0	0.5	0.5	120	230	120	230	120	230	120	230	120	230	-1	VIP礼包名字
+2	0	2	1	0	CImMenuItemSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/lb_dk.png	resource/image/newpublic/guangq.png	0	0	0	0.5	0.5	120	153	120	153	120	153	120	153	120	153	-1	奖励宝箱按钮
+3	0	2	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/lb_dk.png	0	0	0	0	0.5	0.5	120	153	120	153	120	153	120	153	120	153	-1	奖励宝箱底框
+4	0	2	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/c_normal.png	0	0	0	0	0.5	0.5	120	153	120	153	120	153	120	153	120	153	-1	奖励宝箱图标
+5	0	4	1	0	CCLabelTTF	0	1	6075	83	0	0	0	0	0	0	0	0	0	0	0.5	0.5	70	80	70	80	70	80	70	80	70	80	-1	原价文字
+6	0	4	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/zs_icon.png	0	0	0	0	0.5	0.5	110	80	110	80	110	80	110	80	110	80	-1	原价货币图标
+7	0	4	1	0	CCLabelTTF	0	1	0	83	0	0	0	0	0	0	0	0	0	0	0.5	0.5	170	80	170	80	170	80	170	80	170	80	-1	原价价钱
+8	0	3	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/vip_wzk.png	0	0	0	0	0.5	0.5	170	80	170	80	170	80	170	80	170	80	-1	原价价钱底框
+9	0	4	1	0	CCLabelTTF	0	1	6076	84	0	0	0	0	0	0	0	0	0	0	0.5	0.5	70	48	70	48	70	48	70	48	70	48	-1	特价文字
+10	0	4	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/zs_icon.png	0	0	0	0	0.5	0.5	110	48	110	48	110	48	110	48	110	48	-1	特价货币图标
+11	0	4	1	0	CCLabelTTF	0	1	0	84	0	0	0	0	0	0	0	0	0	0	0.5	0.5	170	48	170	48	170	48	170	48	170	48	-1	特价价钱
+12	0	3	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/vip_wzk.png	0	0	0	0	0.5	0.5	170	48	170	48	170	48	170	48	170	48	-1	特价价钱底框
+13	0	3	1	0	CImMenuItemSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/dahongseanniu_down.png	resource/image/newpublic/dahongseanniu_up.png	0	0	0	0.5	0.5	120	-5	120	-5	120	-5	120	-5	120	-5	-1	购买按钮
+14	0	4	1	0	CCLabelTTF	0	1	6069	89	0	0	0	0	0	0	0	0	0	0	0.5	0.5	120	-5	120	-5	120	-5	120	-5	120	-5	-1	购买文字

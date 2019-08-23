@@ -1,0 +1,19 @@
+typedef enum {
+    kCCTableViewFillTopDown,
+    kCCTableViewFillBottomUp
+} CCTableViewVerticalFillOrder;
+
+class CCTableView : public CCScrollView, public CCScrollViewDelegate
+{
+public:
+    void setDataSource(CCTableViewDataSource* source);
+
+    void setDelegate(CCTableViewDelegate* pDelegate);
+
+	void setVerticalFillOrder(CCTableViewVerticalFillOrder order);
+
+	CCTableViewCell *dequeueCell();
+
+	void reloadData();
+};
+

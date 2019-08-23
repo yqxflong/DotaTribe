@@ -1,0 +1,9 @@
+INDEX	HIDE	ZORDER	SCALE	ROTATION	CLASS	TPRIORITY	SWALLOW	SYSLANGID	FSYLEID	FSIZE	COLOR-R	COLOR-G	COLOR-B	COLOR-ALPHA	FILE1	FILE2	FILE3	WIDTH	HEIGHT	ANCHOR-X	ANCHOR-Y	POS-X	POS-Y	IP5-POS-X	IP5-POS-Y	IPAD-POS-X	IPAD-POS-Y	ANDROID-POS-X	ANDROID-POS-Y	ANDROID16_10-POS-X	ANDROID16_10-POS-Y	SOUNDID	OTHERS
+0	0	0	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/equipremind_dikuang.png	0	0	0	0	0.5	0.5	868	167	928	156	822	170	863	156	837.4	156	-1	背景
+1	0	2	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/c_normal.png	0	0	0	0	0.5	0.5	760	165	820	155	710	170	755	155	729.4	155	-1	品质框
+2	0	3	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/c_normal.png	0	0	0	0	0.5	0.5	760	165	820	155	710	170	755	155	729.4	155	-1	装备图标
+3	0	5	1	0	SceneEffect	0	1	0	0	0	2044	0	0	0	0	0	0	0	0	0.5	0.5	760	165	820	155	710	170	755	155	729.4	155	-1	特效
+4	0	3	1	0	CCLabelTTF	0	1	6048	48	0	0	0	0	0	0	0	0	0	0	0.5	0.5	906	190	960	180	860	200	900	180	874.4	180	-1	描述
+5	0	5	1	0	CMenuItemSprite	-190	1	0	0	0	0	0	0	0	resource/image/newpublic/button_2.png	resource/image/newpublic/button_2_l.png	0	0	0	0.5	0.5	906	140	960	130	860	150	900	130	874.4	130	-1	查看按钮
+6	0	5	1	0	CCLabelTTF	0	1	2009	48	0	0	0	0	0	0	0	0	0	0	0.5	0.5	906	140	960	130	860	150	900	130	874.4	130	-1	查看按钮文字
+7	0	5	1	0	CMenuItemSprite	-190	1	0	0	0	0	0	0	0	resource/image/newskill/guan_z.png	resource/image/newskill/guan_l.png	0	0	0	0.5	0.5	1020	195	1080	185	970	205	1010	190	984.4	190	-1	关闭按钮

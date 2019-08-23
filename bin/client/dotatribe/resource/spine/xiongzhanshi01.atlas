@@ -1,0 +1,138 @@
+
+xiongzhanshi01.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+B-BS
+  rotate: false
+  xy: 509, 249
+  size: 2, 2
+  orig: 205, 230
+  offset: 118, 66
+  index: -1
+L-wuqi
+  rotate: false
+  xy: 509, 249
+  size: 2, 2
+  orig: 205, 230
+  offset: 118, 66
+  index: -1
+L-JB
+  rotate: false
+  xy: 509, 249
+  size: 2, 2
+  orig: 205, 230
+  offset: 118, 66
+  index: -1
+R-JB
+  rotate: false
+  xy: 509, 249
+  size: 2, 2
+  orig: 205, 230
+  offset: 118, 66
+  index: -1
+R-wuqi
+  rotate: false
+  xy: 509, 249
+  size: 2, 2
+  orig: 205, 230
+  offset: 118, 66
+  index: -1
+L-datui
+  rotate: true
+  xy: 274, 86
+  size: 57, 56
+  orig: 90, 130
+  offset: 19, 36
+  index: -1
+L-shbi
+  rotate: false
+  xy: 451, 170
+  size: 57, 81
+  orig: 120, 140
+  offset: 28, 32
+  index: -1
+L-xiaobi
+  rotate: true
+  xy: 341, 188
+  size: 63, 109
+  orig: 125, 160
+  offset: 32, 34
+  index: -1
+L-xiaotui
+  rotate: false
+  xy: 218, 81
+  size: 55, 62
+  orig: 125, 110
+  offset: 35, 24
+  index: -1
+R-datui
+  rotate: false
+  xy: 225, 19
+  size: 48, 61
+  orig: 90, 130
+  offset: 20, 35
+  index: -1
+R-shbi
+  rotate: false
+  xy: 154, 74
+  size: 63, 81
+  orig: 120, 140
+  offset: 29, 33
+  index: -1
+R-xiaobi
+  rotate: false
+  xy: 94, 30
+  size: 59, 105
+  orig: 125, 160
+  offset: 30, 33
+  index: -1
+R-xiaotui
+  rotate: true
+  xy: 154, 22
+  size: 51, 70
+  orig: 140, 125
+  offset: 51, 24
+  index: -1
+bozi
+  rotate: false
+  xy: 225, 185
+  size: 115, 66
+  orig: 150, 160
+  offset: 22, 51
+  index: -1
+pigu
+  rotate: false
+  xy: 0, 0
+  size: 68, 33
+  orig: 125, 145
+  offset: 30, 45
+  index: -1
+tou
+  rotate: false
+  xy: 131, 156
+  size: 93, 95
+  orig: 215, 195
+  offset: 62, 44
+  index: -1
+tou1
+  rotate: false
+  xy: 0, 34
+  size: 93, 101
+  orig: 215, 195
+  offset: 62, 38
+  index: -1
+xiong
+  rotate: false
+  xy: 0, 136
+  size: 130, 115
+  orig: 190, 200
+  offset: 30, 30
+  index: -1
+yaodai
+  rotate: false
+  xy: 225, 144
+  size: 75, 40
+  orig: 125, 145
+  offset: 25, 53
+  index: -1

@@ -1,0 +1,19 @@
+
+dotajt.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+pic/jiantou -small
+  rotate: true
+  xy: 91, 71
+  size: 42, 34
+  orig: 42, 34
+  offset: 0, 0
+  index: -1
+pic/jiantou -x
+  rotate: false
+  xy: 1, 1
+  size: 88, 112
+  orig: 88, 112
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,10 @@
+class DebugerSystem : public cobra_win::Singleton2<DebugerSystem>
+{
+//@Lua
+public:
+	NetDebuger*    m_pNetDebuger;    // 网络信息调试器
+	LogicDebuger*  m_pLogicDebuger;  // 逻辑信息调试器
+	RenderDebuger* m_pRenderDebuger; // 渲染信息调试器
+
+	DebugerSystem* GetLuaInstance();
+};

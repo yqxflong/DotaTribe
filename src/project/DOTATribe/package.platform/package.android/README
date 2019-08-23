@@ -1,0 +1,38 @@
+1. Install Python 2.7
+2. Install android-ndk, androird-sdk and apache-ant
+3. Typedef PYTHON, NDK_ROOT, ANDROID_SDK_ROOT and ANT_ROOT in your environment Path.
+4. Edit config4dotatribe.xml
+
+Warning: 1. Please check your resoruces and codes are the newest version before you excute the script.
+	 2. Xml File use UTF-8 coding
+
+
+dotatribe_outputapk.py
+
+Usage: dotatribe_outputapk.py [-c] CHANNEL [OPTIONS]
+
+[CHANNEL] supports values:
+	original	: Trunk Channel (Default value)
+	91		: 91 Channel
+	360		: 360 Channel
+	oppo		: oppo Channel
+	duoku		: duoku Channel
+	uc		: uc Channel
+	wdj		: wdj Channel
+	xiaomi		: xiaomi Channel
+	All		: all Channel above 
+[CHANNEL] also supports muti-value input. Please use ';' to split muti-value.
+
+[OPTIOSN] supports values:
+	-r	: Clean Project. Not Build
+
+
+Example: python dotatribe_outputapk.py -c 91					[1]
+	 python dotatribe_outputapk.py						[2]
+	 python dotatribe_outputapk.py -c duoku;uc;xiaomi			[3]
+	 python dotatribe_outputapk.py -c All -r				[5]
+[1] will build 91 channel's apk
+[2] will build default channel's apk
+[3] will build duoku, uc and xiaomi three channels' apk
+[4] will build all supported channels
+[5] will clean all supported channels

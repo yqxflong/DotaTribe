@@ -1,0 +1,82 @@
+
+star.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+win bord/huangxing
+  rotate: false
+  xy: 305, 62
+  size: 68, 65
+  orig: 68, 66
+  offset: 0, 0
+  index: -1
+win bord/star/01
+  rotate: false
+  xy: 441, 96
+  size: 26, 31
+  orig: 200, 200
+  offset: 60, 88
+  index: -1
+win bord/star/02
+  rotate: true
+  xy: 0, 7
+  size: 43, 70
+  orig: 200, 200
+  offset: 60, 63
+  index: -1
+win bord/star/03
+  rotate: true
+  xy: 228, 67
+  size: 60, 76
+  orig: 200, 200
+  offset: 60, 63
+  index: -1
+win bord/star/04
+  rotate: false
+  xy: 80, 51
+  size: 73, 76
+  orig: 200, 200
+  offset: 60, 63
+  index: -1
+win bord/star/05
+  rotate: false
+  xy: 0, 51
+  size: 79, 76
+  orig: 200, 200
+  offset: 60, 63
+  index: -1
+win bord/star/07
+  rotate: false
+  xy: 154, 55
+  size: 73, 72
+  orig: 200, 200
+  offset: 63, 65
+  index: -1
+win bord/star/09
+  rotate: true
+  xy: 71, 0
+  size: 21, 45
+  orig: 200, 200
+  offset: 66, 68
+  index: -1
+win bord/star/10
+  rotate: true
+  xy: 71, 22
+  size: 28, 62
+  orig: 200, 200
+  offset: 69, 68
+  index: -1
+win bord/star/11
+  rotate: true
+  xy: 374, 90
+  size: 37, 66
+  orig: 200, 200
+  offset: 81, 68
+  index: -1
+win bord/star/12
+  rotate: true
+  xy: 374, 62
+  size: 27, 46
+  orig: 200, 200
+  offset: 106, 68
+  index: -1

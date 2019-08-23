@@ -1,0 +1,45 @@
+INDEX	HIDE	ZORDER	SCALE	ROTATION	CLASS	TPRIORITY	SWALLOW	SYSLANGID	FSYLEID	FSIZE	COLOR-R	COLOR-G	COLOR-B	COLOR-ALPHA	FILE1	FILE2	FILE3	WIDTH	HEIGHT	ANCHOR-X	ANCHOR-Y	POS-X	POS-Y	IP5-POS-X	IP5-POS-Y	IPAD-POS-X	IPAD-POS-Y	ANDROID-POS-X	ANDROID-POS-Y	ANDROID16_10-POS-X	ANDROID16_10-POS-Y	SOUNDID	OTHERS	
+0	0	-1	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/background.png	0	0	0	0	0.5	0.5	542	354	568	320	512	384	535	320	509.4	320	-1	背景底色	
+1	0	-1	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/diban.png	0	0	0	0	0.5	0.5	542	354	568	320	512	384	535	320	509.4	320	-1	背景木板	
+2	1	1	1	0	CMenuItemSprite	-5	1	0	0	0	0	0	0	0	resource/image/newpublic/help.png	resource/image/newpublic/help_l.png	0	0	0	0.5	0.5	880	636	906	602	850	666	873	602	847.4	602	-1	帮助	
+3	0	1	1	0	CMenuItemSprite	-5	1	0	0	0	0	0	0	0	resource/image/newpublic/close.png	resource/image/newpublic/close_l.png	0	0	0	0.5	0.5	980	636	1006	602	950	666	973	602	947.4	602	-1	关闭	
+4	1	1	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/biaoti_xianjiyuzhaohuan.png	0	0	0	0	0.5	0.5	542	634	568	600	512	664	535	600	509.4	600	-1	战魂激活标题背景	挑战界面
+5	1	2	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newyxzhb/zhhjh.png	0	0	0	0	0.5	0.5	542	634	568	600	512	664	535	600	509.4	600	-1	战魂激活标题	挑战界面
+6	1	1	1	0	CCLabelTTF	0	1	7013	48	0	0	0	0	0	0	0	0	0	0	0.5	0.5	542	580	568	546	512	610	535	546	509.4	546	-1	挑战文案	挑战界面
+7	1	-1	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newyxzhb/renwudik.png	0	0	0	0	0.5	0.5	542	410	568	376	512	440	535	376	509.4	376	-1	底板	
+8	1	-1	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newyxjijie/2jifazhen.png	0	0	0	0	0.5	0.5	542	360	568	326	512	390	535	326	509.4	326	-1	底板图标	
+9	1	1	1	0	CCNode	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0.5	0.5	542	270	568	236	512	300	535	236	509.4	236	-1	人物结点	
+10	1	-1	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newyxzhb/wenzikuang.png	0	0	0	0	0.5	0.5	430	150	456	116	400	180	423	116	397.4	116	-1	可挑战背景	
+11	1	1	1	0	CCLabelTTF	0	1	7014	49	0	0	0	0	0	0	0	0	0	0	0.5	0.5	395	163	421	130	365	195	378	130	352.4	130	-1	可挑战文案	
+12	1	-1	1	0	CCLabelTTF	0	1	413	84	0	0	0	0	0	0	0	0	0	0	0.5	0.5	525	163	551	130	485	195	508	130	482.4	130	-1	可挑战次数	
+13	1	-1	1	0	CCLabelTTF	0	1	7039	49	0	0	0	0	0	0	0	0	0	0	0.5	0.5	402	137	428	103	372	165	385	103	359.4	103	-1	建议挑战等级	
+14	1	1	1	0	CMenuItemSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/button.png	resource/image/newpublic/button_l.png	resource/image/newpublic/button_g.png	0	0	0.5	0.5	720	150	746	116	690	180	713	116	687.4	116	-1	挑战按钮	
+15	1	2	1	0	CCLabelTTF	0	1	7015	48	0	0	0	0	0	0	0	0	0	0	0.5	0.5	720	150	746	116	690	180	713	116	687.4	116	-1	挑战文案	
+16	1	3	1	0	CCLabelTTF	0	1	0	84	0	0	0	0	0	0	0	0	66	0	0.5	0.5	700	95	726	61	670	125	693	61	667.4	61	-1	所需数目	
+17	1	-1	1	0	CCSprite	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0.5	0.5	750	95	776	61	720	125	743	61	717.4	61	-1	所需道具图片	
+18	0	1	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/zuanshidiban.png	0	0	0	0	0	0.5	90	54	116	24	60	84	83	24	57.4	24	-1	钻石背景	
+19	0	2	1	0	CCLabelTTF	0	1	0	16	0	0	0	0	0	0	0	0	0	0	0	0.5	150	54	176	24	120	84	143	24	117.4	24	-1	钻石数值	
+20	0	1	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/jinbidiban.png	0	0	0	0	0	0.5	280	54	306	24	250	84	273	24	247.4	24	-1	金币背景	
+21	0	2	1	0	CCLabelTTF	0	1	0	16	0	0	0	0	0	0	0	0	0	0	0	0.5	340	54	366	24	310	84	333	24	307.4	24	-1	金币数值	
+22	0	-1	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newyxzhb/kuang1.png	0	0	0	0	0.5	0.5	542	454	568	420	512	484	535	420	509.4	420	-1	上底图背景	激活界面
+23	0	-1	1	0	DTHeroIcon	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0.5	0.5	332	424	358	390	302	454	325	390	299.4	390	-1	人物头像	
+24	0	-1	1	0	CCLabelTTF	0	1	7016	83	0	0	0	0	0	0	0	0	0	0	0	0	400	440	426	406	370	470	393	406	367.4	406	-1	天赋	
+25	0	-1	1	0	CCLabelTTF	0	1	0	81	0	0	0	0	0	0	0	0	0	0	0	0	460	440	486	406	430	470	453	406	427.4	406	-1	天赋描述	
+26	0	-1	1	0	CCLabelTTF	0	1	7017	83	0	0	0	0	0	0	0	0	0	0	0	0	400	410	426	376	370	440	393	376	367.4	376	-1	属性	
+27	0	-1	1	0	CCLabelTTFMultiline	0	1	0	81	0	0	0	0	0	0	0	0	220	0	0	1	460	430	486	396	430	460	453	396	427.4	396	-1	属性描述	
+28	0	-1	1	0	GrapStarsProgress	0	1	0	0	0	3	1	0	0	0	0	0	-5	0	0	0	270	324	296	290	240	354	263	290	237.4	290	-1	星星等级	
+29	0	1	1	0	CMenuItemSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/button.png	resource/image/newpublic/button_l.png	resource/image/newpublic/button_g.png	0	0	0.5	0.5	755	420	781	386	725	450	748	386	722.4	386	-1	立即使用按钮	
+30	0	2	1	0	CCLabelTTF	0	1	7018	48	0	0	0	0	0	0	0	0	0	0	0.5	0.5	755	420	781	386	725	450	748	386	722.4	386	-1	立即使用文案	
+31	0	-1	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newyxjijie/xinxikuang.png	0	0	0	0	0.5	0.5	542	193	568	159	512	223	535	159	509.4	159	-1	下背景框	
+32	0	-1	1	0	CCLabelTTF	0	1	7019	48	0	0	0	0	0	0	0	0	0	0	0.5	0.5	542	250	568	216	512	280	535	216	509.4	216	-1	进阶提示文案	
+33	0	-1	1	0	DTAwardBoard	-5	1	3	3	0	0	0	0	0	resource/image/newpublic/c_normal.png	0	0	0	0	0.5	0.5	302	193	328	159	272	223	295	159	269.4	159	-1	物品1	
+34	0	-1	1	0	CCLabelTTF	0	1	0	118	0	0	0	0	0	0	0	0	92	0	0.5	0.5	302	133	328	99	272	163	295	99	269.4	99	-1	物品1数值	
+35	0	-1	1	0	DTAwardBoard	-5	1	3	3	0	0	0	0	0	resource/image/newpublic/c_normal.png	0	0	0	0	0.5	0.5	402	193	428	159	372	223	395	159	369.4	159	-1	物品2	
+36	0	-1	1	0	CCLabelTTF	0	1	0	118	0	0	0	0	0	0	0	0	92	0	0.5	0.5	402	133	428	99	372	163	395	99	369.4	99	-1	物品2数值	
+37	0	-1	1	0	DTAwardBoard	-5	1	3	3	0	0	0	0	0	resource/image/newpublic/c_normal.png	0	0	0	0	0.5	0.5	502	193	528	159	472	223	495	159	469.4	159	-1	物品3	
+38	0	-1	1	0	CCLabelTTF	0	1	0	118	0	0	0	0	0	0	0	0	92	0	0.5	0.5	502	133	528	99	472	163	495	99	469.4	99	-1	物品3数值	
+39	0	-1	1	0	DTAwardBoard	-5	1	3	3	0	0	0	0	0	resource/image/newpublic/c_normal.png	0	0	0	0	0.5	0.5	602	193	628	159	572	223	595	159	569.4	159	-1	物品4	
+40	0	-1	1	0	CCLabelTTF	0	1	0	118	0	0	0	0	0	0	0	0	92	0	0.5	0.5	602	133	628	99	572	163	595	99	569.4	99	-1	物品4数值	
+41	0	2	1	0	CMenuItemSprite	-5	1	0	0	0	0	0	0	0	resource/image/newpublic/button.png	resource/image/newpublic/button_l.png	resource/image/newpublic/button_g.png	0	0	0.5	0.5	742	183	768	149	712	213	735	149	709.4	149	-1	激活按钮	
+42	0	3	1	0	CCLabelTTF	0	1	7020	48	0	0	0	0	0	0	0	0	0	0	0.5	0.5	742	183	768	149	712	213	735	149	709.4	149	-1	激活文字	
+43	1	2	1	0	CCLabelTTF	0	1	7021	48	0	0	0	0	0	0	0	0	0	0	0.5	0.5	542	203	568	169	512	233	535	169	509.4	169	-1	满级提示	

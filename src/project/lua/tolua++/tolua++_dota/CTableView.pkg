@@ -1,0 +1,82 @@
+class TableViewSourceDelegate : public CCTableViewDataSource, public CCTableViewDelegate
+{
+public:
+	CCTableViewCell * m_pCell;
+	CCSize m_nCellSize;
+	int m_nCellNumbers;
+
+public:
+	CCSize tableCellSizeForIndex(CCTableView *table, unsigned int idx);
+	CCTableViewCell* tableCellAtIndex(CCTableView *table, unsigned int idx);
+	unsigned int numberOfCellsInTableView(CCTableView *table);
+
+	void scrollViewDidScroll(CCScrollView* view);
+
+	void registerScript(LUA_FUNCTION cellSizeForIndex, LUA_FUNCTION tableCellAtIndex, LUA_FUNCTION numberOfCellsInTableView, LUA_FUNCTION scrollViewDidScroll);
+};
+
+class CTableView:public CCTableView
+{
+	CTableView(){
+		m_nPriority=0;
+	};
+	 ~CTableView(){};
+	static CTableView* create(CCTableViewDataSource* dataSource, CCSize size,int priority=0,bool swallow=true);
+	bool init(CCTableViewDataSource* dataSource, CCSize size,int priority,bool swallow);
+	//
+	 void registerWithTouchDispatcher()
+	{
+		CCDirector* pDirector = CCDirector::sharedDirector();
+		pDirector->getTouchDispatcher()->addTargetedDelegate(this, m_nPriority, m_bSwallow);
+	}
+	//
+	int getPriority() const{
+		return m_nPriority;
+	}
+
+	TableViewSourceDelegate * getMyDelegate();
+};
+class CScrollView:public CCScrollView{
+	CScrollView(){
+		m_nPriority=0;
+	};
+	 ~CScrollView(){};
+	static CScrollView* create(int priority=0,bool swallow=true);
+	bool init(int priority,bool swallow);
+	//
+	 void registerWithTouchDispatcher()
+	{
+		CCDirector* pDirector = CCDirector::sharedDirector();
+		pDirector->getTouchDispatcher()->addTargetedDelegate(this, m_nPriority, m_bSwallow);
+	}
+	//
+	int getPriority() const{
+		return m_nPriority;
+	}
+
+	//加入内容
+	void addText(CCNode* content);
+	//重新设置contentsize
+	void resizeContent(CCNode* content);
+};
+class CMapScrollView:public CCScrollView{
+	CMapScrollView(){
+		m_nPriority=0;
+	};
+	 ~CMapScrollView(){};
+	static CMapScrollView* create(const CCSize& sz,int priority=0,bool swallow=true);
+	bool initWithViewSize(const CCSize& sz ,int priority,bool swallow);
+	//
+	 void registerWithTouchDispatcher()
+	{
+		CCDirector* pDirector = CCDirector::sharedDirector();
+		pDirector->getTouchDispatcher()->addTargetedDelegate(this, m_nPriority, m_bSwallow);
+	}
+	//
+	int getPriority() const{
+		return m_nPriority;
+	}
+
+	//重写父类函数
+	 CCNode* getChildByTag(int aTag);
+};

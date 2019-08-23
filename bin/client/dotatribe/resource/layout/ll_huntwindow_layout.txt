@@ -1,0 +1,11 @@
+INDEX	HIDE	ZORDER	SCALE	ROTATION	CLASS	TPRIORITY	SWALLOW	SYSLANGID	FSYLEID	FSIZE	COLOR-R	COLOR-G	COLOR-B	COLOR-ALPHA	FILE1	FILE2	FILE3	WIDTH	HEIGHT	ANCHOR-X	ANCHOR-Y	POS-X	POS-Y	IP5-POS-X	IP5-POS-Y	IPAD-POS-X	IPAD-POS-Y	ANDROID-POS-X	ANDROID-POS-Y	ANDROID16_10-POS-X	ANDROID16_10-POS-Y	SOUNDID	OTHERS
+0	0	0	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/kuangdong/dijing_diban.png	0	0	0	0	0.5	0.5	535	350	568	316	512	380	533.33	316	507.73	316	-1	背板
+1	0	0	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/kuangdong/npc_kd.png	0	0	0	0	0.5	0.5	260	340	300	300	250	375	265.33	300	239.73	300	-1	展示人
+2	0	0	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/kuangdong/kuangdong_duihuakuang.png	0	0	0	0	0.5	0.5	623	430	656	396	600	460	621.33	396	595.73	396	-1	说明底板
+3	0	1	1	0	CCLabelTTFMultiline	0	1	74	100	0	0	0	0	0	0	0	0	340	110	0	1	463	480	496	446	440	510	461.33	446	435.73	446	-1	寻宝说明
+4	0	1	1	0	CCLabelTTF	0	1	70	92	0	0	0	0	0	0	0	0	0	0	0	0	503	300	536	266	480	330	501.33	266	475.73	266	-1	寻宝CD说明
+5	0	1	1	0	CMenuItemSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/button_2.png	resource/image/newpublic/button_2_l.png	resource/image/newpublic/button_2_g.png	0	0	0.5	0.5	623	220	656	186	600	250	621.33	186	595.73	186	-1	寻宝按钮
+6	0	2	1	0	CCLabelTTF	0	1	73	49	0	0	0	0	0	0	0	0	0	0	0.5	0.5	623	220	656	186	600	250	621.33	186	595.73	186	-1	寻宝按钮字
+7	1	3	1	90	CSkeletonAnimation	0	1	0	0	0	0	0	0	0	resource/spine/dotajt.json	resource/spine/dotajt.atlas	zzdaiji	0	0	0.5	0.5	667	220	700	186	644	250	665.33	186	639.73	186	-1	骨骼箭头动画
+8	0	2	1	0	CCLabelTTF	0	1	0	96	0	0	0	0	0	0	0	0	0	0	0.5	0.5	623	150	656	116	600	180	621.33	116	595.73	116	-1	剩余次数字
+9	0	1	1	0	CMenuItemSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/zengjia_01.png	resource/image/newpublic/zengjia_02.png	0	0	0	0.5	0.5	740	150	780	116	720	180	745.33	116	719.73	116	-1	购买次数

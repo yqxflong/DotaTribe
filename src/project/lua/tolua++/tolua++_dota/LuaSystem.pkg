@@ -1,0 +1,15 @@
+class LuaSystem
+{
+	static LuaSystem * LuaGetInstance();
+
+	static std::string LuaGetInstanceName();
+
+	void LuaRegisterInitScript(LUA_FUNCTION nHandler);
+
+	void LuaRegisterTickScript(LUA_FUNCTION nHandler);
+
+	void LuaRegisterDestroyScript(LUA_FUNCTION nHandler);
+	
+	void LuaRegisterOnEventHandlerScript(LUA_FUNCTION nHandler);
+	void LuaRegisterOnPacketHandlerScript(LUA_FUNCTION nHandler);
+};

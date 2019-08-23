@@ -1,0 +1,15 @@
+class IDataHandler{
+	void RegisterLuaHandler1(LUA_FUNCTION nHandler);
+	void RegisterLuaHandler2(LUA_FUNCTION nHandler);
+	void RegisterLuaHandler3(LUA_FUNCTION nHandler);
+	void RegisterLuaHandler4(LUA_FUNCTION nHandler);
+	void RegisterLuaHandler5(LUA_FUNCTION nHandler);
+	void RegisterLuaHandler6(LUA_FUNCTION nHandler);
+	void RegisterLuaHandler7(LUA_FUNCTION nHandler);
+	void RegisterLuaHandler8(LUA_FUNCTION nHandler);
+	void RegisterLuaHandler9(LUA_FUNCTION nHandler);
+	void RegisterLuaHandler10(LUA_FUNCTION nHandler);
+	//
+	//lua往Cpp的容器里装结果
+	void PushInt_LuaFunc_Result(int ret);
+};

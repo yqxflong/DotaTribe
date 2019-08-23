@@ -1,0 +1,107 @@
+﻿string	value	note
+unkonw	0	无法使用
+battle_norspd	10	战斗1倍速度
+battle_doublespd	20	战斗2倍速度
+battle_triplespd	30	战斗3倍速度
+useitem_norstyle	6	使用物品正常样式id from numberbufferdata.txt
+useitem_cristyle	7	使用物品暴击样式id from numberbufferdata.txt
+icon_eng	151	体力图标id from resourceid.txt
+icon_gold	150	金钱图标id from resourceid.txt
+icon_exp	152	经验图标id from resourceid.txt
+icon_diamond	149	钻石图标id from resourceid.txt
+icon_strskill	153	力量技巧图标id from resourceid.txt
+icon_dexskill	154	敏捷技巧图标id from resourceid.txt
+icon_iniskill	155	智力技巧图标id from resourceid.txt
+icon_prestage	560	声望技巧图标id from resourceid.txt
+icon_exploit	561	功勋技巧图标id from resourceid.txt
+icon_heroexp	152	英雄经验图标id from resourceid.txt
+icon_equipexp	152	装备经验图标id from resourceid.txt
+icon_maxhp	152	最大hp图标id from resourceid.txt
+icon_maxmp	152	最大mp图标id from resourceid.txt
+icon_speed	152	速度图标id from resourceid.txt
+icon_min_attack	152	最小攻击图标id from resourceid.txt
+icon_max_attack	152	最大攻击图标id from resourceid.txt
+icon_armor	152	护甲图标id from resourceid.txt
+icon_exposearmor	152	破甲图标id from resourceid.txt
+icon_hit	152	命中图标id from resourceid.txt
+icon_dodge	152	躲避图标id from resourceid.txt
+icon_crit	152	韧性图标id from resourceid.txt
+icon_uncrit	152	暴击图标id from resourceid.txt
+getitem_effect_dis	250	获得物品效果间隔时间（毫秒）
+guide_thumb_equip_during	1000	引导，装备拖拽，手指时间（毫秒）
+guide_thumb_skill_during	1000	引导，技能拖拽，手指时间（毫秒）
+avatar_scale_times	86	人物大头像显示在小格子中时的缩放比率，放大100倍
+mission_scaleMax	103	关卡最大缩放，100倍
+mission_scaleMin	102	关卡最小缩放，100倍
+mission_scaleSpeed	75	关卡缩放速度，100倍
+mission_colorR	255	关卡变色R值
+mission_colorG	0	关卡变色G值
+mission_colorB	0	关卡变色B值
+mission_colorA	100	关卡变色A值
+mission_massace_level	20	扫荡开启等级
+sound_common_open	54	普通按钮点击音效
+effect_remove_delay_time	400	变羊眩晕移除延迟时间(单位毫秒)加速减半
+msgbox_pop_scale_1	30	弹出界面比例，全额100
+msgbox_pop_scale_2	120	弹出界面比例，全额100
+msgbox_pop_scale_3	95	弹出界面比例，全额100
+msgbox_pop_scale_4	100	弹出界面比例，全额100
+msgbox_pop_during_2	5	花费帧数
+msgbox_pop_during_3	3	花费帧数
+msgbox_pop_during_4	3	花费帧数
+action_falldown_time	500	下落动作的时间（毫秒）
+communication_timeout	30000	通讯转圈窗口超时时间(毫秒)
+annoucement_watting_during	500	公告间隔时间(毫秒)
+annoucement_bg_id	618	公告背景图片ID
+athletics_admisson_delay	267	战斗角色入场延时时间(毫秒)
+athletics_result_delay	600	战斗结果界面延时时间(毫秒)
+loading_tip_total_num	14	loading界面tips总数
+massacre_interval_time	600	扫荡间隔时间（毫秒）
+main_line_task_font	84	主线任务名称FontStyleID
+daily_line_task_font	83	日常任务名称FontStyle
+power_icon	636	力量图标
+inteligence_icon	638	智力图标
+quick_icon	637	敏捷图标
+vip_nuli_press_level	5	奴隶，压榨功能vip开启时间
+equiptrain_onekey_time	600	装备洗练中一键洗练的间隔时间
+ui_adpet_effect	2044	UI技能专精特效ID
+custom_skip_vip_level	1000	副本跳过战斗VIP等级
+arena_skip_vip_level	7	竞技场跳过战斗VIP等级
+tower_skip_vip_level	2	爬塔跳过战斗VIP等级
+team_skip_vip_level	3	组队跳过战斗VIP等级
+servant_skip_vip_level	1000	仆从跳过战斗VIP等级
+friend_skip_vip_level	0	好友切磋跳过战斗VIP等级
+kuangdong_skip_vip_level	0	矿洞跳过战斗VIP等级
+six_skill_vip_level	0	第六格技能开启VIP等级
+kuangdong_hunt_lieren_vip_level	0	矿洞寻宝特殊事件战斗跳过VIP等级
+hero_advance_level	20	英雄进阶等级限制
+homemap_move_during	500	主场景地图移动时间，毫秒
+herobar_level	10	英雄召唤等级
+hero_max_progress	8	英雄描述最大数值
+attributelock_templateid	21003	属性锁templateId
+soulstone_templateid	21001	灵魂石templateId
+longxuejingshi_templateid	21002	龙血晶石templateId
+equip_promote_level	20	装备进阶开启等级
+equip_train_level	20	装备洗练开启等级
+hunt_mining_movetime	1000	寻宝中运动时间
+mission_arrow_num	3	前几关需要挑战指示箭头
+multireward_pop_during_2	9	花费帧数
+multireward_pop_during_3	4	花费帧数
+multireward_pop_during_4	4	花费帧数
+herosoulopenlevel	36	英雄战魂开启等级
+POP_PRIORITY_LEADERSHIP_LVUP	0	领导力升级
+POP_PRIORITY_TASK_AWARD	1	任务奖励
+POP_PRIORITY_ROLE_LVUP	2	升级
+POP_PRIORITY_BATTLE_RESULT	3	战斗结果
+POP_PRIORITY_HERO_NEW	4	新英雄
+POP_PRIORITY_OBJECT_NEW	5	新物品
+POP_PRIORITY_SAODANG	6	扫荡
+CONST_KEY_START_SHINT_FADE_DURING	600	开始界面，选取提示，单位毫秒
+equip_beakdown_level_limit	20	装备分解开启等级
+enable_local_athleticsdata	0	是否开启本地录像
+replace_map_id_1	1	需替换mapid
+replace_stage_id_1	3	需要替换stageid
+replace_map_id_2	1	需替换mapid
+replace_stage_id_2	7	需要替换stageid
+hero_index_1	832	英雄角标1
+hero_index_2	833	英雄角标2
+hero_index_3	834	英雄角标3

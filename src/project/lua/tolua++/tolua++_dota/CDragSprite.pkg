@@ -1,0 +1,61 @@
+class CDragSpriteDelegate{
+	 void clickEvent(int idx,int type=0)=0;
+	 bool containsTheCopy(CCSprite* copy,int type=0)=0;
+};
+class CDragSprite:public CCSprite,public CCTargetedTouchDelegate{
+	CDragSprite(){
+		m_bIsDragEnabled=0;
+		m_pCopy=0;
+		m_pRootNode=0;
+		m_pDelegate=0;
+		m_sCopyzOrder=0;
+		m_nDragType=0;
+		m_nIdx=0;
+	};
+	~CDragSprite(){};
+	static CDragSprite* create(const char* filename,CCNode* copyroot,CDragSpriteDelegate* delegate);
+	bool initWithFile(const char* filename,CCNode* copyroot,CDragSpriteDelegate* delegate);
+	static CDragSprite* create(CCTexture2D* texture,CCNode* copyroot,CDragSpriteDelegate* delegate);
+	bool initWithTexture(CCTexture2D* texture,CCNode* copyroot,CDragSpriteDelegate* delegate);
+	//
+	/*
+		Set Delegate
+	*/
+	void setDelegate(CDragSpriteDelegate* delegate){
+		m_pDelegate=delegate;
+	}
+	/*
+		must before onenter()
+	*/
+	void isDragEabled(bool eabled){
+		m_bIsDragEnabled=eabled;
+	};
+	bool isDragEabled () const{
+		return m_bIsDragEnabled;
+	};
+	/*
+		must before touchBegin
+	*/
+	void copyzOrder(short zOrder){
+		m_sCopyzOrder=zOrder;
+	};
+	int copyzOrder () const{
+		return m_sCopyzOrder;
+	};
+	/*
+		must before touchBegin
+	*/
+	void dragType(int type){
+		m_nDragType=type;
+	};
+	int dragType () const{
+		return m_nDragType;
+	};
+	//
+	void setIDX(int idx){
+		m_nIdx=idx;
+	};
+	int getIDX () const{
+		return m_nIdx;
+	};
+};

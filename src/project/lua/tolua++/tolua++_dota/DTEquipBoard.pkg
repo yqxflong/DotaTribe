@@ -1,0 +1,24 @@
+typedef enum{
+	kHETYPE_ROLE=0,		//人物装备
+	kHETYPE_ELIST,		//装备列表
+};
+class DTEquipBoardDelegate{
+	 void CallBack_ClickEquip(int type,int equipID)=0;
+};
+class DTEquipBoard:public CCNode
+{
+	DTEquipBoard();
+	 ~DTEquipBoard(){};
+	static DTEquipBoard* create(CCSprite* hint,CCSprite* corner,CCLabelTTF* num);
+	bool init(CCSprite* hint,CCSprite* corner,CCLabelTTF* num);
+	//
+	void SetEquip(int type,BagEquipData* equip,DTEquipBoardDelegate* pDel);
+	//begin:仅用于英雄身上装备
+	void RemoveEquip();
+	//end
+
+	//重写设置坐标
+	 void setPosition(const CCPoint& newPosition){
+		CCNode::setPosition(ccp(newPosition.x-getAnchorPoint().x*getContentSize().width,newPosition.y-getAnchorPoint().x*getContentSize().height));
+	}
+};

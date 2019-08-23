@@ -1,0 +1,11 @@
+唯一行Id	商品类型	商品GoodsId(畅游支付专用)	商品Id	商品名称	商品描述信息	商品价格(Android专用)	商品签名(Android专用)	是否为消耗品(IOS专用)
+0	1	0	com.cyou.mrd.fightforcheese.product00	测试商品	something	0.99	0	0
+1	2	0	com.cyou.mrd.fightforcheese.product01	糖果包	something	0.99	0	0
+2	3	0	com.cyou.mrd.fightforcheese.product02	牛奶包	something	0.99	0	0
+3	4	0	com.cyou.mrd.fightforcheese.product03	加速胶囊盒	something	0.99	0	0
+4	5	0	com.cyou.mrd.fightforcheese.product04	宠物窝	something	0.99	0	0
+5	6	0	com.cyou.mrd.fightforcheese.product05	宠物蛋	something	0.99	0	0
+6	7	0	com.cyou.mrd.fightforcheese.product06	小礼包	something	2.99	0	0
+7	8	0	com.cyou.mrd.fightforcheese.product07	大礼包	something	4.99	0	0
+8	9	0	com.cyou.mrd.fightforcheese.product08	豪华礼包	something	6.99	0	0
+9	10	0	com.cyou.mrd.fightforcheese.product09	超豪华礼包	something	9.99	0	0

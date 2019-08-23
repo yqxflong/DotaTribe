@@ -1,0 +1,131 @@
+
+anyingsaman02.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+B-BS
+  rotate: false
+  xy: 1, 139
+  size: 165, 115
+  orig: 205, 230
+  offset: 40, 93
+  index: -1
+L-JB
+  rotate: false
+  xy: 455, 220
+  size: 2, 2
+  orig: 120, 120
+  offset: 42, 52
+  index: -1
+L-wuqi
+  rotate: false
+  xy: 455, 220
+  size: 2, 2
+  orig: 120, 120
+  offset: 42, 52
+  index: -1
+L-datui
+  rotate: false
+  xy: 337, 86
+  size: 45, 35
+  orig: 60, 65
+  offset: 6, 17
+  index: -1
+L-shbi
+  rotate: true
+  xy: 61, 5
+  size: 27, 52
+  orig: 60, 60
+  offset: 17, 5
+  index: -1
+L-xiaobi
+  rotate: false
+  xy: 464, 170
+  size: 47, 52
+  orig: 70, 85
+  offset: 5, 22
+  index: -1
+L-xiaotui
+  rotate: true
+  xy: 169, 34
+  size: 46, 54
+  orig: 55, 70
+  offset: 8, 5
+  index: -1
+R-JB
+  rotate: false
+  xy: 337, 123
+  size: 66, 62
+  orig: 120, 120
+  offset: 35, 32
+  index: -1
+R-datui
+  rotate: true
+  xy: 455, 224
+  size: 30, 56
+  orig: 55, 65
+  offset: 14, 1
+  index: -1
+R-shbi
+  rotate: true
+  xy: 225, 36
+  size: 44, 53
+  orig: 55, 60
+  offset: 6, 4
+  index: -1
+R-wuqi
+  rotate: false
+  xy: 168, 187
+  size: 212, 67
+  orig: 240, 150
+  offset: 3, 24
+  index: -1
+R-xiaobi
+  rotate: true
+  xy: 1, 1
+  size: 31, 58
+  orig: 65, 85
+  offset: 17, 15
+  index: -1
+R-xiaotui
+  rotate: true
+  xy: 280, 38
+  size: 42, 54
+  orig: 70, 90
+  offset: 17, 12
+  index: -1
+pigu
+  rotate: false
+  xy: 464, 137
+  size: 40, 31
+  orig: 77, 45
+  offset: 18, 6
+  index: -1
+tou
+  rotate: true
+  xy: 1, 34
+  size: 103, 166
+  orig: 140, 220
+  offset: 31, 31
+  index: -1
+tou1
+  rotate: true
+  xy: 169, 82
+  size: 103, 166
+  orig: 140, 220
+  offset: 31, 31
+  index: -1
+xiong
+  rotate: false
+  xy: 405, 124
+  size: 57, 61
+  orig: 90, 82
+  offset: 19, 8
+  index: -1
+yaodai
+  rotate: false
+  xy: 382, 187
+  size: 71, 67
+  orig: 90, 90
+  offset: 8, 0
+  index: -1

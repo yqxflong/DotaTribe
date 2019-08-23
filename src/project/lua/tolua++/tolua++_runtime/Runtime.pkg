@@ -1,0 +1,12 @@
+$#include "LuaRuntime.h"
+
+
+$pfile "DebugerSystem.pkg"
+$pfile "EngineSystem.pkg"
+$pfile "IAPSystem.pkg"
+$pfile "IDebuger.pkg"
+$pfile "NetDebuger.pkg"
+$pfile "ProfSystem.pkg"
+$pfile "SoundSystem.pkg"
+$pfile "TimeSystem.pkg"
+$pfile "VariableSystem.pkg"

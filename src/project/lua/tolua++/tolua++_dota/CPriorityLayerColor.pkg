@@ -1,0 +1,29 @@
+class CPriorityLayerColor;
+class CPriorityLayerColorDelegate{
+	 void touchEvent(CPriorityLayerColor* pLayerColor)=0;
+};
+class CPriorityLayerColor:public CCLayerColor{
+	CPriorityLayerColor(){
+		m_nID=0;
+		m_nPriority=0;
+		m_pDelegate=0;
+		m_bIsCallBack=false;
+	};
+	~CPriorityLayerColor(){
+		m_pDelegate=0;
+	};
+	static CPriorityLayerColor* create(const ccColor4B& color, GLfloat width, GLfloat height,int priority=0);
+	bool initWithColor(const ccColor4B& color, GLfloat width, GLfloat height,int priority);
+	//
+	void setDelegate(CPriorityLayerColorDelegate* del){
+		m_pDelegate=del;
+	}
+	//
+	void setIDX(int idx){
+		m_nID=idx;
+	}
+	int getIDX()const{
+		return m_nID;
+	}
+
+};

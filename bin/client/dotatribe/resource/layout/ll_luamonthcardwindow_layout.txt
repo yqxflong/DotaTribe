@@ -1,0 +1,15 @@
+INDEX	HIDE	ZORDER	SCALE	ROTATION	CLASS	TPRIORITY	SWALLOW	SYSLANGID	FSYLEID	FSIZE	COLOR-R	COLOR-G	COLOR-B	COLOR-ALPHA	FILE1	FILE2	FILE3	WIDTH	HEIGHT	ANCHOR-X	ANCHOR-Y	POS-X	POS-Y	IP5-POS-X	IP5-POS-Y	IPAD-POS-X	IPAD-POS-Y	ANDROID-POS-X	ANDROID-POS-Y	ANDROID16_10-POS-X	ANDROID16_10-POS-Y	SOUNDID	OTHERS
+0	1	0	1	0	CPriorityLayerColor	0	1	0	0	0	255	255	255	255	0	0	0	1136	768	0	0	0	0	0	0	0	0	0	0	0	0	-1	白色底板
+1	0	1	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/yueka/diban_czyk.png	0	0	0	0	0.5	0.5	650	337	683	298	627	367	648.33	298	622.73	298	-1	小背景
+2	0	3	1	0	CMenuItemSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/button.png	resource/image/newpublic/button_l.png	resource/image/newpublic/button_g.png	0	0	0.5	0.5	800	80	800	80	800	80	800	80	800	80	-1	测试按钮
+3	0	4	1	0	CCLabelTTF	0	1	549	52	0	0	0	0	0	0	0	0	0	0	0.5	0.5	800	80	800	80	800	80	800	80	800	80	-1	测试按钮Label
+4	0	3	1	0	CMenuItemSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/button.png	resource/image/newpublic/button_l.png	resource/image/newpublic/button_g.png	0	0	0.5	0.5	410	140	498	140	442	174	420	140	394.4	140	-1	购买按钮（30元）
+5	0	4	1	0	CCLabelTTF	0	1	6011	52	0	0	0	0	0	0	0	0	0	0	0.5	0.5	410	140	498	140	442	174	420	140	394.4	140	-1	购买按钮Label（30元）
+6	0	3	1	0	CMenuItemSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/button.png	resource/image/newpublic/button_l.png	resource/image/newpublic/button_g.png	0	0	0.5	0.5	790	140	878	140	822	174	800	140	774.4	140	-1	购买按钮（60元）
+7	0	4	1	0	CCLabelTTF	0	1	6011	52	0	0	0	0	0	0	0	0	0	0	0.5	0.5	790	140	878	140	822	174	800	140	774.4	140	-1	购买按钮Label（60元）
+8	0	3	1	0	CCLabelTTF	0	1	5002	42	0	0	0	0	0	0	0	0	0	0	0.5	0	410	110	498	110	442	117	420	110	394.4	110	-1	LeftDay(30元)
+9	0	3	1	0	CCLabelTTF	0	1	5002	42	0	0	0	0	0	0	0	0	0	0	0.5	0	790	110	878	110	822	117	800	110	774.4	110	-1	LeftDay(60元)
+10	0	5	1	0	CCLabelTTF	0	1	5003	49	0	0	0	0	0	0	0	0	0	0	0	0	512	550	512	550	512	550	512	550	512	550	-1	说明文字(第一行)
+11	0	2	1	0	CCLabelTTF	0	1	5004	49	0	0	0	0	0	0	0	0	0	0	0	0	512	530	512	530	512	530	512	530	512	530	-1	说明文字(第二行)
+12	1	-10	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/background.png	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	背景
+13	0	10	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newhuifu/wenquan_diban.png	0	0	0	0	0.5	0.5	535	354	568	315	512	384	533.33	315	507.73	315	-1	小背景

@@ -1,0 +1,2 @@
+FontStyleID	FilePath	Width	Height	AnchorX	AnchorY	初始Y (相对0.5屏幕高度)	递增高度	最大递增次数	持续时间（ms）	渐隐触发时间（ms）
+67	resource/image/newpublic/errortips_bg.png	1024	0	0.5	0.5	183	41	3	3000	2500

@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AEDBEE4F-103D-472B-A9A4-7300979DA696}</ProjectGuid>
+    <RootNamespace>cobra_win</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\lib</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\..\temp</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\temp\$(Configuration)\$(ProjectName)\</IntDir>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/wd4996 /wd4267 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(ProjectName).lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/wd4996 /wd4267 %(AdditionalOptions)</AdditionalOptions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\common\Console.cpp" />
+    <ClCompile Include="..\src\common\Declare.cpp" />
+    <ClCompile Include="..\src\common\Event.cpp" />
+    <ClCompile Include="..\src\common\FileLoader.cpp" />
+    <ClCompile Include="..\src\common\Guard.cpp" />
+    <ClCompile Include="..\src\common\Lock.cpp" />
+    <ClCompile Include="..\src\common\Math.cpp" />
+    <ClCompile Include="..\src\common\MD5Crypto.cpp" />
+    <ClCompile Include="..\src\common\MyHash.cpp" />
+    <ClCompile Include="..\src\common\NonCopyable.cpp" />
+    <ClCompile Include="..\src\common\Parser.cpp" />
+    <ClCompile Include="..\src\common\Random.cpp" />
+    <ClCompile Include="..\src\common\Singleton.cpp" />
+    <ClCompile Include="..\src\common\String.cpp" />
+    <ClCompile Include="..\src\mem\Allocator.cpp" />
+    <ClCompile Include="..\src\mem\Allocator2.cpp" />
+    <ClCompile Include="..\src\mem\Array.cpp" />
+    <ClCompile Include="..\src\mem\DList.cpp" />
+    <ClCompile Include="..\src\mem\DPacket.cpp" />
+    <ClCompile Include="..\src\mem\EPacket.cpp" />
+    <ClCompile Include="..\src\mem\EPacket2.cpp" />
+    <ClCompile Include="..\src\mem\Hash.cpp" />
+    <ClCompile Include="..\src\mem\Malloc.cpp" />
+    <ClCompile Include="..\src\mem\mbuf.cpp" />
+    <ClCompile Include="..\src\mem\MemNode.cpp" />
+    <ClCompile Include="..\src\mem\Memory.cpp" />
+    <ClCompile Include="..\src\mem\Queue.cpp" />
+    <ClCompile Include="..\src\mem\SList.cpp" />
+    <ClCompile Include="..\src\mem\Tree.cpp" />
+    <ClCompile Include="..\src\net\Socket.cpp" />
+    <ClCompile Include="..\src\net\WinNet.cpp" />
+    <ClCompile Include="..\src\thread\IThread.cpp" />
+    <ClCompile Include="..\src\logger\ConsoleLogger.cpp" />
+    <ClCompile Include="..\src\logger\FileLogger.cpp" />
+    <ClCompile Include="..\src\logger\ILogger.cpp" />
+    <ClCompile Include="..\src\logger\UDPLogger.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\common\Console.h" />
+    <ClInclude Include="..\include\common\Declare.h" />
+    <ClInclude Include="..\include\common\Event.h" />
+    <ClInclude Include="..\include\common\FileLoader.h" />
+    <ClInclude Include="..\include\common\Guard.h" />
+    <ClInclude Include="..\include\common\Lock.h" />
+    <ClInclude Include="..\include\common\Math.h" />
+    <ClInclude Include="..\include\common\MD5Crypto.h" />
+    <ClInclude Include="..\include\common\MyHash.h" />
+    <ClInclude Include="..\include\common\NonCopyable.h" />
+    <ClInclude Include="..\include\common\Parser.h" />
+    <ClInclude Include="..\include\common\Random.h" />
+    <ClInclude Include="..\include\common\Singleton.h" />
+    <ClInclude Include="..\include\common\String.h" />
+    <ClInclude Include="..\include\mem\Allocator.h" />
+    <ClInclude Include="..\include\mem\Allocator2.h" />
+    <ClInclude Include="..\include\mem\Array.h" />
+    <ClInclude Include="..\include\mem\DList.h" />
+    <ClInclude Include="..\include\mem\DPacket.h" />
+    <ClInclude Include="..\include\mem\EPacket.h" />
+    <ClInclude Include="..\include\mem\EPacket2.h" />
+    <ClInclude Include="..\include\mem\Hash.h" />
+    <ClInclude Include="..\include\mem\Malloc.h" />
+    <ClInclude Include="..\include\mem\mbuf.h" />
+    <ClInclude Include="..\include\mem\MemNode.h" />
+    <ClInclude Include="..\include\mem\Memory.h" />
+    <ClInclude Include="..\include\mem\Queue.h" />
+    <ClInclude Include="..\include\mem\SList.h" />
+    <ClInclude Include="..\include\mem\Tree.h" />
+    <ClInclude Include="..\include\net\Socket.h" />
+    <ClInclude Include="..\include\net\WinNet.h" />
+    <ClInclude Include="..\include\logger\ConsoleLogger.h" />
+    <ClInclude Include="..\include\logger\FileLogger.h" />
+    <ClInclude Include="..\include\logger\ILogger.h" />
+    <ClInclude Include="..\include\logger\UDPLogger.h" />
+    <ClInclude Include="..\include\thread\IThread.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

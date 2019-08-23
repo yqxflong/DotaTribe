@@ -1,0 +1,10 @@
+INDEX	HIDE	ZORDER	SCALE	ROTATION	CLASS	TPRIORITY	SWALLOW	SYSLANGID	FSYLEID	FSIZE	COLOR-R	COLOR-G	COLOR-B	COLOR-ALPHA	FILE1	FILE2	FILE3	WIDTH	HEIGHT	ANCHOR-X	ANCHOR-Y	POS-X	POS-Y	IP5-POS-X	IP5-POS-Y	IPAD-POS-X	IPAD-POS-Y	ANDROID-POS-X	ANDROID-POS-Y	ANDROID16_10-POS-X	ANDROID16_10-POS-Y	SOUNDID	OTHERS
+0	0	0	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/kuangdong/hunt_mining_bg.png	0	0	0	0	0.5	0.5	535	354	568	320	512	384	533.33	320	507.73	320	-1	±³¾°
+1	0	0	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/floor1.png	0	0	0	0	0.5	0.5	535	350	568	306	512	380	533.33	306	507.73	306	-1	Ä¾°åµ×°å
+2	0	0	1	0	CMenuItemSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/close.png	resource/image/newpublic/close_l.png	0	0	0	0.5	0.5	1003	625	1036	590	980	660	1001.33	590	975.73	590	-1	¹Ø±Õ°´Å¥
+3	0	0	1	0	CTabMenuItemSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/tab.png	resource/image/newpublic/tab_l.png	0	0	0	0.5	0.5	223	620	256	580	200	650	221.33	580	195.73	580	-1	¿ó¶´Ñ°±¦Ò³
+4	0	0	1	0	CCLabelTTF	0	1	939	48	0	0	0	0	0	0	0	0	0	0	0.5	0.5	223	620	256	580	200	650	221.33	580	195.73	580	-1	¿ó¶´Ñ°±¦×Ö
+5	0	0	1	0	CTabMenuItemSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/tab.png	resource/image/newpublic/tab_l.png	0	0	0	0.5	0.5	423	620	456	580	400	650	421.33	580	395.73	580	-1	Å«Á¥±êÇ©Ò³
+6	0	0	1	0	CCLabelTTF	0	1	64	48	0	0	0	0	0	0	0	0	0	0	0.5	0.5	423	620	456	580	400	650	421.33	580	395.73	580	-1	Å«Á¥×Ö
+7	0	0	1	0	CTabMenuItemSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/tab.png	resource/image/newpublic/tab_l.png	0	0	0	0.5	0.5	623	620	656	580	600	650	621.33	580	595.73	580	-1	¿ó¶´±êÇ©Ò³
+8	0	0	1	0	CCLabelTTF	0	1	63	48	0	0	0	0	0	0	0	0	0	0	0.5	0.5	623	620	656	580	600	650	621.33	580	595.73	580	-1	¿ó¶´×Ö

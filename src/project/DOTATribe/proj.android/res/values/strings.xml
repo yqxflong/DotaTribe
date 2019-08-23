@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">刀塔联盟</string>
+	<string name="quit_title">提示</string>
+    <string name="quit_content">确定离开刀塔联盟吗？</string>
+    <string name="quit_yes">确定</string>
+    <string name="quit_no">取消</string>
+</resources>

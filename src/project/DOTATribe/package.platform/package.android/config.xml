@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config>
+    <resource>E:\Project\dota\bin\trunk\client\dotatribe\resource</resource>
+    <outputdir>E:\Project\dota\src\trunk\client\android\apk.output</outputdir>
+    <channelconfig>
+        <channel name="original">
+            <projectdir>../../proj.android</projectdir>
+            <targetplatform>9</targetplatform>
+            <ip>dotagatead.dota.shouyou.com</ip>
+            <port>12011</port>
+        </channel>
+        <channel name="91">
+            <projectdir>../../../../android/proj.android_91</projectdir>
+            <targetplatform>14</targetplatform>
+            <ip>dotagatead.dota.shouyou.com</ip>
+            <port>12012</port>
+        </channel>
+        <channel name="360">
+            <projectdir>../../../../android/proj.android_360</projectdir>
+            <targetplatform>14</targetplatform>
+            <ip>dotagatead.dota.shouyou.com</ip>
+            <port>12011</port>
+        </channel>
+        <channel name="oppo">
+            <projectdir>../../../../android/proj.android_oppo</projectdir>
+            <targetplatform>10</targetplatform>
+            <dependentdir>../../../../android/OpenSDK1.6.0</dependentdir>
+            <ip>dotagatead.dota.shouyou.com</ip>
+            <port>12016</port>
+        </channel>
+        <channel name="duoku">
+            <projectdir>../../../../android/proj.android_duoku</projectdir>
+            <targetplatform>10</targetplatform>
+            <dependentdir>../../../../android/Duoku_Sdk_Project</dependentdir>
+            <ip>dotagatead.dota.shouyou.com</ip>
+            <port>12015</port>
+        </channel>
+        <channel name="uc">
+            <projectdir>../../../../android/proj.android_uc</projectdir>
+            <targetplatform>14</targetplatform>
+            <ip>dotagatead.dota.shouyou.com</ip>
+            <port>12017</port>
+        </channel>
+        <channel name="wdj">
+            <projectdir>../../../../android/proj.android_wdj</projectdir>
+            <targetplatform>10</targetplatform>
+            <ip>dotagatead.dota.shouyou.com</ip>
+            <port>12018</port>
+        </channel>
+        <channel name="xiaomi">
+            <projectdir>../../../../android/proj.android_xiaomi</projectdir>
+            <targetplatform>10</targetplatform>
+            <ip>dotagatead.dota.shouyou.com</ip>
+            <port>12019</port>
+        </channel>
+        <channel name="dianxin">
+            <projectdir>../../../../android/proj.android_dianxin</projectdir>
+            <targetplatform>14</targetplatform>
+            <ip>dotagatead.dota.shouyou.com</ip>
+            <port>12011</port>
+        </channel>
+        <channel name="huawei">
+            <projectdir>../../../../android/proj.android_hawei</projectdir>
+            <targetplatform>14</targetplatform>
+            <ip>dotagatead.dota.shouyou.com</ip>
+            <port>12011</port>
+        </channel>
+        <channel name="ewan">
+            <projectdir>../../../../android/proj.android_ewan</projectdir>
+            <targetplatform>14</targetplatform>
+            <ip>dotagatead.dota.shouyou.com</ip>
+            <port>12011</port>
+        </channel>
+        <channel name="downjoy">
+            <projectdir>../../../../android/proj.android_downjoy</projectdir>
+            <targetplatform>14</targetplatform>
+            <ip>dotagatead.dota.shouyou.com</ip>
+            <port>12011</port>
+        </channel>
+        <channel name="gfan">
+            <projectdir>../../../../android/proj.android_gfan</projectdir>
+            <targetplatform>14</targetplatform>
+            <ip>dotagatead.dota.shouyou.com</ip>
+            <port>12011</port>
+        </channel>
+        <channel name="lenovo">
+            <projectdir>../../../../android/proj.android_lenovo</projectdir>
+            <targetplatform>14</targetplatform>
+            <ip>dotagatead.dota.shouyou.com</ip>
+            <port>12011</port>
+        </channel>
+    </channelconfig>
+</Config>

@@ -1,0 +1,1107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AE95A2D1-9B96-4EC1-BBCB-3E1E5581C19D}</ProjectGuid>
+    <RootNamespace>VIP3D</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\..\bin\client\dotatribe</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\..\bin\trunk\client\dotatribe</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\..\..\..\..\bin\branches\TW109_2014-08-11\dotatribe</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\..\temp</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(LibraryPath)</LibraryPath>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectName)_d</TargetName>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</EmbedManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/wd4267 /wd4996 /wd4430 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\cobra_win;..\..\external\sqlite3;..\..\cocos2dx;..\..\cocos2dx\include;..\..\cocos2dx\platform;..\..\cocos2dx\platform\third_party\win32;..\..\cocos2dx\platform\third_party\win32\pthread;..\..\cocos2dx\platform\third_party\win32\OGLES;..\..\CocosDenshion\include;..\..\cocos2dx\platform\Win32;..\..\cocos2dx\kazmath\include;..\..\extensions;..\..\MiniAnt;..\..\lua\cocos2dx_support;..\..\lua\lua;..\..\lua\tolua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;COCOS2D_DEBUG=1;GL_GLEXT_PROTOTYPES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>shlwapi.lib;Ws2_32.lib;sqlite_d.lib;cobra_win_d.lib;libUILoader_d.lib;libcocos2d_d.lib;libExtensions_d.lib;libxml2.lib;libzlib.lib;pthreadVCE2.lib;libCocosDenshion_d.lib;Winmm.lib;libtiff.lib;opengl32.lib;glew32.lib;libcurl_imp.lib;websockets.lib;libwebp.lib;Iphlpapi.lib;MiniAnt.lib;lua51.lib;liblua.lib;libiconv.lib;libjpeg.lib;libpng.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName)_d.exe</OutputFile>
+      <AdditionalLibraryDirectories>../../../lib_win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\cobra_win;..\tinyxml;..\uiloader;..\lua;..\ToLua\include;..\lualoader;..\SQLite;..\cocos2dx;..\cocos2dx\include;..\cocos2dx\platform;..\cocos2dx\platform\third_party\win32\OGLES;..\CocosDenshion\include;..\cocos2dx\platform\Win32;..\cocos2dx\kazmath\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\ActivityDataHandler.cpp" />
+    <ClCompile Include="..\src\ActivityDataManager.cpp" />
+    <ClCompile Include="..\src\ActivityPacket.cpp" />
+    <ClCompile Include="..\src\ActivityWindow.cpp" />
+    <ClCompile Include="..\src\AnnouncementDataHandler.cpp" />
+    <ClCompile Include="..\src\AppstoreWaitWindow.cpp" />
+    <ClCompile Include="..\src\ArenaRewardWindow.cpp" />
+    <ClCompile Include="..\src\AutoScrollLabelManager.cpp" />
+    <ClCompile Include="..\src\BaseHelper.cpp" />
+    <ClCompile Include="..\src\BlurSprite.cpp" />
+    <ClCompile Include="..\src\BossScoreDataHandler.cpp" />
+    <ClCompile Include="..\src\BossScorePacket.cpp" />
+    <ClCompile Include="..\src\BossScoreWindow.cpp" />
+    <ClCompile Include="..\src\CAnimationSprite.cpp" />
+    <ClCompile Include="..\src\CCDragNodeLayer.cpp" />
+    <ClCompile Include="..\src\CCGrapSprite.cpp" />
+    <ClCompile Include="..\src\CCNode+Dota.cpp" />
+    <ClCompile Include="..\src\CCRectClipNode.cpp" />
+    <ClCompile Include="..\src\CCSignSprite.cpp" />
+    <ClCompile Include="..\src\ChatPushDataManager.cpp" />
+    <ClCompile Include="..\src\ChatPushLogic.cpp" />
+    <ClCompile Include="..\src\CheckLeadershipWindow.cpp" />
+    <ClCompile Include="..\src\CheckOpenFun.cpp" />
+    <ClCompile Include="..\src\CheckPlayerInfoPacket.cpp" />
+    <ClCompile Include="..\src\CheckRoleBaseInfoPacket.cpp" />
+    <ClCompile Include="..\src\ConvictionWindow.cpp" />
+    <ClCompile Include="..\src\CProgressTimer.cpp" />
+    <ClCompile Include="..\src\CSHeroAdvancedPacket.cpp" />
+    <ClCompile Include="..\src\CSHeroExpandInfoPacket.cpp" />
+    <ClCompile Include="..\src\CSimpleActionSprite.cpp" />
+    <ClCompile Include="..\src\CSMapTable.cpp" />
+    <ClCompile Include="..\src\CTeamIconProgress.cpp" />
+    <ClCompile Include="..\src\CTimeLabel.cpp" />
+    <ClCompile Include="..\src\DBHelper.cpp" />
+    <ClCompile Include="..\src\DTAwardBoard.cpp" />
+    <ClCompile Include="..\src\DTHeroIcon.cpp" />
+    <ClCompile Include="..\src\DTRoleStatusBar.cpp" />
+    <ClCompile Include="..\src\DTTimedGrayWindow.cpp" />
+    <ClCompile Include="..\src\EquipCastPacket.cpp" />
+    <ClCompile Include="..\src\EquipPromoteDataHandler.cpp" />
+    <ClCompile Include="..\src\EquipPromotePacket.cpp" />
+    <ClCompile Include="..\src\EquipPromoteView.cpp" />
+    <ClCompile Include="..\src\EquipRecastDataHandler.cpp" />
+    <ClCompile Include="..\src\EquipsRecastSubView.cpp" />
+    <ClCompile Include="..\src\EquipStrengthenDataHandler.cpp" />
+    <ClCompile Include="..\src\EventHelper.cpp" />
+    <ClCompile Include="..\src\ExchangeActivityWindow.cpp" />
+    <ClCompile Include="..\src\FAnimationButton.cpp" />
+    <ClCompile Include="..\src\FirstRechGiftPacket.cpp" />
+    <ClCompile Include="..\src\FirstRechGiftWindow.cpp" />
+    <ClCompile Include="..\src\ForcePushTaskRewardWindow.cpp" />
+    <ClCompile Include="..\src\GainCallItemWindow.cpp" />
+    <ClCompile Include="..\src\GainHeroWindow.cpp" />
+    <ClCompile Include="..\src\GainSoulDebriWindow.cpp" />
+    <ClCompile Include="..\src\GrowupPlanPacket.cpp" />
+    <ClCompile Include="..\src\GrowupPlanWindow.cpp" />
+    <ClCompile Include="..\src\GrapStarsProgress.cpp" />
+    <ClCompile Include="..\src\HeroSoulDataHandler.cpp" />
+    <ClCompile Include="..\src\HeroSoulPacket.cpp" />
+    <ClCompile Include="..\src\HeroSoulWindow.cpp" />
+    <ClCompile Include="..\src\HeroteamChangePacket.cpp" />
+    <ClCompile Include="..\src\HomeWindow_Map.cpp" />
+    <ClCompile Include="..\src\IPopWindow.cpp" />
+    <ClCompile Include="..\src\LevelUpRewardActivityWindow.cpp" />
+    <ClCompile Include="..\src\LimitActivityPacket.cpp" />
+    <ClCompile Include="..\src\LocalAthleticsDataManager.cpp" />
+    <ClCompile Include="..\src\LoginActivityPacket.cpp" />
+    <ClCompile Include="..\src\LoginActivityWindow.cpp" />
+    <ClCompile Include="..\src\DTEquipBoard.cpp" />
+    <ClCompile Include="..\src\HEHeroPropertyNode.cpp" />
+    <ClCompile Include="..\src\HELeadershipLvUpWindow.cpp" />
+    <ClCompile Include="..\src\HELinkNode.cpp" />
+    <ClCompile Include="..\src\HeroAltarControlDataHandler.cpp" />
+    <ClCompile Include="..\src\HeroAltarPacket.cpp" />
+    <ClCompile Include="..\src\HeroAdvancedDataHandler.cpp" />
+    <ClCompile Include="..\src\HeroAdvancedWindow.cpp" />
+    <ClCompile Include="..\src\HeroAltarWindow.cpp" />
+    <ClCompile Include="..\src\HeroIllustratedDataHandler.cpp" />
+    <ClCompile Include="..\src\HeroIllustratedWindow.cpp" />
+    <ClCompile Include="..\src\HERoleInfoNode.cpp" />
+    <ClCompile Include="..\src\HeroSummonControlDataHandler.cpp" />
+    <ClCompile Include="..\src\HeroSummonPacket.cpp" />
+    <ClCompile Include="..\src\HuntView.cpp" />
+    <ClCompile Include="..\src\IAPProductDataManager.cpp" />
+    <ClCompile Include="..\src\AnnouncementDataManager.cpp" />
+    <ClCompile Include="..\src\AnnouncementWindow.cpp" />
+    <ClCompile Include="..\src\AutoFadeOutLable.cpp" />
+    <ClCompile Include="..\src\CrashReportSystem.cpp" />
+    <ClCompile Include="..\src\CrashReportSystem_Android_Handler.cpp" />
+    <ClCompile Include="..\src\CrashReportSystem_IOS_Handler.cpp" />
+    <ClCompile Include="..\src\CrashReportSystem_Win_Handler.cpp" />
+    <ClCompile Include="..\src\CCardsStarProgress.cpp" />
+    <ClCompile Include="..\src\CCornerNumIcon.cpp" />
+    <ClCompile Include="..\src\EquipTipsWindow.cpp" />
+    <ClCompile Include="..\src\ErrorTipsDataManager.cpp" />
+    <ClCompile Include="..\src\ErrorTipsWindow.cpp" />
+    <ClCompile Include="..\src\FriendFindFriendPacket.cpp" />
+    <ClCompile Include="..\src\HelpWindow.cpp" />
+    <ClCompile Include="..\src\IntellectDelayRemoveManager.cpp" />
+    <ClCompile Include="..\src\LeadershipPacket.cpp" />
+    <ClCompile Include="..\src\LessResourceDataHandler.cpp" />
+    <ClCompile Include="..\src\LessResourcePacket.cpp" />
+    <ClCompile Include="..\src\LessResourceWindow.cpp" />
+    <ClCompile Include="..\src\LimitedActivityHandler.cpp" />
+    <ClCompile Include="..\src\LimitedActivityWindow.cpp" />
+    <ClCompile Include="..\src\ListenProxyObject.cpp" />
+    <ClCompile Include="..\src\LoginPacket.cpp" />
+    <ClCompile Include="..\src\LuaSystem.cpp" />
+    <ClCompile Include="..\src\MainTaskDataHandler.cpp" />
+    <ClCompile Include="..\src\MainTaskPacket.cpp" />
+    <ClCompile Include="..\src\MainTaskWindow.cpp" />
+    <ClCompile Include="..\src\MineAreaWindow.cpp" />
+    <ClCompile Include="..\src\MiningDataHandler.cpp" />
+    <ClCompile Include="..\src\MiningPacket.cpp" />
+    <ClCompile Include="..\src\MiningView.cpp" />
+    <ClCompile Include="..\src\MultiRewardDataHandler.cpp" />
+    <ClCompile Include="..\src\MultiRewardPacket.cpp" />
+    <ClCompile Include="..\src\MultiReWardWindow.cpp" />
+    <ClCompile Include="..\src\NetDebugPacket.cpp" />
+    <ClCompile Include="..\src\NetObjectTipsDataHandler.cpp" />
+    <ClCompile Include="..\src\NetObjectTipsPacket.cpp" />
+    <ClCompile Include="..\src\NetObjectTipsWindow.cpp" />
+    <ClCompile Include="..\src\NewEquipremindDataHandler.cpp" />
+    <ClCompile Include="..\src\NewEquipremindWindow.cpp" />
+    <ClCompile Include="..\src\NFCCParicelEffectFactory.cpp" />
+    <ClCompile Include="..\src\NFDTBoardFactory.cpp" />
+    <ClCompile Include="..\src\NFUIPageViewFactory.cpp" />
+    <ClCompile Include="..\src\NoticeGatewayPacket.cpp" />
+    <ClCompile Include="..\src\PacketHelper.cpp" />
+    <ClCompile Include="..\src\PayGoodsControlDataHandler.cpp" />
+    <ClCompile Include="..\src\PayGoodsPacket.cpp" />
+    <ClCompile Include="..\src\PESoulEquipSubView.cpp" />
+    <ClCompile Include="..\src\PopWindowManager.cpp" />
+    <ClCompile Include="..\src\PuCongWindow.cpp" />
+    <ClCompile Include="..\src\RandomShopPacket.cpp" />
+    <ClCompile Include="..\src\RechargeWarnWindow.cpp" />
+    <ClCompile Include="..\src\RechargeWindow.cpp" />
+    <ClCompile Include="..\src\ResettingTechnologyPointPacket.cpp" />
+    <ClCompile Include="..\src\RoleHeroSkinsDataHandler.cpp" />
+    <ClCompile Include="..\src\RoleSoulsDataHandler.cpp" />
+    <ClCompile Include="..\src\RoleStatusWindow.cpp" />
+    <ClCompile Include="..\src\RollingBoard.cpp" />
+    <ClCompile Include="..\src\SCAnnoucementPacket.cpp" />
+    <ClCompile Include="..\src\SceneEffect.cpp" />
+    <ClCompile Include="..\src\SCErrorTipsPacket.cpp" />
+    <ClCompile Include="..\src\ServantDataHandler.cpp" />
+    <ClCompile Include="..\src\ServantPacket.cpp" />
+    <ClCompile Include="..\src\ServantView.cpp" />
+    <ClCompile Include="..\src\ServerListPacket.cpp" />
+    <ClCompile Include="..\src\ShareDataHandler.cpp" />
+    <ClCompile Include="..\src\ShopTipsDataHandler.cpp" />
+    <ClCompile Include="..\src\ShopTipsWindow.cpp" />
+    <ClCompile Include="..\src\SingleTouchProtocol.cpp" />
+    <ClCompile Include="..\src\SoulEquipPacket.cpp" />
+    <ClCompile Include="..\src\SoulTipsWindow.cpp" />
+    <ClCompile Include="..\src\SpringView.cpp" />
+    <ClCompile Include="..\src\StartWindow.cpp" />
+    <ClCompile Include="..\src\TeamInfoWindow.cpp" />
+    <ClCompile Include="..\src\TempleWindow.cpp" />
+    <ClCompile Include="..\src\TenCallWindow.cpp" />
+    <ClCompile Include="..\src\UIHelper.cpp" />
+    <ClCompile Include="..\src\UnSkillRemoveBufferProcedure.cpp" />
+    <ClCompile Include="..\src\UpdateSystem.cpp" />
+    <ClCompile Include="..\src\ActionSetDataManager.cpp" />
+    <ClCompile Include="..\src\ArenaProcedure.cpp" />
+    <ClCompile Include="..\src\ArenaRankDataHandler.cpp" />
+    <ClCompile Include="..\src\AskForAddEnergyPacket.cpp" />
+    <ClCompile Include="..\src\AddChallengeDataHandler.cpp" />
+    <ClCompile Include="..\src\AnimationFileDataManager.cpp" />
+    <ClCompile Include="..\src\ArtFontDataManager.cpp" />
+    <ClCompile Include="..\src\BagDataDecoder.cpp" />
+    <ClCompile Include="..\src\BagWindow.cpp" />
+    <ClCompile Include="..\src\BagWindowDataHandler.cpp" />
+    <ClCompile Include="..\src\BagWindowPacket.cpp" />
+    <ClCompile Include="..\src\BoutiqueView.cpp" />
+    <ClCompile Include="..\src\C2SAddChallengeCountPacket.cpp" />
+    <ClCompile Include="..\src\C2SArenaGifPacket.cpp" />
+    <ClCompile Include="..\src\C2SArenaRankPacket.cpp" />
+    <ClCompile Include="..\src\C2SBattleRecordPacket.cpp" />
+    <ClCompile Include="..\src\C2SCollDowmTimePacket.cpp" />
+    <ClCompile Include="..\src\C2SQAReceiptPacket.cpp" />
+    <ClCompile Include="..\src\C2SResetSkillsPacket.cpp" />
+    <ClCompile Include="..\src\CallFuncAction.cpp" />
+    <ClCompile Include="..\src\CameraShakeDataManager.cpp" />
+    <ClCompile Include="..\src\CControlButton.cpp" />
+    <ClCompile Include="..\src\ClearCoolTimeDataHandler.cpp" />
+    <ClCompile Include="..\src\ClientConstDataManager.cpp" />
+    <ClCompile Include="..\src\CommonButtonDataManager.cpp" />
+    <ClCompile Include="..\src\CommunicationWaittingWindow.cpp" />
+    <ClCompile Include="..\src\CompositeEffectDataManager.cpp" />
+    <ClCompile Include="..\src\CostRevenuePacket.cpp" />
+    <ClCompile Include="..\src\CreateRoleDataManager.cpp" />
+    <ClCompile Include="..\src\CSDisConnectPacket.cpp" />
+    <ClCompile Include="..\src\DBSystem.cpp" />
+    <ClCompile Include="..\src\DBSystem_Android_Handler.cpp" />
+    <ClCompile Include="..\src\DBSystem_IOS_Handler.cpp" />
+    <ClCompile Include="..\src\DBSystem_Win_Handler.cpp" />
+    <ClCompile Include="..\src\EmailDataHandler.cpp" />
+    <ClCompile Include="..\src\EmailPacket.cpp" />
+    <ClCompile Include="..\src\EmailWindow.cpp" />
+    <ClCompile Include="..\src\FrameAnimateDataManager.cpp" />
+    <ClCompile Include="..\src\FrameAnimateEffect.cpp" />
+    <ClCompile Include="..\src\FriendAddPacket.cpp" />
+    <ClCompile Include="..\src\FriendAgreeAllPacket.cpp" />
+    <ClCompile Include="..\src\FriendAgreeSinglePacket.cpp" />
+    <ClCompile Include="..\src\FriendCheckPlayerInfoPacket.cpp" />
+    <ClCompile Include="..\src\FriendDataHandler.cpp" />
+    <ClCompile Include="..\src\FriendDeletePacket.cpp" />
+    <ClCompile Include="..\src\FriendFightPacket.cpp" />
+    <ClCompile Include="..\src\FriendIgnoreAllPacket.cpp" />
+    <ClCompile Include="..\src\FriendIgnoreSinglePacket.cpp" />
+    <ClCompile Include="..\src\FriendPacket.cpp" />
+    <ClCompile Include="..\src\FriendRefurbishPacket.cpp" />
+    <ClCompile Include="..\src\FriendWindow.cpp" />
+    <ClCompile Include="..\src\FullStarRewardPacket.cpp" />
+    <ClCompile Include="..\src\GradualColorAction.cpp" />
+    <ClCompile Include="..\src\GuideDataManager.cpp" />
+    <ClCompile Include="..\src\GuidePacket.cpp" />
+    <ClCompile Include="..\src\GuideWindow.cpp" />
+    <ClCompile Include="..\src\IDataManager.cpp" />
+    <ClCompile Include="..\src\IDStringDataManager.cpp" />
+    <ClCompile Include="..\src\LocalNotificationDataManager.cpp" />
+    <ClCompile Include="..\src\LocalPlayerDataManager.cpp" />
+    <ClCompile Include="..\src\MarketWindow.cpp" />
+    <ClCompile Include="..\src\NFCCEditBoxFactory.cpp" />
+    <ClCompile Include="..\src\NpcTalkDataManager.cpp" />
+    <ClCompile Include="..\src\NpcTalkView.cpp" />
+    <ClCompile Include="..\src\NumberBufferDataManager.cpp" />
+    <ClCompile Include="..\src\ParticleDataManager.cpp" />
+    <ClCompile Include="..\src\ParticleEffect.cpp" />
+    <ClCompile Include="..\src\PESEquipDataHandler.cpp" />
+    <ClCompile Include="..\src\PlayerTipsWindow.cpp" />
+    <ClCompile Include="..\src\PreCCMoveTo.cpp" />
+    <ClCompile Include="..\src\PreLoadResourceDataManager.cpp" />
+    <ClCompile Include="..\src\QADataHandler.cpp" />
+    <ClCompile Include="..\src\RankWindow.cpp" />
+    <ClCompile Include="..\src\ResourceIDDataManager.cpp" />
+    <ClCompile Include="..\src\RevenueDataHandler.cpp" />
+    <ClCompile Include="..\src\RevenuePacket.cpp" />
+    <ClCompile Include="..\src\RevenueWindow.cpp" />
+    <ClCompile Include="..\src\RoleBaseDataManager.cpp" />
+    <ClCompile Include="..\src\RoleEffectDataManager.cpp" />
+    <ClCompile Include="..\src\RoleShapeDataManager.cpp" />
+    <ClCompile Include="..\src\RoleShapePropertyDataManager.cpp" />
+    <ClCompile Include="..\src\S2CAddChallengeCountPacket.cpp" />
+    <ClCompile Include="..\src\S2CArenaGifPacket.cpp" />
+    <ClCompile Include="..\src\S2CArenaRankPacket.cpp" />
+    <ClCompile Include="..\src\S2CQAPacket.cpp" />
+    <ClCompile Include="..\src\S2CRestSkillsPacket.cpp" />
+    <ClCompile Include="..\src\ScaleSprite.cpp" />
+    <ClCompile Include="..\src\SceneInfoDataManager.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="..\src\SCHeroAltarBuyItemPacket.cpp" />
+    <ClCompile Include="..\src\ScreenEffectDataManager.cpp" />
+    <ClCompile Include="..\src\ScreenShakeEffect.cpp" />
+    <ClCompile Include="..\src\SecretView.cpp" />
+    <ClCompile Include="..\src\ShopinputNumWindow.cpp" />
+    <ClCompile Include="..\src\SkillActionDataManager.cpp" />
+    <ClCompile Include="..\src\SkillEffectDataManager.cpp" />
+    <ClCompile Include="..\src\SkillTableDataManager.cpp" />
+    <ClCompile Include="..\src\SoundDataManager.cpp" />
+    <ClCompile Include="..\src\SpecialOfferView.cpp" />
+    <ClCompile Include="..\src\SysLangDataManager.cpp" />
+    <ClCompile Include="..\src\TeamBattleDataHandler.cpp" />
+    <ClCompile Include="..\src\TeamBattlePacket.cpp" />
+    <ClCompile Include="..\src\TeamBattleProcedure.cpp" />
+    <ClCompile Include="..\src\TeamBattleWindow.cpp" />
+    <ClCompile Include="..\src\TeamSelectPacket.cpp" />
+    <ClCompile Include="..\src\TeamSelectWindow.cpp" />
+    <ClCompile Include="..\src\TipsWindow.cpp" />
+    <ClCompile Include="..\src\UIViewDataManager.cpp" />
+    <ClCompile Include="..\src\UIWindowDataManager.cpp" />
+    <ClCompile Include="..\src\MessagePacket.cpp" />
+    <ClCompile Include="..\src\MessagePacketManager.cpp" />
+    <ClCompile Include="..\src\PlayerDataMessage.cpp" />
+    <ClCompile Include="..\src\ArenaInfoDataHandler.cpp" />
+    <ClCompile Include="..\src\AthleticProcedureDataHandler.cpp" />
+    <ClCompile Include="..\src\AthleticProcedureDataType.cpp" />
+    <ClCompile Include="..\src\BagEquipDataHandler.cpp" />
+    <ClCompile Include="..\src\BagOtherObjectHandler.cpp" />
+    <ClCompile Include="..\src\BagTemplateBase.cpp" />
+    <ClCompile Include="..\src\ChatDataHandler.cpp" />
+    <ClCompile Include="..\src\ClimbTowerDataHandler.cpp" />
+    <ClCompile Include="..\src\CreateRoleRandomNameDataHandler.cpp" />
+    <ClCompile Include="..\src\DataHandlerSystem.cpp" />
+    <ClCompile Include="..\src\EffectDataHandler.cpp" />
+    <ClCompile Include="..\src\EquipmentLvUpDataHandler.cpp" />
+    <ClCompile Include="..\src\EquipTrainDataHandler.cpp" />
+    <ClCompile Include="..\src\FontStyleDataManager.cpp" />
+    <ClCompile Include="..\src\HeartBeatDataHandler.cpp" />
+    <ClCompile Include="..\src\HeroTechnologyDataHandler.cpp" />
+    <ClCompile Include="..\src\LevelUpDataHandler.cpp" />
+    <ClCompile Include="..\src\MassacreDataHandler.cpp" />
+    <ClCompile Include="..\src\MissionDataHandler.cpp" />
+    <ClCompile Include="..\src\RoleEquipDataHandler.cpp" />
+    <ClCompile Include="..\src\RoleInfoDataHandler.cpp" />
+    <ClCompile Include="..\src\RoleSkillsDataHandler.cpp" />
+    <ClCompile Include="..\src\ServerInfoDataHandler.cpp" />
+    <ClCompile Include="..\src\ShopGoodsBase.cpp" />
+    <ClCompile Include="..\src\ShopInfoDataHandler.cpp" />
+    <ClCompile Include="..\src\LoadingAnimationDataManager.cpp" />
+    <ClCompile Include="..\src\DOTATribeApp.cpp" />
+    <ClCompile Include="..\src\EngineSystem.cpp" />
+    <ClCompile Include="..\src\EngineSystem_Android_Handler.cpp" />
+    <ClCompile Include="..\src\EngineSystem_Win_Handler.cpp" />
+    <ClCompile Include="..\src\EventSystem.cpp" />
+    <ClCompile Include="..\src\TimeSystem.cpp" />
+    <ClCompile Include="..\src\SoundSystem.cpp" />
+    <ClCompile Include="..\src\VariableSpeedSequenceAction.cpp" />
+    <ClCompile Include="..\src\VariableSystem.cpp" />
+    <ClCompile Include="..\src\LoggerSystem.cpp" />
+    <ClCompile Include="..\src\AthleticsProcedure.cpp" />
+    <ClCompile Include="..\src\CreateRoleProcedure.cpp" />
+    <ClCompile Include="..\src\HomeProcedure.cpp" />
+    <ClCompile Include="..\src\IProcedure.cpp" />
+    <ClCompile Include="..\src\LoadingProcedure.cpp" />
+    <ClCompile Include="..\src\LoginProcedure.cpp" />
+    <ClCompile Include="..\src\LogoProcedure.cpp" />
+    <ClCompile Include="..\src\SelectMissionProcedrue.cpp" />
+    <ClCompile Include="..\src\IWindow.cpp" />
+    <ClCompile Include="..\src\UILayer.cpp" />
+    <ClCompile Include="..\src\UISystem.cpp" />
+    <ClCompile Include="..\src\VersionCheckPacket.cpp" />
+    <ClCompile Include="..\src\VipControlDataHandler.cpp" />
+    <ClCompile Include="..\src\VipFontDataManager.cpp" />
+    <ClCompile Include="..\src\VipGiftPacket.cpp" />
+    <ClCompile Include="..\src\VipGiftWindow.cpp" />
+    <ClCompile Include="..\src\VipInfoPacket.cpp" />
+    <ClCompile Include="..\src\VipWindow.cpp" />
+    <ClCompile Include="..\src\WindowManager.cpp" />
+    <ClCompile Include="..\src\ChatWindow.cpp" />
+    <ClCompile Include="..\src\ClimbTowerWindow.cpp" />
+    <ClCompile Include="..\src\EffectWindow.cpp" />
+    <ClCompile Include="..\src\EquipmentSelectCardWindow.cpp" />
+    <ClCompile Include="..\src\HerobarWindow.cpp" />
+    <ClCompile Include="..\src\StrengthenWindow.cpp" />
+    <ClCompile Include="..\src\HomeWindow.cpp" />
+    <ClCompile Include="..\src\InputNumWindow.cpp" />
+    <ClCompile Include="..\src\LevelupNormalWindow.cpp" />
+    <ClCompile Include="..\src\LoadingWindow.cpp" />
+    <ClCompile Include="..\src\LogoWindow.cpp" />
+    <ClCompile Include="..\src\MassacreWindow.cpp" />
+    <ClCompile Include="..\src\MessageBoxWindow.cpp" />
+    <ClCompile Include="..\src\NoticeBoxWindow.cpp" />
+    <ClCompile Include="..\src\PESWindow.cpp" />
+    <ClCompile Include="..\src\SelectMissionWindow.cpp" />
+    <ClCompile Include="..\src\SelectRoleWindow.cpp" />
+    <ClCompile Include="..\src\SelectServerWindow.cpp" />
+    <ClCompile Include="..\src\SelectSonMissionWindow.cpp" />
+    <ClCompile Include="..\src\ShopWindow.cpp" />
+    <ClCompile Include="..\src\SystemsetWindow.cpp" />
+    <ClCompile Include="..\src\AthleticResultWindow.cpp" />
+    <ClCompile Include="..\src\AthleticsSkillPanel.cpp" />
+    <ClCompile Include="..\src\AthleticsWindow.cpp" />
+    <ClCompile Include="..\src\SelectSkillController.cpp" />
+    <ClCompile Include="..\src\SelectSkillMode.cpp" />
+    <ClCompile Include="..\src\SelectSkillWindow.cpp" />
+    <ClCompile Include="..\src\SkillTipsDialog.cpp" />
+    <ClCompile Include="..\src\UIDragNode.cpp" />
+    <ClCompile Include="..\src\EquipLvUpView.cpp" />
+    <ClCompile Include="..\src\EquipTrainView.cpp" />
+    <ClCompile Include="..\src\ArenaWindow.cpp" />
+    <ClCompile Include="..\src\ArtFontLabelBatchNode.cpp" />
+    <ClCompile Include="..\src\CDragSprite.cpp" />
+    <ClCompile Include="..\src\CMenuItemSprite.cpp" />
+    <ClCompile Include="..\src\CPageScroll.cpp" />
+    <ClCompile Include="..\src\CPriorityLayerColor.cpp" />
+    <ClCompile Include="..\src\CProgressInnerBar.cpp" />
+    <ClCompile Include="..\src\CSelectedSprite.cpp" />
+    <ClCompile Include="..\src\CSprite.cpp" />
+    <ClCompile Include="..\src\CTableView.cpp" />
+    <ClCompile Include="..\src\CTouchSprite.cpp" />
+    <ClCompile Include="..\src\MaskNode.cpp" />
+    <ClCompile Include="..\src\MoveAnimation.cpp" />
+    <ClCompile Include="..\src\UIBaseDialog.cpp" />
+    <ClCompile Include="..\src\UIScrollNodeLayer.cpp" />
+    <ClCompile Include="..\src\UITwoSideStretchNodeLayer.cpp" />
+    <ClCompile Include="..\src\PESEquipSubView.cpp" />
+    <ClCompile Include="..\src\HWBottomBar.cpp" />
+    <ClCompile Include="..\src\HWMoreItems.cpp" />
+    <ClCompile Include="..\src\ShopView.cpp" />
+    <ClCompile Include="..\src\GuideSystem.cpp" />
+    <ClCompile Include="..\src\DebugerSystem.cpp" />
+    <ClCompile Include="..\src\IDebuger.cpp" />
+    <ClCompile Include="..\src\LogicDebuger.cpp" />
+    <ClCompile Include="..\src\NetDebuger.cpp" />
+    <ClCompile Include="..\src\ProfSystem.cpp" />
+    <ClCompile Include="..\src\RenderDebuger.cpp" />
+    <ClCompile Include="..\src\IAPSystem.cpp" />
+    <ClCompile Include="..\src\IAPSystem_Android_Handler.cpp" />
+    <ClCompile Include="..\src\IAPSystem_Win_Handler.cpp" />
+    <ClCompile Include="..\src\AnimationEffect.cpp" />
+    <ClCompile Include="..\src\AthleticsInstructionSystem.cpp" />
+    <ClCompile Include="..\src\AthleticsInstructionUnit.cpp" />
+    <ClCompile Include="..\src\AthleticsSceneManager.cpp" />
+    <ClCompile Include="..\src\AthleticsUIManager.cpp" />
+    <ClCompile Include="..\src\BaseObject.cpp" />
+    <ClCompile Include="..\src\BaseObjectManager.cpp" />
+    <ClCompile Include="..\src\Common.cpp" />
+    <ClCompile Include="..\src\CommonEffect.cpp" />
+    <ClCompile Include="..\src\CommonEffectManager.cpp" />
+    <ClCompile Include="..\src\CommonNumberEffect.cpp" />
+    <ClCompile Include="..\src\CommonNumberEffectManager.cpp" />
+    <ClCompile Include="..\src\CommonSkillActionProcedure.cpp" />
+    <ClCompile Include="..\src\CommonSkillItemProcedure.cpp" />
+    <ClCompile Include="..\src\CommonUnSkillItemProcedure.cpp" />
+    <ClCompile Include="..\src\HeroicRole.cpp" />
+    <ClCompile Include="..\src\HeroicRoleSkeletonNode.cpp" />
+    <ClCompile Include="..\src\InputCommand.cpp" />
+    <ClCompile Include="..\src\RoleEffect.cpp" />
+    <ClCompile Include="..\src\ScreenEffect.cpp" />
+    <ClCompile Include="..\src\ShakeEffect.cpp" />
+    <ClCompile Include="..\src\SkillAttachLogicManager.cpp" />
+    <ClCompile Include="..\src\SkillAttachLogicProcedure.cpp" />
+    <ClCompile Include="..\src\UnSkillNumbericalProcedure.cpp" />
+    <ClCompile Include="..\src\NotifySystem.cpp" />
+    <ClCompile Include="..\src\NotifySystem_Android_Handler.cpp" />
+    <ClCompile Include="..\src\NotifySystem_Win_Handler.cpp" />
+    <ClCompile Include="..\src\C2SChallengePacket.cpp" />
+    <ClCompile Include="..\src\NetSystem.cpp" />
+    <ClCompile Include="..\src\PacketFactoryManager.cpp" />
+    <ClCompile Include="..\src\TCPConnectorThread.cpp" />
+    <ClCompile Include="..\src\TCPConnectorThread_Android_Handler.cpp" />
+    <ClCompile Include="..\src\TCPConnectorThread_IOS_Handler.cpp" />
+    <ClCompile Include="..\src\TCPConnectorThread_Win_Handler.cpp" />
+    <ClCompile Include="..\src\AskForRoleInfoPacket.cpp" />
+    <ClCompile Include="..\src\AttributeLockPacket.cpp" />
+    <ClCompile Include="..\src\C2SArenaInfoPacket.cpp" />
+    <ClCompile Include="..\src\ChatPacket.cpp" />
+    <ClCompile Include="..\src\ClimbTowerPacket.cpp" />
+    <ClCompile Include="..\src\CreateRoleRandomNamePacket.cpp" />
+    <ClCompile Include="..\src\CSBagSaleObjectPacket.cpp" />
+    <ClCompile Include="..\src\CSBagUseObjectPacket.cpp" />
+    <ClCompile Include="..\src\CSChangeEquipPacket.cpp" />
+    <ClCompile Include="..\src\CSChangeSkillsPacket.cpp" />
+    <ClCompile Include="..\src\CSChangeSkinPacket.cpp" />
+    <ClCompile Include="..\src\CSCreateRolePacket.cpp" />
+    <ClCompile Include="..\src\CSEnterGamePacket.cpp" />
+    <ClCompile Include="..\src\CSEnterTranscriptRequestPacket.cpp" />
+    <ClCompile Include="..\src\CSOffEquipPacket.cpp" />
+    <ClCompile Include="..\src\CSQuickAccountRegisterPacket.cpp" />
+    <ClCompile Include="..\src\CSRegisterAccountPacket.cpp" />
+    <ClCompile Include="..\src\CSRolelistPacket.cpp" />
+    <ClCompile Include="..\src\CSShopInfoPacket.cpp" />
+    <ClCompile Include="..\src\EquipmentLvUpPacket.cpp" />
+    <ClCompile Include="..\src\EquipmentLvUpSelectCardPacket.cpp" />
+    <ClCompile Include="..\src\EquipTrainPacket.cpp" />
+    <ClCompile Include="..\src\GetItemPacket.cpp" />
+    <ClCompile Include="..\src\HeartBeatPacket.cpp" />
+    <ClCompile Include="..\src\HeroTechnologyLevelUpPacket.cpp" />
+    <ClCompile Include="..\src\HeroTechnologyPacket.cpp" />
+    <ClCompile Include="..\src\LevelUpPacket.cpp" />
+    <ClCompile Include="..\src\MassacrePacket.cpp" />
+    <ClCompile Include="..\src\MissionPacket.cpp" />
+    <ClCompile Include="..\src\PersonalChatPacket.cpp" />
+    <ClCompile Include="..\src\RegisterAccountPacket.cpp" />
+    <ClCompile Include="..\src\S2CArenaInfoPacket.cpp" />
+    <ClCompile Include="..\src\SCAthleticsDataPacket.cpp" />
+    <ClCompile Include="..\src\SCBagSaleObjectResultPacket.cpp" />
+    <ClCompile Include="..\src\SCBagUseObjectResultPacket.cpp" />
+    <ClCompile Include="..\src\SCChangeEquipPacket.cpp" />
+    <ClCompile Include="..\src\SCChangeSkillsResultPacket.cpp" />
+    <ClCompile Include="..\src\SCChangeSkinPacket.cpp" />
+    <ClCompile Include="..\src\SCOffEquipPacket.cpp" />
+    <ClCompile Include="..\src\SCQuickAccountRegisterPacket.cpp" />
+    <ClCompile Include="..\src\SCRefreshInfoDataPacket.cpp" />
+    <ClCompile Include="..\src\SCRegisterAccountPacket.cpp" />
+    <ClCompile Include="..\src\SCRoleInfoPacket.cpp" />
+    <ClCompile Include="..\src\SCRolelistPacket.cpp" />
+    <ClCompile Include="..\src\SCServerMessagePacket.cpp" />
+    <ClCompile Include="..\src\SCShopInfoPacket.cpp" />
+    <ClCompile Include="..\src\UpdateMissionPacket.cpp" />
+    <ClCompile Include="..\src\NFCCLabelFactory.cpp" />
+    <ClCompile Include="..\src\NFCCLayerFactory.cpp" />
+    <ClCompile Include="..\src\NFCCMenuFactory.cpp" />
+    <ClCompile Include="..\src\NFCCNodeFactory.cpp" />
+    <ClCompile Include="..\src\NFCCSpriteFactory.cpp" />
+    <ClCompile Include="..\src\NFCCTableViewFactory.cpp" />
+    <ClCompile Include="..\src\NFCProgressInnerBarFactory.cpp" />
+    <ClCompile Include="..\src\NodeFactoryManager.cpp" />
+    <ClCompile Include="..\src\WriteEmailWindow.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\WinMain.mm">
+      <FileType>Document</FileType>
+    </ClCompile>
+    <ClCompile Include="..\src\EngineSystem_IOS_Handler.mm">
+      <FileType>Document</FileType>
+    </ClCompile>
+    <ClCompile Include="..\src\IAPSystem_IOS_Handler.mm">
+      <FileType>Document</FileType>
+    </ClCompile>
+    <None Include="..\src\NotifySystem_IOS_Handler.mm" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\ActivityDataHandler.h" />
+    <ClInclude Include="..\include\ActivityDataManager.h" />
+    <ClInclude Include="..\include\ActivityPacket.h" />
+    <ClInclude Include="..\include\ActivityWindow.h" />
+    <ClInclude Include="..\include\AnnouncementDataHandler.h" />
+    <ClInclude Include="..\include\AppstoreWaitWindow.h" />
+    <ClInclude Include="..\include\ArenaRewardWindow.h" />
+    <ClInclude Include="..\include\AthleticConfig.h" />
+    <ClInclude Include="..\include\AutoScrollLabelManager.h" />
+    <ClInclude Include="..\include\BaseHelper.h" />
+    <ClInclude Include="..\include\BlurSprite.h" />
+    <ClInclude Include="..\include\BossScoreDataHandler.h" />
+    <ClInclude Include="..\include\BossScorePacket.h" />
+    <ClInclude Include="..\include\BossScoreWindow.h" />
+    <ClInclude Include="..\include\CAnimationSprite.h" />
+    <ClInclude Include="..\include\CCContainer_Lua.h" />
+    <ClInclude Include="..\include\CCDragNodeLayer.h" />
+    <ClInclude Include="..\include\CCGrapSprite.h" />
+    <ClInclude Include="..\include\CCMap_Lua.h" />
+    <ClInclude Include="..\include\CCRectClipNode.h" />
+    <ClInclude Include="..\include\CCSignSprite.h" />
+    <ClInclude Include="..\include\CCVector_Lua.h" />
+    <ClInclude Include="..\include\ChatPushDataManager.h" />
+    <ClInclude Include="..\include\ChatPushLogic.h" />
+    <ClInclude Include="..\include\CheckLeadershipWindow.h" />
+    <ClInclude Include="..\include\CheckOpenFun.h" />
+    <ClInclude Include="..\include\CheckPlayerInfoPacket.h" />
+    <ClInclude Include="..\include\CheckRoleBaseInfoPacket.h" />
+    <ClInclude Include="..\include\CommonDataDef.h" />
+    <ClInclude Include="..\include\ConvictionWindow.h" />
+    <ClInclude Include="..\include\CProgressTimer.h" />
+    <ClInclude Include="..\include\CSHeroAdvancedPacket.h" />
+    <ClInclude Include="..\include\CSHeroExpandInfoPacket.h" />
+    <ClInclude Include="..\include\CSimpleActionSprite.h" />
+    <ClInclude Include="..\include\CTeamIconProgress.h" />
+    <ClInclude Include="..\include\CTimeLabel.h" />
+    <ClInclude Include="..\include\DBHelper.h" />
+    <ClInclude Include="..\include\DotaPacket.h" />
+    <ClInclude Include="..\include\DTAwardBoard.h" />
+    <ClInclude Include="..\include\DTHeroIcon.h" />
+    <ClInclude Include="..\include\DTRoleStatusBar.h" />
+    <ClInclude Include="..\include\EmailWindow.h" />
+    <ClInclude Include="..\include\EquipCastPacket.h" />
+    <ClInclude Include="..\include\EquipPromoteDataHandler.h" />
+    <ClInclude Include="..\include\EquipPromotePacket.h" />
+    <ClInclude Include="..\include\EquipPromoteView.h" />
+    <ClInclude Include="..\include\EquipRecastDataHandler.h" />
+    <ClInclude Include="..\include\EquipsRecastSubView.h" />
+    <ClInclude Include="..\include\EquipStrengthenDataHandler.h" />
+    <ClInclude Include="..\include\EventHelper.h" />
+    <ClInclude Include="..\include\ExchangeActivityWindow.h" />
+    <ClInclude Include="..\include\FAnimationButton.h" />
+    <ClInclude Include="..\include\FirstRechGiftPacket.h" />
+    <ClInclude Include="..\include\FirstRechGiftWindow.h" />
+    <ClInclude Include="..\include\ForcePushTaskRewardWindow.h" />
+    <ClInclude Include="..\include\GainCallItemWindow.h" />
+    <ClInclude Include="..\include\GainHeroWindow.h" />
+    <ClInclude Include="..\include\GainSoulDebriWindow.h" />
+    <ClInclude Include="..\include\GrowupPlanPacket.h" />
+    <ClInclude Include="..\include\GrowupPlanWindow.h" />
+    <ClInclude Include="..\include\GrapStarsProgress.h" />
+    <ClInclude Include="..\include\GuideSystem.h" />
+    <ClInclude Include="..\include\HeroSoulDataHandler.h" />
+    <ClInclude Include="..\include\HeroSoulPacket.h" />
+    <ClInclude Include="..\include\HeroSoulWindow.h" />
+    <ClInclude Include="..\include\HeroteamChangePacket.h" />
+    <ClInclude Include="..\include\IPopDef.h" />
+    <ClInclude Include="..\include\IPopWindow.h" />
+    <ClInclude Include="..\include\LevelUpRewardActivityWindow.h" />
+    <ClInclude Include="..\include\LimitActivityPacket.h" />
+    <ClInclude Include="..\include\LocalAthleticsDataManager.h" />
+    <ClInclude Include="..\include\LoginActivityPacket.h" />
+    <ClInclude Include="..\include\LoginActivityWindow.h" />
+    <ClInclude Include="..\include\DTEquipBoard.h" />
+    <ClInclude Include="..\include\HEHeroPropertyNode.h" />
+    <ClInclude Include="..\include\HELeadershipLvUpWindow.h" />
+    <ClInclude Include="..\include\HELinkNode.h" />
+    <ClInclude Include="..\include\HeroAltarControlDataHandler.h" />
+    <ClInclude Include="..\include\HeroAltarPacket.h" />
+    <ClInclude Include="..\include\HeroAdvancedDataHandler.h" />
+    <ClInclude Include="..\include\HeroAdvancedWindow.h" />
+    <ClInclude Include="..\include\HeroAltarWindow.h" />
+    <ClInclude Include="..\include\HeroIllustratedDataHandler.h" />
+    <ClInclude Include="..\include\HeroIllustratedWindow.h" />
+    <ClInclude Include="..\include\HERoleInfoNode.h" />
+    <ClInclude Include="..\include\HeroSummonControlDataHandler.h" />
+    <ClInclude Include="..\include\HeroSummonPacket.h" />
+    <ClInclude Include="..\include\HeroWindowSubView.h" />
+    <ClInclude Include="..\include\HuntView.h" />
+    <ClInclude Include="..\include\IAPProductDataManager.h" />
+    <ClInclude Include="..\include\AnnouncementDataManager.h" />
+    <ClInclude Include="..\include\AnnouncementWindow.h" />
+    <ClInclude Include="..\include\AutoFadeOutLable.h" />
+    <ClInclude Include="..\include\CrashReportSystem.h" />
+    <ClInclude Include="..\include\CCardsStarProgress.h" />
+    <ClInclude Include="..\include\CCornerNumIcon.h" />
+    <ClInclude Include="..\include\DotaGameConfig.h" />
+    <ClInclude Include="..\include\EquipTipsWindow.h" />
+    <ClInclude Include="..\include\ErrorTipsDataManager.h" />
+    <ClInclude Include="..\include\ErrorTipsWindow.h" />
+    <ClInclude Include="..\include\HelpWindow.h" />
+    <ClInclude Include="..\include\IntellectDelayRemoveManager.h" />
+    <ClInclude Include="..\include\LeadershipPacket.h" />
+    <ClInclude Include="..\include\LessResourceDataHandler.h" />
+    <ClInclude Include="..\include\LessResourcePacket.h" />
+    <ClInclude Include="..\include\LessResourceWindow.h" />
+    <ClInclude Include="..\include\LimitedActivityHandler.h" />
+    <ClInclude Include="..\include\LimitedActivityWindow.h" />
+    <ClInclude Include="..\include\ListenProxyObject.h" />
+    <ClInclude Include="..\include\LoginPacket.h" />
+    <ClInclude Include="..\include\LuaSystem.h" />
+    <ClInclude Include="..\include\MainTaskDataHandler.h" />
+    <ClInclude Include="..\include\MainTaskPacket.h" />
+    <ClInclude Include="..\include\MainTaskWindow.h" />
+    <ClInclude Include="..\include\MineAreaWindow.h" />
+    <ClInclude Include="..\include\MiningDataHandler.h" />
+    <ClInclude Include="..\include\MiningPacket.h" />
+    <ClInclude Include="..\include\MiningView.h" />
+    <ClInclude Include="..\include\MultiRewardDataHandler.h" />
+    <ClInclude Include="..\include\MultiRewardPacket.h" />
+    <ClInclude Include="..\include\MultiReWardWindow.h" />
+    <ClInclude Include="..\include\NetDebugPacket.h" />
+    <ClInclude Include="..\include\NetObjectTipsDataHandler.h" />
+    <ClInclude Include="..\include\NetObjectTipsPacket.h" />
+    <ClInclude Include="..\include\NetObjectTipsWindow.h" />
+    <ClInclude Include="..\include\NewEquipremindDataHandler.h" />
+    <ClInclude Include="..\include\NewEquipremindWindow.h" />
+    <ClInclude Include="..\include\NFAnimationController.h" />
+    <ClInclude Include="..\include\NFCCParicelEffectFactory.h" />
+    <ClInclude Include="..\include\NFDTBoardFactory.h" />
+    <ClInclude Include="..\include\NFToolController.h" />
+    <ClInclude Include="..\include\NFUIPageViewFactory.h" />
+    <ClInclude Include="..\include\NoticeGatewayPacket.h" />
+    <ClInclude Include="..\include\PacketHelper.h" />
+    <ClInclude Include="..\include\PayGoodsControlDataHandler.h" />
+    <ClInclude Include="..\include\PayGoodsPacket.h" />
+    <ClInclude Include="..\include\PESoulEquipSubView.h" />
+    <ClInclude Include="..\include\PopWindowManager.h" />
+    <ClInclude Include="..\include\PuCongWindow.h" />
+    <ClInclude Include="..\include\RandomShopPacket.h" />
+    <ClInclude Include="..\include\RechargeWarnWindow.h" />
+    <ClInclude Include="..\include\RechargeWindow.h" />
+    <ClInclude Include="..\include\RestingTechnologyPointPacket.h" />
+    <ClInclude Include="..\include\RoleHeroSkinsDataHandler.h" />
+    <ClInclude Include="..\include\RoleSoulsDataHandler.h" />
+    <ClInclude Include="..\include\RoleStatusWindow.h" />
+    <ClInclude Include="..\include\RollingBoard.h" />
+    <ClInclude Include="..\include\SCAnnoucementPacket.h" />
+    <ClInclude Include="..\include\SceneEffect.h" />
+    <ClInclude Include="..\include\SCErrorTipsPacket.h" />
+    <ClInclude Include="..\include\ServantDataHandler.h" />
+    <ClInclude Include="..\include\ServantPacket.h" />
+    <ClInclude Include="..\include\ServantView.h" />
+    <ClInclude Include="..\include\ServerListPacket.h" />
+    <ClInclude Include="..\include\ShareDataHandler.h" />
+    <ClInclude Include="..\include\ShopTipsDataHandler.h" />
+    <ClInclude Include="..\include\ShopTipsWindow.h" />
+    <ClInclude Include="..\include\SingleTouchProtocol.h" />
+    <ClInclude Include="..\include\SoulEquipPacket.h" />
+    <ClInclude Include="..\include\SoulTipsWindow.h" />
+    <ClInclude Include="..\include\SpringView.h" />
+    <ClInclude Include="..\include\StartWindow.h" />
+    <ClInclude Include="..\include\TeamInfoWindow.h" />
+    <ClInclude Include="..\include\TempleWindow.h" />
+    <ClInclude Include="..\include\DTTimedGrayWindow.h" />
+    <ClInclude Include="..\include\TenCallWindow.h" />
+    <ClInclude Include="..\include\UIHelper.h" />
+    <ClInclude Include="..\include\UnSkillRemoveBufferProcedure.h" />
+    <ClInclude Include="..\include\UpdateSystem.h" />
+    <ClInclude Include="..\include\ActionSetDataManager.h" />
+    <ClInclude Include="..\include\ArenaProcedure.h" />
+    <ClInclude Include="..\include\ArenaRankDataHandler.h" />
+    <ClInclude Include="..\include\AskForAddEnergyPacket.h" />
+    <ClInclude Include="..\include\AddChallengeDataHandler.h" />
+    <ClInclude Include="..\include\AnimationFileDataManager.h" />
+    <ClInclude Include="..\include\ArtFontDataManager.h" />
+    <ClInclude Include="..\include\BagWindow.h" />
+    <ClInclude Include="..\include\BagWindowDataHandler.h" />
+    <ClInclude Include="..\include\BagWindowPacket.h" />
+    <ClInclude Include="..\include\BoutiqueView.h" />
+    <ClInclude Include="..\include\C2SAddChallengeCountPacket.h" />
+    <ClInclude Include="..\include\C2SArenaGifPacket.h" />
+    <ClInclude Include="..\include\C2SArenaRankPacket.h" />
+    <ClInclude Include="..\include\C2SBattleRecordPacket.h" />
+    <ClInclude Include="..\include\C2SCollDowmTimePacket.h" />
+    <ClInclude Include="..\include\C2SQAReceiptPacket.h" />
+    <ClInclude Include="..\include\C2SResetSkillsPacket.h" />
+    <ClInclude Include="..\include\CallFuncAction.h" />
+    <ClInclude Include="..\include\CameraShakeDataManager.h" />
+    <ClInclude Include="..\include\ClearCoolTimeDataHandler.h" />
+    <ClInclude Include="..\include\ClientConstDataManager.h" />
+    <ClInclude Include="..\include\CommonButtonDataManager.h" />
+    <ClInclude Include="..\include\CommunicationWaittingWindow.h" />
+    <ClInclude Include="..\include\CompositeEffectDataManager.h" />
+    <ClInclude Include="..\include\config_HomeWindow.h" />
+    <ClInclude Include="..\include\config_SoundSystem.h" />
+    <ClInclude Include="..\include\CostRevenuePacket.h" />
+    <ClInclude Include="..\include\CreateRoleDataManager.h" />
+    <ClInclude Include="..\include\CSDisConnectPacket.h" />
+    <ClInclude Include="..\include\DBSystem.h" />
+    <ClInclude Include="..\include\EmailDataHandler.h" />
+    <ClInclude Include="..\include\EmailPacket.h" />
+    <ClInclude Include="..\include\FontStyleDataManager.h" />
+    <ClInclude Include="..\include\FrameAnimateDataManager.h" />
+    <ClInclude Include="..\include\FrameAnimateEffect.h" />
+    <ClInclude Include="..\include\FriendAddPacket.h" />
+    <ClInclude Include="..\include\FriendAgreeAllPacket.h" />
+    <ClInclude Include="..\include\FriendAgreeSinglePacket.h" />
+    <ClInclude Include="..\include\FriendCheckPlayerInfoPacket.h" />
+    <ClInclude Include="..\include\FriendDataHandler.h" />
+    <ClInclude Include="..\include\FriendDeletePacket.h" />
+    <ClInclude Include="..\include\FriendFightPacket.h" />
+    <ClInclude Include="..\include\FriendFindFriendPacket.h" />
+    <ClInclude Include="..\include\FriendIgnoreAllPacket.h" />
+    <ClInclude Include="..\include\FriendIgnoreSinglePacket.h" />
+    <ClInclude Include="..\include\FriendPacket.h" />
+    <ClInclude Include="..\include\FriendRefurbishPacket.h" />
+    <ClInclude Include="..\include\FriendWindow.h" />
+    <ClInclude Include="..\include\FullStarRewardPacket.h" />
+    <ClInclude Include="..\include\GradualColorAction.h" />
+    <ClInclude Include="..\include\GuideDataManager.h" />
+    <ClInclude Include="..\include\GuidePacket.h" />
+    <ClInclude Include="..\include\GuideWindow.h" />
+    <ClInclude Include="..\include\IDataManager.h" />
+    <ClInclude Include="..\include\IDStringDataManager.h" />
+    <ClInclude Include="..\include\LocalNotificationDataManager.h" />
+    <ClInclude Include="..\include\LocalPlayerDataManager.h" />
+    <ClInclude Include="..\include\MarketWindow.h" />
+    <ClInclude Include="..\include\NFCCEditBoxFactory.h" />
+    <ClInclude Include="..\include\NFControlsManager.h" />
+    <ClInclude Include="..\include\NpcTalkDataManager.h" />
+    <ClInclude Include="..\include\NpcTalkView.h" />
+    <ClInclude Include="..\include\NumberBufferDataManager.h" />
+    <ClInclude Include="..\include\ParticleDataManager.h" />
+    <ClInclude Include="..\include\ParticleEffect.h" />
+    <ClInclude Include="..\include\PESEquipDataHandler.h" />
+    <ClInclude Include="..\include\PlayerTipsWindow.h" />
+    <ClInclude Include="..\include\PreCCMoveTo.h" />
+    <ClInclude Include="..\include\PreLoadResourceDataManager.h" />
+    <ClInclude Include="..\include\QADataHandler.h" />
+    <ClInclude Include="..\include\RankWindow.h" />
+    <ClInclude Include="..\include\ResourceIDDataManager.h" />
+    <ClInclude Include="..\include\RevenueDataHandler.h" />
+    <ClInclude Include="..\include\RevenuePacket.h" />
+    <ClInclude Include="..\include\RevenueWindow.h" />
+    <ClInclude Include="..\include\RoleBaseDataManager.h" />
+    <ClInclude Include="..\include\RoleEffectDataManager.h" />
+    <ClInclude Include="..\include\RoleShapeDataManager.h" />
+    <ClInclude Include="..\include\RoleShapePropertyDataManager.h" />
+    <ClInclude Include="..\include\S2CAddChallengeCountPacket.h" />
+    <ClInclude Include="..\include\S2CArenaGifPacket.h" />
+    <ClInclude Include="..\include\S2CArenaRankPacket.h" />
+    <ClInclude Include="..\include\S2CQAPacket.h" />
+    <ClInclude Include="..\include\S2CRestSkillsPacket.h" />
+    <ClInclude Include="..\include\ScaleSprite.h" />
+    <ClInclude Include="..\include\SceneInfoDataManager.h" />
+    <ClInclude Include="..\include\SCHeroAltarBuyItemPacket.h" />
+    <ClInclude Include="..\include\ScreenEffectDataManager.h" />
+    <ClInclude Include="..\include\ScreenShakeEffect.h" />
+    <ClInclude Include="..\include\SecretView.h" />
+    <ClInclude Include="..\include\ShopinputNumWindow.h" />
+    <ClInclude Include="..\include\SkillActionDataManager.h" />
+    <ClInclude Include="..\include\SkillEffectDataManager.h" />
+    <ClInclude Include="..\include\SkillTableDataManager.h" />
+    <ClInclude Include="..\include\SoundDataManager.h" />
+    <ClInclude Include="..\include\SpecialOfferView.h" />
+    <ClInclude Include="..\include\SysLangDataManager.h" />
+    <ClInclude Include="..\include\TeamBattleDataHandler.h" />
+    <ClInclude Include="..\include\TeamBattlePacket.h" />
+    <ClInclude Include="..\include\TeamBattleProcedure.h" />
+    <ClInclude Include="..\include\TeamBattleWindow.h" />
+    <ClInclude Include="..\include\TeamSelectPacket.h" />
+    <ClInclude Include="..\include\TeamSelectWindow.h" />
+    <ClInclude Include="..\include\TipsWindow.h" />
+    <ClInclude Include="..\include\UIViewDataManger.h" />
+    <ClInclude Include="..\include\UIWindowDataManager.h" />
+    <ClInclude Include="..\include\MessagePacket.h" />
+    <ClInclude Include="..\include\MessagePacketManager.h" />
+    <ClInclude Include="..\include\PlayerDataMessage.h" />
+    <ClInclude Include="..\include\ArenaInfoDataHandler.h" />
+    <ClInclude Include="..\include\AthleticProcedureDataHandler.h" />
+    <ClInclude Include="..\include\AthleticProcedureDataType.h" />
+    <ClInclude Include="..\include\BagEquipDataHandler.h" />
+    <ClInclude Include="..\include\BagOtherObjectHandler.h" />
+    <ClInclude Include="..\include\BagTemplateBase.h" />
+    <ClInclude Include="..\include\BagTemplateBaseHandler.h" />
+    <ClInclude Include="..\include\ChatDataHandler.h" />
+    <ClInclude Include="..\include\ClimbTowerDataHandler.h" />
+    <ClInclude Include="..\include\CreateRoleRandomNameDataHandler.h" />
+    <ClInclude Include="..\include\CSMapTable.h" />
+    <ClInclude Include="..\include\DataHandlerSystem.h" />
+    <ClInclude Include="..\include\EffectDataHandler.h" />
+    <ClInclude Include="..\include\EquipmentLvUpDataHandler.h" />
+    <ClInclude Include="..\include\EquipTrainDataHandler.h" />
+    <ClInclude Include="..\include\HeartBeatDataHandler.h" />
+    <ClInclude Include="..\include\HeroTechnologyDataHandler.h" />
+    <ClInclude Include="..\include\IBagData.h" />
+    <ClInclude Include="..\include\IDataHandler.h" />
+    <ClInclude Include="..\include\LevelUpDataHandler.h" />
+    <ClInclude Include="..\include\MassacreDataHandler.h" />
+    <ClInclude Include="..\include\MissionDataHandler.h" />
+    <ClInclude Include="..\include\RoleEquipDataHandler.h" />
+    <ClInclude Include="..\include\RoleInfoDataHandler.h" />
+    <ClInclude Include="..\include\RoleSkillsDataHandler.h" />
+    <ClInclude Include="..\include\ServerInfoDataHandler.h" />
+    <ClInclude Include="..\include\ShopGoodsBase.h" />
+    <ClInclude Include="..\include\ShopInfoDataHandler.h" />
+    <ClInclude Include="..\include\LoadingAnimationDataManager.h" />
+    <ClInclude Include="..\include\DOTATribeApp.h" />
+    <ClInclude Include="..\include\VariableSpeedSequenceAction.h" />
+    <ClInclude Include="..\include\VersionCheckPacket.h" />
+    <ClInclude Include="..\include\VipControlDataHandler.h" />
+    <ClInclude Include="..\include\VipFontDataManager.h" />
+    <ClInclude Include="..\include\VipGiftPacket.h" />
+    <ClInclude Include="..\include\VipGiftWindow.h" />
+    <ClInclude Include="..\include\VipInfoPacket.h" />
+    <ClInclude Include="..\include\VipWindow.h" />
+    <ClInclude Include="..\include\WinMain.h" />
+    <ClInclude Include="..\include\HTTPTyper.h" />
+    <ClInclude Include="..\include\IPacket.h" />
+    <ClInclude Include="..\include\NetSystem.h" />
+    <ClInclude Include="..\include\PacketFactory.h" />
+    <ClInclude Include="..\include\PacketFactoryManager.h" />
+    <ClInclude Include="..\include\PacketTyper.h" />
+    <ClInclude Include="..\include\TCPConnectorThread.h" />
+    <ClInclude Include="..\include\AskForRoleInfoPacket.h" />
+    <ClInclude Include="..\include\AttributeLockPacket.h" />
+    <ClInclude Include="..\include\C2SArenaInfoPacket.h" />
+    <ClInclude Include="..\include\C2SChallengePacket.h" />
+    <ClInclude Include="..\include\ChatPacket.h" />
+    <ClInclude Include="..\include\ClimbTowerPacket.h" />
+    <ClInclude Include="..\include\CreateRoleRandomNamePacket.h" />
+    <ClInclude Include="..\include\CSBagSaleObjectPacket.h" />
+    <ClInclude Include="..\include\CSBagUseObjectPacket.h" />
+    <ClInclude Include="..\include\CSChangEquipPacket.h" />
+    <ClInclude Include="..\include\CSChangeSkillsPacket.h" />
+    <ClInclude Include="..\include\CSChangeSkinPacket.h" />
+    <ClInclude Include="..\include\CSCreateRolePacket.h" />
+    <ClInclude Include="..\include\CSEnterGamePacket.h" />
+    <ClInclude Include="..\include\CSEnterTranscriptRequestPacket.h" />
+    <ClInclude Include="..\include\CSOffEquipPacket.h" />
+    <ClInclude Include="..\include\CSQuickAccountRegisterPacket.h" />
+    <ClInclude Include="..\include\CSRegisterAccountPacket.h" />
+    <ClInclude Include="..\include\CSRolelistPacket.h" />
+    <ClInclude Include="..\include\CSShopInfoPacket.h" />
+    <ClInclude Include="..\include\EquipmentLvUpPacket.h" />
+    <ClInclude Include="..\include\EquipmentLvUpSelectCardPacket.h" />
+    <ClInclude Include="..\include\EquipTrainPacket.h" />
+    <ClInclude Include="..\include\GetItemPacket.h" />
+    <ClInclude Include="..\include\HeartBeatPacket.h" />
+    <ClInclude Include="..\include\HeroTechnologyLevelUpPacket.h" />
+    <ClInclude Include="..\include\HeroTechnologyPacket.h" />
+    <ClInclude Include="..\include\LevelUpPacket.h" />
+    <ClInclude Include="..\include\MassacrePacket.h" />
+    <ClInclude Include="..\include\MissionPacket.h" />
+    <ClInclude Include="..\include\PersonalChatPacket.h" />
+    <ClInclude Include="..\include\RegisterAccountPacket.h" />
+    <ClInclude Include="..\include\S2CArenaInfoPacket.h" />
+    <ClInclude Include="..\include\SCAthleticsDataPacket.h" />
+    <ClInclude Include="..\include\SCAttestaAccountPacket.h" />
+    <ClInclude Include="..\include\SCBagSaleObjectResultPacket.h" />
+    <ClInclude Include="..\include\SCBagUseObjectResultPacket.h" />
+    <ClInclude Include="..\include\SCChangeEquipPacket.h" />
+    <ClInclude Include="..\include\SCChangeSkillsResultPacket.h" />
+    <ClInclude Include="..\include\SCChangeSkinPacket.h" />
+    <ClInclude Include="..\include\SCOffEquipPacket.h" />
+    <ClInclude Include="..\include\SCQuickAccountRegisterPacket.h" />
+    <ClInclude Include="..\include\SCRefreshInfoDataPacket.h" />
+    <ClInclude Include="..\include\SCRegisterAccountPacket.h" />
+    <ClInclude Include="..\include\SCRoleInfoPacket.h" />
+    <ClInclude Include="..\include\SCRolelistPacket.h" />
+    <ClInclude Include="..\include\SCServerMessagePacket.h" />
+    <ClInclude Include="..\include\SCShopInfoPacket.h" />
+    <ClInclude Include="..\include\UpdateMissionPacket.h" />
+    <ClInclude Include="..\include\TimeSystem.h" />
+    <ClInclude Include="..\include\SoundSystem.h" />
+    <ClInclude Include="..\include\VariableSystem.h" />
+    <ClInclude Include="..\include\LoggerSystem.h" />
+    <ClInclude Include="..\include\AthleticsProcedure.h" />
+    <ClInclude Include="..\include\CreateRoleProcedure.h" />
+    <ClInclude Include="..\include\HomeProcedure.h" />
+    <ClInclude Include="..\include\IProcedure.h" />
+    <ClInclude Include="..\include\LoadingProcedure.h" />
+    <ClInclude Include="..\include\LoginProcedure.h" />
+    <ClInclude Include="..\include\LogoProcedure.h" />
+    <ClInclude Include="..\include\SelectMissionProcedure.h" />
+    <ClInclude Include="..\include\IWindow.h" />
+    <ClInclude Include="..\include\UILayer.h" />
+    <ClInclude Include="..\include\UISystem.h" />
+    <ClInclude Include="..\include\WindowManager.h" />
+    <ClInclude Include="..\include\ChatWindow.h" />
+    <ClInclude Include="..\include\ClimbTowerWindow.h" />
+    <ClInclude Include="..\include\EffectWindow.h" />
+    <ClInclude Include="..\include\EquipmentSelectCardWindow.h" />
+    <ClInclude Include="..\include\HerobarWindow.h" />
+    <ClInclude Include="..\include\StrengthenWindow.h" />
+    <ClInclude Include="..\include\HomeWindow.h" />
+    <ClInclude Include="..\include\InputNumWindow.h" />
+    <ClInclude Include="..\include\LevelupNormalWindow.h" />
+    <ClInclude Include="..\include\LoadingWindow.h" />
+    <ClInclude Include="..\include\LogoWindow.h" />
+    <ClInclude Include="..\include\MassacreWindow.h" />
+    <ClInclude Include="..\include\MessageBoxWindow.h" />
+    <ClInclude Include="..\include\NoticeBoxWindow.h" />
+    <ClInclude Include="..\include\PESWindow.h" />
+    <ClInclude Include="..\include\SelectMissionWindow.h" />
+    <ClInclude Include="..\include\SelectRoleWindow.h" />
+    <ClInclude Include="..\include\SelectServerWindow.h" />
+    <ClInclude Include="..\include\SelectSonMissionWindow.h" />
+    <ClInclude Include="..\include\ShopWindow.h" />
+    <ClInclude Include="..\include\SystemsetWindow.h" />
+    <ClInclude Include="..\include\AthleticResultWindow.h" />
+    <ClInclude Include="..\include\AthleticsSkillPanel.h" />
+    <ClInclude Include="..\include\AthleticsWindow.h" />
+    <ClInclude Include="..\include\SelectSkillController.h" />
+    <ClInclude Include="..\include\SelectSkillDataType.h" />
+    <ClInclude Include="..\include\SelectSkillMode.h" />
+    <ClInclude Include="..\include\SelectSkillWindow.h" />
+    <ClInclude Include="..\include\SkillTipsDialog.h" />
+    <ClInclude Include="..\include\UIDragNode.h" />
+    <ClInclude Include="..\include\SubView.h" />
+    <ClInclude Include="..\include\EquipLvUpView.h" />
+    <ClInclude Include="..\include\EquipTrainView.h" />
+    <ClInclude Include="..\include\ArenaWindow.h" />
+    <ClInclude Include="..\include\ArtFontLabelBatchNode.h" />
+    <ClInclude Include="..\include\CDragSprite.h" />
+    <ClInclude Include="..\include\CMenuItemSprite.h" />
+    <ClInclude Include="..\include\CPageScroll.h" />
+    <ClInclude Include="..\include\CPriorityLayerColor.h" />
+    <ClInclude Include="..\include\CProgressInnerBar.h" />
+    <ClInclude Include="..\include\CPublicVarReader.h" />
+    <ClInclude Include="..\include\CSelectedSprite.h" />
+    <ClInclude Include="..\include\CSprite.h" />
+    <ClInclude Include="..\include\CTableView.h" />
+    <ClInclude Include="..\include\CTouchSprite.h" />
+    <ClInclude Include="..\include\MaskNode.h" />
+    <ClInclude Include="..\include\MoveAnimation.h" />
+    <ClInclude Include="..\include\UIBaseDialog.h" />
+    <ClInclude Include="..\include\UIScrollNodeLayer.h" />
+    <ClInclude Include="..\include\UITwoSideStretchNodeLayer.h" />
+    <ClInclude Include="..\include\HWBottomBar.h" />
+    <ClInclude Include="..\include\HWMoreItems.h" />
+    <ClInclude Include="..\include\CTipsViewDelegate.h" />
+    <ClInclude Include="..\include\PESEquipSubView.h" />
+    <ClInclude Include="..\include\EventDef.h" />
+    <ClInclude Include="..\include\EventSystem.h" />
+    <ClInclude Include="..\include\EventTyper.h" />
+    <ClInclude Include="..\include\ShopView.h" />
+    <ClInclude Include="..\include\SHSubView.h" />
+    <ClInclude Include="..\include\DebugerSystem.h" />
+    <ClInclude Include="..\include\IDebuger.h" />
+    <ClInclude Include="..\include\LogicDebuger.h" />
+    <ClInclude Include="..\include\NetDebuger.h" />
+    <ClInclude Include="..\include\ProfSystem.h" />
+    <ClInclude Include="..\include\RenderDebuger.h" />
+    <ClInclude Include="..\include\IAPSystem.h" />
+    <ClInclude Include="..\include\AnimationEffect.h" />
+    <ClInclude Include="..\include\AthleticsInstructionSystem.h" />
+    <ClInclude Include="..\include\AthleticsInstructionUnit.h" />
+    <ClInclude Include="..\include\AthleticsSceneManager.h" />
+    <ClInclude Include="..\include\AthleticsUIManager.h" />
+    <ClInclude Include="..\include\BaseObject.h" />
+    <ClInclude Include="..\include\BaseObjectManager.h" />
+    <ClInclude Include="..\include\Common.h" />
+    <ClInclude Include="..\include\CommonEffect.h" />
+    <ClInclude Include="..\include\CommonEffectManager.h" />
+    <ClInclude Include="..\include\CommonNumberEffect.h" />
+    <ClInclude Include="..\include\CommonNumberEffectManager.h" />
+    <ClInclude Include="..\include\CommonSkillActionProcedure.h" />
+    <ClInclude Include="..\include\CommonSkillItemProcedure.h" />
+    <ClInclude Include="..\include\CommonUnSkillItemProcedure.h" />
+    <ClInclude Include="..\include\HeroicRole.h" />
+    <ClInclude Include="..\include\HeroicRoleSkeletonNode.h" />
+    <ClInclude Include="..\include\InputCommand.h" />
+    <ClInclude Include="..\include\RoleEffect.h" />
+    <ClInclude Include="..\include\ScreenEffect.h" />
+    <ClInclude Include="..\include\ShakeEffect.h" />
+    <ClInclude Include="..\include\SkillAttachLogicManager.h" />
+    <ClInclude Include="..\include\SkillAttachLogicProcedure.h" />
+    <ClInclude Include="..\include\UnSkillNumbericalProcedure.h" />
+    <ClInclude Include="..\include\NotifySystem.h" />
+    <ClInclude Include="..\include\EngineSystem.h" />
+    <ClInclude Include="..\include\NFCCLabelFactory.h" />
+    <ClInclude Include="..\include\NFCCLayerFactory.h" />
+    <ClInclude Include="..\include\NFCCMenuFactory.h" />
+    <ClInclude Include="..\include\NFCCNodeFactory.h" />
+    <ClInclude Include="..\include\NFCCSpriteFactory.h" />
+    <ClInclude Include="..\include\NFCCTableViewFactory.h" />
+    <ClInclude Include="..\include\NFCProgressInnerBarFactory.h" />
+    <ClInclude Include="..\include\NodeFactoryManager.h" />
+    <ClInclude Include="..\include\WriteEmailWindow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

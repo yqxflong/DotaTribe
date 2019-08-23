@@ -1,0 +1,5 @@
+Id	Type(0:plist 1:image)	Name	±¸×¢
+1	0	resource/image/hero/dota_hero_icon.plist	hero
+2	0	resource/image/equipment/dota_equip_icon.plist	equip
+3	0	resource/image/item/dota_item_icon.plist	item
+4	0	resource/image/skillicon/dota_skill_icon.plist	skill

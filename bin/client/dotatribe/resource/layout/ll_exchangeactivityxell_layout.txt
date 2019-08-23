@@ -1,0 +1,14 @@
+INDEX	HIDE	ZORDER	SCALE	ROTATION	CLASS	TPRIORITY	SWALLOW	SYSLANGID	FSYLEID	FSIZE	COLOR-R	COLOR-G	COLOR-B	COLOR-ALPHA	FILE1	FILE2	FILE3	WIDTH	HEIGHT	ANCHOR-X	ANCHOR-Y	POS-X	POS-Y	IP5-POS-X	IP5-POS-Y	IPAD-POS-X	IPAD-POS-Y	ANDROID-POS-X	ANDROID-POS-Y	ANDROID16_10-POS-X	ANDROID16_10-POS-Y	SOUNDID	OTHERS
+0	0	1	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newhuifu/diban_dh.png	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	背景
+1	0	2	1	0	DTAwardBoard	0	1	0	3	0	0	0	0	0	resource/image/newpublic/subscript_s.png	0	0	0	0	0.5	0.5	90	90	90	90	90	90	90	90	90	90	-1	物品1
+2	0	3	1	0	CCLabelTTF	0	1	134	83	0	0	0	0	0	0	0	0	85	0	0.5	0.5	90	34	90	34	90	34	90	34	90	34	-1	物品数量
+3	0	2	1	0	DTAwardBoard	0	1	0	3	0	0	0	0	0	resource/image/newpublic/subscript_s.png	0	0	0	0	0.5	0.5	190	90	190	90	190	90	190	90	190	90	-1	物品2
+4	0	3	1	0	CCLabelTTF	0	1	134	83	0	0	0	0	0	0	0	0	85	0	0.5	0.5	190	34	190	34	190	34	190	34	190	34	-1	物品2数量
+5	0	2	1	0	DTAwardBoard	0	1	0	3	0	0	0	0	0	resource/image/newpublic/subscript_s.png	0	0	0	0	0.5	0.5	290	90	290	90	290	90	290	90	290	90	-1	物品3
+6	0	3	1	0	CCLabelTTF	0	1	134	83	0	0	0	0	0	0	0	0	85	0	0.5	0.5	290	34	290	34	290	34	290	34	290	34	-1	物品3数量
+7	0	2	1	0	DTAwardBoard	0	1	0	3	0	0	0	0	0	resource/image/newpublic/subscript_s.png	0	0	0	0	0.5	0.5	465	90	465	90	465	90	465	90	465	90	-1	兑换物
+8	0	3	1	0	CCLabelTTF	0	1	0	83	0	0	0	0	0	0	0	0	0	0	0.5	0.5	465	34	465	34	465	34	465	34	465	34	-1	兑换物数量
+9	0	2	1	0	CMenuItemSprite	-5	1	0	0	0	0	0	0	0	resource/image/newpublic/button_2.png	resource/image/newpublic/button_2_l.png	resource/image/newpublic/button_2_g.png	0	0	0.5	0.5	580	100	580	100	580	100	580	100	580	100	-1	兑换按钮
+10	0	3	1	0	CCLabelTTF	0	1	7029	104	0	0	0	0	0	0	0	0	0	0	0.5	0.5	580	100	580	100	580	100	580	100	580	100	-1	兑换文字
+11	0	3	1	0	CCLabelTTF	0	1	7027	91	0	0	0	0	0	0	0	0	85	0	0	0.5	520	60	520	60	520	60	520	60	520	60	-1	剩余次数
+12	0	3	1	0	CCLabelTTF	0	1	7028	80	0	0	0	0	0	0	0	0	0	0	0.5	0.5	585	30	585	30	585	30	585	30	585	30	-1	vip提示

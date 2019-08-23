@@ -1,0 +1,13 @@
+class  CAnimationSprite: public CCSprite,public AnimationEffectCallBackProtocol
+{
+	CAnimationSprite();
+	 ~CAnimationSprite();
+    static CAnimationSprite * createAnimationSpriteByID(int aniamtionID,bool isLoopEffect=false,AnimationEffectCallBackProtocol * pDelegate=NULL);
+	void  EffectCallBackEventHandler(int eventType,CCNode * animationNode,PCallBack_Node ptr);
+	void  RegisterEventHandler(AnimationEffectCallBackProtocol * pDelegate);
+	void  PlayEffect();
+	void  StopEffect();
+	void  SetAnimationID(int animationID);
+	 void setVisible(bool bVisible);
+	void  SetIsUnLoopEffect(bool loopEnable);
+};

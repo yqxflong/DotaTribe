@@ -1,0 +1,110 @@
+
+zhanzhengkuilei01.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+L-JB
+  rotate: true
+  xy: 247, 66
+  size: 95, 68
+  orig: 126, 143
+  offset: 9, 48
+  index: -1
+L-datui
+  rotate: false
+  xy: 338, 1
+  size: 43, 73
+  orig: 90, 130
+  offset: 21, 28
+  index: -1
+L-shbi
+  rotate: true
+  xy: 163, 4
+  size: 59, 84
+  orig: 120, 140
+  offset: 28, 33
+  index: -1
+L-xiaobi
+  rotate: false
+  xy: 316, 75
+  size: 71, 92
+  orig: 125, 160
+  offset: 32, 30
+  index: -1
+L-xiaotui
+  rotate: false
+  xy: 388, 100
+  size: 81, 82
+  orig: 125, 110
+  offset: 30, 2
+  index: -1
+R-JB
+  rotate: false
+  xy: 367, 183
+  size: 102, 72
+  orig: 126, 143
+  offset: 0, 43
+  index: -1
+R-datui
+  rotate: true
+  xy: 382, 11
+  size: 44, 67
+  orig: 90, 130
+  offset: 20, 30
+  index: -1
+R-shbi
+  rotate: true
+  xy: 248, 0
+  size: 65, 89
+  orig: 120, 140
+  offset: 27, 24
+  index: -1
+R-xiaobi
+  rotate: false
+  xy: 163, 64
+  size: 83, 97
+  orig: 125, 160
+  offset: 14, 25
+  index: -1
+R-xiaotui
+  rotate: false
+  xy: 277, 168
+  size: 89, 87
+  orig: 140, 125
+  offset: 13, 19
+  index: -1
+pigu
+  rotate: false
+  xy: 388, 56
+  size: 68, 43
+  orig: 125, 145
+  offset: 19, 35
+  index: -1
+tou
+  rotate: false
+  xy: 0, 132
+  size: 162, 123
+  orig: 215, 195
+  offset: 30, 40
+  index: -1
+tou1
+  rotate: false
+  xy: 0, 8
+  size: 162, 123
+  orig: 215, 195
+  offset: 30, 40
+  index: -1
+xiong
+  rotate: false
+  xy: 163, 162
+  size: 113, 93
+  orig: 190, 175
+  offset: 39, 48
+  index: -1
+yaodai
+  rotate: true
+  xy: 470, 198
+  size: 57, 41
+  orig: 125, 145
+  offset: 41, 42
+  index: -1

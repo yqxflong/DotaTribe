@@ -1,0 +1,131 @@
+
+jumofashi04.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+B-BS
+  rotate: false
+  xy: 1, 1
+  size: 2, 2
+  orig: 205, 230
+  offset: 121, 99
+  index: -1
+L-wuqi
+  rotate: false
+  xy: 1, 1
+  size: 2, 2
+  orig: 205, 230
+  offset: 121, 99
+  index: -1
+L-JB
+  rotate: false
+  xy: 253, 120
+  size: 37, 37
+  orig: 120, 120
+  offset: 38, 39
+  index: -1
+L-datui
+  rotate: false
+  xy: 292, 128
+  size: 44, 34
+  orig: 60, 65
+  offset: 7, 16
+  index: -1
+L-shbi
+  rotate: true
+  xy: 290, 164
+  size: 26, 51
+  orig: 60, 60
+  offset: 17, 5
+  index: -1
+L-xiaobi
+  rotate: false
+  xy: 344, 197
+  size: 46, 51
+  orig: 70, 85
+  offset: 4, 22
+  index: -1
+L-xiaotui
+  rotate: false
+  xy: 290, 192
+  size: 52, 56
+  orig: 55, 70
+  offset: 3, 5
+  index: -1
+R-JB
+  rotate: false
+  xy: 437, 213
+  size: 47, 35
+  orig: 120, 120
+  offset: 46, 44
+  index: -1
+R-datui
+  rotate: true
+  xy: 88, 66
+  size: 30, 54
+  orig: 55, 65
+  offset: 13, 1
+  index: -1
+R-shbi
+  rotate: false
+  xy: 392, 197
+  size: 43, 51
+  orig: 55, 60
+  offset: 6, 4
+  index: -1
+R-wuqi
+  rotate: false
+  xy: 1, 159
+  size: 200, 89
+  orig: 240, 150
+  offset: 20, 24
+  index: -1
+R-xiaobi
+  rotate: true
+  xy: 191, 121
+  size: 36, 60
+  orig: 65, 85
+  offset: 15, 16
+  index: -1
+R-xiaotui
+  rotate: false
+  xy: 146, 102
+  size: 43, 55
+  orig: 70, 90
+  offset: 17, 14
+  index: -1
+pigu
+  rotate: true
+  xy: 67, 23
+  size: 40, 31
+  orig: 77, 45
+  offset: 18, 6
+  index: -1
+tou
+  rotate: false
+  xy: 203, 159
+  size: 85, 89
+  orig: 140, 220
+  offset: 38, 73
+  index: -1
+tou1
+  rotate: false
+  xy: 1, 65
+  size: 85, 92
+  orig: 140, 220
+  offset: 38, 70
+  index: -1
+xiong
+  rotate: false
+  xy: 88, 98
+  size: 56, 59
+  orig: 90, 82
+  offset: 19, 6
+  index: -1
+yaodai
+  rotate: false
+  xy: 1, 5
+  size: 64, 58
+  orig: 90, 90
+  offset: 12, 9
+  index: -1

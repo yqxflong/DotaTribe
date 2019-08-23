@@ -1,0 +1,12 @@
+INDEX	HIDE	ZORDER	SCALE	ROTATION	CLASS	TPRIORITY	SWALLOW	SYSLANGID	FSYLEID	FSIZE	COLOR-R	COLOR-G	COLOR-B	COLOR-ALPHA	FILE1	FILE2	FILE3	WIDTH	HEIGHT	ANCHOR-X	ANCHOR-Y	POS-X	POS-Y	IP5-POS-X	IP5-POS-Y	IPAD-POS-X	IPAD-POS-Y	ANDROID-POS-X	ANDROID-POS-Y	ANDROID16_10-POS-X	ANDROID16_10-POS-Y	SOUNDID	OTHERS
+0	0	0	1	0	CCSprite	0	1	0	0	15	0	0	0	0	resource/image/newyxzhb/lansedikuang.png	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	"kCELLBG,"
+1	0	1	1	0	HeroEquipBoard	0	1	0	101	0	0	0	0	0	resource/image/newpublic/c_normal.png	0	resource/image/newpublic/dengjikuang.png	0	0	0	0	9	7	9	7	9	7	9	7	9	7	-1	"kCELLBOARD,"
+2	0	1	1	0	CCLabelTTF	0	1	0	92	0	0	0	0	0	0	0	0	0	0	0	0.5	98	65	98	65	98	65	98	65	98	65	-1	"kCELLEQUIPNAME,"
+3	0	1	1	0	CCLabelTTF	0	1	0	43	0	0	0	0	0	0	0	0	0	0	0	0.5	98	33	98	33	98	33	98	33	98	33	-1	kCELLMAINPROP
+4	0	1	1	0	CCLabelTTF	0	1	0	43	0	0	0	0	0	0	0	0	0	0	0	0	230	23	230	23	230	23	230	23	230	23	-1	"kCELLEQUIPSCOREVALUE,"
+5	0	1	1	0	CImMenuItemSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/button_2.png	resource/image/newpublic/button_2_l.png	0	0	0	0.5	0.5	420	50	420	50	420	50	420	50	420	50	-1	"kCELLBTN,"
+6	0	2	1	0	CCLabelTTF	0	1	209	49	0	0	0	0	0	0	0	0	0	0	0.5	0.5	420	50	420	50	420	50	420	50	420	50	-1	"kCELLBTN_LABEL,"
+7	0	1	1	0	CSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/lvseshangsheng.png	resource/image/newpublic/hongsexiajiang.png	0	0	0	0	0	340	18	340	18	340	18	340	18	340	18	-1	"kCELLSCOREARROW,"
+8	0	1	1	0	CCLabelTTF	0	1	0	46	0	0	0	0	0	0	0	0	0	0	1	0.5	340	65	340	65	340	65	340	65	340	65	-1	"装备类型,"
+9	0	1	1	0	CCSprite	0	1	0	0	0	6	0	0	0	resource/image/newpublic/xingxingdiban.png	0	0	0	0	0	0	10	4	10	4	10	4	10	4	10	4	-1	标题背景
+10	0	1	1	0	CCardsStarProgress	0	1	0	0	0	6	0	0	0	resource/image/newpublic/cards_star_b.png	resource/image/newpublic/cards_star_a.png	0	-8	0	0	0	20	6	20	6	20	6	20	6	20	6	-1	"标题星级,"

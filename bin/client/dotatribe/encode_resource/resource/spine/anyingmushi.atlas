@@ -1,0 +1,131 @@
+
+anyingmushi.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+B-BS
+  rotate: false
+  xy: 1, 1
+  size: 2, 2
+  orig: 205, 230
+  offset: 121, 99
+  index: -1
+L-wuqi
+  rotate: false
+  xy: 1, 1
+  size: 2, 2
+  orig: 205, 230
+  offset: 121, 99
+  index: -1
+L-JB
+  rotate: false
+  xy: 469, 195
+  size: 42, 41
+  orig: 120, 120
+  offset: 35, 41
+  index: -1
+L-datui
+  rotate: false
+  xy: 250, 182
+  size: 53, 54
+  orig: 60, 65
+  offset: 6, 8
+  index: -1
+L-shbi
+  rotate: false
+  xy: 218, 76
+  size: 25, 51
+  orig: 60, 60
+  offset: 17, 5
+  index: -1
+L-xiaobi
+  rotate: false
+  xy: 132, 12
+  size: 44, 44
+  orig: 70, 85
+  offset: 6, 21
+  index: -1
+L-xiaotui
+  rotate: true
+  xy: 305, 187
+  size: 49, 55
+  orig: 55, 70
+  offset: 4, 5
+  index: -1
+R-JB
+  rotate: false
+  xy: 417, 192
+  size: 50, 44
+  orig: 120, 120
+  offset: 48, 39
+  index: -1
+R-datui
+  rotate: true
+  xy: 66, 13
+  size: 43, 64
+  orig: 55, 65
+  offset: 6, 1
+  index: -1
+R-shbi
+  rotate: false
+  xy: 173, 77
+  size: 43, 50
+  orig: 55, 60
+  offset: 6, 3
+  index: -1
+R-wuqi
+  rotate: false
+  xy: 1, 153
+  size: 184, 83
+  orig: 240, 150
+  offset: 27, 22
+  index: -1
+R-xiaobi
+  rotate: true
+  xy: 187, 129
+  size: 38, 52
+  orig: 65, 85
+  offset: 13, 15
+  index: -1
+R-xiaotui
+  rotate: true
+  xy: 362, 194
+  size: 42, 53
+  orig: 70, 90
+  offset: 16, 15
+  index: -1
+pigu
+  rotate: true
+  xy: 178, 35
+  size: 40, 31
+  orig: 77, 45
+  offset: 18, 7
+  index: -1
+tou
+  rotate: false
+  xy: 1, 58
+  size: 84, 93
+  orig: 140, 220
+  offset: 33, 72
+  index: -1
+tou1
+  rotate: false
+  xy: 87, 58
+  size: 84, 93
+  orig: 140, 220
+  offset: 33, 72
+  index: -1
+xiong
+  rotate: false
+  xy: 187, 169
+  size: 61, 67
+  orig: 90, 82
+  offset: 13, 9
+  index: -1
+yaodai
+  rotate: false
+  xy: 1, 5
+  size: 63, 51
+  orig: 90, 90
+  offset: 13, 22
+  index: -1

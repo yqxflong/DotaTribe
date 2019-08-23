@@ -1,0 +1,125 @@
+class FAnimationButton : public CCMenuItemSprite,public AnimationEffectCallBackProtocol
+{
+	FAnimationButton(){
+		m_nIDX=0;
+		m_nSoundID = -1;
+		m_iAnimationId = 0;
+		m_pAnimationPlayNode = NULL;
+		m_pAnimationFileData = NULL;
+		m_pAnimationCallBack = NULL;
+		m_pAnimation = NULL;
+		m_bIsPlaying = false;
+
+		m_pAnimationEffectCallBack_Extra = NULL;
+
+		InitAnimation();
+	};
+	~FAnimationButton(){};
+	//With Selected Image Node
+	static FAnimationButton* create(CCNode* normalSprite, CCNode* selectedSprite, CCObject* target, SEL_MenuHandler selector);
+	bool initWithNormalSprite(CCNode* normalSprite, CCNode* selectedSprite, CCNode* disabledSprite, CCObject* target, SEL_MenuHandler selector);
+	static FAnimationButton* create(const char* nor, const char* sel, CCObject* target, SEL_MenuHandler selector);
+	bool initWithNormalImage(const char* nor, const char* sel, CCObject* target, SEL_MenuHandler selector);
+	//
+	void setIDX(unsigned int idx){
+		m_nIDX=idx;
+	}
+	unsigned int getIDX() const{
+		return m_nIDX;
+	}
+	//
+	void setSoundID(int soundid){
+		m_nSoundID=soundid;
+	}
+
+	void setAnimationId(int animationId)
+	{
+		m_iAnimationId = animationId;
+	}
+
+	void setAnimationPos(float posx, float posy)
+	{
+		m_fAnimationPosX = posx;
+		m_fAnimationPosY = posy;
+	}
+
+	void setAnimationCallBack(AnimationEffectCallBackProtocol * callbackObject)
+	{
+		m_pAnimationEffectCallBack_Extra = callbackObject;
+	}
+
+	 void EffectCallBackEventHandler(int eventType,CCNode * animationNode,PCallBack_Node ptr);
+
+	void PlayAnimation();
+
+	void StopAnimation();
+
+	/*
+		播放声音
+	*/
+	void PlayTouchSound();
+
+};
+class FAPriorityMenu:public CCMenu{
+	FAPriorityMenu()
+	{
+		m_bSwallow = false;
+		m_nPriority = 0;
+		m_bTreatAsTabMenu = false;
+	};
+
+	static FAPriorityMenu* create(int priority,bool swallow=true){
+		FAPriorityMenu* menu=new FAPriorityMenu;
+		if (menu&&menu->init(priority,swallow))
+		{
+			menu->autorelease();
+			return menu;
+		}
+		delete menu;
+		menu = NULL;
+		return menu;
+	}
+	bool init(int priority,bool swallow){
+		if (CCMenu::init())
+		{
+			m_nPriority=priority;
+			m_bSwallow=swallow;
+			return true;
+		}
+		return false;
+	}
+	 void registerWithTouchDispatcher()
+	{
+		CCDirector* pDirector = CCDirector::sharedDirector();
+		pDirector->getTouchDispatcher()->addTargetedDelegate(this, m_nPriority, m_bSwallow);
+	}
+	 bool ccTouchBegan(CCTouch *touch,CCEvent* event);
+	 void ccTouchEnded(CCTouch *touch,CCEvent* event);
+		void ccTouchMoved(CCTouch* touch, CCEvent* event);
+	 void ccTouchCancelled(CCTouch *touch, CCEvent* event);
+
+	/*
+		设置它为tabmenu
+	*/
+	void SetTreatAsTabMenu(bool treat);
+};
+class FrameAnimationDelegate
+{
+	 void FrameAnimationIntercept(int frameId, CCNode * node) = 0;
+
+};
+class FrameAnimationNode : public CCNode
+{
+	static FrameAnimationNode * create(int totalFrames, int fpsInAnimation, int fpsInGame);
+
+	void InsertFrameIntercept(int frameId);
+
+	void ClearAllIntercepts();
+
+	void AddDelegate(FrameAnimationDelegate * dlg);
+
+	void Tick();
+	
+	void Start();
+
+};

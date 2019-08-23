@@ -1,0 +1,25 @@
+class EventHelper
+{
+	static BaseHelper * LuaGetInstance();
+
+	static std::string LuaGetInstanceName();
+
+	void LuaRegisterEvent(int eventId, std::string ownerData);
+
+	void LuaPushEvent(int eventId);
+	
+	void LuaPushEvent(int eventId, std::string param0);
+
+	void LuaPushEvent(int eventId, std::string param0, std::string param1);
+
+	void LuaPushEvent(int eventId, std::string param0, std::string param1, std::string param2);
+
+	void LuaPushEvent2(int eventId);
+
+	void LuaPushEvent2(int eventId, std::string param0);
+
+	void LuaPushEvent2(int eventId, std::string param0, std::string param1);
+
+	void LuaPushEvent2(int eventId, std::string param0, std::string param1, std::string param2);
+
+};

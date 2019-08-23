@@ -1,0 +1,27 @@
+INDEX	HIDE	ZORDER	SCALE	ROTATION	CLASS	TPRIORITY	SWALLOW	SYSLANGID	FSYLEID	FSIZE	COLOR-R	COLOR-G	COLOR-B	COLOR-ALPHA	FILE1	FILE2	FILE3	WIDTH	HEIGHT	ANCHOR-X	ANCHOR-Y	POS-X	POS-Y	IP5-POS-X	IP5-POS-Y	IPAD-POS-X	IPAD-POS-Y	ANDROID-POS-X	ANDROID-POS-Y	ANDROID16_10-POS-X	ANDROID16_10-POS-Y	SOUNDID	OTHERS
+0	0	0	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/rewarddiban.png	0	0	0	0	0.5	0.5	538	341	568	320	512	384	533.33	320	507.73	320	-1	背景底板
+1	0	0	1	0	CMenuItemSprite	-21	1	0	0	0	0	0	0	0	resource/image/newpublic/close.png	resource/image/newpublic/close_l.png	0	0	0	0	0	836	492	866	471	810	535	831.33	471	805.73	471	-1	关闭按钮
+2	0	0	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newarena/arenarewardtitle.png	0	0	0	0	0.5	0.5	538	541	568	520	512	584	533.33	520	507.73	520	-1	标题
+3	0	0	1	0	CCLabelTTF	0	1	7002	84	0	0	0	0	0	0	0	0	0	0	0	0.5	226	477	256	456	200	520	221.33	456	195.73	456	-1	左奖励标签
+4	0	0	1	0	CTableView	-21	1	0	0	0	0	0	0	0	0	0	0	500	390	0	0	186	73	216	52	160	116	181.33	52	155.73	52	-1	奖励容器Table
+5	0	0	1	0	CCNode	0	1	13	0	0	0	0	0	0	0	0	0	500	120	0	0	0	0	0	0	0	0	0	0	0	0	-1	奖励Cell尺寸
+6	0	0	1	0	CCLabelTTF	0	1	438	84	0	0	0	0	0	0	0	0	0	0	0	0.5	646	467	676	446	620	510	641.33	446	615.73	446	-1	我的排名:
+7	0	0	1	0	CCLabelTTF	0	1	167	48	0	0	0	0	0	0	0	0	0	0	0	0.5	756	467	786	446	730	510	751.33	446	725.73	446	-1	排名数值
+8	0	0	1	0	CCSprite	0	1	13	0	0	0	0	0	0	resource/image/newpublic/segement.png	0	0	0	0	0	0	633	441	663	420	607	484	628.33	420	602.73	420	-1	 隔条
+9	0	0	1	0	CCLabelTTF	0	1	7003	84	0	0	0	0	0	0	0	0	0	0	0	0.5	646	423	676	402	620	466	641.33	402	615.73	402	-1	我的战绩:
+10	0	0	1	0	CCLabelTTF	0	1	7004	48	0	0	0	0	0	0	0	0	0	0	0	0.5	646	387	676	366	620	430	641.33	366	615.73	366	-1	XXX胜利 XX败
+11	1	0	1	0	CCLabelTTF	0	1	7005	84	0	0	0	0	0	0	0	0	0	0	0	0.5	646	351	676	330	620	394	641.33	330	615.73	330	-1	胜率标签:
+12	1	0	1	0	CCLabelTTF	0	1	167	48	0	0	0	0	0	0	0	0	0	0	0	0.5	706	351	736	330	680	394	701.33	330	675.73	330	-1	标签数值
+13	1	0	1	0	CCSprite	0	1	13	0	0	0	0	0	0	resource/image/newpublic/segement.png	0	0	0	0	0.5	0.5	538	341	568	320	512	384	533.33	320	507.73	320	-1	隔条
+14	0	0	1	0	CCLabelTTF	0	1	7006	83	0	0	0	0	0	0	0	0	0	0	0	0.5	646	311	676	290	620	354	641.33	290	615.73	290	-1	胜场奖励
+15	0	0	1	0	DTAwardBoard	-21	1	0	1	0	0	0	0	0	resource/image/newpublic/subscript_s.png	0	0	0	0	0.5	0.5	706	241	736	220	680	284	701.33	220	675.73	220	-1	左物品
+16	0	0	1	0	CCLabelTTF	0	1	167	83	0	0	0	0	0	0	0	0	0	0	0.5	0.5	706	187	736	166	680	230	701.33	166	675.73	166	-1	左数值
+17	0	0	1	0	DTAwardBoard	-21	1	15	1	0	0	0	0	0	resource/image/newpublic/subscript_s.png	0	0	0	0	0.5	0.5	806	241	836	220	780	284	801.33	220	775.73	220	-1	右物品
+18	0	0	1	0	CCLabelTTF	0	1	167	83	0	0	0	0	0	0	0	0	0	0	0.5	0.5	806	187	836	166	780	230	801.33	166	775.73	166	-1	右数值
+19	0	0	1	0	CMenuItemSprite	-21	1	15	0	0	0	0	0	0	resource/image/newpublic/button.png	resource/image/newpublic/button_l.png	resource/image/newpublic/button_g.png	0	0	0.5	0.5	756	141	786	120	730	184	751.33	120	725.73	120	-1	领取按钮
+20	0	0	1	0	CCLabelTTF	0	1	174	104	0	0	0	0	0	0	0	0	0	0	0.5	0.5	756	141	786	120	730	184	751.33	120	725.73	120	-1	领取文字
+21	0	0	1	0	CTimeLabel	0	1	477	88	0	0	0	0	0	0	0	0	1	0	0.5	0.5	756	95	786	74	730	138	751.33	74	725.73	74	-1	领取时间
+22	0	0	1	0	CCLabelTTF	0	1	7007	81	0	0	0	0	0	0	0	0	0	0	0.5	0.5	756	71	786	50	730	114	751.33	50	725.73	50	-1	领取提示
+23	0	-1	1	0	CPriorityLayerColor	-20	1	0	0	0	0	0	0	70	0	0	0	1136	768	0	0	26	-43	56	-64	0	0	21.33	-64	-4.27	-64	-1	禁用层
+24	1	1	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/downarrow.png	0	0	0	0	0.5	0.5	396	47	426	26	370	90	391.33	26	365.73	26	-1	下箭头标签
+25	0	1	1	0	CSkeletonAnimation	0	1	0	0	0	0	0	0	0	resource/spine/ui_jiantou_a.json	resource/spine/ui_jiantou_a.atlas	ui_jiantou_a	0	0	0.5	0.5	396	47	426	26	370	90	391.33	26	365.73	26	-1	下骨骼箭头动画

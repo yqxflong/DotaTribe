@@ -1,0 +1,53 @@
+class  CCDragLayerProtocol
+{
+	typedef enum
+	{
+		_UNKONW_DRAG_END_TYPE_,
+		_CLICK_DRAG_END_TYPE_,
+		_OTHER_DRAG_END_TYPE_,
+	};
+	 bool delegateDragEndEventHandler(int eventType,CCSignSprite * pSignSprite,CCPoint & touchPoint)=0;
+};
+class    CCDragNodeLayer : public CCLayer
+{ 
+	CCDragNodeLayer();
+	 ~CCDragNodeLayer();
+    static CCDragNodeLayer * createDragNodeLayer(CCDragLayerProtocol * pDrageDelegte=NULL);
+	 void  onEnter();
+	 void  onExit();
+	void    addSignSpriteVector(std::vector<CCSignSprite* >  signSpriteVec,int zOrder);
+	void    addTargetSignSprite(CCSignSprite * pSignSprite,int zOrder);
+	void    removeTargetSignSpriteWithID(int signSpriteUniqueID);
+	void    addOtherAttachSprite(CCSprite * pAttachSprite,int zOrder);
+	void    addTargetAttachSprite(CCSprite * pTargetAttachSprite,int zOrder);
+	/*
+	移除所有公共触摸结点
+	*/
+	 
+	/*
+	移除所有目标触摸结点
+	*/
+	void    removeAllTargetSignSprites();
+	/*
+	移除目标附加精灵
+	*/
+	void    removeAllOtherAttachSprite();
+	/*
+	移除公共附加精灵
+	*/
+	void    removeAllTargetAttachSprite();
+	/*
+	移除所有数据
+	*/
+	void    removeAllData();
+	 bool ccTouchBegan(CCTouch *pTouch, CCEvent *pEvent);
+	 void ccTouchMoved(CCTouch *pTouch, CCEvent *pEvent);
+	 void ccTouchEnded(CCTouch *pTouch, CCEvent *pEvent);
+	 void ccTouchCancelled(CCTouch *pTouch, CCEvent *pEvent);
+	void  clearAllSignTouchArray();
+	void  setDragLayerTouchEnable(bool touchEnable);
+	void  setDragLayerTouchPriority(int touchPriority);
+	bool  getDragLayerTouchEnabel();
+	void  setDefaultTargetSegmentHeight(float targetSegmentHeigh);
+	void  setDragEventDelegate(CCDragLayerProtocol * pDrageDelegte);
+};

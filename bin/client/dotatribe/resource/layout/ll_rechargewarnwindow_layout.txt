@@ -1,0 +1,9 @@
+INDEX	HIDE	ZORDER	SCALE	ROTATION	CLASS	TPRIORITY	SWALLOW	SYSLANGID	FSYLEID	FSIZE	COLOR-R	COLOR-G	COLOR-B	COLOR-ALPHA	FILE1	FILE2	FILE3	WIDTH	HEIGHT	ANCHOR-X	ANCHOR-Y	POS-X	POS-Y	IP5-POS-X	IP5-POS-Y	IPAD-POS-X	IPAD-POS-Y	ANDROID-POS-X	ANDROID-POS-Y	ANDROID16_10-POS-X	ANDROID16_10-POS-Y	SOUNDID	OTHERS
+0	0	-1	1	0	CPriorityLayerColor	-160	1	0	0	0	0	0	0	125	0	0	0	1136	768	0	0	0	0	0	0	0	0	0	0	0	0	-1	灰层
+1	0	0	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newdiamondbuy/tishikuang_zuanshigoumai.png	0	0	0	0	0.5	0.5	564	412	568	391	512	455	533.33	391	507.73	391	-1	主背景
+2	0	2	1	0	CCLabelTTF	0	1	6018	48	0	0	0	0	0	0	0	0	0	0	0.5	0.5	412	268	416	247	360	311	381.33	247	355.73	247	-1	不绑定充值文字
+3	0	5	1	0	CCLabelTTF	0	1	6019	48	0	0	0	0	0	0	0	0	0	0	0.5	0.5	722	268	726	247	670	311	691.33	247	665.73	247	-1	绑定账号文字
+4	0	0	1	0	CMenuItemSprite	-161	1	0	0	0	0	0	0	0	resource/image/newpublic/button.png	resource/image/newpublic/button_l.png	0	0	0	0.5	0.5	412	268	416	247	360	311	381.33	247	355.73	247	-1	不绑定充值按钮
+5	0	0	1	0	CMenuItemSprite	-161	1	0	0	0	0	0	0	0	resource/image/newpublic/dahongseanniu_down.png	resource/image/newpublic/dahongseanniu_up.png	0	0	0	0.5	0.5	722	268	726	247	670	311	691.33	247	665.73	247	-1	绑定账号按钮
+6	0	0	1	0	CMenuItemSprite	-161	1	0	0	0	0	0	0	0	resource/image/newpublic/close.png	resource/image/newpublic/close_l.png	0	0	0	0.5	0.5	832	498	836	477	780	541	801.33	477	775.73	477	-1	关闭按钮
+7	0	3	1	0	CCLabelTTFMultiline	0	1	6020	49	0	0	0	0	0	0	0	0	350	112	0	1	492	428	496	407	440	471	461.33	407	435.73	407	-1	内容

@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\mem\Array.cpp">
+      <Filter>src\mem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mem\Allocator2.cpp">
+      <Filter>src\mem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mem\Allocator.cpp">
+      <Filter>src\mem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common\Console.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\logger\ConsoleLogger.cpp">
+      <Filter>src\logger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common\Declare.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mem\DList.cpp">
+      <Filter>src\mem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mem\DPacket.cpp">
+      <Filter>src\mem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mem\EPacket.cpp">
+      <Filter>src\mem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mem\EPacket2.cpp">
+      <Filter>src\mem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common\Event.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common\Guard.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mem\Hash.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\logger\ILogger.cpp">
+      <Filter>src\logger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\thread\IThread.cpp">
+      <Filter>src\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common\Lock.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mem\Malloc.cpp">
+      <Filter>src\mem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common\Math.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mem\mbuf.cpp">
+      <Filter>src\mem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common\MD5Crypto.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mem\MemNode.cpp">
+      <Filter>src\mem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mem\Memory.cpp">
+      <Filter>src\mem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common\MyHash.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common\NonCopyable.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common\Parser.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mem\Queue.cpp">
+      <Filter>src\mem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common\Random.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common\Singleton.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mem\SList.cpp">
+      <Filter>src\mem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\net\Socket.cpp">
+      <Filter>src\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common\String.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mem\Tree.cpp">
+      <Filter>src\mem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\logger\UDPLogger.cpp">
+      <Filter>src\logger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\net\WinNet.cpp">
+      <Filter>src\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common\FileLoader.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\logger\FileLogger.cpp">
+      <Filter>src\logger</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\mem\Allocator.h">
+      <Filter>include\mem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mem\Allocator2.h">
+      <Filter>include\mem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mem\Array.h">
+      <Filter>include\mem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\common\Console.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\logger\ConsoleLogger.h">
+      <Filter>include\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\common\Declare.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mem\DList.h">
+      <Filter>include\mem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mem\DPacket.h">
+      <Filter>include\mem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mem\EPacket.h">
+      <Filter>include\mem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mem\EPacket2.h">
+      <Filter>include\mem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mem\MemNode.h">
+      <Filter>include\mem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mem\Memory.h">
+      <Filter>include\mem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\common\Event.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\common\FileLoader.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\logger\FileLogger.h">
+      <Filter>include\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\common\Guard.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\logger\ILogger.h">
+      <Filter>include\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\thread\IThread.h">
+      <Filter>include\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\common\Lock.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mem\Malloc.h">
+      <Filter>include\mem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\common\Math.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mem\mbuf.h">
+      <Filter>include\mem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\common\MD5Crypto.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\common\MyHash.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\common\NonCopyable.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\common\Parser.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mem\Queue.h">
+      <Filter>include\mem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\common\Random.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\common\Singleton.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mem\SList.h">
+      <Filter>include\mem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\net\Socket.h">
+      <Filter>include\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\common\String.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mem\Tree.h">
+      <Filter>include\mem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\logger\UDPLogger.h">
+      <Filter>include\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\net\WinNet.h">
+      <Filter>include\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mem\Hash.h">
+      <Filter>include\mem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{20f670fd-2ffc-4c59-9b10-80909b59931b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8beea3ad-ab66-461a-ae38-47ea21dfd302}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\common">
+      <UniqueIdentifier>{e1336315-46bb-4dfe-8512-6296e90427cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\mem">
+      <UniqueIdentifier>{c165a4a2-658b-472e-92be-a35883b1969d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\thread">
+      <UniqueIdentifier>{e9e80072-1176-4a36-8061-7b23a20790bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\net">
+      <UniqueIdentifier>{fc55db85-af57-4ca6-a328-d79b37438dbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\common">
+      <UniqueIdentifier>{ebdb2c26-f900-417b-8125-79dbc3969646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mem">
+      <UniqueIdentifier>{0044f585-9f1b-4410-81fa-5eccb2e543e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\net">
+      <UniqueIdentifier>{a325a551-cedb-41b5-a9e9-2102cf660254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\thread">
+      <UniqueIdentifier>{d24225a9-03fc-430b-a65e-6f9246d08991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\logger">
+      <UniqueIdentifier>{6fd9ce14-d06e-4ef7-98bb-5d616ed78cd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\logger">
+      <UniqueIdentifier>{f4e89e6a-8002-4f2a-9281-83126184d4b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

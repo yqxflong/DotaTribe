@@ -1,0 +1,47 @@
+
+xmsx.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+maozi
+  rotate: false
+  xy: 569, 176
+  size: 140, 73
+  orig: 140, 73
+  offset: 0, 0
+  index: -1
+shbi
+  rotate: false
+  xy: 1, 57
+  size: 140, 192
+  orig: 140, 192
+  offset: 0, 0
+  index: -1
+shti
+  rotate: false
+  xy: 143, 57
+  size: 140, 192
+  orig: 140, 192
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 1, 1
+  size: 97, 54
+  orig: 97, 54
+  offset: 0, 0
+  index: -1
+tui
+  rotate: false
+  xy: 285, 57
+  size: 140, 192
+  orig: 140, 192
+  offset: 0, 0
+  index: -1
+xiaobi
+  rotate: false
+  xy: 427, 57
+  size: 140, 192
+  orig: 140, 192
+  offset: 0, 0
+  index: -1

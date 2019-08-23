@@ -1,0 +1,43 @@
+{
+"bones": [
+	{ "name": "root" },
+	{ "name": "jinengtianjia", "parent": "root", "length": 166.01, "x": -1.5, "y": 0.99, "rotation": 89.54 }
+],
+"slots": [
+	{ "name": "jia-z", "bone": "jinengtianjia", "attachment": "jia-z" }
+],
+"skins": {
+	"default": {
+		"jia-z": {
+			"jia-z": { "rotation": -89.54, "width": 50, "height": 54 }
+		}
+	}
+},
+"events": {},
+"animations": {
+	"ui_jinengtianjia_a": {
+		"bones": {
+			"jinengtianjia": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 1.5, "y": -3.57 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"slots": {
+			"jia-z": {
+				"color": [
+					{ "time": 0, "color": "ffffff54" },
+					{ "time": 0.6666, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff54" }
+				]
+			}
+		}
+	}
+}
+}

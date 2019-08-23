@@ -1,0 +1,9 @@
+class CCTableViewCell: public CCNode, public CCSortableObject
+{
+public:
+	static CCTableViewCell* newOne();
+
+	unsigned int getIdx();
+	void setIdx(unsigned int uIdx);
+
+};

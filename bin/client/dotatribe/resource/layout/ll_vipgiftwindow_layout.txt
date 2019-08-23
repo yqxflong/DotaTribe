@@ -1,0 +1,10 @@
+INDEX	HIDE	ZORDER	SCALE	ROTATION	CLASS	TPRIORITY	SWALLOW	SYSLANGID	FSYLEID	FSIZE	COLOR-R	COLOR-G	COLOR-B	COLOR-ALPHA	FILE1	FILE2	FILE3	WIDTH	HEIGHT	ANCHOR-X	ANCHOR-Y	POS-X	POS-Y	IP5-POS-X	IP5-POS-Y	IPAD-POS-X	IPAD-POS-Y	ANDROID-POS-X	ANDROID-POS-Y	ANDROID16_10-POS-X	ANDROID16_10-POS-Y	SOUNDID	OTHERS
+0	0	-10	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/background.png	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	±³¾°
+1	0	1	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/viplibao/diban_vip.png	0	0	0	0	0.5	0.5	640	340	671	300	615	370	638.3	300	612.7	300	-1	Ð¡±³¾°
+2	0	2	1	0	CCLabelTTFMultiline	0	1	6079	83	0	0	0	0	0	0	0	0	440	0	0	1	475	505	506	465	450	535	473.3	465	447.7	465	-1	¸½¼Ó
+3	0	2	1	0	CTableView	-1	0	0	0	0	0	0	0	0	0	0	0	715	330	0	0	286	100	317	60	261	130	284.3	60	258.7	60	-1	"udLEFTTABLE,"
+4	0	2	1	0	CCNode	0	1	0	0	0	0	0	0	0	0	0	0	240	290	0	0	25	-30	56	-70	0	0	23.3	-70	-2.3	-70	-1	"udLEFTTABLECELL,"
+5	0	10	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/leftarrow.png	0	0	0	0	0.5	0.5	275	270	306	230	250	300	273.3	230	247.7	230	-1	×ó¼ýÍ·
+6	0	10	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/rightarrow.png	0	0	0	0	0.5	0.5	1011	270	1042	230	986	300	1009.3	230	983.7	230	-1	ÓÒ¼ýÍ·
+7	0	20	1	90	CSkeletonAnimation	0	1	0	0	0	0	0	0	0	resource/spine/ui_jiantou_a.json	resource/spine/ui_jiantou_a.atlas	ui_jiantou_a	0	0	0.5	0.5	275	270	306	230	250	300	273.3	230	247.7	230	-1	×ó¹Ç÷À¼ýÍ·¶¯»­
+8	0	20	1	-90	CSkeletonAnimation	0	1	0	0	0	0	0	0	0	resource/spine/ui_jiantou_a.json	resource/spine/ui_jiantou_a.atlas	ui_jiantou_a	0	0	0.5	0.5	1011	270	1042	230	986	300	1009.3	230	983.7	230	-1	ÓÒ¹Ç÷À¼ýÍ·¶¯»­

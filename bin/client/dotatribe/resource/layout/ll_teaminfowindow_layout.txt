@@ -1,0 +1,17 @@
+INDEX	HIDE	ZORDER	SCALE	ROTATION	CLASS	TPRIORITY	SWALLOW	SYSLANGID	FSYLEID	FSIZE	COLOR-R	COLOR-G	COLOR-B	COLOR-ALPHA	FILE1	FILE2	FILE3	WIDTH	HEIGHT	ANCHOR-X	ANCHOR-Y	POS-X	POS-Y	IP5-POS-X	IP5-POS-Y	IPAD-POS-X	IPAD-POS-Y	ANDROID-POS-X	ANDROID-POS-Y	ANDROID16_10-POS-X	ANDROID16_10-POS-Y	SOUNDID	OTHERS
+0	0	0	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newxianji/zhaohuangongyong_beijingtu.png	0	0	0	0	0.5	0.5	535	358	580	294	535	358	535	358	535	358	-1	背景
+1	0	0	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newqianghua/diban.png	0	0	0	0	0.5	0.5	538	352	568	300	512	358	533.33	300	507.73	300	-1	底框
+2	0	1	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/duiwuxinxi/jbt.png	0	0	0	0	0.5	0.5	538	574	568	522	512	580	533.33	522	507.73	522	-1	门板框
+3	0	3	1	0	MaskNode	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0.5	0.5	36	494	66	442	10	500	31.33	442	5.73	442	-1	统率力节点
+4	0	3	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/biaoti_xianjiyuzhaohuan.png	0	0	0	0	0.5	0.5	538	629	568	577	512	635	533.33	577	507.73	577	-1	队伍信息标题底框
+5	0	3	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/duiwuxinxi/dwxx.png	0	0	0	0	0.5	0.5	538	629	568	577	512	635	533.33	577	507.73	577	-1	队伍信息
+6	0	2	1	0	CCLabelTTF	0	1	6082	48	0	0	0	0	0	0	0	0	0	0	0.5	0.5	856	564	886	512	830	570	851.33	512	825.73	512	-1	箭头切换信息
+7	0	1	1	0	CMenuItemSprite	0	1	0	0	0	0	0	0	0	resource/image/duiwuxinxi/huhuan_zc.png	resource/image/duiwuxinxi/huhuan_l2.png	resource/image/duiwuxinxi/huhuan_hui.png	0	0	0.5	0.5	366	344	396	292	340	350	361.33	292	335.73	292	-1	换英雄按钮1
+8	0	1	1	0	CMenuItemSprite	0	1	0	0	0	0	0	0	0	resource/image/duiwuxinxi/huhuan_zc.png	resource/image/duiwuxinxi/huhuan_l2.png	resource/image/duiwuxinxi/huhuan_hui.png	0	0	0.5	0.5	716	344	746	292	690	350	711.33	292	685.73	292	-1	换英雄按钮2
+9	0	1	1	0	CMenuItemSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/close.png	resource/image/newpublic/close_l.png	0	0	0	0.5	0.5	1006	644	1036	592	980	650	1001.33	592	975.73	592	-1	关闭按钮
+10	0	0	1	0	MaskNode	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0.5	0.5	196	352	226	300	170	358	191.33	300	165.73	300	-1	第一英雄节点
+11	0	0	1	0	MaskNode	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0.5	0.5	538	352	568	300	512	358	533.33	300	507.73	300	-1	第二英雄节点
+12	0	0	1	0	MaskNode	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0.5	0.5	880	352	910	300	854	358	875.33	300	849.73	300	-1	第三英雄节点
+13	0	2	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/hero_duiwu1.png	0	0	0	0	0.5	0.5	86	444	116	392	60	450	81.33	392	55.73	392	-1	第一英雄标签
+14	0	2	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/hero_duiwu2.png	0	0	0	0	0.5	0.5	426	444	456	392	400	450	421.33	392	395.73	392	-1	第二英雄标签
+15	0	2	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/hero_duiwu3.png	0	0	0	0	0.5	0.5	766	444	796	392	740	450	761.33	392	735.73	392	-1	第三英雄标签

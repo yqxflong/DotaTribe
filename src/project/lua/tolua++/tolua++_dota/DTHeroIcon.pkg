@@ -1,0 +1,13 @@
+class   DTHeroIcon : public CCNode
+{
+	static DTHeroIcon *  createHeroIcon(int iconID,int qualiy,bool isLargeIcon,int touchPrioty);
+	void  setHeroIconID(int heroIconID);
+	void  setHeroIconVisable(bool isVisiable);
+	void  setHeroQualiy(int heroQualiy); 
+	void  setIconScale(float scale);
+	void  setIconColor(const ccColor3B& color3);
+	void  setHeroAttachParam(int attachParam1,int attachParam2);
+	void  setPosition(const CCPoint &position);
+	const CCPoint& getPosition(); 
+	void  setMenuSelector(int uiIndex,CCNode * pDelegate,SEL_MenuHandler pSelector);
+};

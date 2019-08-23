@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AD1D6522-5401-483B-A8BA-8EF192BDAC53</string>
+	<key>IDESourceControlProjectName</key>
+	<string>libLua</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>22D3386C-BB5D-4D49-90D5-1A7682F8307F</key>
+		<string>http://10.6.153.45:8000/svn/mrd_pat1/dota/src/trunk/client/project/lua</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>project/lua/proj.ios/libLua.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>22D3386C-BB5D-4D49-90D5-1A7682F8307F</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>22D3386C-BB5D-4D49-90D5-1A7682F8307F</key>
+		<string>http://10.6.153.45:8000/svn/mrd_pat1</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://10.6.153.45:8000/svn/mrd_pat1/dota/src/trunk/client/project/lua/proj.ios/libLua/libLua.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>22D3386C-BB5D-4D49-90D5-1A7682F8307F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>22D3386C-BB5D-4D49-90D5-1A7682F8307F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>lua</string>
+		</dict>
+	</array>
+</dict>
+</plist>

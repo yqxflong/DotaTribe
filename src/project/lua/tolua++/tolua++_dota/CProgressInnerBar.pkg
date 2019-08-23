@@ -1,0 +1,14 @@
+class CProgressInnerBar:public CCSprite{
+	CProgressInnerBar(){
+		m_fPercent=1.0;
+	};
+	 ~CProgressInnerBar(){};
+	static CProgressInnerBar* create(const char *pszFileName);
+	bool init(const char *pszFileName);
+	void setPercent(float percent){
+		m_fPercent=percent;
+	}
+	float getPercent() const{
+		return m_fPercent;
+	}
+};

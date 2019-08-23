@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>DOTA_91.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>DOTA_CY.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>DOTA_CY_JBREAK.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>DOTA_PP.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>DOTA_TBT.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>521C17A61905396100C87298</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>521C19DC1905399700C87298</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>521C1C12190539AD00C87298</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>52394FC119061AF900D962E5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>52B25932193F019300198BAB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5AAF1FE9151B5D4000983BF7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,138 @@
+
+xiongguaizhanshi03.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+B-BS
+  rotate: false
+  xy: 131, 160
+  size: 121, 79
+  orig: 205, 230
+  offset: 57, 88
+  index: -1
+L-JB
+  rotate: false
+  xy: 227, 105
+  size: 60, 54
+  orig: 126, 143
+  offset: 20, 41
+  index: -1
+L-datui
+  rotate: false
+  xy: 289, 48
+  size: 57, 56
+  orig: 90, 130
+  offset: 17, 37
+  index: -1
+L-shbi
+  rotate: false
+  xy: 129, 28
+  size: 57, 76
+  orig: 120, 140
+  offset: 29, 30
+  index: -1
+L-wuqi
+  rotate: false
+  xy: 491, 174
+  size: 2, 2
+  orig: 120, 120
+  offset: 52, 91
+  index: -1
+R-wuqi
+  rotate: false
+  xy: 491, 174
+  size: 2, 2
+  orig: 120, 120
+  offset: 52, 91
+  index: -1
+L-xiaobi
+  rotate: true
+  xy: 419, 177
+  size: 62, 92
+  orig: 125, 160
+  offset: 33, 33
+  index: -1
+L-xiaotui
+  rotate: true
+  xy: 288, 105
+  size: 56, 63
+  orig: 125, 110
+  offset: 35, 24
+  index: -1
+R-JB
+  rotate: false
+  xy: 352, 109
+  size: 65, 52
+  orig: 126, 152
+  offset: 42, 41
+  index: -1
+R-datui
+  rotate: true
+  xy: 289, 0
+  size: 47, 61
+  orig: 90, 130
+  offset: 21, 35
+  index: -1
+R-shbi
+  rotate: false
+  xy: 229, 35
+  size: 59, 69
+  orig: 120, 140
+  offset: 29, 33
+  index: -1
+R-xiaobi
+  rotate: true
+  xy: 131, 105
+  size: 54, 95
+  orig: 125, 160
+  offset: 36, 32
+  index: -1
+R-xiaotui
+  rotate: true
+  xy: 419, 128
+  size: 48, 71
+  orig: 140, 125
+  offset: 52, 23
+  index: -1
+bozi
+  rotate: false
+  xy: 0, 121
+  size: 130, 118
+  orig: 150, 160
+  offset: 10, 5
+  index: -1
+pigu
+  rotate: false
+  xy: 418, 96
+  size: 68, 31
+  orig: 125, 145
+  offset: 30, 47
+  index: -1
+tou
+  rotate: true
+  xy: 340, 162
+  size: 77, 78
+  orig: 215, 195
+  offset: 72, 47
+  index: -1
+tou1
+  rotate: true
+  xy: 253, 162
+  size: 77, 86
+  orig: 215, 195
+  offset: 72, 39
+  index: -1
+xiong
+  rotate: false
+  xy: 0, 4
+  size: 128, 116
+  orig: 190, 200
+  offset: 32, 28
+  index: -1
+yaodai
+  rotate: true
+  xy: 187, 29
+  size: 75, 41
+  orig: 125, 145
+  offset: 25, 52
+  index: -1

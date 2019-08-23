@@ -1,0 +1,46 @@
+class DTAwardBoard:public CCNode
+{
+	typedef enum{
+		kAB_EMPTY=0,		//无奖励
+		kAB_EQUIP,			//装备
+		kAB_OBJECT,			//物品
+		kAB_ICON,			//数值
+	};
+	DTAwardBoard();
+	 ~DTAwardBoard(){};
+	static DTAwardBoard* create(CCSprite* numBg,CCLabelTTF* num,int priority=0,bool swallow=true);
+	bool init(CCSprite* numBg,CCLabelTTF* num,int priority,bool swallow);
+	//
+	/*
+		更改物品
+	*/
+	void ChangeObject(int quality=-1,int iconid=-1,int num=-1);
+	void setTarget(CCObject *rec, SEL_MenuHandler selector);
+
+	//重写设置Tag
+	 void setTag(int nTag);
+
+	//设置与获取按钮的Index
+	void setIDX(int idx);
+	void setAttachParam(int attachParam1,int attachParam2=0);
+	int getIDX() const;
+
+	//设置所设定图片缩放
+	void setContentScale(float times);
+	float getContentScale();
+
+	//重写获取Size
+	 const CCSize& getContentSize() const{
+		return m_pMask->getContentSize();
+	}
+	//重写设置坐标
+	 void setPosition(const CCPoint& newPosition){
+		CCNode::setPosition(ccp(newPosition.x-getAnchorPoint().x*getContentSize().width,newPosition.y-getAnchorPoint().x*getContentSize().height));
+	}
+
+	//设置按钮启用情况
+	void setEnabled(bool bEnabled);
+
+	//设置成失效状态,带灰层
+	void setDisabled(bool bDisabled);
+};

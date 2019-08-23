@@ -1,0 +1,29 @@
+class  CTimerEventProtocol
+{
+	typedef enum
+	{
+		_UNKOWN_TIMER_EVENT_TYPE_,	//未知类型
+		_COUNTDONW_END_TYPE_,		//倒计时结束类型
+	};
+	 void  TimerEventHandler(int eventType,std::string attachParam)=0;
+};
+class   CTimeLabel : public CCLabelTTF 
+{ 
+	typedef enum
+	{
+		_UNKONW_TIME_TYPE_,			     //未知时间类型
+		_COUNTDOWN_TIME_LONG_TYPE_,		 //倒计时间标签类型  格式%02d:%02d:%02d
+		_COUNTDOWN_TIME_SHORT_TYPE_,     //倒计时间标签类型  格式%02d:%02d
+		_NORMAL_TIME_TYPE_,			     //正常时间标签类型  格式%02d:%02d:%02d
+		_ACTIVITY_TIME_TYPE_,			 //活动截止时间类型  格式%d天%d小时%d分钟
+	};
+   /*
+    注意格式模板  比如: 当前时间:%t
+   */
+   static CTimeLabel *  CreateWithTimeType(IByte timeType,std::string formatTemplate);
+   static CTimeLabel *  CreateWithTimeType(IByte timeType);
+   void   StartTimer(int distanceTime); 	//单位秒
+   void   StartTimer();
+   void   StartActivityMiniteTimer(int minuteDistance);
+   void   StopTimer(bool bToInit=true);    
+};

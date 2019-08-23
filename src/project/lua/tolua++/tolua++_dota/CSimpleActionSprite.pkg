@@ -1,0 +1,15 @@
+class   CSimpleActionSprite: public CCSprite
+{    
+	typedef enum
+	{
+		_UNKONW_ACTION_TYPE_,			//未知动画类型
+		_STANDBY_TYPE_,					//待机不动
+		_FLOAT_UP_AND_DOWN_TYPE_,		//上下浮动动画 
+		_FLOAT_LEFT_AND_RIGHT_TYPE_,	//左右浮动动画
+	};
+	static CSimpleActionSprite *  create(int actionType,std::vector<float> attachParam);
+	void  PlayAction();
+	void  StopAction(); 
+	void  SetInitPosition(const CCPoint & position);
+		void addChild(CCNode *pChild); 
+};

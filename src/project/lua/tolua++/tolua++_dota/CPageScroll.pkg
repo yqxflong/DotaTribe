@@ -1,0 +1,48 @@
+class CPageScrollDelegate
+{
+	 void changePage(int idx)=0;
+};
+class  CPageScroll: public CCLayer
+{
+	CPageScroll(){
+		m_nPageCount=0;
+		m_nDirection=0;
+		m_pContainer=0;
+		m_nCurrPageNum=0;
+		m_pDelegate=0;
+		m_iMoveDist = 10;
+		m_bTouchInArea = false;
+		m_bContainerHasMoved =false;
+	};
+	 ~CPageScroll(){
+		m_nPageCount=0;
+		m_nDirection=0;
+		m_pContainer=0;
+		m_nCurrPageNum=0;
+		m_pDelegate=0;
+		m_bTouchInArea = false;
+		m_bContainerHasMoved =false;
+	};
+	 /*
+		the view size is container size
+	 */
+	 static CPageScroll* create(const CCSize &viewsz,int pagecount,CPageScrollDelegate* delegate);
+	 bool init(const CCSize &viewsz,int pagecount,CPageScrollDelegate* delegate);
+	 /*
+		Get the container layer
+	 */
+	 CCNode* getContainer() const{
+		 return m_pContainer;
+	 }
+
+	 //点击事件是否在区域中
+	 bool isTouchInArea()
+	 {
+		 return m_bTouchInArea;
+	 }
+	 /*
+		go to the given page num.add by fj
+	 */
+	 void moveToPage(int page);
+
+};

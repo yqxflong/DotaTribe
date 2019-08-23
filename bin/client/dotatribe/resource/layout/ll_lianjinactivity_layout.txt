@@ -1,0 +1,32 @@
+INDEX	HIDE	ZORDER	SCALE	ROTATION	CLASS	TPRIORITY	SWALLOW	SYSLANGID	FSYLEID	FSIZE	COLOR-R	COLOR-G	COLOR-B	COLOR-ALPHA	FILE1	FILE2	FILE3	WIDTH	HEIGHT	ANCHOR-X	ANCHOR-Y	POS-X	POS-Y	IP5-POS-X	IP5-POS-Y	IPAD-POS-X	IPAD-POS-Y	ANDROID-POS-X	ANDROID-POS-Y	ANDROID16_10-POS-X	ANDROID16_10-POS-Y	SOUNDID	OTHERS
+0	0	0	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/lianjin/lj_ditu.png	0	0	0	0	0.5	0.5	600	300	600	300	620	373	600	300	600	300	-1	炼金底板
+1	0	1	1	0	CCLabelTTF	0	1	0	3	0	0	0	0	0	0	0	0	0	0	0.5	0.5	600	450	600	450	620	555	600	450	600	450	-1	第一行字
+2	0	1	1	0	CCLabelTTF	0	1	0	3	0	0	0	0	0	0	0	0	0	0	0.5	0.5	600	400	600	400	620	520	600	400	600	400	-1	第二行字
+3	1	2	1	0	CSkeletonAnimation	0	1	0	0	0	0	0	0	0	resource/spine/lianjin.json	resource/spine/lianjin.atlas	xian	0	0	0	0	0	0	0	0	520	375	0	0	0	0	-1	xian 动画Spine
+4	0	3	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/lianjin/kuang_nei.png	0	0	0	0	0.5	0.5	600	300	600	300	620	373	600	300	600	300	-1	滚筒底板
+5	0	4	1	0	MaskNode	0	1	0	0	0	0	0	140	0	0	0	0	116	200	0	0	310	200	310	200	320	273	310	200	310	200	-1	滚筒1
+6	0	4	1	0	MaskNode	0	1	0	0	0	0	0	140	0	0	0	0	116	200	0	0	410	200	410	200	420	273	410	200	410	200	-1	滚筒2
+7	0	4	1	0	MaskNode	0	1	0	0	0	0	0	140	0	0	0	0	116	200	0	0	510	200	510	200	520	273	510	200	510	200	-1	滚筒3
+8	0	4	1	0	MaskNode	0	1	0	0	0	0	0	140	0	0	0	0	116	200	0	0	610	200	610	200	620	273	610	200	610	200	-1	滚筒4
+9	0	4	1	0	MaskNode	0	1	0	0	0	0	0	140	0	0	0	0	116	200	0	0	710	200	710	200	720	273	710	200	710	200	-1	滚筒5
+10	0	4	1	0	MaskNode	0	1	0	0	0	0	0	140	0	0	0	0	116	200	0	0	810	200	810	200	820	273	810	200	810	200	-1	滚筒6
+11	1	5	1	0	CSkeletonAnimation	0	1	0	0	0	0	0	0	0	resource/spine/lianjin.json	resource/spine/lianjin.atlas	cardglow	0	0	0	0	0	0	0	0	518	378	0	0	0	0	-1	cardglow 动画Spine
+12	1	5	1	0	CSkeletonAnimation	0	1	0	0	0	0	0	0	0	resource/spine/lianjin.json	resource/spine/lianjin.atlas	cardglow	0	0	0	0	0	0	0	0	618	378	0	0	0	0	-1	cardglow 动画Spine
+13	1	5	1	0	CSkeletonAnimation	0	1	0	0	0	0	0	0	0	resource/spine/lianjin.json	resource/spine/lianjin.atlas	cardglow	0	0	0	0	0	0	0	0	718	378	0	0	0	0	-1	cardglow 动画Spine
+14	1	5	1	0	CSkeletonAnimation	0	1	0	0	0	0	0	0	0	resource/spine/lianjin.json	resource/spine/lianjin.atlas	cardglow	0	0	0	0	0	0	0	0	818	378	0	0	0	0	-1	cardglow 动画Spine
+15	1	5	1	0	CSkeletonAnimation	0	1	0	0	0	0	0	0	0	resource/spine/lianjin.json	resource/spine/lianjin.atlas	cardglow	0	0	0	0	0	0	0	0	918	378	0	0	0	0	-1	cardglow 动画Spine
+16	1	5	1	0	CSkeletonAnimation	0	1	0	0	0	0	0	0	0	resource/spine/lianjin.json	resource/spine/lianjin.atlas	cardglow	0	0	0	0	0	0	0	0	1018	378	0	0	0	0	-1	cardglow 动画Spine
+17	0	6	1	0	MaskNode	0	1	0	0	0	19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	480	130	0	0	0	0	-1	lianjinstar 粒子
+18	1	7	1	0	CSkeletonAnimation	0	1	0	0	0	0	0	0	0	resource/spine/lianjin.json	resource/spine/lianjin.atlas	kuang	0	0	0	0	0	0	0	0	520	375	0	0	0	0	-1	kuang 动画spine
+19	0	8	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/lianjin/kuang_w.png	0	0	0	0	0.5	0.5	600	300	600	300	620	373	600	300	600	300	-1	辊筒外框
+20	1	9	1	0	CSkeletonAnimation	0	1	0	0	0	0	0	0	0	resource/spine/lianjin.json	resource/spine/lianjin.atlas	uiglow	0	0	0	0	0	0	0	0	520	375	0	0	0	0	-1	uiglow 动画Spine
+21	0	10	1	0	CMenuItemSprite	0	1	0	3	0	0	0	0	0	resource/image/newpublic/dahongseanniu_up.png	resource/image/newpublic/dahongseanniu_down.png	resource/image/newpublic/dahongseanniu_downhui.png	0	0	0.5	0.5	600	200	600	200	620	235	600	200	600	200	-1	炼金按钮
+22	0	11	1	0	CCLabelTTF	0	1	2083	3	0	0	0	0	0	0	0	0	0	0	0.5	0.5	600	200	600	200	620	235	600	200	600	200	-1	炼金字
+23	0	10	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/zuanshidiban.png	0	0	0	0	0.5	0.5	850	200	850	200	850	235	850	200	850	200	-1	钻石底板
+24	0	11	1	0	CCLabelTTF	0	1	0	3	0	0	0	0	0	0	0	0	0	0	0.5	0.5	850	200	850	200	850	235	850	200	850	200	-1	钻石数量字
+25	0	10	1	0	CCLabelTTF	0	1	0	3	0	0	0	0	0	0	0	0	0	0	0	0.5	600	180	600	180	600	180	600	180	600	180	-1	通知1
+26	0	10	1	0	CCLabelTTF	0	1	0	3	0	0	0	0	0	0	0	0	0	0	0	0.5	600	160	600	160	600	160	600	160	600	160	-1	通知2
+27	0	10	1	0	CCLabelTTF	0	1	0	3	0	0	0	0	0	0	0	0	0	0	0	0.5	600	140	600	140	600	140	600	140	600	140	-1	通知3
+28	0	10	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/lianjin/jbtiao.png	0	0	0	0	0.5	0.5	512	384	512	384	620	370	512	384	512	384	-1	花费钻石底板
+29	0	11	1	0	CCLabelTTF	0	1	0	3	0	0	0	0	0	0	0	0	0	0	0.5	0.5	512	384	512	384	620	370	512	384	512	384	-1	花费钻石数
+30	0	11	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/zs_icon.png	0	0	0	0	0.5	0.5	600	384	600	384	700	370	600	384	600	384	-1	钻石图标

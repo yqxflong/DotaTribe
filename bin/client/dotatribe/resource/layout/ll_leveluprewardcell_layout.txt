@@ -1,0 +1,10 @@
+INDEX	HIDE	ZORDER	SCALE	ROTATION	CLASS	TPRIORITY	SWALLOW	SYSLANGID	FSYLEID	FSIZE	COLOR-R	COLOR-G	COLOR-B	COLOR-ALPHA	FILE1	FILE2	FILE3	WIDTH	HEIGHT	ANCHOR-X	ANCHOR-Y	POS-X	POS-Y	IP5-POS-X	IP5-POS-Y	IPAD-POS-X	IPAD-POS-Y	ANDROID-POS-X	ANDROID-POS-Y	ANDROID16_10-POS-X	ANDROID16_10-POS-Y	SOUNDID	OTHERS
+0	0	1	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newhuifu/lanban.png	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	背景
+1	0	1	1	0	CCLabelTTFMultiline	0	1	174	104	0	0	0	0	0	0	0	0	55	0	0	0	23	35	23	35	23	35	23	35	23	35	-1	等级
+2	0	1	1	0	DTAwardBoard	0	1	0	91	0	0	0	0	0	resource/image/newpublic/subscript_s.png	0	0	0	0	0.5	0.5	105	62	105	62	105	62	105	62	105	62	-1	奖励1
+3	0	1	1	0	DTAwardBoard	0	1	0	91	0	0	0	0	0	resource/image/newpublic/subscript_s.png	0	0	0	0	0.5	0.5	190	62	190	62	190	62	190	62	190	62	-1	奖励2
+4	0	1	1	0	DTAwardBoard	0	1	0	91	0	0	0	0	0	resource/image/newpublic/subscript_s.png	0	0	0	0	0.5	0.5	275	62	275	62	275	62	275	62	275	62	-1	奖励3
+5	0	1	1	0	DTAwardBoard	0	1	0	91	0	0	0	0	0	resource/image/newpublic/subscript_s.png	0	0	0	0	0.5	0.5	360	62	360	62	360	62	360	62	360	62	-1	奖励4
+6	0	2	1	0	CMenuItemSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/dahongseanniu_down.png	resource/image/newpublic/dahongseanniu_up.png	resource/image/newpublic/dahongseanniu_downhui.png	0	0	0.5	0.5	500	60	500	60	500	60	500	60	500	60	-1	奖励按钮
+7	0	3	1	0	CCLabelTTF	0	1	174	89	0	0	0	0	0	0	0	0	0	0	0.5	0.5	500	60	500	60	500	60	500	60	500	60	-1	按钮文字
+8	1	1	1	0	CAnimationSprite	0	1	0	0	0	2042	1	0	0	0	0	0	0	0	0.5	0.5	495	71	495	71	495	71	495	71	495	71	-1	按钮领取特效

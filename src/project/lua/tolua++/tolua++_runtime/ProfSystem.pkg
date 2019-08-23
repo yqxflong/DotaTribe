@@ -1,0 +1,11 @@
+class ProfSystem : public cobra_win::Singleton2<ProfSystem>
+{
+//@Lua
+public:
+	//@开始统计
+	void     Start(const char* pChunkName);
+	//@结束统计
+	void     End();
+
+	ProfSystem* GetLuaInstance();
+};

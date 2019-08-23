@@ -1,0 +1,11 @@
+class CCornerNumIcon:public CCSprite{
+	CCornerNumIcon();
+	 ~CCornerNumIcon();
+	static CCornerNumIcon* create(const char* file1,const char* file2,const char* file3);
+	bool init(const char* file1,const char* file2,const char* file3);
+	void setNum(unsigned int num);
+	CCLabelTTF* getNumLabel(){
+		return m_pNum;
+	};
+	void setShow(bool isshow);
+};

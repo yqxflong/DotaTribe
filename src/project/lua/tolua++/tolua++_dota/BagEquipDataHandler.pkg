@@ -1,0 +1,33 @@
+class BagEquipData:public IBagData{
+	EquipTemplate* template_;		//模板
+	int id_;										//装备ID<br> 
+	unsigned short level_;						    	 //当前级别<br>
+
+	unsigned short levelMax_;							//最大等级，add 20131210
+
+	int exp_;									// 当前经验<br>
+	int maxexp_;								// 最大经验<br>
+
+	unsigned char advanceLevel_;				//进阶等级，add 20131210
+	unsigned char advanceLevelMax_;				//最大进阶等级，add 20131210
+
+	int mainAttriValue;							//主属性值，（若主属性为攻击，则为最小攻击）
+	int mainAttriValueMax;						//若主属性为攻击，则为最大攻击
+	int equipScore_;						//装备评分<br>
+	Attribute* attribute_;					//通用属性
+	Attribute* attributeMAX_;					//通用属性最大值
+	/*暂时不加
+	unsigned short buffId_;			//特效ID <br>
+	unsigned char buffLevel_;		//特效级别 <br>
+	int buffIconId_;						//特效图标ID<br>
+	std::string buffName_;			//特效名称 <br>
+	std::string buffdescription_;			// 特效描述 <br>
+	*/
+	//Cache
+	bool isEquiped_;	//是否装备
+};
+
+
+class BagEquipDataHandler:public IDataHandler,public cobra_win::Singleton2<BagEquipDataHandler>{
+	static BagEquipDataHandler * LuaGetInstance();
+};

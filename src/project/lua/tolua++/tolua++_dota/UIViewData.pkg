@@ -1,0 +1,30 @@
+class   UIViewData: public IData
+{
+public:
+	int idx_;		//控件索引
+	int hide_;		//0:显示 1:隐藏
+	int zorder_;	//层次
+	float scale_;	//缩放
+	float rotation_;	//旋转
+	char class_[128];		//类型
+	int touchpriority_;	//暂时被fontsize_替代
+	int swallow_;				//暂时被colorR替代
+	int m_nFontStyleID;					//FontyStyleID
+	std::string labelstring_;
+	char fontname_[128];		//font字体名
+	float fontsize_;			//label 字体大小;		如果是menuitem则为priority
+	int colorR_;				//RGB-R;					如果是menuitem则为1:不swallow，0：swallow
+	int colorG_;				//RGB-G
+	int colorB_;				//RGB-B
+	int alpha_;				//alpha值
+	char filepath_[128];	//图片路径
+	char filepath2_[128];	//图片路径
+	char filepath3_[128];	//图片路径
+	float width_;
+	float height_;
+	float anchorx_;			
+	float anchory_;
+	float posx_;
+	float posy_;
+	int soundid_;		//如果需要声音的事件，否则为-1
+};

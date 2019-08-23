@@ -1,0 +1,11 @@
+INDEX	HIDE	ZORDER	SCALE	ROTATION	CLASS	TPRIORITY	SWALLOW	SYSLANGID	FSYLEID	FSIZE	COLOR-R	COLOR-G	COLOR-B	COLOR-ALPHA	FILE1	FILE2	FILE3	WIDTH	HEIGHT	ANCHOR-X	ANCHOR-Y	POS-X	POS-Y	IP5-POS-X	IP5-POS-Y	IPAD-POS-X	IPAD-POS-Y	ANDROID-POS-X	ANDROID-POS-Y	ANDROID16_10-POS-X	ANDROID16_10-POS-Y	SOUNDID	OTHERS
+0	0	0	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/beijingditu.png	0	0	0	0	0.5	0.5	538	341	568	320	512	384	533.33	320	507.73	320	-1	大背景
+1	0	0	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/floor1.png	0	0	0	0	0.5	0.5	538	341	568	320	512	384	533.33	320	507.73	320	-1	背景
+2	0	0	1	0	CMenuItemSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/help.png	resource/image/newpublic/help_l.png	0	20	20	0.5	0.5	916	637	946	604	890	680	911.33	604	885.73	604	-1	帮助按钮
+3	0	0	1	0	CMenuItemSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/close.png	resource/image/newpublic/close_l.png	0	0	0	0.5	0.5	1016	637	1046	604	990	680	1011.33	604	985.73	604	-1	关闭按钮
+4	0	0	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/zuanshidiban.png	0	0	0	0	0.5	0.5	182	67	186	36	130	110	151.33	36	125.73	36	-1	钻石图
+5	0	0	1	0	CCLabelTTF	0	1	641	80	0	0	0	0	0	0	0	0	0	0	0.5	0.5	202	67	206	36	150	110	171.33	36	145.73	36	-1	钻石数量
+6	0	0	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/jinbidiban.png	0	0	0	0	0.5	0.5	358	67	362	36	306	110	327.33	36	301.73	36	-1	金币图
+7	0	0	1	0	CCLabelTTF	0	1	641	80	0	0	0	0	0	0	0	0	0	0	0.5	0.5	378	67	382	36	326	110	347.33	36	321.73	36	-1	金币数量
+8	0	0	1	0	CTabMenuItemSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/tab.png	resource/image/newpublic/tab_l.png	0	0	0	0.5	0.5	176	597	206	576	150	640	171.33	576	145.73	576	-1	第一选项按钮
+9	0	0	1	0	CCLabelTTF	0	1	360	48	0	0	0	0	0	0	0	0	0	0	0.5	0.5	176	597	206	576	150	640	171.33	576	145.73	576	-1	第一选项文字

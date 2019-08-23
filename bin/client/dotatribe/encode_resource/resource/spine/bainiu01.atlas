@@ -1,0 +1,138 @@
+
+bainiu01.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+B-BS
+  rotate: false
+  xy: 138, 392
+  size: 2, 2
+  orig: 205, 230
+  offset: 118, 66
+  index: -1
+L-JB
+  rotate: false
+  xy: 92, 254
+  size: 73, 110
+  orig: 126, 143
+  offset: 21, 3
+  index: -1
+L-datui
+  rotate: false
+  xy: 277, 357
+  size: 56, 56
+  orig: 90, 130
+  offset: 18, 37
+  index: -1
+L-shbi
+  rotate: true
+  xy: 165, 193
+  size: 58, 79
+  orig: 120, 140
+  offset: 29, 31
+  index: -1
+L-wuqi
+  rotate: false
+  xy: 167, 315
+  size: 75, 79
+  orig: 120, 120
+  offset: 16, 15
+  index: -1
+L-xiaobi
+  rotate: true
+  xy: 167, 253
+  size: 60, 79
+  orig: 125, 160
+  offset: 29, 49
+  index: -1
+L-xiaotui
+  rotate: false
+  xy: 99, 51
+  size: 55, 66
+  orig: 125, 110
+  offset: 32, 22
+  index: -1
+R-JB
+  rotate: false
+  xy: 410, 401
+  size: 101, 110
+  orig: 126, 152
+  offset: 25, 0
+  index: -1
+R-datui
+  rotate: true
+  xy: 78, 1
+  size: 48, 62
+  orig: 90, 130
+  offset: 21, 34
+  index: -1
+R-shbi
+  rotate: true
+  xy: 160, 127
+  size: 64, 73
+  orig: 120, 140
+  offset: 28, 32
+  index: -1
+R-wuqi
+  rotate: true
+  xy: 1, 196
+  size: 168, 89
+  orig: 360, 200
+  offset: 64, 23
+  index: -1
+R-xiaobi
+  rotate: false
+  xy: 99, 119
+  size: 59, 80
+  orig: 125, 160
+  offset: 31, 50
+  index: -1
+R-xiaotui
+  rotate: true
+  xy: 92, 201
+  size: 51, 71
+  orig: 140, 125
+  offset: 51, 23
+  index: -1
+bozi
+  rotate: false
+  xy: 1, 366
+  size: 135, 145
+  orig: 150, 160
+  offset: 6, 6
+  index: -1
+pigu
+  rotate: true
+  xy: 244, 326
+  size: 68, 31
+  orig: 125, 145
+  offset: 30, 47
+  index: -1
+tou
+  rotate: true
+  xy: 267, 415
+  size: 96, 141
+  orig: 215, 195
+  offset: 65, 34
+  index: -1
+tou1
+  rotate: false
+  xy: 1, 53
+  size: 96, 141
+  orig: 215, 195
+  offset: 65, 34
+  index: -1
+xiong
+  rotate: false
+  xy: 138, 396
+  size: 127, 115
+  orig: 190, 200
+  offset: 33, 28
+  index: -1
+yaodai
+  rotate: false
+  xy: 1, 10
+  size: 75, 41
+  orig: 125, 145
+  offset: 25, 51
+  index: -1

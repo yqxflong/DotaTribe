@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SYS>
+  <!--客户端帧率-->
+  <FPS value="30" />
+  <!--版本语言类型0:简体,1:英文,2:繁体-->
+  <SysLangType value="0" />	
+  <!--Win32下屏幕分辨率类型0:IPAD,1:IP5,2:IP4,3:ANDROID(必须与DotaGameConfig.h中一致)-->
+  <WIN_DEVICE_TYPE value="0" />
+  <!--Win32安卓模拟器宽-->
+  <WIN_ANDROID_WIDTH value="1280" />
+  <!--Win32安卓模拟器高-->
+  <WIN_ANDROID_HEIGHT value="720" />
+  <!--关卡录制开启-->
+  <FightRecordEnable value="0" />
+  <!--静态数据是否从数据库加载-->
+  <DataLoadFromDB value="0" />
+  <!--静态数据是否加密-->
+  <DataEncryptioned value="0" />
+  <!--客户端静态资源图片是否加密-->
+  <ResourceEncryptioned value="0" />
+  <!--Lua是否加密-->
+  <LuaEncryptioned value="0" />
+  <!--特效音效存活时间（秒）-->
+  <EffectReleaseInterval value="5.0" />
+  <!--公司Logo持续时间,91需配置为3-->
+  <LogoProcedureIdleTime value="2"/>
+  <!--网关服务器地址-->
+  <GateWayURL value="http://10.127.133.26:12007/"   />
+</SYS>
+<Version>
+  <Version value="1.0.9" />
+  <!--分发渠道号，请只在分发渠道版本中配置此字段，其余为空-->
+  <Channel value="" />
+</Version>

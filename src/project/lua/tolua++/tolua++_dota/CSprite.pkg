@@ -1,0 +1,52 @@
+class CSprite:public CCSprite{
+	static CSprite* create(const char* filepath);
+	bool init(const char* filepath);
+	//
+	void setFilePath1(const char* fp){
+		if (fp!=NULL&&strlen(fp)>0)
+			m_strFilePath1=fp;
+	}
+	void setFilePath2(const char* fp){
+		if (fp!=NULL&&strlen(fp)>0)
+			m_strFilePath2=fp;
+	}
+	void setFilePath3(const char* fp){
+		if (fp!=NULL&&strlen(fp)>0)
+			m_strFilePath3=fp;
+	}
+	int getNowShowFileIndex()
+	{
+		if(m_nowShowFile == m_strFilePath1)
+			return 1;
+		if(m_nowShowFile == m_strFilePath2)
+			return 2;
+		if(m_nowShowFile == m_strFilePath3)
+			return 3;
+	}
+
+	//change to image
+	void changeToImage1();
+	void changeToImage2();
+	void changeToImage3();
+
+	//check image existed
+	bool hasImage1();
+	bool hasImage2();
+	bool hasImage3();
+	
+};
+class CTitleSprite:public CCSprite{
+	CTitleSprite();
+	static CTitleSprite* create(const char* filepath,CCLabelTTF* label);
+	bool init(const char* filepath,CCLabelTTF* label);
+	//
+	void SetLabelString(std::string text);
+};
+class CSpriteInSprite:public CCSprite{
+	CSpriteInSprite();
+	static CSpriteInSprite* create(const char* OutterFilePath,CCSprite* innerSprite);
+	bool init(const char* OutterFilePath,CCSprite* innerSprite);
+	//
+	void ChangeInnerImage(const char* file);
+	void ChangeOutterImage(const char* file);
+};

@@ -1,0 +1,11 @@
+INDEX	HIDE	ZORDER	SCALE	ROTATION	CLASS	TPRIORITY	SWALLOW	SYSLANGID	FSYLEID	FSIZE	COLOR-R	COLOR-G	COLOR-B	COLOR-ALPHA	FILE1	FILE2	FILE3	WIDTH	HEIGHT	ANCHOR-X	ANCHOR-Y	POS-X	POS-Y	IP5-POS-X	IP5-POS-Y	IPAD-POS-X	IPAD-POS-Y	ANDROID-POS-X	ANDROID-POS-Y	ANDROID16_10-POS-X	ANDROID16_10-POS-Y	SOUNDID	OTHERS
+0	0	1	1	0	CImMenuItemSprite	-10	1	0	0	0	0	0	0	0	resource/image/newfwxuanze/weixuan.png	resource/image/newfwxuanze/xuanze.png	0	0	0	0.5	0.5	145	39	145	39	145	39	145	39	145	39	-1	背景1
+1	0	1	1	0	CImMenuItemSprite	-10	1	0	0	0	0	0	0	0	resource/image/newfwxuanze/weixuan.png	resource/image/newfwxuanze/xuanze.png	0	0	0	0.5	0.5	445	39	445	39	445	39	445	39	445	39	-1	背景2
+2	0	0	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newfwxuanze/weixuan.png	0	0	0	0	0.5	0.5	145	39	145	39	145	39	145	39	145	39	-1	背景1
+3	0	0	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newfwxuanze/weixuan.png	0	0	0	0	0.5	0.5	445	39	445	39	445	39	445	39	445	39	-1	背景2
+4	0	2	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newfwxuanze/xinfu.png	0	0	0	0	0	0.5	215	39	215	39	215	39	215	39	215	39	-1	新服1
+5	0	2	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newfwxuanze/xinfu.png	0	0	0	0	0	0.5	515	39	515	39	515	39	515	39	515	39	-1	新服2
+6	0	2	1	0	CCLabelTTF	0	1	0	83	0	0	0	0	0	0	0	0	0	0	0	0.5	40	39	40	39	40	39	40	39	40	39	-1	服务器名称1
+7	0	2	1	0	CCLabelTTF	0	1	0	83	0	0	0	0	0	0	0	0	0	0	0	0.5	340	39	340	39	340	39	340	39	340	39	-1	服务器名称2
+8	0	3	1	0	CCLabelTTF	0	1	0	84	0	0	0	0	0	0	0	0	0	0	0.5	0.5	300	90	300	90	300	90	300	90	300	90	-1	文字
+9	0	2	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newfwxuanze/get.png	0	0	0	0	0.5	0.5	300	90	300	90	300	90	300	90	300	90	-1	线

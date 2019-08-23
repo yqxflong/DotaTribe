@@ -1,0 +1,33 @@
+
+lianjin.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+CardGlow
+  rotate: false
+  xy: 793, 502
+  size: 125, 162
+  orig: 300, 300
+  offset: 87, 70
+  index: -1
+Kuang
+  rotate: false
+  xy: 2, 2
+  size: 602, 146
+  orig: 800, 300
+  offset: 100, 75
+  index: -1
+UIGlow
+  rotate: false
+  xy: 2, 150
+  size: 772, 258
+  orig: 800, 300
+  offset: 11, 20
+  index: -1
+xian
+  rotate: false
+  xy: 2, 410
+  size: 789, 254
+  orig: 850, 300
+  offset: 32, 22
+  index: -1

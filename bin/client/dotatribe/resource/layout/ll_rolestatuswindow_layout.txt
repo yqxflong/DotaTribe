@@ -1,0 +1,7 @@
+INDEX	HIDE	ZORDER	SCALE	ROTATION	CLASS	TPRIORITY	SWALLOW	SYSLANGID	FSYLEID	FSIZE	COLOR-R	COLOR-G	COLOR-B	COLOR-ALPHA	FILE1	FILE2	FILE3	WIDTH	HEIGHT	ANCHOR-X	ANCHOR-Y	POS-X	POS-Y	IP5-POS-X	IP5-POS-Y	IPAD-POS-X	IPAD-POS-Y	ANDROID-POS-X	ANDROID-POS-Y	ANDROID16_10-POS-X	ANDROID16_10-POS-Y	SOUNDID	OTHERS
+0	0	3	1	0	CCNode	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-30	-23	-30	-108	-30	20	-30	-108	-30	-108	-1	人物状态条
+1	0	1	1	0	CMenuItemSpriteSI	0	1	0	0	0	0	0	0	0	resource/image/homescene/renwu.png	0	0	0.9	0.9	0.5	0.5	55	547	55	462	50	590	55	462	55	462	-1	主线任务
+2	0	0	1	0	SceneEffect	0	1	0	0	0	2017	0	0	0	0	0	0	0	0	0.5	0.5	55	547	55	462	50	590	55	462	55	462	-1	主线任务提示
+3	0	2	1	0	CSkeletonAnimation	0	1	0	0	0	0	0	0	0	resource/spine/quest.json	resource/spine/quest.atlas	questat	0	0	0.5	0.5	55	547	55	462	50	590	55	462	55	462	-1	骨骼动画
+4	0	5	1	0	CSimpleActionSprite	0	1	0	0	0	2	0	0	0	resource/image/newpublic/new.png	0	0	0.6	8	0	0.5	75	567	75	482	70	610	75	482	75	482	-1	新任务提示
+5	0	5	1	0	CSimpleActionSprite	0	1	0	0	0	2	0	0	0	resource/image/newpublic/new.png	0	0	0.6	8	0	0	110	687	110	602	110	730	110	610	110	610	-1	新英雄提示

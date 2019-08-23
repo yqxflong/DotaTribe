@@ -1,0 +1,13 @@
+INDEX	HIDE	ZORDER	SCALE	ROTATION	CLASS	TPRIORITY	SWALLOW	SYSLANGID	FSYLEID	FSIZE	COLOR-R	COLOR-G	COLOR-B	COLOR-ALPHA	FILE1	FILE2	FILE3	WIDTH	HEIGHT	ANCHOR-X	ANCHOR-Y	POS-X	POS-Y	IP5-POS-X	IP5-POS-Y	IPAD-POS-X	IPAD-POS-Y	ANDROID-POS-X	ANDROID-POS-Y	ANDROID16_10-POS-X	ANDROID16_10-POS-Y	SOUNDID	OTHERS
+0	0	0	1	0	CPriorityLayerColor	-40	1	0	0	0	0	0	0	125	0	0	0	1136	768	0	0	0	0	0	0	0	0	0	0	0	0	-1	遮罩层
+1	0	1	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newtips/zbtips_diban.png	0	0	0	0	0.5	0.5	542	339	568	320	512	384	534.33	320	508.73	320	-1	对比的已装备的背景
+2	0	3	1	0	CCLabelTTF	0	1	0	46	0	0	0	0	0	0	0	0	0	0	0.5	0.5	570	489	596	470	540	534	562.33	470	536.73	470	-1	名字
+3	0	4	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/c_normal_mask.png	0	0	0	0	0	0	386	425	412	406	356	470	378.33	406	352.73	406	-1	底板
+4	0	3	0.77	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/c_normal.png	0	0	0	0	0	0	394	434	420	415	364	479	386.33	415	360.73	415	-1	图标
+5	0	2	1	0	CCLabelTTF	0	1	0	42	0	0	0	0	0	0	0	0	0	0	0	0.5	404	383	430	364	374	428	396.33	364	370.73	364	-1	等级
+6	0	2	1	0	CCLabelTTFMultiline	0	1	0	42	0	0	0	0	0	0	0	0	270	0	0	1	404	332	430	313	374	387	396.33	313	370.73	313	-1	附加
+7	1	3	1	0	CMenuItemSprite	-102	1	0	0	0	0	0	0	0	resource/image/newpublic/button.png	resource/image/newpublic/button_l.png	0	0	0	0.5	0.5	542	145	568	126	512	190	534.33	126	508.73	126	-1	装备按钮
+8	1	4	1	0	CCLabelTTF	0	1	6014	48	0	0	0	0	0	0	0	0	0	0	0.5	0.5	542	145	568	126	512	190	534.33	126	508.73	126	-1	装备按钮文字
+9	1	3	1	0	CMenuItemSprite	-102	1	0	0	0	0	0	0	0	resource/image/newpublic/button.png	resource/image/newpublic/button_l.png	0	0	0	0.5	0.5	542	145	568	126	512	190	534.33	126	508.73	126	-1	卸载按钮
+10	1	4	1	0	CCLabelTTF	0	1	6015	48	0	0	0	0	0	0	0	0	0	0	0.5	0.5	542	145	568	126	512	190	534.33	126	508.73	126	-1	卸载按钮文字
+11	0	4	1	0	CMenuItemSprite	-102	1	0	0	0	0	0	0	0	resource/image/newpublic/close.png	resource/image/newpublic/close_l.png	0	0	0	0.5	0.5	700	527	726	508	670	572	692.33	508	666.73	508	-1	关闭按钮

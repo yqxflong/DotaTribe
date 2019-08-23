@@ -1,0 +1,14 @@
+class DBHelper
+{
+	static BaseHelper * LuaGetInstance();
+
+	static std::string LuaGetInstanceName();
+
+	std::string LuaGetSysLangById(int langId);
+
+	std::string LuaGetResourcePathByID(int idx);
+	
+	RoleInfoDataHandler * LuaGetRoleInfoDataHandler();
+
+	void LuaShowFlowEffect(int type,int count,int bjcount,int itemiconid=0);
+};

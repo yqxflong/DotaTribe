@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SYS>
+  <!--静态数据加密的KEY-->
+  <DataEncryptionKey value="dtlmcclua" />
+  <!--加密是否有长度限制-->
+  <DataEncryptionIsLengthLimit value="0" />
+  <!--加密的最大长度-->
+  <DataEncryptionLimitLength value="200" />
+</SYS>

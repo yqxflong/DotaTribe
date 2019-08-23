@@ -1,0 +1,145 @@
+
+handishenniu03.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+B-BS
+  rotate: false
+  xy: 226, 149
+  size: 2, 2
+  orig: 205, 230
+  offset: 118, 66
+  index: -1
+L-wuqi
+  rotate: false
+  xy: 226, 149
+  size: 2, 2
+  orig: 205, 230
+  offset: 118, 66
+  index: -1
+L-JB
+  rotate: false
+  xy: 226, 149
+  size: 2, 2
+  orig: 205, 230
+  offset: 118, 66
+  index: -1
+R-JB
+  rotate: false
+  xy: 226, 149
+  size: 2, 2
+  orig: 205, 230
+  offset: 118, 66
+  index: -1
+L-datui
+  rotate: false
+  xy: 229, 27
+  size: 62, 59
+  orig: 90, 130
+  offset: 17, 38
+  index: -1
+L-shbi
+  rotate: false
+  xy: 299, 239
+  size: 61, 81
+  orig: 120, 140
+  offset: 28, 34
+  index: -1
+L-xiaobi
+  rotate: false
+  xy: 159, 131
+  size: 66, 102
+  orig: 125, 160
+  offset: 20, 48
+  index: -1
+L-xiaotui
+  rotate: false
+  xy: 288, 167
+  size: 64, 71
+  orig: 125, 110
+  offset: 28, 19
+  index: -1
+R-datui
+  rotate: false
+  xy: 229, 87
+  size: 59, 64
+  orig: 90, 130
+  offset: 20, 35
+  index: -1
+R-shbi
+  rotate: false
+  xy: 226, 152
+  size: 61, 81
+  orig: 120, 140
+  offset: 28, 32
+  index: -1
+R-wuqi
+  rotate: false
+  xy: 0, 354
+  size: 234, 150
+  orig: 360, 200
+  offset: 8, 14
+  index: -1
+R-xiaobi
+  rotate: false
+  xy: 159, 234
+  size: 69, 119
+  orig: 125, 160
+  offset: 29, 41
+  index: -1
+R-xiaotui
+  rotate: false
+  xy: 229, 241
+  size: 69, 79
+  orig: 140, 125
+  offset: 42, 21
+  index: -1
+bozi
+  rotate: false
+  xy: 235, 369
+  size: 141, 135
+  orig: 150, 160
+  offset: 6, 4
+  index: -1
+pigu
+  rotate: false
+  xy: 0, 0
+  size: 68, 31
+  orig: 125, 145
+  offset: 30, 47
+  index: -1
+tou
+  rotate: false
+  xy: 0, 193
+  size: 158, 160
+  orig: 215, 195
+  offset: 33, 0
+  index: -1
+tou1
+  rotate: false
+  xy: 0, 32
+  size: 158, 160
+  orig: 215, 195
+  offset: 33, 0
+  index: -1
+weiba
+  rotate: false
+  xy: 235, 321
+  size: 93, 47
+  orig: 180, 128
+  offset: 66, 39
+  index: -1
+xiong
+  rotate: true
+  xy: 377, 367
+  size: 137, 123
+  orig: 190, 175
+  offset: 30, 28
+  index: -1
+yaodai
+  rotate: true
+  xy: 159, 32
+  size: 98, 69
+  orig: 125, 145
+  offset: 14, 30
+  index: -1

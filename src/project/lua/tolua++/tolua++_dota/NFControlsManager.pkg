@@ -1,0 +1,288 @@
+//Name：NFControlsManager
+//Function：管理控件的一些操作
+//Written By：尹强
+
+/****
+	quit game
+	#May be rejected by appstore
+**/
+static void NFC_quitGame();
+
+/****
+	SoundPlay
+**/
+static void NFC_playSoundByID(int soundid);
+
+/****
+	ErrorTips
+**/
+static void NFC_showErrorTips();
+
+static void NFC_showErrorTips(std::string text);
+
+static void NFC_showErrorTips_2(std::string text);
+
+/****
+	Communication Waitting
+**/
+static void NFC_showCommunicationWating(bool isshow);
+
+static void NFC_showCommunicationWating_2(bool isshow);
+
+/****
+	MessageBox
+**/
+static void NFC_showMessageBox(int type,std::string text);
+
+/****
+	ResourceID
+**/
+static std::string NFC_getFileFromResourceID(int iconID);
+
+/****
+	IDString
+**/
+static std::string NFC_getIDStringFromTag(int tag,int subTag);
+
+/****
+	Client Const
+**/
+static int NFC_getValueFromClientConst(std::string key);
+
+/************************************************************************/
+/* 显示单独按钮的messagebox                                                                     */
+/************************************************************************/
+static void NFC_showMessageBoxSingle(int type, std::string text);
+
+
+/*
+Normal MessageBox
+*/
+static void NFC_showNormalMsgBySYID(int resourceID);
+
+/****
+	Node
+**/
+static CCNode* NFC_getNode(int key,CCNode* root);
+
+static void NFC_showNode(int key,CCNode* root,bool isShow);
+
+static void NFC_setScale(int key,CCNode* root,float scale);
+
+/****
+	CCardsStarProgress
+**/
+static void NFC_setCardsStarLevel(int key,CCNode* root,int count);
+
+static void NFC_setCardsStarAdvance(int key,CCNode* root,int advanceCount);
+
+
+/****
+	CCornerNumIcon
+**/
+static void NFC_setCornerNum(int key,CCNode* root,int count);
+
+/****
+	Label
+**/
+static void NFC_setLabelString(int key,CCNode* root,std::string txt);
+
+static void NFC_setLabelString(int key,CCNode* root,std::string txt, bool visible);
+
+static void NFC_setLabelString(CCLabelTTF* cc,std::string txt);
+
+static void NFC_setLabelStringInt(int key,CCNode* root,int num);
+
+static void NFC_setLabelStringInt(int key,CCNode* root,int num, bool visible);
+
+static void NFC_setLabelStringInt(int key,CCNode* root,int num,int sysTxtID,bool visible);
+
+
+
+
+static void NFC_setLabelStringInt(CCLabelTTF* cc,int num);
+
+static void NFC_setLabelColor(int key,CCNode* root,const ccColor3B& color);
+
+static void NFC_setLabelColor(CCLabelTTF* root,const ccColor3B& color);
+
+static void NFC_setLabelByFontStyleID(CCLabelTTF* cc,int fontstyleID);
+
+
+static  void NFC_setLabelByFontID(int uiIndex,CCNode * pRoot,int fontstyleID);
+
+
+static void NFC_setActionSpriteEnable(int uiIndex,CCNode * pRoot,bool isEnable);
+
+
+/*
+	CProgressInnerBar
+*/
+static  void  NFC_setCProgressInnerBar(int barUIIndex,CCNode * pParent,float fPercent);
+
+/*
+	SceneEffect
+*/
+static  void  NFC_resumeActionsForSceneSprite(int key,CCNode* root);
+
+/****
+	ArtFontLabelNode
+**/
+static CCNode* NFC_getArtFontLabel(int type,int num);
+
+/*
+根据FontStyleID 翻译对应的富文本模板
+*/
+static std::string NFC_getRichTextCSSByFontStyleID(int fontstyleID,std::string formatStr);
+
+/*
+绑定按钮点击回调事件接口
+*/
+static void  NFC_bindSelectorForBtn(int btnUIIndex,CCNode * pParent,CCNode * pDelegate,SEL_MenuHandler pSelector);
+
+static void  NFC_bindSelectorForDTHeroIcon(int btnUIIndex,CCNode * pParent,CCNode * pDelegate,SEL_MenuHandler pSelector);
+
+static void  NFC_bindSelectorForCellDTHeroIcon(int btnUIIndex,int cellIndex,CCNode * pParent,CCNode * pDelegate,SEL_MenuHandler pSelector);
+
+/*
+绑定TableView中按钮回调事件接口
+*/
+static void NFC_bindSelectotForCellBtn(int btnUIIndex,int cellIndex,CCNode * pParent,CCNode * pDelegate,SEL_MenuHandler pSelector);
+
+/*
+绑定TouchSprite回调事件接口
+*/
+static void  NFC_bindSelectorForTouchSprite(int btnUIIndex,CCNode * pParent,CTouchSpriteDelegate * pDelegate);
+
+
+/*
+绑定按钮多个附加参数
+*/
+static void  NFC_bindMenuSpriteAttachParams(int btnUIIndex,CCNode * pParant,int attachPatam1,int attachParam2,CCNode * pDelegate,SEL_MenuHandler pSelector);
+ 
+
+static void  NFC_setMenuSpriteAttachParam(int uiIndex,CCNode * pParant,int attachParam1,int attachParam2);
+
+
+static void NFC_setTabMenuState(int tabUIIndex,CCNode *pParent,bool isSelectAble);
+
+/*
+设置按钮禁用状态事件接口
+*/
+static void  NFC_setMenuEnable(int uiIndex,CCNode * pParent,bool isEnable);
+
+ 
+/*
+设置UI接口可视接口
+*/
+static void  NFC_setNodeVisable(int btnUIIndex,CCNode * pParent,bool isVisiable);
+
+
+static  void  NFC_setTimeLabel(int uiIndex,CCNode * pParent,CTimerEventProtocol * pDelegate,int timeDistance);
+
+
+
+//创建CCLabelTTF 根据 UIViewData
+static CCLabelTTF* NFC_createLabelByViewData(CCNode* parentNode,const UIViewData& dd);
+
+//创建CCLabelTTF Mutiline 根据 UIViewData
+static CCLabelTTF* NFC_createLabelMutilineByViewData(CCNode* parentNode,const UIViewData& dd);
+
+static float NFC_getHeightOfLabel(float maxwidth,std::string txt);
+
+/****
+	TableView
+**/
+static void NFC_refreshTableView(CCTableView* tb);
+
+static void NFC_setOffsetForTableView(CCTableView* tb,const CCPoint& offset);
+
+static void NFC_refreshTableViewAndSetOldOffset(CCTableView* tb);
+
+
+/****
+	ScrollView
+**/
+static void NFC_refreshScrollView(CCScrollView* ss);
+
+/****
+	CCSprite
+**/
+static void NFC_setPicForCCSprite(int key,CCNode* root,const char* file, bool visible);
+
+static void NFC_setPicForCCSprite(int key,CCNode* root,const char* file);
+static void NFC_setPicForCCSprite(int key,CCNode* root, std::string file, bool visable);
+static void NFC_setPicForCCSprite_2(CCSprite* cc,const char* file, bool visible = true);
+
+static void NFC_setPicScale(int tag, CCNode * parent, float scale);
+
+static float NFC_getHeightOfSprite(const char* file);
+ 
+static void NFC_setSpriteFlipX(int UIIndex,CCNode * pParent,bool isFlipX);
+static void NFC_setSpriteFlipY(int UIIndex,CCNode * pParent,bool isFlipY);
+
+
+//创建CCSprite by UIviewData
+static CCSprite* NFC_createSpriteByViewData(CCNode* parentNode,const UIViewData& dd);
+
+static const CCSize& NFC_getSizeFromSprite(int key,CCNode* root);
+
+/****
+	CSprite
+**/
+static void NFC_changeImageForCSprite(int key,CCNode* root,unsigned int idx);
+
+static  void  NFC_setSpriteColor(int uiIndex,CCNode * pRoot,ccColor3B & color);
+
+
+static  void  NFC_setGrapSprite(int uiIndex,CCNode * pRoot,bool isGrapEnable);
+
+/****
+	CCMenuItem
+**/
+static void NFC_setEnabledForMenuItem(int key,CCNode* root,bool isEnabled);
+
+static void NFC_setEnabledForMenuItem(int menutag, int itemtag, CCNode * parent, bool enable);
+
+static CCMenuItem* NFC_getMenuItem(int key,CCNode* root);
+
+
+//创建CLabelButton 根据 UIViewData
+static CLabelButtonItem* NFC_createCLabelButtonByViewData(CCNode* parentNode,const UIViewData& dd);
+
+//创建CCMenuitem 根据 UIViewData
+static CMenuItemSprite* NFC_createMenuItemByViewData(CCNode* parentNode,const UIViewData& dd);
+ 
+static void NFC_setNormalImageForMenuItem(CMenuItemSprite* cc,std::string filepath);
+
+
+static  void  NFC_setNoramlImageByUIIndex(int uiIndex,CCNode * pRoot,std::string fileName);
+
+static void NFC_setSelectedImageForMenuItem(CCMenuItemSprite* cc,std::string filepath);
+
+static void NFC_setDisabledImageForMenuItem(CCMenuItemSprite* cc,std::string filepath);
+
+static void  NFC_getMenuItemSpriteSI(CCNode * parentNode,UIViewData dd);
+
+
+/****
+	CProgressInnerBar
+**/
+static void NFC_setProgressForCProgressInnerBar(int key,CCNode* root,float percent);
+
+//创建箭头
+static CCSkeletonAnimation * NFC_createGuideArrow();
+
+//创建DTAwardBoard by UIviewData
+static DTAwardBoard* NFC_createDTAwardBoardByViewData(CCNode* parentNode,const UIViewData& dd);
+ 
+ 
+static void NFC_setDTHeroIcon(int uiIndex,CCNode * pParent,int IconID,bool isVisiable);
+
+static void NFC_setDTHeroIconVisiable(int uiIndex,CCNode * pParent,bool isVisiable);
+
+static  void  NFC_bindDTHeroCellSelectorAndAttahParam(int uiIndex,int cellIndex,CCNode *pParent,CCNode * pDelegate,SEL_MenuHandler pSelector,int attachParam1,int attachParam2);
+
+static  void  NFC_setDTHeroQualiy(int uiIndex,CCNode * pParent,int quality);
+ 
+static  void  NFC_setDTHeroColor(int uiIndex,CCNode * pParent,const ccColor3B & color3);

@@ -1,0 +1,79 @@
+INDEX	HIDE	ZORDER	SCALE	ROTATION	CLASS	TPRIORITY	SWALLOW	SYSLANGID	FSYLEID	FSIZE	COLOR-R	COLOR-G	COLOR-B	COLOR-ALPHA	FILE1	FILE2	FILE3	WIDTH	HEIGHT	ANCHOR-X	ANCHOR-Y	POS-X	POS-Y	IP5-POS-X	IP5-POS-Y	IPAD-POS-X	IPAD-POS-Y	ANDROID-POS-X	ANDROID-POS-Y	ANDROID16_10-POS-X	ANDROID16_10-POS-Y	SOUNDID	OTHERS	
+0	0	-1	1	0	CCSprite	0	1	13	27	0	0	0	0	0	resource/image/newpublic/background.png	0	0	0	0	0.5	0.5	537	350	566	280	512	384	531.33	280	505.73	280	-1	背景底板	
+1	0	0	1	0	CCSprite	0	1	13	27	0	0	0	0	0	resource/image/newarena/diban.png	0	0	0	0	0.5	0.5	537	350	566	280	512	384	531.33	280	505.73	280	-1	背景图片	
+2	0	1	1	0	CMenuItemSprite	0	1	13	27	0	0	0	0	0	resource/image/newpublic/help.png	resource/image/newpublic/help_l.png	0	0	0	0.5	0.5	905	676	934	606	880	710	899.33	606	873.73	606	-1	帮助按钮	
+3	0	1	1	0	CMenuItemSprite	0	1	13	27	0	0	0	0	0	resource/image/newpublic/close.png	resource/image/newpublic/close_l.png	0	0	0	0.5	0.5	1005	676	1034	606	980	710	999.33	606	973.73	606	-1	关闭按钮	
+4	0	2	1	0	CCSprite	0	1	13	27	0	0	0	0	0	resource/image/newpublic/tubiaomingchengdiban.png	0	0	0	0	0.5	0.5	542	596	571	526	517	630	536.33	526	510.73	526	-1	标题背景框	
+5	0	3	1	0	CCLabelTTF	0	1	900	83	0	0	0	0	0	0	0	0	0	0	0.5	0.5	542	596	571	526	517	630	536.33	526	510.73	526	-1	标题内容	
+6	0	1	1	0	CCSprite	0	1	13	42	0	0	0	0	0	resource/image/newarena/zengjiacishukuang.png	0	0	0	0	0.5	0.5	885	606	914	536	860	640	879.33	536	853.73	536	-1	今日挑战次数背景	
+7	0	2	1	0	CCLabelTTF	0	1	13	42	0	0	0	0	0	0	0	0	0	0	0.5	0.5	885	606	914	536	860	640	879.33	536	853.73	536	-1	今天挑战次数文字 前缀	
+8	1	2	1	0	CCLabelTTF	0	1	13	27	0	0	0	0	0	0	0	0	0	0	0.5	0.5	945	466	974	396	920	500	939.33	396	913.73	396	-1	无用	
+9	0	2	1	0	CMenuItemSprite	0	1	13	27	0	0	0	0	0	resource/image/newarena/tianjia_zhengc.png	resource/image/newarena/tianjia_anxia.png	0	0	0	0.5	0.5	1005	606	1034	536	980	640	999.33	536	973.73	536	-1	增加次数按钮	
+10	0	1	1	0	CCLabelTTF	0	1	13	87	0	0	0	0	0	0	0	0	0	0	0.5	0.5	195	566	224	496	170	600	189.33	496	163.73	496	-1	玩家名称	从左到右第一人
+11	0	3	1	0	CCSprite	0	1	13	4	0	0	0	0	0	resource/image/newarena/dengjikuang.png	0	0	0	0	0.5	0.5	195	541	224	471	170	575	189.33	471	163.73	471	-1	等级背景	
+12	0	4	1	0	CCLabelTTF	0	1	13	4	0	0	0	0	0	0	0	0	0	0	0.5	0.5	195	541	224	471	170	575	189.33	471	163.73	471	-1	等级数值	
+13	0	1	1	0	CCSprite	0	1	13	27	0	0	0	0	0	resource/image/newpublic/datouxiangkuang_mask.png	0	0	0	0	0.5	0.5	195	496	224	426	170	530	189.33	426	163.73	426	-1	头像背景	
+14	0	2	1	0	CTouchSprite	0	1	13	27	0	0	0	0	0	touxiang19.png	0	0	0	0	0.5	0.5	195	496	224	426	170	530	189.33	426	163.73	426	-1	头像图标	
+15	0	2	1	0	CCSprite	0	1	13	27	0	0	0	0	0	resource/image/newarena/paimingkuang.png	0	0	0	0	0.5	0.5	195	426	224	356	170	460	189.33	356	163.73	356	-1	排名背景	
+16	0	3	1	0	CCLabelTTF	0	1	13	4	0	0	0	0	0	0	0	0	0	0	0.5	0.5	195	426	224	356	170	460	189.33	356	163.73	356	-1	排名数值	
+17	0	2	1	0	CCLabelTTF	0	1	13	80	0	0	0	0	0	0	0	0	0	0	0.5	0.5	195	396	224	326	170	430	189.33	326	163.73	326	-1	战力内容	
+18	0	2	1	0	CMenuItemSprite	0	1	0	27	0	0	0	0	0	resource/image/newpublic/button_2.png	resource/image/newpublic/button_2_l.png	0	0	0	0.5	0.5	195	346	224	276	170	380	189.33	276	163.73	276	-1	挑战按钮	
+19	0	2	1	0	CCLabelTTF	0	1	901	83	0	0	0	0	0	0	0	0	0	0	0.5	0.5	195	346	224	276	170	380	189.33	276	163.73	276	-1	挑战文字	
+20	0	1	1	0	CCLabelTTF	0	1	13	87	0	0	0	0	0	0	0	0	0	0	0.5	0.5	368	566	397	496	343	600	362.33	496	336.73	496	-1	玩家名称	从左到右第二人
+21	0	3	1	0	CCSprite	0	1	13	4	0	0	0	0	0	resource/image/newarena/dengjikuang.png	0	0	0	0	0.5	0.5	368	541	397	471	343	575	362.33	471	336.73	471	-1	等级背景	
+22	0	4	1	0	CCLabelTTF	0	1	13	4	0	0	0	0	0	0	0	0	0	0	0.5	0.5	368	541	397	471	343	575	362.33	471	336.73	471	-1	等级数值	
+23	0	1	1	0	CCSprite	0	1	13	27	0	0	0	0	0	resource/image/newpublic/datouxiangkuang_mask.png	0	0	0	0	0.5	0.5	368	496	397	426	343	530	362.33	426	336.73	426	-1	头像背景	
+24	0	2	1	0	CTouchSprite	0	1	13	27	0	0	0	0	0	touxiang19.png	0	0	0	0	0.5	0.5	368	496	397	426	343	530	362.33	426	336.73	426	-1	头像图标	
+25	0	2	1	0	CCSprite	0	1	13	27	0	0	0	0	0	resource/image/newarena/paimingkuang.png	0	0	0	0	0.5	0.5	368	426	397	356	343	460	362.33	356	336.73	356	-1	排名背景	
+26	0	3	1	0	CCLabelTTF	0	1	13	4	0	0	0	0	0	0	0	0	0	0	0.5	0.5	368	426	397	356	343	460	362.33	356	336.73	356	-1	排名数值	
+27	0	2	1	0	CCLabelTTF	0	1	13	80	0	0	0	0	0	0	0	0	0	0	0.5	0.5	368	396	397	326	343	430	362.33	326	336.73	326	-1	战力内容	
+28	0	2	1	0	CMenuItemSprite	0	1	0	27	0	0	0	0	0	resource/image/newpublic/button_2.png	resource/image/newpublic/button_2_l.png	0	0	0	0.5	0.5	368	346	397	276	343	380	362.33	276	336.73	276	-1	挑战按钮	
+29	0	2	1	0	CCLabelTTF	0	1	901	83	0	0	0	0	0	0	0	0	0	0	0.5	0.5	368	346	397	276	343	380	362.33	276	336.73	276	-1	挑战文字	
+30	0	1	1	0	CCLabelTTF	0	1	13	87	0	0	0	0	0	0	0	0	0	0	0.5	0.5	541	566	570	496	516	600	535.33	496	509.73	496	-1	玩家名称	从左到右第三人
+31	0	3	1	0	CCSprite	0	1	13	4	0	0	0	0	0	resource/image/newarena/dengjikuang.png	0	0	0	0	0.5	0.5	541	541	570	471	516	575	535.33	471	509.73	471	-1	等级背景	
+32	0	4	1	0	CCLabelTTF	0	1	13	4	0	0	0	0	0	0	0	0	0	0	0.5	0.5	541	541	570	471	516	575	535.33	471	509.73	471	-1	等级数值	
+33	0	1	1	0	CCSprite	0	1	13	27	0	0	0	0	0	resource/image/newpublic/datouxiangkuang_mask.png	0	0	0	0	0.5	0.5	541	496	570	426	516	530	535.33	426	509.73	426	-1	头像背景	
+34	0	2	1	0	CTouchSprite	0	1	13	27	0	0	0	0	0	touxiang19.png	0	0	0	0	0.5	0.5	541	496	570	426	516	530	535.33	426	509.73	426	-1	头像图标	
+35	0	2	1	0	CCSprite	0	1	13	27	0	0	0	0	0	resource/image/newarena/paimingkuang.png	0	0	0	0	0.5	0.5	541	426	570	356	516	460	535.33	356	509.73	356	-1	排名背景	
+36	0	3	1	0	CCLabelTTF	0	1	13	4	0	0	0	0	0	0	0	0	0	0	0.5	0.5	541	426	570	356	516	460	535.33	356	509.73	356	-1	排名数值	
+37	0	2	1	0	CCLabelTTF	0	1	13	80	0	0	0	0	0	0	0	0	0	0	0.5	0.5	541	396	570	326	516	430	535.33	326	509.73	326	-1	战力内容	
+38	0	2	1	0	CMenuItemSprite	0	1	0	27	0	0	0	0	0	resource/image/newpublic/button_2.png	resource/image/newpublic/button_2_l.png	0	0	0	0.5	0.5	541	346	570	276	516	380	535.33	276	509.73	276	-1	挑战按钮	
+39	0	2	1	0	CCLabelTTF	0	1	901	83	0	0	0	0	0	0	0	0	0	0	0.5	0.5	541	346	570	276	516	380	535.33	276	509.73	276	-1	挑战文字	
+40	0	1	1	0	CCLabelTTF	0	1	13	87	0	0	0	0	0	0	0	0	0	0	0.5	0.5	714	566	743	496	689	600	708.33	496	682.73	496	-1	玩家名称	从左到右第四人
+41	0	3	1	0	CCSprite	0	1	13	4	0	0	0	0	0	resource/image/newarena/dengjikuang.png	0	0	0	0	0.5	0.5	714	541	743	471	689	575	708.33	471	682.73	471	-1	等级背景	
+42	0	4	1	0	CCLabelTTF	0	1	13	4	0	0	0	0	0	0	0	0	0	0	0.5	0.5	714	541	743	471	689	575	708.33	471	682.73	471	-1	等级数值	
+43	0	1	1	0	CCSprite	0	1	13	27	0	0	0	0	0	resource/image/newpublic/datouxiangkuang_mask.png	0	0	0	0	0.5	0.5	714	496	743	426	689	530	708.33	426	682.73	426	-1	头像背景	
+44	0	2	1	0	CTouchSprite	0	1	13	27	0	0	0	0	0	touxiang19.png	0	0	0	0	0.5	0.5	714	496	743	426	689	530	708.33	426	682.73	426	-1	头像图标	
+45	0	2	1	0	CCSprite	0	1	13	27	0	0	0	0	0	resource/image/newarena/paimingkuang.png	0	0	0	0	0.5	0.5	714	426	743	356	689	460	708.33	356	682.73	356	-1	排名背景	
+46	0	3	1	0	CCLabelTTF	0	1	13	4	0	0	0	0	0	0	0	0	0	0	0.5	0.5	714	426	743	356	689	460	708.33	356	682.73	356	-1	排名数值	
+47	0	2	1	0	CCLabelTTF	0	1	13	80	0	0	0	0	0	0	0	0	0	0	0.5	0.5	714	396	743	326	689	430	708.33	326	682.73	326	-1	战力内容	
+48	0	2	1	0	CMenuItemSprite	0	1	0	27	0	0	0	0	0	resource/image/newpublic/button_2.png	resource/image/newpublic/button_2_l.png	0	0	0	0.5	0.5	714	346	743	276	689	380	708.33	276	682.73	276	-1	挑战按钮	
+49	0	2	1	0	CCLabelTTF	0	1	901	83	0	0	0	0	0	0	0	0	0	0	0.5	0.5	714	346	743	276	689	380	708.33	276	682.73	276	-1	挑战文字	
+50	0	1	1	0	CCLabelTTF	0	1	13	87	0	0	0	0	0	0	0	0	0	0	0.5	0.5	887	566	916	496	862	600	881.33	496	855.73	496	-1	玩家名称	从左到右第五人
+51	0	3	1	0	CCSprite	0	1	13	4	0	0	0	0	0	resource/image/newarena/dengjikuang.png	0	0	0	0	0.5	0.5	887	541	916	471	862	575	881.33	471	855.73	471	-1	等级背景	
+52	0	4	1	0	CCLabelTTF	0	1	13	4	0	0	0	0	0	0	0	0	0	0	0.5	0.5	887	541	916	471	862	575	881.33	471	855.73	471	-1	等级数值	
+53	0	1	1	0	CCSprite	0	1	13	27	0	0	0	0	0	resource/image/newpublic/datouxiangkuang_mask.png	0	0	0	0	0.5	0.5	887	496	916	426	862	530	881.33	426	855.73	426	-1	头像背景	
+54	0	2	1	0	CTouchSprite	0	1	13	27	0	0	0	0	0	touxiang19.png	0	0	0	0	0.5	0.5	887	496	916	426	862	530	881.33	426	855.73	426	-1	头像图标	
+55	0	2	1	0	CCSprite	0	1	13	27	0	0	0	0	0	resource/image/newarena/paimingkuang.png	0	0	0	0	0.5	0.5	887	426	916	356	862	460	881.33	356	855.73	356	-1	排名背景	
+56	0	3	1	0	CCLabelTTF	0	1	13	4	0	0	0	0	0	0	0	0	0	0	0.5	0.5	887	426	916	356	862	460	881.33	356	855.73	356	-1	排名数值	
+57	0	2	1	0	CCLabelTTF	0	1	13	80	0	0	0	0	0	0	0	0	0	0	0.5	0.5	887	396	916	326	862	430	881.33	326	855.73	326	-1	战力内容	
+58	0	2	1	0	CMenuItemSprite	0	1	0	27	0	0	0	0	0	resource/image/newpublic/button_2.png	resource/image/newpublic/button_2_l.png	0	0	0	0.5	0.5	887	346	916	276	862	380	881.33	276	855.73	276	-1	挑战按钮	
+59	0	2	1	0	CCLabelTTF	0	1	901	83	0	0	0	0	0	0	0	0	0	0	0.5	0.5	887	346	916	276	862	380	881.33	276	855.73	276	-1	挑战文字	
+60	0	2	1	0	CCSprite	0	1	13	27	0	0	0	0	0	resource/image/newarena/youxiakuang.png	0	0	0	0	0.5	0.5	845	261	874	211	810	295	839.33	211	813.73	211	-1	排名背景	
+61	0	3	1	0	CCLabelTTF	0	1	433	80	0	0	0	0	0	0	0	0	0	0	0	0.5	735	261	764	211	700	295	729.33	211	703.73	211	-1	排名标签 前	
+62	0	3	1	0	CCLabelTTF	0	1	13	42	0	0	0	0	0	0	0	0	0	0	0	0.5	845	261	874	211	810	295	839.33	211	813.73	211	-1	排名数值 后	
+63	0	2	1	0	CCSprite	0	1	13	27	0	0	0	0	0	resource/image/newarena/youxiakuang.png	0	0	0	0	0.5	0.5	845	221	874	171	810	255	839.33	171	813.73	171	-1	战绩背景	
+64	0	3	1	0	CCLabelTTF	0	1	7003	80	0	0	0	0	0	0	0	0	0	0	0	0.5	735	221	764	171	700	255	729.33	171	703.73	171	-1	战绩标签 前	
+65	0	3	1	0	CCLabelTTF	0	1	13	42	0	0	0	0	0	0	0	0	0	0	0	0.5	845	221	874	171	810	255	839.33	171	813.73	171	-1	战绩数值 后	
+66	0	2	1	0	CMenuItemSprite	0	1	13	27	0	0	0	0	0	resource/image/newpublic/hongseanniu_zhengc.png	resource/image/newpublic/hongseanniu_anxia.png	0	0	0	0.5	0.5	980	260	1006	215	950	295	971.33	215	945.73	215	-1	排行榜按钮	
+67	0	4	1	0	CCLabelTTF	0	1	2000	42	0	0	0	0	0	0	0	0	0	0	0.5	0.5	980	260	1006	215	950	295	971.33	215	945.73	215	-1	排行榜文字	
+68	0	1	1	0	CCSprite	0	1	13	27	0	0	0	0	0	resource/image/newarena/dibuxinxikuang.png	0	0	0	0	0	0	90	76	119	16	60	110	84.33	16	58.73	16	-1	历史记录背景	
+69	0	2	1	0	CCTableView	0	1	13	27	0	0	0	0	0	0	0	0	600	175	0	0	100	90	129	30	75	123	94.33	30	68.73	30	-1	历史记录容器	
+70	0	2	1	0	CCNode	0	1	13	27	0	0	0	0	0	0	0	0	600	55	0	0	25	-34	54	-104	0	0	19.33	-104	-6.27	-104	-1	历史记录Cell	
+71	0	2	1	0	CMenuItemSprite	0	1	0	0	0	0	0	0	0	resource/image/newarena/jdoucjl_1.png	resource/image/newarena/jdoucjl_2.png	0	0	0	0.5	0.5	852	85	856	60	800	120	821.33	60	795.73	60	-1	竞技场奖励按钮	
+72	1	1	1.3	0	SceneEffect	0	1	0	0	0	2056	0	0	0	0	0	0	0	0	0.5	0.5	852	85	856	60	800	120	821.33	60	795.73	60	-1	特效	
+73	0	2	1	0	CCSprite	0	1	13	27	0	0	0	0	0	resource/image/newarena/youxiakuang.png	0	0	0	0	0.5	0.5	845	181	874	131	810	215	839.33	131	813.73	131	-1	我的声望背景	
+74	0	3	1	0	CCLabelTTF	0	1	434	80	0	0	0	0	0	0	0	0	0	0	0	0.5	735	181	764	131	700	215	729.33	131	703.73	131	-1	声望标签 前	
+75	0	3	1	0	CCLabelTTF	0	1	13	42	0	0	0	0	0	0	0	0	0	0	0	0.5	845	181	874	131	810	215	839.33	131	813.73	131	-1	声望数值 后	
+76	0	2	1	0	CMenuItemSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/prestige.png	resource/image/newpublic/prestige_down.png	0	0	0	0.5	0.5	1020	355	1050	290	980	390	1000	290	974.4	290	-1	声望商店按钮	
+77	1	5	1	0	CSkeletonAnimation	0	1	0	0	0	0	0	0	0	resource/spine/dotajt.json	resource/spine/dotajt.atlas	zzdaiji	0	0	0.5	0.5	195	360	224	295	170	400	189.33	296	163.73	296	-1	骨骼箭头动画	

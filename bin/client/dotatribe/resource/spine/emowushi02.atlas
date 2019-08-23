@@ -1,0 +1,166 @@
+
+emowushi02.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+B-PF
+  rotate: false
+  xy: 392, 184
+  size: 1, 1
+  orig: 170, 150
+  offset: 84, 123
+  index: -1
+R-CB
+  rotate: false
+  xy: 392, 184
+  size: 1, 1
+  orig: 170, 150
+  offset: 84, 123
+  index: -1
+B-TS
+  rotate: false
+  xy: 392, 184
+  size: 1, 1
+  orig: 170, 150
+  offset: 84, 123
+  index: -1
+L-CB
+  rotate: false
+  xy: 392, 184
+  size: 1, 1
+  orig: 170, 150
+  offset: 84, 123
+  index: -1
+L-JB
+  rotate: false
+  xy: 392, 184
+  size: 1, 1
+  orig: 170, 150
+  offset: 84, 123
+  index: -1
+R-JB
+  rotate: false
+  xy: 392, 184
+  size: 1, 1
+  orig: 170, 150
+  offset: 84, 123
+  index: -1
+B-WB
+  rotate: false
+  xy: 392, 184
+  size: 1, 1
+  orig: 170, 150
+  offset: 84, 123
+  index: -1
+B-TF
+  rotate: true
+  xy: 296, 184
+  size: 71, 94
+  orig: 120, 128
+  offset: 18, 30
+  index: -1
+L-daoju
+  rotate: false
+  xy: 1, 24
+  size: 78, 154
+  orig: 105, 190
+  offset: 12, 13
+  index: -1
+L-datui
+  rotate: false
+  xy: 271, 132
+  size: 24, 47
+  orig: 51, 63
+  offset: 17, 12
+  index: -1
+L-shbi
+  rotate: false
+  xy: 337, 136
+  size: 36, 46
+  orig: 56, 53
+  offset: 3, 6
+  index: -1
+L-xiaobi
+  rotate: true
+  xy: 467, 214
+  size: 41, 44
+  orig: 61, 86
+  offset: 4, 31
+  index: -1
+L-xiaotui
+  rotate: false
+  xy: 297, 135
+  size: 38, 47
+  orig: 50, 70
+  offset: 10, 15
+  index: -1
+R-datui
+  rotate: true
+  xy: 81, 1
+  size: 29, 50
+  orig: 51, 63
+  offset: 15, 8
+  index: -1
+R-shbi
+  rotate: false
+  xy: 227, 130
+  size: 42, 49
+  orig: 56, 53
+  offset: 12, 4
+  index: -1
+R-wuqi
+  rotate: false
+  xy: 1, 180
+  size: 182, 75
+  orig: 273, 150
+  offset: 40, 16
+  index: -1
+R-xiaobi
+  rotate: true
+  xy: 81, 32
+  size: 35, 60
+  orig: 61, 86
+  offset: 16, 22
+  index: -1
+R-xiaotui
+  rotate: true
+  xy: 157, 72
+  size: 31, 60
+  orig: 50, 70
+  offset: 12, 9
+  index: -1
+pigu
+  rotate: false
+  xy: 227, 96
+  size: 47, 32
+  orig: 77, 45
+  offset: 14, 6
+  index: -1
+tou
+  rotate: true
+  xy: 185, 181
+  size: 74, 109
+  orig: 140, 150
+  offset: 37, 23
+  index: -1
+tou1
+  rotate: false
+  xy: 81, 69
+  size: 74, 109
+  orig: 140, 150
+  offset: 37, 22
+  index: -1
+xiong
+  rotate: true
+  xy: 392, 187
+  size: 68, 73
+  orig: 90, 82
+  offset: 4, 8
+  index: -1
+yaodai
+  rotate: false
+  xy: 157, 105
+  size: 68, 73
+  orig: 90, 90
+  offset: 13, 17
+  index: -1

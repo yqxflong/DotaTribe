@@ -1,0 +1,11 @@
+INDEX	HIDE	ZORDER	SCALE	ROTATION	CLASS	TPRIORITY	SWALLOW	SYSLANGID	FSYLEID	FSIZE	COLOR-R	COLOR-G	COLOR-B	COLOR-ALPHA	FILE1	FILE2	FILE3	WIDTH	HEIGHT	ANCHOR-X	ANCHOR-Y	POS-X	POS-Y	IP5-POS-X	IP5-POS-Y	IPAD-POS-X	IPAD-POS-Y	ANDROID-POS-X	ANDROID-POS-Y	ANDROID16_10-POS-X	ANDROID16_10-POS-Y	SOUNDID	OTHERS
+0	0	0	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newqianghua/xxk_x.png	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	"udBG1,"
+1	0	0	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newqianghua/xxk_x.png	0	0	0	0	0	0	265	0	265	0	265	0	265	0	265	0	-1	"udBG2,"
+2	0	1	1	0	HeroEquipBoard	0	1	0	101	0	0	0	0	0	resource/image/newpublic/c_normal.png	resource/image/newpublic/equip_01.png	resource/image/newpublic/dengjikuang.png	0	0	0.5	0.5	19	27	19	27	19	27	19	27	19	27	-1	物品1
+3	0	1	1	0	HeroEquipBoard	0	1	0	101	0	0	0	0	0	resource/image/newpublic/c_normal.png	resource/image/newpublic/equip_01.png	resource/image/newpublic/dengjikuang.png	0	0	0.5	0.5	284	27	284	27	284	27	284	27	284	27	-1	物品2
+4	0	0	1	0	CCLabelTTF	0	1	0	91	0	0	0	0	0	0	0	0	0	0	0	0.5	105	87	105	87	105	87	105	87	105	87	-1	"udNAME1,"
+5	0	0	1	0	CCLabelTTF	0	1	0	91	0	0	0	0	0	0	0	0	0	0	0	0.5	370	87	370	87	370	87	370	87	370	87	-1	"udNAME2,"
+6	0	2	1	0	CCardsStarProgress	0	1	0	0	0	6	0	0	0	resource/image/newpublic/cards_star.png	0	0	1	0	0	0	105	50	105	50	105	50	105	50	105	50	-1	"udSTAR1,"
+7	0	2	1	0	CCardsStarProgress	0	1	0	0	0	6	0	0	0	resource/image/newpublic/cards_star.png	0	0	1	0	0	0	370	50	370	50	370	50	370	50	370	50	-1	"udSTAR2,"
+8	0	0	1	0	CCLabelTTF	0	1	0	46	0	0	0	0	0	0	0	0	0	0	0.5	0.5	60	15	60	15	60	15	60	15	60	15	-1	"udTYPE1,"
+9	0	0	1	0	CCLabelTTF	0	1	0	46	0	0	0	0	0	0	0	0	0	0	0.5	0.5	325	15	325	15	325	15	325	15	325	15	-1	"udTYPE2,"

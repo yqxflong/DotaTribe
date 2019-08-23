@@ -1,0 +1,40 @@
+class  ArtFontLabelBatchNode: public BaseObject,public CCRGBAProtocol
+{
+ 	ArtFontLabelBatchNode();
+	~ArtFontLabelBatchNode();
+	static ArtFontLabelBatchNode *  CreateArtFontWithArray(std::vector<int> & fontArray);
+	bool   InitNumberLabelBatchNode(std::vector<int> & fontArray);
+	bool   SetLabelWithArray(std::vector<int> & fontArray);
+	void   SetAnchorPoint(CCPoint anchorPositon);
+	void   SetPosition(CCPoint position);
+	void   SetScale(float & fscale);
+	float  GetLabelTotalWidth();
+	CCPoint GetAnchorPosition();
+	CCPoint GetPosition();
+	 void setColor(const ccColor3B& color);			//设置颜色接口
+	 const ccColor3B& getColor(void);				//获得颜色
+	 GLubyte getOpacity(void);						//获得透明度
+	 void setOpacity(GLubyte opacity);				//设置透明度
+	 void setOpacityModifyRGB(bool bValue);			//设置透明与颜色同步
+	 bool isOpacityModifyRGB(void);					//获得当前颜色是否与透明度
+
+   //Modify  Begin
+	 bool isCascadeColorEnabled(void) {return false;}
+	 void setCascadeColorEnabled(bool cascadeColorEnabled) {}
+	 void updateDisplayedColor(const ccColor3B& color) {}
+	 bool isCascadeOpacityEnabled(void) {return false;}
+	 void setCascadeOpacityEnabled(bool cascadeOpacityEnabled){}
+	 void updateDisplayedOpacity(GLubyte opacity) {}
+	 const ccColor3B& getDisplayedColor(void) {  return ccWHITE; }
+	 GLubyte getDisplayedOpacity(void) {return 255;}
+
+
+	//Modify End 
+	void   SetVisible(bool isVisible);
+	bool   GetVisible();
+
+	CCSprite *  GetBatchNodeLabel();    
+	   void Init();
+	   void Destroy();
+	   void OnCommandHanlder(int EventTypeID);
+};

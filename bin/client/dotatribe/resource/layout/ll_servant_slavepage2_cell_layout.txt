@@ -1,0 +1,17 @@
+INDEX	HIDE	ZORDER	SCALE	ROTATION	CLASS	TPRIORITY	SWALLOW	SYSLANGID	FSYLEID	FSIZE	COLOR-R	COLOR-G	COLOR-B	COLOR-ALPHA	FILE1	FILE2	FILE3	WIDTH	HEIGHT	ANCHOR-X	ANCHOR-Y	POS-X	POS-Y	IP5-POS-X	IP5-POS-Y	IPAD-POS-X	IPAD-POS-Y	ANDROID-POS-X	ANDROID-POS-Y	ANDROID16_10-POS-X	ANDROID16_10-POS-Y	SOUNDID	OTHERS
+0	0	0	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/nuli/touxianglan_huangsejianbian.png	0	0	0	0	0	0	5	0	5	0	5	0	5	0	5	0	-1	背景
+1	0	2	0.77	0	DTHeroIcon	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0.5	0.5	85	50	85	50	85	50	85	50	85	50	-1	外套图
+2	0	1	1	0	CCLabelTTF	0	1	0	4	0	0	0	0	0	0	0	0	0	0	0	0	130	65	130	65	130	65	130	65	130	65	-1	好友名字
+3	0	1	1	0	CCLabelTTF	0	1	0	4	0	0	0	0	0	0	0	0	0	0	0	0	135	40	135	40	135	40	135	40	135	40	-1	好友等级
+4	0	1	1	0	CCLabelTTF	0	1	527	4	0	0	0	0	0	0	0	0	0	0	0	0	133	15	133	15	133	15	133	15	133	15	-1	好友战力
+5	0	1	1	0	CCLabelTTF	0	1	0	4	0	0	0	0	0	0	0	0	0	0	0	0	190	15	190	15	190	15	190	15	190	15	-1	战力值
+6	0	1	1	0	CMenuItemSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/button_2.png	resource/image/newpublic/button_2_l.png	resource/image/newpublic/button_2_g.png	0	0	0.5	0.5	375	53	375	53	375	53	375	53	375	53	-1	求救按钮
+7	0	2	1	0	CCLabelTTF	0	1	958	42	0	0	0	0	0	0	0	0	0	0	0.5	0.5	375	53	375	53	375	53	375	53	375	53	-1	求救字
+8	0	0	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/nuli/touxianglan_huangsejianbian.png	0	0	0	0	0	0	455	0	455	0	455	0	455	0	455	0	-1	背景
+9	0	2	0.77	0	DTHeroIcon	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0.5	0.5	535	50	535	50	535	50	535	50	535	50	-1	外套图
+10	0	1	1	0	CCLabelTTF	0	1	0	4	0	0	0	0	0	0	0	0	0	0	0	0	580	65	580	65	580	65	580	65	580	65	-1	好友名字
+11	0	1	1	0	CCLabelTTF	0	1	0	4	0	0	0	0	0	0	0	0	0	0	0	0	585	40	585	40	585	40	585	40	585	40	-1	好友等级
+12	0	1	1	0	CCLabelTTF	0	1	527	4	0	0	0	0	0	0	0	0	0	0	0	0	583	15	583	15	583	15	583	15	583	15	-1	好友战力
+13	0	1	1	0	CCLabelTTF	0	1	0	4	0	0	0	0	0	0	0	0	0	0	0	0	640	15	640	15	640	15	640	15	640	15	-1	战力值
+14	0	1	1	0	CMenuItemSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/button_2.png	resource/image/newpublic/button_2_l.png	resource/image/newpublic/button_2_g.png	0	0	0.5	0.5	825	53	825	53	825	53	825	53	825	53	-1	求救按钮
+15	0	2	1	0	CCLabelTTF	0	1	958	42	0	0	0	0	0	0	0	0	0	0	0.5	0.5	825	53	825	53	825	53	825	53	825	53	-1	求救字

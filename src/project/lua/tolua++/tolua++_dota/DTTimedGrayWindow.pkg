@@ -1,0 +1,28 @@
+class DTTimedGrayWindow : public IWindow
+{
+	DTTimedGrayWindow();
+	 ~DTTimedGrayWindow(){};
+
+	/*
+		初始化处理
+	*/
+	    bool    Init();
+	/*
+		加载处理
+	*/
+	    bool    Load();
+	/*
+		桢更新处理
+	*/
+	    void    Tick();
+	/*
+		销毁处理
+	*/ 
+	    void    Destroy();
+
+	/*
+		消息事件响应处理
+	*/
+	    void    OnEventHandler(int iEventType, std::list<std::string>& paramList);
+
+};

@@ -1,0 +1,12 @@
+
+ui_jiantou_a.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+jiantou
+  rotate: false
+  xy: 2, 2
+  size: 45, 31
+  orig: 46, 32
+  offset: 1, 0
+  index: -1

@@ -1,0 +1,4 @@
+class ScaleSprite:public CCSprite{
+	static ScaleSprite* create(const char* filepath);
+	bool init(const char* filepath);
+};

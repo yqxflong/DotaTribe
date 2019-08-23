@@ -1,0 +1,16 @@
+INDEX	HIDE	ZORDER	SCALE	ROTATION	CLASS	TPRIORITY	SWALLOW	SYSLANGID	FSYLEID	FSIZE	COLOR-R	COLOR-G	COLOR-B	COLOR-ALPHA	FILE1	FILE2	FILE3	WIDTH	HEIGHT	ANCHOR-X	ANCHOR-Y	POS-X	POS-Y	IP5-POS-X	IP5-POS-Y	IPAD-POS-X	IPAD-POS-Y	ANDROID-POS-X	ANDROID-POS-Y	ANDROID16_10-POS-X	ANDROID16_10-POS-Y	SOUNDID	OTHERS
+0	0	-1	1	0	CPriorityLayerColor	-30	1	0	0	0	0	0	0	125	0	0	0	1136	768	0	0	0	0	0	0	0	0	0	0	0	0	-1	灰层
+1	0	0	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newxianji/xianji_tanchukuang.png	0	0	0	0	0.5	0.5	538	341	568	320	512	384	533.33	320	507.73	320	-1	主背景
+2	0	2	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newxianji/sshzh.png	0	0	0	0	0.5	0.5	538	480	568	459	512	523	533.33	459	507.73	459	-1	标题背景
+3	0	2	1	0	CCLabelTTF	0	1	6055	48	0	0	0	0	0	0	0	0	0	0	0.5	0.5	398	287	428	266	372	330	393.33	266	367.73	266	-1	召唤一次文字
+4	0	5	1	0	CCLabelTTF	0	1	6056	48	0	0	0	0	0	0	0	0	0	0	0.5	0.5	678	287	708	266	652	330	673.33	266	647.73	266	-1	召唤十次文字
+5	0	0	1	0	CMenuItemSprite	-31	1	0	0	0	0	0	0	0	resource/image/newpublic/anniu_1.png	resource/image/newpublic/anniu_2.png	0	0	0	0.5	0.5	398	287	428	266	372	330	393.33	266	367.73	266	-1	召唤一次按钮
+6	0	0	1	0	CMenuItemSprite	-31	1	0	0	0	0	0	0	0	resource/image/newpublic/anniu2_1.png	resource/image/newpublic/anniu2_2.png	0	0	0	0.5	0.5	678	287	708	266	652	330	673.33	266	647.73	266	-1	召唤十次按钮
+7	0	3	1	0	CCLabelTTF	0	1	6057	111	0	0	0	0	0	0	0	0	0	0	0.5	0.5	538	417	568	396	512	460	533.33	396	507.73	396	-1	说明召唤10次
+8	1	3	1	0	CCLabelTTFMultiline	0	1	6058	107	0	0	0	0	0	0	0	0	0	0	0.5	0.5	538	367	568	346	512	410	533.33	346	507.73	346	-1	五星或六星
+9	1	3	1	0	CCLabelTTF	0	1	6053	100	0	0	0	0	0	0	0	0	0	0	0.5	0.5	398	217	428	196	372	260	393.33	196	367.73	196	-1	本次免费
+10	0	3	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/zs_icon.png	0	0	0	0	0.5	0.5	646	217	676	196	620	260	641.33	196	615.73	196	-1	钻石图标
+11	0	3	1	0	CCLabelTTFMultiline	0	1	0	100	0	0	0	0	0	0	0	0	0	0	0.5	0.5	696	217	726	196	670	260	691.33	196	665.73	196	-1	10次价钱
+12	0	3	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/zs_icon.png	0	0	0	0	0.5	0.5	368	217	390	196	342	260	363.33	196	337.73	196	-1	单价钻石图标
+13	1	3	1	0	CCLabelTTF	0	1	0	100	0	0	0	0	0	0	0	0	0	0	0.5	0.5	416	217	446	196	390	260	411.33	196	385.73	196	-1	单价钻石价钱
+14	0	6	1	0	CMenuItemSprite	-31	1	0	0	0	0	0	0	0	resource/image/newpublic/close.png	resource/image/newpublic/close_l.png	0	0	0	0.5	0.5	801	480	831	459	775	523	796.33	459	770.73	459	-1	关闭按钮

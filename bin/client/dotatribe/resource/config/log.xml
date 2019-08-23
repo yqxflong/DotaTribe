@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Log>
+    <ConsoleLogLevel value="1" />
+    <ConsoleLogMode value="1" />
+    <FileLogLevel value="5" />
+    <FileLogMode value="1"  />
+    <FileLogExtName value="cyou" />
+    <FileLogMaxSize value="11000000" />
+    <FileLogName value="DotaLogFile" />
+</Log>

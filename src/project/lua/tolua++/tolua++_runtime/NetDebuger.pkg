@@ -1,0 +1,15 @@
+class NetDebuger : public IDebuger
+{
+public:
+	void setAccount_Auth_Begin();
+	void setAccount_Auth_End();
+
+	void setLogin_Begin();
+	void setLogin_End();
+
+	void setRole_Begin();
+	void setRole_End();
+
+	//@告诉服务器登陆debug信息
+	void ToServer_LoginDebugInfo();
+};

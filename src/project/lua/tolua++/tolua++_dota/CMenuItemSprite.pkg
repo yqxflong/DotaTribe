@@ -1,0 +1,202 @@
+class CMenuItemSprite:public CCMenuItemSprite{
+	typedef enum{
+		kSELECTEDTYPE_NORMAL=0,					//与父类一样，点击换图
+		kSELECTEDTYPE_SCALETO_SMALL,			//点击变小
+		kSELECTEDTYPE_SCALETO_BIG,				//点击变大
+		kSELECTEDTYPE_FADE,						//点击渐变
+		kSELECTEDTYPE_DARK,						//点击变暗
+	};
+	CMenuItemSprite();
+	~CMenuItemSprite(){};
+	//With No Image Node
+	static CMenuItemSprite* create();
+	bool init();
+	//With Selected Image Node
+	static CMenuItemSprite* create(CCNode* normalSprite, CCNode* selectedSprite, CCObject* target, SEL_MenuHandler selector);
+	bool initWithNormalSprite(CCNode* normalSprite, CCNode* selectedSprite, CCNode* disabledSprite, CCObject* target, SEL_MenuHandler selector);
+	//With Selected Image	 FileName
+	static CMenuItemSprite* create(const char* nor, const char* sel, CCObject* target, SEL_MenuHandler selector);
+	bool initWithNormalImage(const char* nor, const char* sel, CCObject* target, SEL_MenuHandler selector);
+	//With Only norimage
+	static CMenuItemSprite* create(const char* nor, CCObject* target, SEL_MenuHandler selector);
+	bool initWithNormalImage(const char* nor, CCObject* target, SEL_MenuHandler selector);
+	//With Composite SelectedImage  Normal
+	static CMenuItemSprite* createWithCompositeSelectedImage(const char* selImage,const char* norImage);
+	bool initWithCompositeSelectedImage(const char* selImage,const char* norImage);
+	//
+	/*
+		设置按钮选中类型
+	*/
+	void setSelectedType(unsigned int type){
+		m_nSelectedType=type;
+	}
+	//
+	void setIDX(unsigned int idx){
+		m_nIDX=idx;
+	}
+	unsigned int getIDX() const{
+		return m_nIDX;
+	}
+	//
+	void setIsSelected(bool sel){
+		m_bIsSelected=sel;
+	}
+	bool getIsSeleted() const{
+		return m_bIsSelected;
+	}
+	//
+	void setSoundID(int soundid){
+		m_nSoundID=soundid;
+	}
+	void setAttachData1(int attachData){
+		m_nAttachData1=attachData;
+	} 
+	int  getAttachData1(){
+		return  m_nAttachData1;
+	}
+	void setAttachData2(int attachData){
+		m_nAttachData2=attachData;
+	} 
+	int  getAttachData2(){
+		return  m_nAttachData2;
+	}
+
+	/*
+		设置NormalImage并重新定位
+	*/
+	void setNormalImageAndRelocation(CCNode* nor);
+	/*
+		播放声音
+	*/
+	void PlaySound();
+	/*
+		选中事件
+	*/
+	bool Selected_Event();
+	/*
+		取消选中事件
+	*/
+	void UnSelected_Event();
+	/*
+		取消选中事件=active
+	*/
+	void UnSelected_Event_Active();
+};
+class CLabelButtonItem:public CMenuItemSprite
+{
+	CLabelButtonItem();
+	 ~CLabelButtonItem(){};
+	static CLabelButtonItem* create(CCNode* normalSprite, CCNode* selectedSprite,CCLabelTTF* lb);
+	bool init(CCNode* normalSprite, CCNode* selectedSprite,CCLabelTTF* lb);
+	//
+	const char* GetLabelString();
+	void SetLabelString(const char* txt);
+};
+class CPriorityMenu:public CCMenu{
+	static CPriorityMenu* create(int priority,bool swallow=true){
+		CPriorityMenu* menu=new CPriorityMenu;
+		if (menu&&menu->init(priority,swallow))
+		{
+			menu->autorelease();
+			return menu;
+		}
+		delete menu;
+		return menu;
+	}
+	bool init(int priority,bool swallow){
+		if (CCMenu::init())
+		{
+			m_nPriority=priority;
+			m_bSwallow=swallow;
+			return true;
+		}
+		return false;
+	}
+	 void registerWithTouchDispatcher()
+	{
+		CCDirector* pDirector = CCDirector::sharedDirector();
+		pDirector->getTouchDispatcher()->addTargetedDelegate(this, m_nPriority, m_bSwallow);
+	}
+	 bool ccTouchBegan(CCTouch *touch,CCEvent* event);
+	 void ccTouchEnded(CCTouch *touch,CCEvent* event);
+		void ccTouchMoved(CCTouch* touch, CCEvent* event);
+	 void ccTouchCancelled(CCTouch *touch, CCEvent* event);
+	//
+};
+class CTabMenu:public CCMenu{
+	static CTabMenu* create(int priority,bool swallow=true){
+		CTabMenu* menu=new CTabMenu;
+		if (menu&&menu->init(priority,swallow))
+		{
+			menu->autorelease();
+			return menu;
+		}
+		delete menu;
+		return menu;
+	}
+	bool init(int priority,bool swallow){
+		if (CCMenu::init())
+		{
+			m_nPriority=priority;
+			m_bSwallow=swallow;
+			return true;
+		}
+		return false;
+	}
+	 void registerWithTouchDispatcher();
+	 bool ccTouchBegan(CCTouch *touch,CCEvent* event);
+	 void ccTouchEnded(CCTouch *touch,CCEvent* event);
+		void ccTouchMoved(CCTouch* touch, CCEvent* event);
+};
+class CImmovableMenu:public CCImmovableMenu{
+	static CImmovableMenu* create(int priority,bool swallow=false){
+		CImmovableMenu* menu=new CImmovableMenu;
+		if (menu&&menu->init(priority,swallow))
+		{
+			menu->autorelease();
+			return menu;
+		}
+		delete menu;
+		return menu;
+	}
+	bool init(int priority,bool swallow){
+		if (CCImmovableMenu::init())
+		{
+			m_nPriority=priority;
+			m_bSwallow=swallow;
+			return true;
+		}
+		return false;
+	}
+
+	 void registerWithTouchDispatcher()
+	{
+		CCDirector* pDirector = CCDirector::sharedDirector();
+		pDirector->getTouchDispatcher()->addTargetedDelegate(this, m_nPriority, m_bSwallow);
+	}
+
+	 bool ccTouchBegan(CCTouch* touch, CCEvent* event);
+};
+class CTabImmovableMenu:public CImmovableMenu{
+	static CTabImmovableMenu* create(int priority,bool swallow=false){
+		CTabImmovableMenu* menu=new CTabImmovableMenu;
+		if (menu&&menu->init(priority,swallow))
+		{
+			menu->autorelease();
+			return menu;
+		}
+		delete menu;
+		return menu;
+	}
+	bool init(int priority,bool swallow){
+		if (CImmovableMenu::init(priority,swallow))
+		{
+			return true;
+		}
+		return false;
+	}
+	//
+	 bool ccTouchBegan(CCTouch* touch, CCEvent* event);
+	 void ccTouchEnded(CCTouch* touch, CCEvent* event);
+	 void ccTouchMoved(CCTouch* touch, CCEvent* event);
+};

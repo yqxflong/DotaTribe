@@ -1,0 +1,10 @@
+class CTeamIconProgress: public CCNode 
+{  
+	CTeamIconProgress();
+	 ~CTeamIconProgress();
+	static  CTeamIconProgress * createTeamIconProgress(std::string normalFile,std::string grapFile,float finterDistance,bool isFlipX=false,int defualtCount=3);
+	void    resetProgress();
+	void    reduceActiveCount();
+	void    setActiveCount(int activeCount);
+	void    unActiveAllProgress();
+};

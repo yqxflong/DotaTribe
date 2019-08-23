@@ -1,0 +1,43 @@
+{
+"bones": [
+	{ "name": "root" },
+	{ "name": "jiantou", "parent": "root", "length": 103, "rotation": 90 }
+],
+"slots": [
+	{ "name": "jiantou", "bone": "jiantou", "attachment": "jiantou" }
+],
+"skins": {
+	"default": {
+		"jiantou": {
+			"jiantou": { "rotation": -90, "width": 46, "height": 32 }
+		}
+	}
+},
+"events": {},
+"animations": {
+	"ui_jiantou_a": {
+		"bones": {
+			"jiantou": {
+				"rotate": [
+					{ "time": 0, "angle": 180 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"slots": {
+			"jiantou": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 1.1666, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

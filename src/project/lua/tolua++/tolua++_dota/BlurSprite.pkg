@@ -1,0 +1,10 @@
+class BlurSprite : public CCSprite
+{
+public:
+	void setBlurSize(float size);
+	static BlurSprite * create(const char * pszFileName, std::string fshfilepath);
+	bool initWithTexture(CCTexture2D * texture, const CCRect& rect);
+	void draw();
+	void initProgram();
+	void listenBackToForeground(CCObject * obj);
+};

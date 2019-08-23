@@ -1,0 +1,22 @@
+class PreCCMoveTo: public CCActionInterval
+{
+	/** initializes the action */
+	bool initWithDuration(float duration, const CCPoint& position);
+
+	 CCObject* copyWithZone(CCZone* pZone);
+	 void startWithTarget(CCNode *pTarget);
+	 void update(float time);
+
+	/** creates the action */
+	static PreCCMoveTo* create(float duration, const CCPoint& position);
+};
+class  PreCCMoveBy: public PreCCMoveTo
+{
+	/** initializes the action */
+	bool initWithDuration(float duration, const CCPoint& position);
+	 void startWithTarget(CCNode *pTarget);
+	 CCActionInterval* reverse(void);
+
+	/** creates the action */
+	static PreCCMoveBy* create(float duration, const CCPoint& position);
+};

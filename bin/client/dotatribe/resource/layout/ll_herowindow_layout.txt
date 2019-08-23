@@ -1,0 +1,12 @@
+INDEX	HIDE	ZORDER	SCALE	ROTATION	CLASS	TPRIORITY	SWALLOW	SYSLANGID	FSYLEID	FSIZE	COLOR-R	COLOR-G	COLOR-B	COLOR-ALPHA	FILE1	FILE2	FILE3	WIDTH	HEIGHT	ANCHOR-X	ANCHOR-Y	POS-X	POS-Y	IP5-POS-X	IP5-POS-Y	IPAD-POS-X	IPAD-POS-Y	ANDROID-POS-X	ANDROID-POS-Y	ANDROID16_10-POS-X	ANDROID16_10-POS-Y	SOUNDID	OTHERS
+0	0	0	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newxianji/zhaohuangongyong_beijingtu.png	0	0	0	0	0.5	0.5	538	384	568	320	512	384	533.33	320	507.73	320	-1	kBG
+1	0	11	1	0	CMenuItemSprite	-3	1	0	0	0	0	0	0	0	resource/image/newpublic/close.png	resource/image/newpublic/close_l.png	0	0	0	0.5	0.5	1008	670	1038	606	982	670	1003.33	606	977.73	606	-1	"kCLOSE,"
+2	0	11	1	0	CMenuItemSprite	-3	1	0	0	0	0	0	0	0	resource/image/newpublic/help.png	resource/image/newpublic/help_l.png	0	0	0	0.5	0.5	918	670	948	606	892	670	913.33	606	887.73	606	-1	kHELP
+3	0	11	1	0	CMenuItemSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/hongseanniu_zhengc.png	resource/image/newpublic/hongseanniu_anxia.png	0	0	0	0.5	0.5	324	264	354	200	298	264	319.33	200	293.73	200	-1	"kBTN_SOUL,"
+4	0	11	1	0	CCLabelTTF	0	1	223	49	0	0	0	0	0	0	0	0	0	0	0.5	0.5	324	264	354	200	298	264	319.33	200	293.73	200	-1	"kBTN_SOUL_LABEL,"
+5	0	11	1	0	CTabMenuItemSprite	-3	1	0	0	0	0	0	0	0	resource/image/newpublic/yeqian_zhc.png	resource/image/newpublic/yeqian_anx.png	0	0	0	0.5	0.5	216	665	246	601	190	665	211.33	601	185.73	601	-1	"kTAB_1,"
+6	0	11	1	0	CCLabelTTF	0	1	99	48	0	0	0	0	0	0	0	0	0	0	0.5	0.5	216	665	246	601	190	665	211.33	601	185.73	601	-1	"kTAB_1_TITLE,"
+7	0	11	1	0	CTabMenuItemSprite	-3	1	0	0	0	0	0	0	0	resource/image/newpublic/yeqian_zhc.png	resource/image/newpublic/yeqian_anx.png	0	0	0	0.5	0.5	376	665	406	601	350	665	371.33	601	345.73	601	-1	"kTAB_2,"
+8	0	11	1	0	CCLabelTTF	0	1	99	48	0	0	0	0	0	0	0	0	0	0	0.5	0.5	376	665	406	601	350	665	371.33	601	345.73	601	-1	"kTAB_2_TITLE,"
+9	0	11	1	0	CTabMenuItemSprite	-3	1	0	0	0	0	0	0	0	resource/image/newpublic/yeqian_zhc.png	resource/image/newpublic/yeqian_anx.png	0	0	0	0.5	0.5	536	665	566	601	510	665	531.33	601	505.73	601	-1	"kTAB_3,"
+10	0	11	1	0	CCLabelTTF	0	1	99	48	0	0	0	0	0	0	0	0	0	0	0.5	0.5	536	665	566	601	510	665	531.33	601	505.73	601	-1	"kTAB_3_TITLE,"

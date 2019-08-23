@@ -1,0 +1,10 @@
+INDEX	HIDE	ZORDER	SCALE	ROTATION	CLASS	TPRIORITY	SWALLOW	SYSLANGID	FSYLEID	FSIZE	COLOR-R	COLOR-G	COLOR-B	COLOR-ALPHA	FILE1	FILE2	FILE3	WIDTH	HEIGHT	ANCHOR-X	ANCHOR-Y	POS-X	POS-Y	IP5-POS-X	IP5-POS-Y	IPAD-POS-X	IPAD-POS-Y	ANDROID-POS-X	ANDROID-POS-Y	ANDROID16_10-POS-X	ANDROID16_10-POS-Y	SOUNDID	OTHERS
+0	0	0	1	0	CCSprite	0	1	0	0	15	0	0	0	0	resource/image/newpublic/soul_cellbg.png	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	背景
+1	0	1	0.77	0	DTHeroIcon	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	70	65	70	65	70	65	70	65	70	65	-1	战魂Icon
+2	0	2	1	0	CCLabelTTF	0	1	1	48	0	0	0	0	0	0	0	0	20	0	0	0	130	80	130	80	130	80	130	80	130	80	-1	天赋名称
+3	0	2	1	0	CCLabelTTFMultiline	0	1	1	114	0	0	0	0	0	0	0	0	240	0	0	1	130	50	130	50	130	50	130	50	130	50	-1	等级显示
+4	0	2	1	0	CImMenuItemSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/button_2.png	resource/image/newpublic/button_2_l.png	0	0	0	0.5	0.5	380	65	380	65	380	65	380	65	380	65	-1	使用按钮
+5	0	2	1	0	CCLabelTTF	0	1	0	48	0	0	0	0	0	0	0	0	0	0	0.5	0.5	380	65	380	65	380	65	380	65	380	65	-1	使用文字
+6	0	2	1	0	CImMenuItemSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/sj_zc.png	resource/image/newpublic/sj_l.png	0	0	0	0.5	0.5	250	40	250	40	250	40	250	40	250	40	-1	升级战魂等级按钮
+7	0	2	1	0	CCLabelTTF	0	1	6091	84	0	0	0	0	0	0	0	0	0	0	0.5	0.5	227	164	227	164	227	164	227	164	227	164	-1	未激活文字
+8	0	0	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newpublic/soul_title.png	0	0	0	0	0	0	0	145	0	145	0	145	0	145	0	145	-1	未激活标题

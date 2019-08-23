@@ -1,0 +1,54 @@
+class  UITowSideStretchNodeLayer: public CCLayer
+{
+	typedef enum
+	{
+		_UITWOSIDESTRETCH_UNKONW_TYPE_,
+		_UITWOSIDESTRETCH_IDLE_TYPE_,    //空闲
+		_UITWOSIDESTRETCH_UNFOLD_TYPE_,  //展开
+		_UITWOSIDESTRETCH_SHRINK_TYPE_,  //收缩 
+	};
+	UITowSideStretchNodeLayer();
+	~UITowSideStretchNodeLayer();
+	//双向伸展层创建函数
+	static  UITowSideStretchNodeLayer *  createTowSideStretchLayer(CCNode * leftNormalNode=NULL,CCNode * leftSelectedNode=NULL,CCNode * rightNormalNode=NULL,CCNode * rightSelectedNode=NULL);
+	  void  onEnter();
+	  void  onExit();
+	 bool  ccTouchBegan(CCTouch *pTouch, CCEvent *pEvent);
+	 void  ccTouchMoved(CCTouch *pTouch, CCEvent *pEvent);
+	 void  ccTouchEnded(CCTouch *pTouch, CCEvent *pEvent);
+    bool   onShowUnfoldNode(bool isLeft);  //展开
+	bool   onShowShrinkNode(bool isLeft);  //收缩 
+	
+	//获取屏幕左半边Rect
+	CCRect  getLeftScreenRect();  
+	CCRect  getRightScreenRect();
+
+	//判断触摸是否在左边屏幕
+	bool   containTouchOnLeftRect(CCTouch * pTouch);
+	//判断触摸是否在右边屏幕
+	bool   containTouchOnRightRect(CCTouch * pTouch);
+
+	 
+//属性的Set
+	void   setLeftNormalNode(CCNode * leftNormal);
+	void   setleftSelectNode(CCNode * leftSelected);
+ 	void   setRightNormalNode(CCNode * rightNormal);
+	void   setRightSelectNode(CCNode * rightSelected);
+	void   setStretchTime(float stretchTime);
+	void   setTouchEnable(bool touchEnable);
+	void   setTouchPriority(int touchPriority);
+
+	void   setNormalAndSelectWith(float normalWidth,float selectWidth);
+	void   setNormalAndSelectYPos(float normalYPos,float selectYPos);
+  
+
+//属性的Get
+	CCNode *   getLeftNormalNode();
+	CCNode *   getleftSelectNode();
+	CCNode *   getRightNormalNode();
+	CCNode *   getRightSelectedNode();
+	float   getStretchTime();
+	bool    getTouchEnable();
+	int     getTouchPriority();
+	 
+};

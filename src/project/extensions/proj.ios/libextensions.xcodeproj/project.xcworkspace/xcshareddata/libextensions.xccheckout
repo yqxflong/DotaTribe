@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AAD236C5-2BF3-4A4B-8A3B-A49593102030</string>
+	<key>IDESourceControlProjectName</key>
+	<string>libextensions</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5B8074F1-B4C1-4902-8027-ADED2E5B81D2</key>
+		<string>http://10.6.153.45:8000/svn/mrd_pat1/dota/src/trunk/client</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>project/extensions/proj.ios/libextensions.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5B8074F1-B4C1-4902-8027-ADED2E5B81D2</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>5B8074F1-B4C1-4902-8027-ADED2E5B81D2</key>
+		<string>http://10.6.153.45:8000/svn/mrd_pat1</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://10.6.153.45:8000/svn/mrd_pat1/dota/src/trunk/client/project/extensions/proj.ios/libextensions.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5B8074F1-B4C1-4902-8027-ADED2E5B81D2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5B8074F1-B4C1-4902-8027-ADED2E5B81D2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>code</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9DD7D9AA-4708-4064-9409-88FE75BD0DC2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>miniant</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F9E85871-99A5-4CAB-B8ED-80C9DB26D753</key>
+		<string>http://10.6.153.45:8000/svn/mrd_pat1/common/client/project/VIP3D/project/miniant/proj.ios/miniant/miniant.xcodeproj</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>project/miniant/proj.ios/miniant.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F9E85871-99A5-4CAB-B8ED-80C9DB26D753</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>F9E85871-99A5-4CAB-B8ED-80C9DB26D753</key>
+		<string>http://10.6.153.45:8000/svn/mrd_pat1</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://10.6.153.45:8000/svn/mrd_pat1/common/client/project/VIP3D/project/miniant/proj.ios/miniant/miniant.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F9E85871-99A5-4CAB-B8ED-80C9DB26D753</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F9E85871-99A5-4CAB-B8ED-80C9DB26D753</string>
+			<key>IDESourceControlWCCName</key>
+			<string>miniant</string>
+		</dict>
+	</array>
+</dict>
+</plist>

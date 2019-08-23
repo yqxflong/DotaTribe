@@ -1,0 +1,19 @@
+class CProgressTimerDelegate{
+	 void CallBack_NextLevel()=0;
+	 void CallBack_RunFinish()=0;
+};
+class  CProgressTimer:public CCProgressTimer
+{
+	CProgressTimer()
+	{
+		m_Duration_ = 1;
+		m_pDelegate = NULL;
+	}
+	 ~ CProgressTimer(){};
+	static  CProgressTimer* create(const char *pszFileName,float time);
+	bool init(const char *pszFileName,float time);
+	void setRunSchedule(float posbegin,float posend,int times);
+	void RunFinish();
+	void NextLevel();
+	void setDelegate(CProgressTimerDelegate *Delegate);
+};

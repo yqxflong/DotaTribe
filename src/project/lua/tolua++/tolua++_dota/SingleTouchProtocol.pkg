@@ -1,0 +1,12 @@
+class  SingleTouchProtocol
+{ 
+	SingleTouchProtocol(void);
+	 ~SingleTouchProtocol();
+	  bool   checkRowRank(float touchYPos);
+	  bool   checkColumnRank(float touchXPos);
+	  bool	checkIsContainTouch(CCPoint &touchPos);
+	  void   setSingleTouchUniqueID(int singleTouchID);
+	  void   setExpendTouchSize(float touchExpendWidth,float touchExpendHeight=0.0f);
+	  CCSize  getExpendTouchSize();
+	  int    getSingleTouchUniqueID();
+};

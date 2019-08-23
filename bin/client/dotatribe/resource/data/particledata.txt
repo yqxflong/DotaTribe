@@ -1,0 +1,21 @@
+id	播放类型	特效层级	粒子文件	骨骼绑点	x偏移	y偏移	角度偏移	位置跟随	角度跟随	是否拖尾	是否启用叠加模式	设置粒子X分布区间 -1 为读取plist 默认VarianceX	设置粒子Y分布区间 -1 为读取plist 默认VarianceY
+0	2	11	resource/particles/lizi_ziranzhixu_001.plist	xiong	0	40	0	1	0	1	0	-1	-1
+1	2	11	resource/particles/lizi_kuangzhanshi_001.plist	R-wuqi	0	0	0	1	0	0	0	-1	-1
+2	2	11	resource/particles/lizi_kuangzhanshi_001.plist	L-wuqi	0	0	0	1	0	0	0	-1	-1
+3	2	11	resource/particles/lizi_hongliubuff_001.plist	xiong	0	-30	0	1	0	1	1	-1	-1
+4	2	11	resource/particles/lizi_bingfeng_001.plist	xiong	0	0	0	1	0	1	0	-1	-1
+5	2	11	resource/particles/lizi_zuzhou_001.plist	xiong	0	0	0	1	0	1	1	-1	-1
+6	2	11	resource/particles/lizi_geliebuff.plist	xiong	0	0	0	1	0	1	0	-1	-1
+7	0	11	resource/particles/lizi_baodianbai_001.plist	xiong	0	0	0	1	1	0	1	-1	-1
+8	0	11	resource/particles/lizi_zuzhou_002.plist	xiong	0	0	0	1	1	0	0	-1	-1
+9	0	11	resource/particles/lizi_zuzhou_003.plist	xiong	0	0	0	1	0	0	0	-1	-1
+10	2	11	resource/particles/lizi_shoulie_001.plist	xiong	0	0	0	1	0	1	0	-1	-1
+11	2	11	resource/particles/lizi_kuangzhanshi_002.plist	R-wuqi	0	0	0	1	0	1	0	-1	-1
+12	2	11	resource/particles/lizi_kuangzhanshi_002.plist	L-wuqi	0	0	0	1	0	1	0	-1	-1
+13	2	11	resource/particles/lizi_bingfeng_002.plist	xiong	0	0	0	1	0	1	0	-1	-1
+14	2	2	resource/particles/scn_jididao_b.plist	xiong	0	80	0	1	0	1	0	1136	-1
+15	2	2	resource/particles/scn_jididao_a.plist	xiong	-80	-50	0	1	0	1	0	-1	-1
+16	2	2	resource/particles/scn_jididao_a.plist	xiong	500	-100	0	1	0	1	0	-1	-1
+17	2	11	resource/particles/scn_xiaxue_a.plist	xiong	0	400	0	1	0	1	0	1136	-1
+18	2	11	resource/particles/scn_xiaxue_b.plist	xiong	0	400	0	1	0	1	0	1136	-1
+19	2	11	resource/particles/lianjinstar.plist	xiong	0	0	0	1	0	1	0	-1	-1

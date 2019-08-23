@@ -1,0 +1,121 @@
+样式ID	字体	Fontsize	ColorR	ColorG	ColorB	注释
+1	ArialRoundedMTBold	16	255	255	255	白色16
+2	ArialRoundedMTBold	16	255	255	255	白色16加粗
+3	ArialRoundedMTBold	18	255	255	255	白色18
+4	ArialRoundedMTBold	18	255	255	255	白色18加粗
+5	ArialRoundedMTBold	16	116	33	1	红色16
+6	ArialRoundedMTBold	16	116	33	1	红色16加粗
+7	ArialRoundedMTBold	18	116	33	1	红色18
+8	ArialRoundedMTBold	18	116	33	1	红色18加粗
+9	ArialRoundedMTBold	20	116	33	1	红色20
+10	ArialRoundedMTBold	20	116	33	1	红色20加粗
+11	ArialRoundedMTBold	16	255	216	0	黄色16
+12	ArialRoundedMTBold	16	255	216	0	黄色16加粗
+13	ArialRoundedMTBold	18	255	216	0	黄色18
+14	ArialRoundedMTBold	18	255	216	0	黄色18加粗
+15	ArialRoundedMTBold	20	255	216	0	黄色20
+16	ArialRoundedMTBold	20	255	216	0	黄色20加粗
+17	ArialRoundedMTBold	16	7	68	160	蓝色16加粗
+18	ArialRoundedMTBold	18	7	68	160	蓝色18加粗
+19	ArialRoundedMTBold	20	7	68	160	蓝色20加粗
+20	ArialRoundedMTBold	22	7	68	160	蓝色22加粗
+21	ArialRoundedMTBold	16	255	168	0	深黄16加粗
+22	ArialRoundedMTBold	20	255	168	0	深黄20
+23	ArialRoundedMTBold	22	255	168	0	深黄22
+24	ArialRoundedMTBold	18	255	219	183	浅黄18
+25	ArialRoundedMTBold	20	245	205	162	tips标签黄20
+26	ArialRoundedMTBold	14	235	196	154	暗黄14
+27	ArialRoundedMTBold	16	235	196	154	暗黄16
+28	ArialRoundedMTBold	18	235	196	154	暗黄18
+29	ArialRoundedMTBold	18	235	196	154	暗黄18加粗
+30	ArialRoundedMTBold	20	235	196	154	暗黄20
+31	ArialRoundedMTBold	18	203	121	32	橘黄18
+32	ArialRoundedMTBold	14	127	225	215	淡蓝14
+33	ArialRoundedMTBold	18	56	201	255	浅蓝18加粗
+34	ArialRoundedMTBold	16	50	87	1	绿色16加粗
+35	ArialRoundedMTBold	20	236	197	130	褐色20
+36	ArialRoundedMTBold	20	71	20	0	棕色20
+37	ArialRoundedMTBold	20	231	204	158	筛选框文字
+38	ArialRoundedMTBold	16	255	224	190	浅色16
+39	ArialRoundedMTBold	18	114	62	0	最大+？加粗
+40	ArialRoundedMTBold	20	217	176	131	比较tips标题
+41	ArialRoundedMTBold	18	217	176	131	比较tips正文
+42	ArialRoundedMTBold	20	255	255	255	白色20
+43	ArialRoundedMTBold	20	255	255	255	白色20加粗
+44	ArialRoundedMTBold	20	255	219	183	浅黄20
+45	ArialRoundedMTBold	22	255	247	228	新手引导
+46	ArialRoundedMTBold	18	81	231	208	蓝色18号
+47	ArialRoundedMTBold	18	255	245	208	关卡加粗
+48	ArialRoundedMTBold	24	255	255	255	白色24
+49	ArialRoundedMTBold	22	255	255	255	白色22
+50	ArialRoundedMTBold	18	255	82	29	商店不可购买
+51	ArialRoundedMTBold	20	44	185	250	剩余献祭次数
+52	ArialRoundedMTBold	30	255	255	255	白色30
+53	ArialRoundedMTBold	30	116	33	1	红色30加粗
+54	ArialRoundedMTBold	24	116	33	1	红色24加粗
+55	ArialRoundedMTBold	16	101	78	53	
+56	ArialRoundedMTBold	14	255	255	255	白色14
+57	ArialRoundedMTBold	14	101	78	53	描述文字
+58	ArialRoundedMTBold	18	165	154	235	
+59	ArialRoundedMTBold	18	255	170	79	战斗界面黄色等级
+60	ArialRoundedMTBold	14	248	225	188	战斗界面名字
+61	ArialRoundedMTBold	14	255	170	79	
+62	ArialRoundedMTBold	12	255	170	79	
+63	ArialRoundedMTBold	14	184	180	229	
+64	ArialRoundedMTBold	24	255	170	79	
+65	ArialRoundedMTBold	22	1	74	141	蓝色22
+66	ArialRoundedMTBold	22	116	33	1	红色22加粗
+67	ArialRoundedMTBold	18	75	209	221	浮动提示框文字
+68	ArialRoundedMTBold	18	71	28	0	问号文字
+69	ArialRoundedMTBold	18	255	170	79	
+70	ArialRoundedMTBold	18	1	74	141	蓝色18
+71	ArialRoundedMTBold	16	1	74	141	蓝色16
+72	ArialRoundedMTBold	18	250	238	210	任务描述
+73	ArialRoundedMTBold	20	250	238	210	任务奖励
+74	ArialRoundedMTBold	18	255	200	31	任务跟踪
+75	ArialRoundedMTBold	18	169	217	89	主界面LV
+76	ArialRoundedMTBold	18	255	238	161	主界面等级值
+77	ArialRoundedMTBold	14	245	255	139	进度条数字
+78	ArialRoundedMTBold	18	246	237	216	进度条数字
+79	ArialRoundedMTBold	20	47	217	242	蓝色20号
+80	ArialRoundedMTBold	18	255	192	0	黄色18号
+81	ArialRoundedMTBold	20	255	192	0	黄色20号
+82	ArialRoundedMTBold	20	200	150	111	褐色20号
+83	ArialRoundedMTBold	22	255	255	255	白色22
+84	ArialRoundedMTBold	22	255	192	0	黄色22号
+85	ArialRoundedMTBold	22	231	115	8	橘色22号
+86	ArialRoundedMTBold	20	226	235	123	绿色20号
+87	ArialRoundedMTBold	18	231	115	8	橘色18号
+88	ArialRoundedMTBold	20	231	115	8	橘色20号
+89	ArialRoundedMTBold	30	255	255	255	白色30
+90	ArialRoundedMTBold	20	233	86	28	橘红色20
+91	ArialRoundedMTBold	20	255	255	255	白色品质20
+92	ArialRoundedMTBold	20	169	217	89	绿色品质20
+93	ArialRoundedMTBold	20	47	217	242	蓝色品质20
+94	ArialRoundedMTBold	20	193	154	252	紫色品质20
+95	ArialRoundedMTBold	20	255	163	79	橙色品质20
+96	ArialRoundedMTBold	20	204	153	102	浅黄
+97	ArialRoundedMTBold	22	204	153	102	浅黄
+98	ArialRoundedMTBold	18	255	255	102	
+99	ArialRoundedMTBold	18	255	204	0	
+100	ArialRoundedMTBold	22	255	255	204	
+101	ArialRoundedMTBold	20	169	217	89	绿色18
+102	ArialRoundedMTBold	22	255	255	153	
+103	ArialRoundedMTBold	22	0	255	0	绿色22
+104	ArialRoundedMTBold	26	255	255	255	白色26
+105	ArialRoundedMTBold	22	231	62	10	红色22
+106	ArialRoundedMTBold	16	47	217	242	蓝色16
+107	ArialRoundedMTBold	24	255	192	0	黄色24
+108	ArialRoundedMTBold	30	255	204	102	vip等级字
+109	ArialRoundedMTBold	22	255	204	102	vip特权
+110	ArialRoundedMTBold	22	0	204	255	英雄品阶
+111	ArialRoundedMTBold	24	47	217	242	蓝色24
+112	ArialRoundedMTBold	20	182	228	255	浅蓝20
+113	ArialRoundedMTBold	25	255	192	0	黄色25号
+114	ArialRoundedMTBold	24	198	255	0	绿色24
+115	ArialRoundedMTBold	24	255	0	0	红色24
+116	ArialRoundedMTBold	24	169	132	100	兑换码输入框holder字体
+117	ArialRoundedMTBold	18	255	0	0	红色18
+118	ArialRoundedMTBold	20	255	0	0	红色20
+119	ArialRoundedMTBold	18	169	217	89	绿色18
+120	ArialRoundedMTBold	30	255	122	0	橘色30

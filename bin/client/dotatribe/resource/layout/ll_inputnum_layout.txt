@@ -1,0 +1,13 @@
+INDEX	HIDE	ZORDER	SCALE	ROTATION	CLASS	TPRIORITY	SWALLOW	SYSLANGID	FSYLEID	FSIZE	COLOR-R	COLOR-G	COLOR-B	COLOR-ALPHA	FILE1	FILE2	FILE3	WIDTH	HEIGHT	ANCHOR-X	ANCHOR-Y	POS-X	POS-Y	IP5-POS-X	IP5-POS-Y	IPAD-POS-X	IPAD-POS-Y	ANDROID-POS-X	ANDROID-POS-Y	ANDROID16_10-POS-X	ANDROID16_10-POS-Y	SOUNDID	OTHERS
+0	0	-1	1	0	CPriorityLayerColor	-138	1	0	0	0	0	0	0	125	0	0	0	1136	768	0	0	0	0	0	0	0	0	0	0	0	0	-1	灰层
+1	0	0	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/newbag/plgmk_02.png	0	0	512	300	0.5	0.5	564	341	568	320	512	384	533.33	320	507.73	320	-1	主背景
+2	1	1	1	0	CCSprite	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0.5	0.5	564	512	568	491	512	555	533.33	491	507.73	491	-1	"标题背景,无缩放"
+3	0	4	1	0	CCLabelTTF	0	1	285	48	0	0	0	0	0	0	0	0	0	0	0.5	0.5	564	207	568	186	512	250	533.33	186	507.73	186	-1	确认按钮文字图
+4	0	4	1	0	CCLabelTTF	0	1	284	83	0	0	0	0	0	0	0	0	0	0	0.5	0.5	564	372	568	351	512	415	533.33	351	507.73	351	-1	请输入数量
+5	0	1	1	0	CMenuItemSprite	-139	1	0	0	0	0	0	0	0	resource/image/newpublic/close.png	resource/image/newpublic/close_l.png	0	0	0	0.5	0.5	812	447	816	426	760	490	781.33	426	755.73	426	-1	关闭按钮
+6	0	1	1	0	CMenuItemSprite	-139	1	0	0	0	0	0	0	0	resource/image/newpublic/button.png	resource/image/newpublic/button_l.png	0	0	0	0.5	0.5	564	207	568	186	512	250	533.33	186	507.73	186	-1	确认按钮
+7	0	1	1	0	CMenuItemSprite	-139	1	0	0	0	0	0	0	0	resource/image/newpublic/jianshao_01.png	resource/image/newpublic/jianshao_02.png	0	0	0	0.5	0.5	454	317	458	296	402	360	423.33	296	397.73	296	-1	减少按钮
+8	0	1	1	0	CMenuItemSprite	-139	1	0	0	0	0	0	0	0	resource/image/newpublic/zengjia_01.png	resource/image/newpublic/zengjia_02.png	0	0	0	0.5	0.5	674	317	678	296	622	360	643.33	296	617.73	296	-1	增加按钮
+9	0	1	1	0	CMenuItemSprite	-139	1	0	0	0	0	0	0	0	resource/image/newpublic/zuidaz_01.png	resource/image/newpublic/zuidaz_02.png	0	0	0	0.5	0.5	744	317	748	296	692	360	713.33	296	687.73	296	-1	最大按钮
+10	0	2	1	0	CCLabelTTF	0	1	265	48	0	0	0	0	0	0	0	0	0	0	0.5	0.5	564	447	568	426	512	490	533.33	426	507.73	426	-1	标题
+11	0	3	1	0	CCEditBox	-160	1	0	83	18	255	216	0	0	resource/image/newpublic/szxianshikuang.png	0	0	161	32	0.5	0.5	564	317	568	296	512	360	533.33	296	507.73	296	-1	输入框

@@ -1,0 +1,138 @@
+
+cailangren03.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+B-BS
+  rotate: false
+  xy: 142, 131
+  size: 140, 124
+  orig: 205, 230
+  offset: 12, 56
+  index: -1
+L-JB
+  rotate: false
+  xy: 509, 253
+  size: 2, 2
+  orig: 126, 143
+  offset: 25, 46
+  index: -1
+L-wuqi
+  rotate: false
+  xy: 509, 253
+  size: 2, 2
+  orig: 126, 143
+  offset: 25, 46
+  index: -1
+R-JB
+  rotate: false
+  xy: 509, 253
+  size: 2, 2
+  orig: 126, 143
+  offset: 25, 46
+  index: -1
+bozi
+  rotate: false
+  xy: 509, 253
+  size: 2, 2
+  orig: 126, 143
+  offset: 25, 46
+  index: -1
+L-datui
+  rotate: false
+  xy: 456, 113
+  size: 47, 37
+  orig: 90, 130
+  offset: 22, 39
+  index: -1
+L-shbi
+  rotate: false
+  xy: 210, 0
+  size: 41, 70
+  orig: 120, 140
+  offset: 37, 34
+  index: -1
+L-xiaobi
+  rotate: false
+  xy: 347, 89
+  size: 44, 61
+  orig: 125, 160
+  offset: 43, 58
+  index: -1
+L-xiaotui
+  rotate: false
+  xy: 252, 9
+  size: 46, 65
+  orig: 125, 110
+  offset: 40, 16
+  index: -1
+R-datui
+  rotate: true
+  xy: 142, 71
+  size: 59, 92
+  orig: 90, 130
+  offset: 13, 13
+  index: -1
+R-shbi
+  rotate: true
+  xy: 235, 75
+  size: 55, 69
+  orig: 120, 140
+  offset: 37, 41
+  index: -1
+R-wuqi
+  rotate: false
+  xy: 0, 0
+  size: 209, 65
+  orig: 360, 200
+  offset: 46, 43
+  index: -1
+R-xiaobi
+  rotate: false
+  xy: 305, 83
+  size: 41, 67
+  orig: 125, 160
+  offset: 44, 53
+  index: -1
+R-xiaotui
+  rotate: true
+  xy: 392, 116
+  size: 34, 63
+  orig: 140, 125
+  offset: 62, 23
+  index: -1
+pigu
+  rotate: false
+  xy: 392, 84
+  size: 60, 31
+  orig: 125, 145
+  offset: 29, 26
+  index: -1
+tou
+  rotate: false
+  xy: 283, 151
+  size: 98, 104
+  orig: 215, 195
+  offset: 68, 32
+  index: -1
+tou1
+  rotate: false
+  xy: 382, 151
+  size: 98, 104
+  orig: 215, 195
+  offset: 68, 32
+  index: -1
+xiong
+  rotate: false
+  xy: 0, 66
+  size: 141, 189
+  orig: 190, 200
+  offset: 30, 1
+  index: -1
+yaodai
+  rotate: true
+  xy: 481, 187
+  size: 68, 27
+  orig: 125, 145
+  offset: 25, 53
+  index: -1

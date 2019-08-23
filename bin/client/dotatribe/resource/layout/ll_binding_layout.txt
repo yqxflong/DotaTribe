@@ -1,0 +1,15 @@
+INDEX	HIDE	ZORDER	SCALE	ROTATION	CLASS	TPRIORITY	SWALLOW	SYSLANGID	FSYLEID	FSIZE	COLOR-R	COLOR-G	COLOR-B	COLOR-ALPHA	FILE1	FILE2	FILE3	WIDTH	HEIGHT	ANCHOR-X	ANCHOR-Y	POS-X	POS-Y	IP5-POS-X	IP5-POS-Y	IPAD-POS-X	IPAD-POS-Y	ANDROID-POS-X	ANDROID-POS-Y	ANDROID16_10-POS-X	ANDROID16_10-POS-Y	SOUNDID	OTHERS
+0	0	1	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/login/login_bg.png	0	0	0	0	0.5	0.5	564	400	568	336	512	400	533.33	336	507.73	336	-1	最外bg
+1	0	2	1	0	CCLabelTTF	0	1	264	10	0	0	0	0	0	0	0	0	0	0	0.5	0.5	443	445	447	381	391	445	412.33	381	386.73	381	-1	用户名
+2	0	2	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/public/show_text_bg.png	0	0	0	0	0.5	0.5	592	445	596	381	540	445	561.33	381	535.73	381	-1	输入用户名的框
+3	0	5	1	0	CCEditBox	-160	1	0	1	16	255	255	255	0	resource/image/public/null.png	0	0	200	35	0.5	0.5	587	445	591	381	535	445	556.33	381	530.73	381	-1	输入用户名的CCEditBox
+4	0	2	1	0	CCLabelTTF	0	1	265	10	0	0	0	0	0	0	0	0	0	0	0.5	0.5	443	383	447	319	391	383	412.33	319	386.73	319	-1	密码
+5	0	2	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/public/show_text_bg.png	0	0	0	0	0.5	0.5	592	383	596	319	540	383	561.33	319	535.73	319	-1	输入密码的框
+6	0	2	1	0	CCEditBox	-160	1	0	1	16	255	255	255	0	resource/image/public/null.png	0	0	200	35	0.5	0.5	587	383	591	319	535	383	556.33	319	530.73	319	-1	输入密码的CCEditBox
+7	0	2	1	0	CMenuItemSprite	-21	1	0	0	0	0	0	0	0	resource/image/public/btn_5.png	resource/image/public/btn_5_selected.png	0	0	0	0.5	0.5	564	292	568	228	512	292	533.33	228	507.73	228	-1	绑定账号按钮
+8	0	2	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/labelimage/lb_binding_account.png	0	0	0	0	0.5	0.5	564	292	568	228	512	292	533.33	228	507.73	228	-1	绑定账号
+9	0	2	1	0	CMenuItemSprite	-21	1	0	0	0	0	0	0	0	resource/image/public/close_2.png	resource/image/public/close_2_selected.png	0	0	0	0.5	0.5	777	527	781	463	725	527	746.33	463	720.73	463	-1	关闭按钮
+10	0	2	1	0	CCLabelTTF	0	1	681	55	0	0	0	0	0	0	0	0	0	0	0.5	0.5	552	343	556	279	500	343	521.33	279	495.73	279	-1	介绍性文字
+11	0	0	1	0	CPriorityLayerColor	-20	1	0	0	0	0	0	0	125	0	0	0	1136	768	0	0	0	0	0	0	0	0	0	0	0	0	-1	遮罩层
+12	0	1	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/public/text_bg.png	0	0	0	0	0.5	0.5	564	527	568	463	512	527	533.33	463	507.73	463	-1	绑定标题背景框
+13	0	1	1	0	CCSprite	0	1	0	0	0	0	0	0	0	resource/image/labelimage/lb_binding_account.png	0	0	0	0	0.5	0.5	564	527	568	463	512	527	533.33	463	507.73	463	-1	绑定标题

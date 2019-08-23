@@ -1,0 +1,1503 @@
+﻿langId	Text-cn
+1	Haven't Logged In 
+2	Login Successful
+3	Sign-up Successful
+4	Account Binding Successful
+5	Account Binding Failed
+6	Equipment level cannot exceed twice the level of the current character.
+7	The hero level cannot exceed the level of the current character.
+8	Visitor
+9	Other Error
+10	Verification Server Abnormality
+11	91 User
+12	This is not a visitor account. You don't have to bind this account.
+13	There is a character on this account.
+14	Dear user, your login has expired. Please log in again!
+15	Network error. Please try again later.
+16	Mine
+17	Please enter a name!
+18	Connecting… Please wait for a while. 
+19	Backpack
+20	Timed Event
+21	Login Msg.
+22	%d chances used. %d chances left.
+23	%d players participating
+24	Progress: %d/%d
+25	Unlocks at Lv.%d
+26	After completing it, you may get 
+27	Reset Progress
+28	Begin
+29	Continue
+30	Consumes 1 chance
+31	Secret Shop
+32	Remove Party Member
+33	View Profile
+34	Hire Mercenary
+35	Summon Peon
+36	Begin Challenge
+37	Disband Party
+38	Establish a Party
+39	Leave Party
+40	Join
+41	Fighting Capacity: %d
+42	Congratulations! You have successfully purchased [%s].
+43	Failed to purchase [%s]. Please try again later.
+44	Verifying purchase... Please wait for a while.
+45	System error. Failed to purchase [%s].
+46	Purchasing... Please wait.
+47	The item information hasn't been synchronized. Please try again later.
+48	Bronze Chest
+49	Silver Chest
+50	Gold Chest
+51	Free
+52	Requires VIP %d
+53	Event Time
+54	Event Introduction
+55	<a type="text" fontsize="18" fontname="ArialRoundedMTBold" fontcolor="{255,255,255}" text="[Remaining Time]"></a>   %d days %d hours %d minutes
+56	You have to pay %d Diamonds to receive this chest. Continue?
+57	You will automatically receive a Bronze Chest in %d seconds.
+58	No Progress
+59	Purchase Successful
+60	Try Again Later
+61	该订单已经加过钱了
+62	Invalid Order
+63	Gold Collect
+64	Peon
+65	Goblin Mine
+66	Dwarf Mine
+67	Dragon Mine
+68	Collection Time: %d hours
+69	Gold Produced: %d
+70	Every %d minutes, Treasure chances will increase by 1.
+71	%d/%d chances left
+72	Enter
+73	Treasure
+74	There are treasures, orc miners and other Treasureers in the Mine. You need to prepare yourself before the Treasure.
+75	Equipped
+76	Equipment Name
+77	Level
+78	Type
+79	Atk
+80	Random Attributes
+81	Gem Information
+82	Explanation
+83	Level-up
+84	The maximum attribute after refinement depends on equipment level.
+85	Refinement Cost
+86	Refinement
+87	Hero List
+88	Equipment List
+89	Item List
+90	Atk
+91	AS
+92	Hit
+93	Dodge
+94	AP
+95	Armor
+96	Crit
+97	Ten
+98	Player Information
+99	Hero Equipment
+100	Hero Skill
+101	Str
+102	Agi
+103	Int
+104	 points of Str increase HP by 1%
+105	 points of Agi increase Speed by 1%
+106	 points of Int increase MP by 1%
+107	Every Level
+108	Activation Chance
+109	(
+110	)
+111	Level-up
+112	Enhancement
+113	It is said that there are two lines here, but I don't know what they are.
+114	New Skill
+115	New Specialization
+116	Challenge Chances Left
+117	Adventure
+118	Wipeout All
+119	Use Wipeout 5 times
+120	Use Wipeout 20 times
+121	Wipeout: %d/%d
+122	 battles
+123	Gold
+124	EXP
+125	Hero EXP
+126	Wipeout
+127	You have used up your Challenge Chances.
+128	Insufficient Stamina
+129	Insufficient Backpack or Equipment Slots
+130	Adjust Skill
+131	Change Equipment
+132	No Stamina Cost
+133	%d
+134	%d/%d
+135	Costs %d Stamina
+136	The name has to be between 2 letters and 6 Chinese characters!
+137	Insufficient Backpack space. Why don't you sell some items first?
+138	Insufficient Equipment slots. Go and enhance your Equipment!
+139	Insufficient [Hero Backpack] space. Go and enhance your Heroes!
+140	You may get double rewards in low-level zones.
+141	You will get double rewards in high-level zones, and may even get quadruple rewards!
+142	Try Your Luck
+143	Low-level Zone
+144	High-level Zone
+145	Cooldown: %s
+146	Adventure Reward:
+147	You may get:
+148	Too long. Please try again.
+150	前面占位
+151	This is a handsome Hero.
+152	This is a super ugly Hero.
+153	这是一位阿斯利康大家哈盛开的的英雄。
+154	这是一位哦饿哦诶与的英雄。
+155	The night granted me dark eyes, but then I turned into a panda…
+156	Private Chat
+157	View Profile
+158	Add Friend
+159	对
+160	我
+161	说
+162	To %s:
+163	%s: 
+164	Are you sure you want to delete your friend?
+165	%d/%d
+166	You have received a Star Reward.
+167	World
+168	Private Chat
+169	Send
+170	Common
+171	Elite
+172	Challenge
+173	Wipeout
+174	Receive
+175	3 Star Reward
+176	[World]
+177	[Private Chat]
+178	[System]
+180	前面占位。
+181	Item Synthesis
+182	Stonehoof: High HP. A Str Hero who excels at counter attacks.
+183	Anti-Mage: High AS. A speedy Agi Hero.
+184	Ice Maiden: Good at magic attacks. An Int Hero who can deal massive burst damage.
+185	All
+186	-
+187	Increase Fighting Capacity
+188	Item Synthesis
+189	Usage Level:
+190	Price:
+191	Sell
+192	Use
+193	Altar
+194	Gate
+195	Temple
+196	Merchant
+197	Colosseum
+198	Ancient
+199	Tower
+200	(Every Level
+201	)
+202	 points of Str increase HP by 1%
+203	 points of Agi increase Speed by 1%
+204	 points of Int increase MP by 1%
+205	Attribute
+206	Activation Chance
+207	Atk
+208	Demon Slaughter
+209	Equipment
+210	HP
+211	MP
+212	Friends
+213	Apply List
+214	Recommended Friends
+215	Search
+216	Ignore All
+217	Accept All
+218	Accept
+219	Ignore
+220	Refresh
+222	AS
+223	Change Hero
+224	Confirm
+225	%d-%d
+226	+%d (Maximum +%d)
+227	%d Piece Bonus:
+228	%d (Increased by +%d every level) Uses
+229	%d Str increase HP by 1%% 
+230	%d Agi increase Speed by 1%% 
+231	%d Int increase MP by 1%% 
+232	%s Activation Chance +%d
+233	Selected Materials
+234	Upgrade
+235	Promotion
+236	Refinement
+237	%d %s increase Atk by 1%%
+238	Immolation
+239	 unlocks Advanced Immolation that can summon more powerful Heroes.
+240	 unlocks Sacred Immolation that can summon more powerful Heroes.
+241	Equipment Rating
+242	Synthesize Item
+243	Synthesis Requirement
+244	Synthesis
+245	Cost
+246	Reset
+247	Add Point
+248	Lv
+249	Material Card Consumed
+250	Select Material Card
+251	Purchase Material Card
+252	Level Up
+253	Click to select the Hero you want to evolve.
+254	Str Growth
+255	Game Sign-up
+256	Select Server
+257	Server
+258	New Server
+259	Hot
+260	Under Maintenance
+261	Temporarily Unavailable
+262	Sign-up Closed
+263	Create Character
+264	User Name
+265	Password
+266	Login
+267	Sign-up
+268	Forgot Password
+269	4-16 letters or numbers.
+270	Sign-up
+271	Game Login
+272	Enter User Name
+273	Enter Password
+274	Enter Password Again
+275	Skill Effect
+276	Time of Use
+277	Chance
+278	Cost
+279	Specialization Effect
+280	Enhancement Requirement
+281	Agi Growth
+282	Int Growth
+283	Enhancement Cost
+284	Please enter the number:
+285	Confirm
+286	MAX
+287	%d Bronze Covenants %d times.
+288	%d Silver Covenants %d times.
+289	%d Gold Covenants %d times.
+290	Level Limit: %d
+291	Free after %s:%s:%s
+292	Free
+293	Free (Chances left today: %d)
+294	Need:
+295	Need: Bronze Covenant
+296	Need: Silver Covenant
+297	Need: Gold Covenant
+298	%s +%d
+299	%d (+%.2f every level)
+300	Radiance
+301	Berserker
+302	Elder Seal
+303	Natural Order
+304	Dead of Night
+305	Burning Soul
+306	Clarify
+307	Assault
+308	Focused Fire
+309	Culling Blade
+310	Double Edge
+311	Earthquake
+312	Fireblast
+313	Thunder
+314	Laguna Blade
+315	Torrent
+316	Curse
+317	Curse of Silence
+318	Rupture
+319	Toss
+320	Mana Burn
+321	Duel
+322	Meat Hook
+323	Feast
+324	Mana Break
+325	Lifesteal
+326	Fury Swipes
+327	Arcane Orb
+328	Bash
+329	Assassinate
+330	Kinetic Field
+331	Hex
+332	Frozen Sigil
+333	Guardian Angel
+334	Void
+335	Dispersion
+336	Counter Helix
+337	Purification
+338	Quillburst
+339	Revive
+340	Passive Skill
+341	Used at the beginning of battle
+342	Before hero takes action
+343	Before enemy attacks
+344	Before enemy casts a spell
+345	Before enemy casts a spell
+346	Before enemy takes action
+347	When hero takes action
+348	After hero attacks
+349	After hero attacks
+350	After hero casts a spell
+351	After hero takes action
+352	Used upon death
+353	+%d%% Activation Chance
+354	No Specialization Effect
+355	Select Equipment
+356	Display equipped items only
+357	%s Lv.%d
+358	Next Level: %s+%d
+359	Cost: %d Faith
+360	Faith
+361	Prayer
+362	Hot Springs can restore 60 Stamina. Don't forget to visit!
+363	Opening Time:
+364	12:00 - 14:00
+365	18:00 - 20:00
+366	Enter Now
+367	PvP Map
+368	Wilds
+369	Ghost Tower
+370	Enhance Current Hero
+371	%d Points
+372	Next Level:
+373	Suggested Level: %d
+374	Lv.%d
+375	Sun Snow
+376	Sea
+377	Forest
+378	Boneyard
+379	Fire Land
+380	Grave
+381	Church
+382	Glacier
+383	Ruins
+384	Hills
+385	Colosseum
+386	Tower of Succession
+387	Reset Faith Points
+388	Highlands
+389	Island
+390	Life Faith
+391	Reduce by 10 minutes.
+392	Reduce by 1 hour.
+393	Reduce time by 50%
+394	Please select acceleration item.
+395	Faith Points
+396	Faith Level Limit
+397	Try increasing your Fighting Capacity first!
+398	Equipment Rating
+399	Hero Rating
+400	Faith
+401	Exchange
+402	1 Star
+403	2 Star
+404	Quick Login
+405	5-16 letters or numbers.
+406	Click to select server.
+407	Current Character
+408	Current Server
+409	%d/%d
+410	+%d
+411	Training Rating:
+412	Advanced Immolation
+413	%d times
+414	Click anywhere to close the interface.
+415	Update Announcement
+416	Old Password
+417	New Password
+418	Confirm New Password
+419	New Characters: Phantom, Kael, Upgraded Admiral, Blood Elf Wizard, Elven Wizard, Dark Mage, Undead Mage, Archmage, Silencer. You can go to the Altar to summon these new characters. Added new skill special effect for Radiance, Kinetic Field, and Hex. Modified the skill special effect for Culling Blade. Added scene special effect for Glacier and building special effect for main scene. Modified some actions and bugs. Added Hills. Added Reconnection, Refinement, Attribute Training and Update Announcement functions. Changed the interfaces of Hero Enhancement and Hero Selection. Addressed several Skill bugs. New statistics charts for Characters, Heroes, Equipment, Skills, Faith and Monsters.
+420	New message received from the server.
+421	High-level Card Hint
+422	Are you sure you want to devour materials of 5 Stars or above?
+423	Tower Challenges Today:
+424	Are you sure you want to log off?
+425	Attribute Training Explanation
+426	1. Increase Attribute Technique by using a Training Book.
+427	2. Attribute Technique will be converted into Attributes according to a certain rate.
+428	3. You can set Main Attributes in the Attribute interface. The conversion rate of the main Attribute will be doubled.
+429	How to get Training Books
+430	1. Exchange for Reputation at the shop in the Colosseum.
+431	2. Purchase from the Shop.
+432	My Fighting Capacity:
+433	My Ranking
+434	My Reputation
+435	Quest Progress:
+436	Bonus Reward
+437	%d/%d
+438	Previous Ranking:
+439	Challenge Chances Left Today:
+440	Connection timeout. Please try again later.
+441	Select the Starting Level
+442	1st Floor
+443	40th Floor
+444	80th Floor
+445	120th Floor
+446	160th Floor
+447	You will get lots of EXP if the challenge succeeds, and you will be rewarded handsomely in the Treasure Chest interface if you complete certain floors.
+448	Current Floor:
+449	Total EXP:
+450	Chest Reward of Next Phase:
+451	You accumulate rewards via diamond resetting.
+452	Synthesizing high-star level equipment will cost lots of Trial Crystals. The improvement will become greater as the star level gets higher.
+453	Daily Limited Supply
+454	Tower Chances Hint
+455	You don't have any chances left today.
+456	You have used up today's free chances. Do you want to use items to increase your chances?
+457	Item Quantity Hint
+458	Insufficient items. Do you wish to spend some Diamonds to enter the Tower?
+459	Ranking Reward
+460	%d Reputation
+461	Collection Time
+462	Ranking: %d
+463	Fighting Capacity: %d
+464	Lv.%d
+465	Cooldown: 
+466	Chances Left Today: %d 
+467	[%s]
+468	Just Now
+469	Yesterday
+470	%d days ago
+471	You were defeated!
+472	You won!
+473	Ranking unchanged
+474	Ranking decreased to %d
+475	Ranking increased to %d
+476	 challenged you
+477	%02d:%02d:%02d
+478	You challenged 
+479	Lock Information
+480	Locked number has reached the maximum limit.
+481	Please select a suitable server.
+482	Server is under maintenance. Please select a suitable server.
+483	Please enter the correct account name and password.
+484	Sign-up succeeded.
+485	Sign-up failed. Please try again.
+486	The password you entered is incorrect.
+487	You can enter the game quickly as a visitor and bind your account later.
+488	5-16 letters, numbers or underscores.
+489	4-16 characters.
+490	Please enter Changyou Passport...
+491	The account name is empty.
+492	The password is empty.
+493	You need to confirm your password.
+494	The length of your account name must be between 5-16 characters.
+495	The length of your password must be between 5-16 characters.
+496	This is an emergency! Let's go to Sun Snow and find some information about the [Ancient Relic] immediately!
+497	This is a world where people worship strength. You may find familiar heroes here, but it will all seem strange to you. Please, just believe in yourself!
+498	You have to keep improving your power to earn respect! Before you set out, I've prepared a [gift] for you. Why don't you open it now?
+499	You have seen this [weapon] before, haven't you? Though it is not the sharpest in the armory, it will be of great help to you.
+500	Isn't it a nice weapon? Now, we can test its true power. Set out, my warrior!
+501	Click the [Set Out] button in the upper right corner to start your journey!
+502	This is our world.<br>Now click the [Sun Snow] button to begin the battle.
+503	You'll meet a new monster every step you advance. Now, make your first move!
+504	How does it feel, warrior? You've got a new [skill]. Every time you level up, you will get a skill, until you have 40 skills. Let's equip it now.
+505	Click the Function button, then click the skill icon to enter the skill interface. You can also enter the skill interface via the skill button on the left of your portrait.
+506	The upper part of the interface is the skill list, and the lower part is the skill slot. Please click the skill icon and drag it into the skill slot below. 
+507	Good, your strength has improved again. I have another gift for you, and I hope it will help you in your journey. Go and check your Backpack!
+508	Level Packs can be opened every 10 levels. Don't ignore them! Now, you shall challenge a more powerful opponent.
+509	You have enough Honor to increase your Leadership now. Go and check the Hero interface.
+510	You can directly go to the level you want to challenge via Quick Set Out.
+511	Click the [skill button] on the left of your portrait to quickly adjust your skills.
+512	Hmm, you got an EXP Bead? Let's see what it can do.
+513	Click the Function button, and then click the [Enhancement] icon to enter the interface.
+514	It's a material used for [Equipment Upgrading]. You can increase the level of your equipment by consuming other equipment and EXP Beads.
+515	You have grown stronger. Let's see the [Main Quest] rewards.
+516	Congratulations, you have reached Lv10. New function [Altar] has been unlocked.
+517	Congratulations, you have reached Lv20. New function [Colosseum] has been unlocked.
+518	Congratulations, you have reached Lv27. New function [Capture] has been unlocked.
+519	Congratulations, you have reached Lv30. New function [Ancient] has been unlocked.
+520	Congratulations, you have reached Lv32. New function [Temple] has been unlocked.
+521	Congratulations, you have reached Lv40. New function [Tower] has been unlocked.
+522	Check your quest interface when you don't know what to do next. You can get handsome rewards after completing quests.
+523	Congratulations, you have reached Lv25. New function [Treasure] has been unlocked in the [Mine].
+524	Congratulations, you have reached Lv25. New function [Gold Collecting] has been unlocked in the [Mine].
+525	Total Fighting Capacity:
+526	Hero Rating:
+527	Fighting Capacity:
+528	Faith Rating:
+529	Soul Refinement Rating:
+530	Equipment Rating:
+531	Attribute Training Rating:
+532	Hero Upgrade and Enhancement can increase rating.
+533	Faith upgrade can increase rating.
+534	Soul Refinement can increase rating.
+535	Upgrade can increase rating.
+536	Attribute Training can increase rating.
+537	Improve
+538	Unit Price:
+539	Total Price:
+540	You cannot change server if you're logged in as a visitor. Please bind your account first.
+541	Exchange
+542	Exchange
+543	Multiple Exchange
+544	Gold Exchange
+545	Faith Exchange
+546	Free X%d
+547	Cost
+548	Gain
+549	Back
+550	Through Soul Immolation, you can get hero upgrades and promotion items, and have a chance to summon more powerful Heroes!
+551	Costs %d Soulstones
+552	Can't be sold
+553	Backpack Expansion Hint
+554	Pay %d Diamonds to expand your inventory?
+555	Increases Int by %d
+556	Training
+557	Enhancement
+558	Please click the upgrade button in the lower left corner to increase Leadership.
+559	Honor can increase Leadership, and Leadership increases a character's basic Attributes. Honor is mainly acquired from adventure level and the Tower.
+560	Training Books can be purchased at the [Reputation Shop].
+561	Go to the Colosseum.
+562	Training Item:
+563	Str Training
+564	Agi Training
+565	Str Training Book
+566	Agi Training Book
+567	Int Training Book
+568	Int Training
+569	Increases Str by %d
+570	Increases Agi by %d
+571	Tutorial
+572	We suggest you go through the tutorial first.
+573	Are you sure to end the tutorial?
+574	Launch Limit
+575	Sign-up Successful
+576	Incomplete Parameters
+577	User name already exists.
+578	The first character of your user name must be a letter or number.
+579	User name can only contain English letters, numbers or underscores.
+580	Blocked word (illegal password)
+581	Incomplete Parameters
+582	The user doesn't exist.
+583	Incorrect Password
+584	Your current level:
+585	You can become a VIP if you recharge Diamonds.
+586	You will get the following benefits if you become a VIP:
+587	Daily Challenge Chances
+588	Current Instance Progress
+589	Level Required:
+590	Lv.%d is required to unlock the Secret Shop.
+591	Lv.%d is required to unlock Hero Faith.
+592	Are you sure to update the new patch?
+593	A new version has been released. Please go to the shop to update your game.
+594	Abnormal version. Please download your client again.
+595	Lv.%d is required to unlock Soul Refinement.
+596	Use Exchange 10 times in a row.
+600	Number:
+601	Quick Yell
+602	Coming Soon
+603	Item:
+604	Hero:
+605	Equipment:
+606	+ %d
+607	Please be patient!
+608	You cannot private chat to yourself!
+609	Please enter the player's name!
+610	Please enter the words you want to say!
+611	We are forming a party for %s. Join us now!
+612	Lv: %d
+613	Please select a type of reward:
+614	Unlisted
+615	Floor: %d
+616	EXP rewarded on next floor:
+617	Hint
+618	You still have chances left, are you sure you want to reset your progress? (After resetting, you will start from the floor 30 floors beneath your current floor and your chances will be refreshed.)
+619	Lv.%d Open
+620	Hero Level: %d/%d
+621	Reputation
+622	Congratulations, you have completed the first level! Let's see what is in the chest.
+623	Remember to check your new skills and equipment, they will help you greatly. I'll leave for now, and we will meet again when it is necessary.
+624	Identity:
+625	Work Time:
+626	Gold Produced:
+627	Free your friend to gain 20 Reputation.
+628	Chances left today:
+629	Chances left today:
+630	Chances left today:
+631	Chances left today:
+632	Chances left today:
+633	You have been kicked from the room!
+634	s letter
+635	You have used up today's chances. Please come again tomorrow.
+636	You have used up today's chances. Please come again tomorrow.
+637	You have used up today's chances. Please come again tomorrow.
+638	You have used up today's chances. Please come again tomorrow.
+639	You have used up today's chances. Please come again tomorrow.
+640	You have just been captured as a Peon. Go and take a look!
+641	Enter
+642	Account Login
+643	Price:
+644	Download ZIP file.
+645	Failed to download ZIP file.
+646	Successfully downloaded ZIP file.
+647	Invalid ZIP file.
+648	Start Extraction 
+649	Extraction Successful
+650	Extraction Failed
+651	Start File Verification
+652	File Verification Successful
+653	File Verification Failed
+654	Files to update: %d/%d
+655	You are free now!
+656	Lv.%d
+657	Please increase your [level] and [equipment level] first!
+658	You were disconnected from the game. Reconnect now?
+659	3 Star
+660	%d Hours
+661	%d Minutes
+662	You don't have any upgrade materials left. You can get materials from adventures or by clicking the [Purchase Material] button to purchase them in the Shop.
+663	Slavery Time Left:
+664	Colosseum Ranking:
+665	Click on a skill's icon to view the skill. When a skill gains the Specialization effect, there will be a golden border around it. Specialization increases the chance of a skill triggering during battle. Passive skills are not affected by Specialization.
+666	There are 40 skills in the skill list, and they are divided into 10 categories. Your character gets one skill randomly every level, and gets one Specialization randomly every 10 levels.
+667	The upper part is the skill list and the lower part houses the skill slots. Drag the skill icon into a skill slot below to equip the skill. The activation chance of a skill is not related to its position in the skill slots. 
+668	You can improve your equipment in the Enhancement interface:<br>[Upgrade] Improve your equipment by devouring other equipment. The basic attributes of the equipment will increase after the upgrade.<br>[Promotion] Improve the bonus attributes of your equipment. The materials required may be obtained from elite levels.<br>[Refinement] Reset the bonus attributes of your equipment, including the types and the values.
+669	1. On the left you'll find your character equipment slots, and on the right you can see your usable equipment. You can use the button beside each piece of equipment to equip it.<br>2. Characters have 8 equipment slots. Each slot corresponds to a certain type of equipment.<br>3. Equipment and Heroes are divided into 5 quality levels. The basic attributes of equipment will increase as its star level gets higher.<br>4. Each hero has different attribute growth and conversion rates. You need to select Heroes according to your own attributes. You can view More Info by clicking on an attribute.
+670	1. You will get Prestige every time you obtain a new Hero. When you accumulate enough Prestige, your Leadership will automatically be increased.<br>2. Prestige is related to the number of activated Heroes in your Hero List.<br>3. Leadership influences the HP, MP and basic Atk of your Heroes in battle. Click the "View" button to check the current Leadership bonus.
+671	His/Her Master:
+672	His/Her Master's Fighting Capacity:
+673	You can choose an opponent from a selection of 5 players and click the "Challenge" button to enter the battle. Click your opponent's portrait to view their information. Choose your opponent carefully, as your ranking will influence the rewards you get.
+674	1. Daily challenges grant bonus chances. Ranking rewards will be issued at 20:00. Click the button to view details.<br>2. Ranking rewards are valid for 24 hours. If you haven't received your reward before 20:00 on the next day, it will be replaced with a new reward.
+675	1. You can get Reputation rewards for a successful challenge. Even if you fail, you'll get a consolation prize.<br>2. You get 15 free chances every day. Remember to use up the bonus chances you purchase with Diamonds on the day.
+676	Your party has been disbanded!
+677	Log Off
+678	Requires Lv.%d
+679	Require VIP %d
+680	This message contains an unopened attachment. Continue?
+681	The account you want to bind cannot contain characters from this server.
+682	Fighting Capacity
+683	No target available! Go to the Colosseum to challenge other players!<br>Hint: You must be within 10 levels of the target and the target must have reached Lv27 to unlock the Peon function.
+684	No friends have been captured! All of your friends are safe!
+685	Your don't have many friends... Go to the Friend interface and make some new friends!
+686	This is an item of high value. Are you sure you want to sell it?
+687	These are the players who have taken your Peons or captured you. Fortunately, the list is still empty.
+689	You have unlocked a new function building! Go and take a look!
+690	1. Training Books can be purchased with Reputation. Use them to increase your training points and their corresponding attributes. <br>2. Enhancement can double attribute increases. Select the attribute you want enhance according to the specific Hero.
+691	There are 3 types of Training Books, which can all be obtained from the Merchant, in exchange for Reputation. The main source of Reputation is the Colosseum.
+692	1. Faith can be obtained through Prayer. You'll find your current Faith points here.<br>2. The Faith level cap is equal to the current character's level cap.<br>3. You can reset all of the points.
+693	You can get Faith points via Prayer, and you'll get 5 free chances every day.
+694	Detailed functions are listed below:<br>1. Capture: You can challenge players you defeat in the Colosseum or enemy players in the challenge interface, but your level difference cannot exceed 10 levels. If the challenge succeeds and your opponent is free, they will become your Peon; if he/she is a Peon owner, you can randomly obtain one of your opponent's Peons. 3. Every challenge costs one chance.<br>2. Interact: Captured Peons can work for you, and EXP generated from their work will be given to you when your Peons leave. You can also train your Peons to gain EXP. On top of this, you can pay Diamonds to immediately receive your Peons' work EXP for the whole day.<br>3. Liberation: If your friends have been captured, you can try to rescue them. You will get Reputation rewards if you successfully rescue your friends.
+695	Detailed functions are listed below:<br>1. Revolt: You are a Peon now. However, you can rebel against your owner by force or by bribing the guard.<br>2. Interact: You can interact with your owner to get a small amount of EXP.<br>3. Call for Help: You can call for help if you have a powerful friend.
+696	1. Instances are unlocked according to character level. The level of dropped equipment is related to the level of the instance.<br>2. You need to form a party of 3 players before starting the battle. You can also summon Peons or hire mercenaries to fight for you.
+697	You can get high-quality equipment fragments from instances. Synthesize the equipment fragments in your Backpack to get high-quality equipment.
+698	Quest Content
+699	Quest Objective
+700	Quest Reward
+701	Go Now
+702	Receive Reward
+703	Gold +%d
+704	EXP +%d
+705	Consumed chances will not be returned after resetting. Continue?
+706	No Material Cards available. You can get them from [Elite Levels] or via Immolation at the [Altar].
+707	Change
+708	Char. Info
+709	More Info
+710	Failed to connect to the server. Click to close the game.
+711	Event 1
+712	Event 2
+713	Event 3
+714	Event 4
+715	Event 5
+716	Event 6
+717	Event 7
+718	Event 8
+719	Event 9
+720	Event 10
+721	Duel
+722	Private Message
+723	Add Friend
+724	Delete
+725	Str: %d
+726	Agi: %d
+727	Int: %d
+728	<a type="text" fontsize="18" fontname="ArialRoundedMTBold" fontcolor="{255,255,102}" text=" HP :"></a> %d
+729	<a type="text" fontsize="18" fontname="ArialRoundedMTBold" fontcolor="{255,255,102}" text=" MP :"></a> %d
+730	<a type="text" fontsize="18" fontname="ArialRoundedMTBold" fontcolor="{255,255,102}" text="Atk:"></a> %d~%d
+731	<a type="text" fontsize="18" fontname="ArialRoundedMTBold" fontcolor="{255,255,102}" text="AS:"></a> %d
+732	<a type="text" fontsize="18" fontname="ArialRoundedMTBold" fontcolor="{204,153,102}" text="Armor"></a>  %d
+733	<a type="text" fontsize="18" fontname="ArialRoundedMTBold" fontcolor="{204,153,102}" text="Dodge"></a>  %d
+734	<a type="text" fontsize="18" fontname="ArialRoundedMTBold" fontcolor="{204,153,102}" text="Crit"></a>  %d
+735	<a type="text" fontsize="18" fontname="ArialRoundedMTBold" fontcolor="{204,153,102}" text="AP"></a>  %d
+736	<a type="text" fontsize="18" fontname="ArialRoundedMTBold" fontcolor="{204,153,102}" text="Hit"></a>  %d
+737	<a type="text" fontsize="18" fontname="ArialRoundedMTBold" fontcolor="{204,153,102}" text="Ten"></a>  %d
+738	Hero Level: %d
+739	Leadership: %s Star Lv.%d
+740	Honor: %d/%d
+741	%d/%d
+742	Challenge Adventure Level
+743	Challenge the Ancient Ruins
+744	Challenge the Tower
+745	Your Leadership has increased to <a type="text" fontsize="22" fontname="ArialRoundedMTBold" fontcolor="{0,102,255}" text="%s Star Lv.%d"></a>.
+746	Basic HP %d
+747	Basic MP %d
+748	Min Atk %d
+749	Max Atk %d
+750	Zero
+751	One
+752	Two
+753	Three
+754	Four
+755	Five
+756	Six
+757	Seven
+758	Eight
+759	Nine
+760	Ten
+761	%s  <a type="text" fontsize="20" fontname="ArialRoundedMTBold" fontcolor="{169,217,89}" text="+%d"></a>
+762	0
+763	0
+764	0
+765	HP +%d
+766	AS +%d
+767	MP +%d
+768	Immolation
+769	Str Totem
+770	Agi Totem
+771	Int Totem
+780	%s不足,使用%s可以增加%s你妹的，你妹的，你妹的
+781	Available: %d times
+782	Play something else
+783	You don't have any usable equipment now. You can get new equipment via the following methods:
+784	Insufficient %s
+785	Stamina
+786	Trial Chances
+787	Arena Chances
+788	Treasure Chances
+789	Ancient Ruins Chances
+790	Number of Heroes:
+800	You can only challenge elite instance 5 times per day. However, you can spend Diamonds to increase your number of chances.
+801	The captain can adjust the order of activated heroes in the instance.
+802	Locked Attributes will not be refined.
+803	Clear your Backpack and equipment slots before adventuring so you can carry more loot.
+804	Click the button on the left side of the hero equipment interface to view current attributes.
+805	Click the button on the right side of the hero list interface to view the Attribute conversion rate.
+806	You can get additional rewards if you complete a level and get a 3 Star evaluation.
+807	Every new Hero you get via summoning, promotion or by using items will increase your Prestige.
+808	Prestige increases your Leadership!
+809	Leadership determines the level of your hero in battle, and affects your basic HP, MP and Atk.
+810	冒险推图战败时不消耗体力和挑战次数。
+811	三星以上的装备不能作为升级材料。
+812	Disenchant可以返还装备的升级经验和进阶消耗。
+813	分解四星及以上的装备可以获得装备精华！
+899	800-899之间，longding界面的tip显示，请勿占用， 如有添加tip 请在const表里更新当前tips总数
+900	Colosseum
+901	Challenge
+902	Receive
+903	Revenge
+904	View
+905	[Main]
+906	[Daily]
+907	Quest Content
+908	Quest Reward
+909	Receive Reward
+910	You will get the following benefits after upgrading to VIP %d:
+911	Your current level: VIP %d
+912	You will be VIP %d if you recharge another %d Diamonds.
+913	Daily Reward
+914	Recharge Now
+915	Quest completed. Please receive your reward.
+916	Number of Peons: %d/%d
+917	Gold Efficiency: %d%s
+918	Name:
+919	Time:
+920	Total:
+921	Start Collecting
+922	Stop Collecting
+923	Chances Left: %d
+924	Take Mine
+925	Mine Owner: %s
+926	Fighting Capacity: %d
+927	Challenge
+928	Collect
+929	Mine Friends: %d
+930	%s is not your friend. You can challenge him/her to get treasure.
+931	Add Friend
+932	Raid
+933	Expel
+934	Purchase Treasure
+935	You met %s (Fighting Capacity: %d) during a Treasure.
+936	Say Hello
+937	%d
+938	is not mining.
+939	Treasure
+940	Capture
+941	Interact
+942	Liberate
+943	Revolt
+944	Call For Help
+945	Defeated Opponent
+946	Personal Enemy
+947	Capture
+948	Train
+949	Exploit
+950	Release
+951	Liberate
+952	Revolt
+953	Bribe
+954	Force Revolt
+955	Bribe
+956	My Master
+957	Interact
+958	Call For Help
+959	Hero Manual
+960	Display All Heroes
+961	%s Star Lv.%d
+962	Atk Growth
+963	HP Growth
+964	AS Growth
+965	MP Growth
+966	详<br><br>情
+967	收<br><br>起
+968	Promotion
+969	<a type="text" fontsize="20" fontname="ArialRoundedMTBold" fontcolor="{255,192,0}" text="%d"></a> %s increases Atk by 1%%.
+970	<a type="text" fontsize="20" fontname="ArialRoundedMTBold" fontcolor="{255,192,0}" text="%d"></a> Str increases HP by 1%%.
+971	<a type="text" fontsize="20" fontname="ArialRoundedMTBold" fontcolor="{255,192,0}" text="%d"></a> Agi increases AS by 1%%.
+972	<a type="text" fontsize="20" fontname="ArialRoundedMTBold" fontcolor="{255,192,0}" text="%d"></a> Int increases MP by 1%%.
+973	Hero Level:
+974	Account Center
+975	Back to Login
+976	Requirement
+977	Can summon a hero up to %s Stars.
+978	Hero List
+979	Summon
+980	Summon 10 times.
+981	Prestige:
+982	Hero Level:
+983	Confirm
+984	View
+985	You already own this hero. It will be automatically converted into 
+986	Str Totem
+987	Agi Totem
+988	Int Totem
+989	Current: HP +%d
+990	Next Level: HP +%d
+991	Current: AS +%d
+992	Next Level: AS +%d
+993	Current: MP +%d
+994	Next Level: MP +%d
+995	Click on Soul Fragment to perform Immolation.
+996	Cancel
+997	You don't have a hero of this type. You can gain new heroes via summoning.
+998	Equipment Level
+999	No Servers
+1001	-----【1001-1020】组队副本描述-------
+1002	Welcome to the Ancient Ruins. You have to cooperate with other players to defend your base and destroy the enemy base. Come on, let's take their outer tower first!
+1003	The Wilds is a place where amazing things happen. You never know what will happen next here. At the beginning of the game, killing some monsters in the Wilds is recommended. Why don't you start with the trolls?
+1004	Oh no! You've been ganked by enemies in the Wilds!
+1005	The enemy ganker is wandering around. Let's prepare an ambush for him!
+1006	Enemy carry is not in lane. Let's search the Wilds.
+1007	Enemy carry is not in the Gnoll nest. Let's move to the next area. 
+1008	We've ganked the enemy carry. Now would be a good time to take their middle tower.
+1009	Carry, clear the monsters and buy some new items. We shall prepare for Roshan.
+1010	Oh, no. We were spotted. This is the moment that will determine the game!
+1011	Good, we scored an ace! Let's take the high ground!
+1012	Quick, destroy the barracks now!
+1013	Shall we take their base or dive the fountain? What a predicament!
+1109	-----【1109-1210】VIP特权描述-------
+1110	You can receive 20000 Gold every day.
+1111	You can open a [VIP Diamond Pack].
+1112	You can buy Stamina twice per day.
+1113	You can buy Treasure chances twice per day.
+1120	You can receive 40000 Gold every day.
+1121	You can use Exchange in high-level Wilds 10 times per day.
+1122	You can buy Colosseum chances 10 times per day.
+1123	You can spend Diamonds to reset elite level challenge chances.
+1124	You can use the [Wipeout] function in adventure levels.
+1125	Includes all VIP 1 benefits.
+1130	You can receive 60000 Gold every day.
+1131	You can buy Stamina 4 times per day.
+1132	You can buy Treasure chances 4 times per day.
+1133	Unlocks the sixth skill slot.
+1134	Friend limit increased to 40.
+1135	Includes all VIP 1-2 benefits.
+1140	You can receive 80000 Gold every day.
+1141	You can use Exchange in high-level Wilds 20 times per day.
+1142	You can reset elite level chances twice per day.
+1143	You can buy Tower challenge chances twice per day.
+1144	Cost of Prayer is reduced by 5 Diamonds.
+1145	You can skip battles in the Tower.
+1146	Includes all VIP 1-3 benefits.
+1150	You can receive 100000 Gold every day.
+1151	You can buy Stamina 12 times per day.
+1152	You can buy Treasure chances 12 times per day.
+1153	You can buy Colosseum chances 20 times per day.
+1154	Cost of Prayer is reduced by 10 Diamonds.
+1155	Gold chests can be selected in the Ancient Ruins.
+1156	You can use [Exploit].
+1157	Includes all VIP 1-4 benefits.
+1160	You can receive 120000 Gold every day.
+1161	You can buy Treasure chances 24 times per day.
+1162	You can use Exchange in high-level Wilds 40 times per day.
+1163	You can reset elite level chances 3 times per day.
+1164	You can buy Tower challenge chances 3 times per day.
+1165	You can skip battles in the Ancient Ruins.
+1166	Friend limit increased to 50.
+1167	Includes all VIP 1-5 benefits.
+1170	You can receive 140000 Gold every day.
+1171	You can buy Stamina 24 times per day.
+1172	You can buy Treasure chances 36 times per day.
+1173	You can buy Colosseum chances 30 times per day.
+1174	You can reset elite level chances 4 times per day.
+1175	Cost of Prayer is reduced by 20 Diamonds.
+1176	Includes all VIP 1-6 benefits.
+1180	You can receive 160000 Gold every day.
+1181	You can buy Treasure chances 48 times per day.
+1182	You can use Exchange in high-level Wilds 60 times per day.
+1183	You can buy Colosseum chances 50 times per day.
+1184	You can reset elite level chances 5 times per day.
+1185	Cost of Prayer is reduced by 25 Diamonds.
+1186	You can skip battles in the Colosseum.
+1187	Includes all VIP 1-7 benefits.
+1190	You can receive 180000 Gold every day.
+1191	You can buy Stamina 36 times per day.
+1192	You can use Exchange in high-level Wilds 80 times per day.
+1193	You can buy Tower challenge chances 4 times per day.
+1194	Friend limit increased to 60.
+1195	Includes all VIP 1-8 benefits.
+1200	You can receive 200000 Gold every day.
+1201	You can buy Stamina 48 times per day.
+1202	You can use Exchange in high-level Wilds 100 times per day.
+1203	You can buy Tower challenge chances 5 times per day.
+1204	An announcement will be displayed to the entire server when you log in.
+1205	Includes all VIP 1-9 benefits.
+1206	Jokul
+1207	Dark Lake
+1208	Jungle
+1209	Click the soul icon in the Hero List interface to challenge the hero. Soul can be activated if the challenge succeeds.
+1210	Hero Challenge
+1211	Challenge Boss
+1212	Click to select area.
+1213	0
+1214	0
+1215	0
+1216	0
+1217	更新完成，请重新启动客户端
+1218	0
+1219	0
+1220	0
+1221	温泉现在开放了！少年快点来洗澡，洗完腰好体力好。
+1222	小哥！小哥！你的体力已经回满啦！还不快来一发？
+1223	再不回来，你的冰MM就快和别人私奔啦！
+1224	您收到了一封来自好友的邮件，请尽快查收！
+1225	祭坛可以召唤新英雄了！快来看看你能把谁抱回家？
+1226	最近出了好多活动，快来看看运气怎么样！
+1227	0
+1228	0
+1229	0
+1230	0
+1231	Str Hero
+1232	Agi Hero
+1233	Int Hero
+1234	Weapon
+1235	Clothes
+1236	Ring
+1237	Boots
+1238	Relic
+1239	Orb
+1240	Helmet
+1241	Trinket
+1242	EXP Bead
+1243	1-effect Item
+1244	宝箱
+1245	合成
+1246	强化道具
+1247	力量
+1248	敏捷
+1249	智力
+1250	HP
+1251	MP
+1252	攻速
+1253	最小攻击
+1254	最大攻击
+1255	护甲
+1256	破甲
+1257	命中
+1258	闪避
+1259	暴击
+1260	韧性
+1261	白色
+1262	绿色
+1263	蓝色
+1264	紫色
+1265	橙色
+1266	自由身
+1267	奴隶主
+1268	奴隶
+1269	0
+1270	0
+1271	0
+1272	0
+1273	0
+1274	0
+1275	0
+1276	0
+1277	0
+1278	0
+1279	0
+1280	0
+1281	0
+1282	0
+1283	0
+1284	0
+1285	0
+1286	0
+1287	0
+1288	0
+1289	0
+1290	0
+2000	Ranking
+2001	Start
+2002	Continue
+2003	Reset
+2004	Quick Battle
+2005	Diamond Reset
+2006	Confirm
+2007	Recommended Skill
+2008	What a huge chest!
+2009	View
+2010	Receive
+2011	Floor #%d
+2012	EXP +%d
+2013	Honor +%d
+2014	Received
+2015	Unclaimed
+2016	Refinement
+2017	Quick Refinement
+2018	%s +%d
+2019	(Maximum +%d)
+2020	Stop Refinement
+2021	Quick Refinement will end after a perfect attribute has been refined, or you may end it manually whenever you wish. Continue?
+2022	Are you sure to unlock this attribute?
+2023	You are on the top of the tower! Enjoy your victory!
+2024	Quick Yell
+2025	We are looking for a member for Ancient Ruins %s!
+2026	What a nice day! Let's go to [%s}!
+2027	Come and join us in [%s]!
+2028	We are looking for members for [%s}!
+2029	Come and join us in [%s]!
+2030	Come and join us in [%s]!
+2031	Let's go to [%s] and find some treasure chests!
+2032	I'm waiting for you! We need a party member for [%s]!
+2033	If you are looking for good equipment and high-star heroes, why don't you join our team for [%s}!
+2034	5 Star heroes are waiting for you! Come and get them in [%s}!
+2035	Quick yell has ended.
+2036	Sorry, your level is lower than %d. Unable to unlock mining system.
+2037	Sorry, your level is lower than %d. Unable to unlock peon system.
+2038	Hire
+2039	List
+2040	Summon
+2041	List
+2042	Friends:
+2043	Dwarf Mine info has been updated. Please click "Confirm" to update!
+2044	Chances Left: <a type="text" fontsize="22" fontname="ArialRoundedMTBold" fontcolor="{255,192,0}" text="%d"></a>
+2045	Chances Left: <a type="text" fontsize="22" fontname="ArialRoundedMTBold" fontcolor="{255,255,0}" text="%d"></a>
+2046	Tower Reward:
+2047	My Personal Record:
+2048	My Ranking:
+2049	Reward for Next Phase:
+2050	Item Name
+2051	Receive
+2052	Can be claimed on the %d floor.
+2053	Can be claimed on the %d floor.
+2054	<a type="text" fontsize="24" fontname="ArialRoundedMTBold" fontcolor="{255,255,0}" text="%d/%d"></a> Floor
+2055	%d Floor
+2056	Exchanges
+2057	Submit
+2058	<a type="text" fontsize="24" fontname="ArialRoundedMTBold" fontcolor="{255,0,0}" text="%d/%d"></a> Floor
+2059	Please enter code.
+2060	Rating: %d
+2061	Time Left:
+2062	Next Event:
+2063	%d Hours %d Minutes %d Seconds
+2064	Challenge
+2065	Free Chances Left: <a type="text" fontsize="20" fontname="ArialRoundedMTBold" fontcolor="{0,255,0}" text="%d"></a>
+2066	Use Crusade Order (<a type="text" fontsize="20" fontname="ArialRoundedMTBold" fontcolor="{233,86,28}" text="%d"></a> left), or pay <a type="text" fontsize="20" fontname="ArialRoundedMTBold" fontcolor="{233,86,28}" text="%d"></a> Diamonds to start a challenge.
+2067	Battle Rating:
+2068	Damage dealt to %s: %d
+2069	Total Score: %d
+2070	Highest Rating: %d
+2071	Current Ranking:
+2072	Unlisted
+2073	%d/%d
+2074	<a type="text" fontsize="20" fontname="ArialRoundedMTBold" fontcolor="{255,0,0}" text="%d/%d"></a>
+2075	You'll get better rewards if you achieve a higher ranking.
+2076	Rating:
+2077	This function will be unlocked at Lv.%d.
+2078	Score Reached
+2079	Score Reward:
+2080	Highest Rating:
+2081	Ranking Reward:
+2082	Log Off
+2083	Alchemy
+2084	The Alchemy Lab will be open for %d days. You still have %d chances left.
+2085	The Alchemy Lab will close in: %d days %02d hours %02d days %02d seconds
+2086	%s got %d Diamonds via Alchemy.
+2087	Need %d
+2088	0
+2089	0
+2090	0
+2091	%d级开启，可召唤获得高级英雄
+2092	%d级开启，挑战可获得大量声望
+2093	%d级开启，出售各种稀有道具
+2094	%d级开启，可获得大量金币
+2095	%d级开启，挑战可获得5星装备
+2096	%d级开启，祈愿可大幅度提升人物属性
+2097	%d级开启，可获得大量经验和稀有装备
+2098	0
+2099	是否放弃抢夺该寻宝猎人？（放弃后将不能抢夺该猎人，直到发现新的猎人）
+2100	没有发现任何装备猎人！
+2101	没有发现任何宝物猎人！
+2102	没有发现任何宝石猎人！
+2103	没有发现任何精英猎人！
+2104	放弃抢夺
+2105	抢夺
+2106	%s Lv.%d
+2107	%d级可发现Lv.%d
+2108	<a type="text" fontsize="20" fontname="ArialRoundedMTBold" fontcolor="{255,122,0}" text="消耗%d点体力"></a>
+2109	消耗%d点体力
+2110	在矿洞寻宝的猎人，抢夺装备猎人有一定几率获得各种装备碎片。（提示：装备猎人等级越高，携带的装备品质越高）
+2111	在矿洞寻宝的猎人，抢夺宝物猎人有一定几率获得各种战魂道具。（提示：宝物猎人等级越高，携带的战魂道具越多）
+2112	在矿洞寻宝的猎人，抢夺宝石猎人有一定几率获得灵魂石和能量石。（提示：宝石猎人等级越高，携带的灵魂石和能量石越多）
+2113	在矿洞寻宝的猎人，抢夺精英猎人有一定几率获得英雄进阶道具。（提示：精英猎人等级越高，携带的进阶道具品质超高）
+2114	<a type="text" fontsize="30" fontname="ArialRoundedMTBold" fontcolor="{198,255,0}" text="抢夺成功！恭喜你获得宝物。"></a>
+2115	<a type="text" fontsize="30" fontname="ArialRoundedMTBold" fontcolor="{199,194,209}" text="抢夺失败！未能获得宝物。"></a>
+2116	<a type="text" fontsize="18" fontname="ArialRoundedMTBold" fontcolor="{169,217,89}" text="抢夺成功率：高"></a>
+2117	<a type="text" fontsize="18" fontname="ArialRoundedMTBold" fontcolor="{169,217,89}" text="抢夺成功率：较高"></a>
+2118	<a type="text" fontsize="18" fontname="ArialRoundedMTBold" fontcolor="{255,0,0}" text="抢夺成功率：低"></a>
+2119	<a type="text" fontsize="18" fontname="ArialRoundedMTBold" fontcolor="{255,0,0}" text="抢夺成功率：极低"></a>
+2120	抢夺成功率：备用1
+2121	抢夺成功率：备用2
+4000	Level Limit
+4001	---->
+4002	Level Required: %d/%d
+4003	Upgrade Material
+4004	Purchase Material
+4005	Level-up
+4006	Reset Chance
+4007	Already reached the highest level.
+4008	This hero has been fully promoted.
+4009	Replay
+4010	Try Again
+4011	Confirm
+4012	Why don't you improve your Fighting Capacity first!
+4013	Equipment Rating:
+4014	You've defeated your opponent!
+4015	Wipeout complete!
+4016	Already reached the highest promotion level!
+4017	You don't have any equipment! Please make sure that you have some equipment!
+4018	Only equipment of 3 Star quality or higher can be promoted. Please make sure that you own equipment of 3 Star quality or higher!
+4019	Only equipment of 3 Star quality or higher can be refined. Please make sure that you own equipment of 3 Star quality or higher!
+4020	Your mail has been sent!
+4021	Gold
+4022	EXP
+4023	Diamonds
+4024	Reputation
+4025	Stamina
+4026	Stars Collected
+4027	Congratulations! You've completed all of the 3-star levels. Do you want to receive your 3-star reward now?
+4028	Congratulations! You've completed %s. Do you want to enter the next level?
+4029	Wipeout will be unlocked at Lv20.
+4030	Unlocks at Lv.%d
+4031	Quick Add Equipment EXP Beads
+4032	Select Material
+4033	You can receive the following rewards after completing all 3-star levels:
+4034	You don't have any EXP Beads. Click [Select Material] to devour other equipment or click [Purchase Material] to buy EXP Beads.
+5000	【5000至5999】占用
+5001	Claim All
+5002	剩余%d天
+5003	两种月卡可同时购买，同时领取
+5004	月卡享受首充福利，立即获得钻石翻倍
+5005	领取
+5006	已领取
+5007	战魂
+5008	系统
+5009	小提示：装备背包满了，又没有可升级的装备怎么办？点击装备栏中的装备或经验珠，就可轻松出售。
+5010	小提示：试练塔是获得鞋子的唯一途径！爬到指定的层数，就能领取到不同品质的鞋子，可别轻易出售哦。
+5011	小提示：远古遗迹中只能雇佣与自己角斗场排名接近的玩家。
+5012	小提示：神秘商店每隔2小时刷新一次，里面出售大量经验珠、能量石，还能淘到进阶和战魂道具！
+5013	游戏过程中遇到任何问题都可以到论坛或联系客服帮助解决！联系方式可以查看游戏内公告。
+5014	%d级
+5015	消息666
+5016	消息777
+5017	消息888
+5018	消息999
+5019	没有可以领取的附件
+6000	-----【6000-6999】-----占用
+6001	Immolation
+6002	System
+6003	Individual
+6004	From:
+6005	Delete
+6006	Claim
+6007	Search
+6008	Reply
+6009	Send
+6010	To:
+6011	Purchase
+6012	Contains high-value soul fragments. Continue?
+6013	Sell
+6014	Equipment
+6015	Remove
+6016	VIP Details
+6017	Please enter a name.
+6018	No-binding Recharge
+6019	Bind Your Account
+6020	You're logged in as a visitor. Please sign-up or bind your character to an account before recharging.
+6021	You have reached the maximum level!
+6022	￥
+6023	Coming soon!
+6024	Please enter the content.
+6025	Collect heroes to increase character attributes and hero level.
+6026	Can summon 2-3 Star heroes.
+6027	Can summon 2-4 Star heroes.
+6028	Can summon 3-6 Star heroes.
+6029	Soul Summoning
+6030	Elite Summoning
+6031	Sacred Summoning
+6032	 
+6033	 
+6034	You can get Soulstones and stamina rewards after getting all 3 stars.
+6035	View
+6036	Leadership:
+6037	Prestige:
+6038	Current Leadership:
+6039	Hero Level:
+6040	Basic HP:
+6041	Basic MP:
+6042	Basic Atk:
+6043	You're already at the highest VIP level!
+6044	Enhancement
+6045	Collecting
+6046	Recharge Now
+6047	Receive
+6048	Get New Equipment
+6049	Use a Refresher Orb (<a type="text" fontsize="20" fontname="ArialRoundedMTBold" fontcolor="{169,217,89}" text="number: %d"></a>) or pay <a type="text" fontsize="20" fontname="ArialRoundedMTBold" fontcolor="{169,217,89}" text="%d"></a> Diamonds to refresh it!
+6050	Next Refresh:
+6051	Drag down to view more precious items!
+6052	Free after <a type="text" fontsize="22" fontname="ArialRoundedMTBold" fontcolor="{0,255,0}" text="%02d:%02d:%02d"></a>.
+6053	Free
+6054	Soulstones Owned: <a type="text" fontsize="22" fontname="ArialRoundedMTBold" fontcolor="{0,255,0}" text="%d"></a>
+6055	Summon x1
+6056	Summon x10
+6057	Conduct Sacred Summoning 10 times to obtain.
+6058	5 Star Hero
+6059	Remaining:
+6060	Received
+6061	%s days
+6062	Tomorrow
+6063	Login Reward
+6064	Today's Login Reward
+6065	Lv.%d Growth Fund
+6066	Can be claimed at Lv.%d
+6067	%d Diamonds
+6068	Recharge
+6069	Purchase
+6070	Purchased
+6071	Level: %d/%d
+6072	Double First Recharge
+6073	Latest Server:
+6074	All Servers
+6075	原价：
+6076	特价：
+6077	Vip等级不足，无法购买！
+6078	钻石不足，无法购买！
+6079	达到相应的VIP等级后，可以购买对应VIP等级的尊享礼包，只能购买一次，点击礼包图标查看礼包
+6080	是否花%d钻石购买VIP礼包
+6081	需通关%s
+6082	可通过左右箭头切换出战顺序
+6083	英雄
+6084	装备
+6085	技能
+6086	%d级解锁
+6087	统率力:
+6088	气  势:
+6089	消耗钻石或声望是否购买
+6090	暂未开启此英雄
+6091	未激活
+6092	激 活
+6093	战魂
+6094	使 用
+6095	1 装备了英雄的战魂即可获得对应的战魂技能<br><br>2 只有已拥有的英雄才可以激活战魂<br><br>3 要使用高等级的战魂需要将拥有此战魂的英雄<br><br>  进阶的相应等级
+6096	仅【出战英雄1】可参战 消耗1场
+6097	抢矿花费:     %d
+7000	This function will be unlocked when your character level reaches %d.
+7001	有位人说英雄召唤有%d等级
+7002	Colosseum Challenge Reward:
+7003	My Performance:
+7004	%d Win(s) %d Defeat(s)
+7005	Win Rate:
+7006	Winning Reward:
+7007	Previous Ranking Reward
+7008	%s x %d
+7009	Challenges
+7010	Underway
+7011	Claim
+7012	Lv.%d
+7013	You can get the hero's soul if the challenge succeeds.
+7014	Today's Challenge Chances:
+7015	Challenge
+7016	Talent:
+7017	Attribute:
+7018	Use Now
+7019	You need a hero with higher stars to activate a Soul.
+7020	Activate
+7021	All of this hero's souls have been activated.
+7022	Soul challenge will be unlocked at Lv.%d.
+7023	Soul
+7024	Day
+7025	Hour
+7026	Minute
+7027	Chances Left: %d
+7028	Available at VIP%d
+7029	Exchange
+7030	Event will end in: <a type="text" fontsize="22" fontname="ArialRoundedMTBold" fontcolor="{7,247,253}" text="%d days %d hours %d minutes"></a> 
+7031	Mail with attachments will be kept for 14 days, and mail without attachments will be kept for 7 days.
+7032	Insufficient items. Exchange failed.
+7033	Soul has reached the highest level.
+7034	You need to promote your hero before activating the soul.
+7035	Equipment Reforge
+7036	Reforge
+7038	没有可分解的装备
+7039	建议挑战等级: %d
+7040	1.分解可返还进阶消耗的全部道具。<br>2.分解可返还装备80%的升级经验。<br>3.分解四星及以上装备能获得装备精华。
+10001	What is this place? Where does it lead to?
+10002	This is the border of Sun Snow. It used to be home to the humans and blood elves, however, it is now ruled by chaos. If you wish to go any further, you must defeat me first.
+10003	How did Sun Snow fall into such a state?
+10004	Most of the world is shrouded in the mist of chaos. All of this land's creatures have become restless.
+10005	In order to gather information on the location of the relic, we must find human heroes as soon as possible.
+10006	Who are you?
+10007	Noble blood elf fighter, I'm a warrior looking for the ancient relic.
+10008	The ancient relic won't be yielded to mortals that easily. Show me your valor and strength!
+10009	Your valor is admirable. However, you still lack the power to control the ancient relic. Go and find the scattered knights ahead for further guidance. Go, you don't have much time!
+10010	Almighty leader of the Silver Order, please tell me how to find the ancient relic.
+10011	Face my holy light first!
+10012	I heard Lightbringer Arthur speak of it many years ago. It is said that the secret of the ancient relic is hidden in a mysterious, sacred land.
+10013	It seems that we may need to travel to this sacred land. We must cross the sea and go to the other continent!
+10014	Before us lies the Sleeping Sea. Fallen humans, orcs, and the undead can all be found here.
+10015	I can sense their fear!
+10016	We are approaching the domain of the a certain illustrious mariner. He used to be a legendary sailor, and simply must know the location of the sacred land.
+10017	This twisted creature is as repulsive as a black hole.
+10018	You'd better enhance your weapon before challenging me. I have a magic wand, you see. Hah!
+10019	You'd better keep your distance or I'll turn you into a mindless sheep.
+10020	Ignorant demon, you are wasting my time! Now, go back to the hell!
+10021	I'm surprised to see you. So the demon didn't manage to eat you?
+10022	Almighty captain Kunkka, I'm looking for the sacred land. Please guide me!
+10023	My torrent will guide you!
+10024	Swing your sword and defend justice. May the power of the tides be with you. Move on, brave warrior!
+10025	Taz'dingo!
+10026	This forest is the home of the trolls. These creatures seem to be somewhat hostile towards us. Let's get out of here.
+10027	It's freaking cold here. I should have brought a sweater.
+10028	These guys are always saying strange stuff. Let's teach them a lesson.
+10029	Trolls are the best fighters in the world. All the land and food belongs to us!
+10030	!@#￥%……&
+10031	Stupid humans and elves! Trolls are the best fighters in the world! Just look at the shabby crap you're wearing!
+10032	What an arrogant twerp! You'd better improve your equipment first.
+10033	Is anyone summoning the exorcist?
+10034	I don't want another troll for as long as I live!
+10035	The land ahead is the territory of the undead. I've can already sense the wretched creatures.
+10036	The continent is covered in darkness. This mountain is burdened with the bodies of fallen undead and orcs. Could these lost souls possibly guide us to the entrance of the sacred land?
+10037	Former disciple of the god of order, where is the entrance to the sacred land?
+10038	Welcome to the feast of souls.
+10039	His soul has fallen, poor creature.
+10040	Your soul belongs to me!
+10041	His rotten body has been banished along with his paralyzed soul.
+10042	I love to see my enemies die under my burning blade.
+10043	Is this the end of my power? No!
+10044	I need your life… to extend mine!
+10045	I should have brought a torch!
+10046	Leader of the Blood Axe, may I ask where the entrance to the sacred land lies?
+10047	Foolish honor! Tremble before me!
+10048	I remember the hatred!
+10049	There is only an agglomeration of souls corrupted by hatred and darkness. I'm wasting my time here!
+10050	Man are from Mars, and I'm from the grave!
+10051	Deranged and lonely souls, let the holy light purify this land!
+10052	Cross this area and we'll reach the home of the Dragonborn; one step closer to light and justice. There will be more ancient heroes there. Now is merely the darkness before the dawn!
+10053	Coocoo, coocoo...
+10054	Another one incapable of speech? It seems all he does is spread nightmares and fear…
+10055	That mage is very cunning. Watch out for his curses and dark magic.
+10056	I will feast on your soul!
+10057	Is that a scythe on his back?
+10058	My power is yours. Huh, huh...
+10059	That deceitful fiend! I was almost trapped by his magic.
+10060	Enough words; it's time for war! For gold and honor!
+10061	His word makes me sick.
+10062	I'll burn everything to ashes!
+10063	Hey! It's not safe to play with fire.
+10064	I'm waiting for your advice.
+10065	Don't waste my time!
+10066	0
+10100	Do you want to borrow my power? Defeat me first!
+10101	I'll temporarily lend you my power. When you become stronger, you can use my <a type="text" fontsize="22" fontname="ArialRoundedMTBold" fontcolor="{255,0,0}" text="soul"></a>! <a type="text" fontsize="22" fontname="ArialRoundedMTBold" fontcolor="{0,255,0}" text="(Hint: You temporarily have the Axe ability, allowing you to perform Counter-helix when attacked.)"></a>
+10102	Axe ability has vanished.
+10103	The relic is too powerful. You must become stronger to control it.
+10104	I see hope in you. Take these <a type="text" fontsize="22" fontname="ArialRoundedMTBold" fontcolor="{255,0,0}" text="old souls"></a>, you'll need them in combat!<a type="text" fontsize="22" fontname="ArialRoundedMTBold" fontcolor="{0,255,0}" text="(Hint: You feel that you have gained some special abilities.)"></a>
+10105	Oblivion doesn't have a physical body. Only spells can damage him. Be careful! <a type="text" fontsize="22" fontname="ArialRoundedMTBold" fontcolor="{0,255,0}" text="(Hint: When Oblivion enters the Void status, he will only take magic damage. Use Fireblast to deal massive damage.)"></a>
+10106	I want to possess this powerful ability, too.
+10107	I'm invisible...gaseous...and dead...
+10108	Why has the sky turned dark? Oh, it's Baranar!
+10109	Soul: <a type="text" fontsize="36" fontname="ArialRoundedMTBold" fontcolor="{255,0,0}" text="Extreme Dodge!"></a> <a type="text" fontsize="22" fontname="ArialRoundedMTBold" fontcolor="{0,255,0}" text="(Hint: Your Dodge has increased greatly!)"></a>
+10110	<a type="text" fontsize="22" fontname="ArialRoundedMTBold" fontcolor="{0,255,0}" text="(Hint: You've lost Old Soul: Extreme Dodge)"></a>
+10111	This is all I can do when I meet a Demon Mage with full mana!
+10112	Soul: <a type="text" fontsize="36" fontname="ArialRoundedMTBold" fontcolor="{255,0,0}" text="Mana Burn EX!"></a> <a type="text" fontsize="22" fontname="ArialRoundedMTBold" fontcolor="{0,255,0}" text="(Hint: Use Mana Burn to burn 100% of the target's MP!)"></a>
+10113	<a type="text" fontsize="22" fontname="ArialRoundedMTBold" fontcolor="{0,255,0}" text="(Hint: You've lost Old Soul: Mana Burn EX)"></a>
+10114	Multiple enemies ahead! There's no way out!
+10115	Soul: <a type="text" fontsize="36" fontname="ArialRoundedMTBold" fontcolor="{255,0,0}" text="4x Fireblast!"></a> <a type="text" fontsize="22" fontname="ArialRoundedMTBold" fontcolor="{0,255,0}" text="Hint: Use Fireblast to deal quadruple damage!)"></a>
+10116	I hate enemies who can revive themselves...<a type="text" fontsize="22" fontname="ArialRoundedMTBold" fontcolor="{0,255,0}" text="(Hint: You've lost Old Soul: 4x Fireblast)"></a>
+10117	This guy is too quick!
+10118	Soul: <a type="text" fontsize="36" fontname="ArialRoundedMTBold" fontcolor="{255,0,0}" text="Rupture EX!"></a> <a type="text" fontsize="22" fontname="ArialRoundedMTBold" fontcolor="{0,255,0}" text="(Hint: Use Rupture to damage the target whenever it takes action!)"></a>
+10119	You'll never win if you don't know how to use your skills wisely.<a type="text" fontsize="22" fontname="ArialRoundedMTBold" fontcolor="{0,255,0}" text="(Hint: You've lost Old Soul: Rupture EX)"></a>
+10120	You'll die in the agony of endless curses!
+10121	I don't want another troll for as long as I live!<a type="text" fontsize="36" fontname="ArialRoundedMTBold" fontcolor="{255,0,0}" text="Soul: Clarify EX!"></a> <a type="text" fontsize="22" fontname="ArialRoundedMTBold" fontcolor="{0,255,0}" text="(Hint: You've gained the ability to dispel debuffs!)"></a>
+10122	<a type="text" fontsize="22" fontname="ArialRoundedMTBold" fontcolor="{0,255,0}" text="(Hint: You've lost Old Soul: Clarify EX)"></a>
+10123	You are merely a sheep waiting to be slaughtered.
+10124	No, we must survive this foul magic. Soul: <a type="text" fontsize="36" fontname="ArialRoundedMTBold" fontcolor="{255,0,0}" text="Refraction EX!"></a> <a type="text" fontsize="22" fontname="ArialRoundedMTBold" fontcolor="{0,255,0}" text="(Hint: You can use Guardian Angel once at the beginning of the battle!)"></a>
+10125	The last soul has been used. From now on, I'm on my own!<a type="text" fontsize="22" fontname="ArialRoundedMTBold" fontcolor="{0,255,0}" text="(Hint: You've lost Old Soul: Refraction EX. You've lost all temporary souls.)"></a>
+10126	这个对手你还应付不来，我先帮你解决他。
+10127	哈哈，让你尝尝我飞盘的厉害。
+10128	前面的道路异常凶险，这个“静电场”技能会对你帮助重大的。
+10129	他是我勇敢的同伴，我不会让你伤害到他的！
+10130	不要多管闲事！
+10131	出来混没有武器怎么行，快带上这个“攻击之爪”。
+11001	This tower has been standing since before time began. Only true warriors can defeat the demons within it and reach the top. Aside from honor, it is said that treasure also lies hidden in the tower. Are you up for the challenge?
+11002	I haven't seen humans in a long time. My body and soul have rotted...my treasure...
+11003	It will be a long journey, but you'll soon learn teleportation, won't you?
+11004	Don't try to lay your hands on the treasure chest, or I'll smash you to pieces.
+11005	Don't touch me! I'm innocent!
+11006	Do you want to milk me or what?
+11007	I've been guarding this place for ten thousand years.
+11008	My prey is nearby. I can smell it.
+11009	The world of magic is undergoing great changes.
+11010	This is your end.
+12000	The lord has asked me to patrol the cave...
+12001	Work, work!
+12002	You'll never get my soulstones!
+12003	Honestly, I'm not a black market merchant!
+12004	Can you guess where I hid my treasure?
+12005	I know your type, you're just after my money, aintcha!
+12006	I hit the jackpot and then BAM, I walk right into a bandit!
+12007	Let us be friends instead of foes.
+12008	Searching for friends...
+12009	You again?
+12010	Can purchase growth plans.
+12011	Can refresh the Secret Shop 20 times per day.
+12012	Can refresh the Secret Shop 25 times per day.
+12013	Can refresh the Secret Shop 30 times per day.
+12014	Can refresh the Secret Shop 35 times per day.
+12015	Can refresh the Secret Shop 40 times per day.
+12016	Can refresh the Secret Shop 45 times per day.
+12017	Can refresh the Secret Shop 50 times per day.
+12018	Can refresh the Secret Shop 55 times per day.
+12019	Can refresh the Secret Shop 60 times per day.
+12020	Can refresh the Secret Shop 70 times per day.
+12021	O(∩_∩)O~
+12022	Level
+12023	EOF

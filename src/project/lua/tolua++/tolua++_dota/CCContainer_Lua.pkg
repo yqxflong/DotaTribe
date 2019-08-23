@@ -1,0 +1,29 @@
+//Name：CCVector_Lua
+//Function：用于C++传送容器给Lua层
+//Author: Johny
+class CCVector_Lua:public cocos2d::CCObject{
+/*
+	@向lua层开放的接口
+*/
+	//@
+	int count();
+
+	//@
+	void* objectAtIndex(int idx);
+};
+
+
+
+//Name：CCMap_Lua
+//Function：用于C++传送容器给Lua层
+//Author: Johny
+class CCMap_Lua:public cocos2d::CCObject{
+	//@
+	int count();
+
+	//@如果key为int
+	void* findInt(int key);
+	
+	//@返回second的值
+	void* nextObject(bool restart);
+};

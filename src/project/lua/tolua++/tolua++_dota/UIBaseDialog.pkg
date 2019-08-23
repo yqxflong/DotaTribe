@@ -1,0 +1,17 @@
+class  UIBaseDialogProtory
+{
+	   void   BaseDialogCallBackHandler(int eventType,void * ptr)=0;
+};
+class   UIBaseDialog: public CCLayerMask
+{
+   typedef enum
+   {
+	   _UIBASEDIALOG_NORMAL_PRIORITY_=-188,  //较高的触摸优先级别
+	   _UIBASEDIALOG_HIGHT_PRIORITY_=0,		 //默认的触摸优先级别
+   };
+    UIBaseDialog();
+	 ~UIBaseDialog();
+	static UIBaseDialog *  createUIBaseDialog(int priority);
+	void   setTouchUnCloseRect(CCRect rect); 
+	void   setDelegatePrototy(UIBaseDialogProtory * delegatePtr);
+};
